@@ -24,7 +24,7 @@ After: 4 seconds to load items 1 second to load images, 1-2 seconds with cache
 3. (Optional) Remove all old repositories including the default jellyfin, this speeds up catalogue loading
 4. Add the universal repository
 ```
-https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifest.json
+https://raw.githubusercontent.com/QuixThe2nd/universal-plugin-repo/refs/heads/main/manifest.json
 ```
 4. Never add another repository again!
 
