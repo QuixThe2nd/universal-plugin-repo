@@ -56,6 +56,7 @@ https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/m
 https://raw.githubusercontent.com/Viperinius/jellyfin-plugins/master/manifest.json
 https://raw.githubusercontent.com/vosmiic/jellyfin-ani-sync/master/manifest.json
 https://repo.jellyfin.org/files/plugin/manifest.json
+https://repo.jellyfin.org/files/plugin-unstable/manifest.json
 https://repo.xkrivo.net/jellyfin/manifest.json
 https://simoni.dev/jellyfin/repo.json
 https://www.iamparadox.dev/jellyfin/plugins/manifest.json
