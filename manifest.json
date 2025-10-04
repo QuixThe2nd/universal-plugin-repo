@@ -11047,6 +11047,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Subtitle Extract.png",
     "versions": [
       {
+        "version": "4.2510.9.0",
+        "changelog": "### Code or Repo Maintenance ###\n- Downgrade log level to reduce spam (#27) @crobibero\n- Fix extracting subtitles, fix memory leak @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_4.2510.9.0.zip",
+        "checksum": "e20bc65db89887344d5c8c6284555170",
+        "timestamp": "2025-10-04T17:06:38Z"
+      },
+      {
         "version": "4.2505.7.0",
         "changelog": "### Code or Repo Maintenance ###\n- Downgrade log level to reduce spam (#27) @crobibero\n- Fix extracting subtitles, fix memory leak @crobibero",
         "targetAbi": "10.11.0.0",
