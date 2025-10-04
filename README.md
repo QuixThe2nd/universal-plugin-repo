@@ -1,8 +1,10 @@
-# Universal Plugin Repo
+# (Faster) Universal Plugin Repo
+This fork is identical to the parent fork with the primary difference of faster repo updates (hourly instead of daily). I made this as Jellyfin 10.11.0 is rolling out and plugins will be getting more frequent updates that fix major issues.
+
 ### Monolithic/Universal plugin repository for Jellyfin Media Server
 
 > [!NOTE]
-> Updated every 24 hours, or when a change is pushed to this project
+> Updated every 60 minutes, or when a change is pushed to this project
 
 > [!CAUTION]
 > Some plugins require further configuration or software so be sure to read the respective READMEs to ensure they work correctly
