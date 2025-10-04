@@ -10228,6 +10228,1371 @@
     ]
   },
   {
+    "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
+    "name": "AniDB",
+    "description": "AniDB metadata provider\n",
+    "overview": "AniDB metadata provider",
+    "owner": "jellyfin",
+    "category": "Anime",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniDB.png",
+    "versions": [
+      {
+        "version": "10.2505.9.0",
+        "changelog": "- Fallback on empty ParentIndexNumber (#75) @Shadowghost",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_10.2505.9.0.zip",
+        "checksum": "c7611c935224134e4bac07b8c47e5aa4",
+        "timestamp": "2025-05-10T16:19:55Z"
+      },
+      {
+        "version": "10.2505.8.0",
+        "changelog": "- Fallback on empty ParentIndexNumber (#75) @Shadowghost",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_10.2505.8.0.zip",
+        "checksum": "c8a968de1a942660ee27c4aefe37f7f7",
+        "timestamp": "2025-05-10T16:02:29Z"
+      },
+      {
+        "version": "10.2505.7.0",
+        "changelog": "- Fallback on empty ParentIndexNumber (#75) @Shadowghost",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_10.2505.7.0.zip",
+        "checksum": "c7da7fea3d461e3fe4a857bb775f02fa",
+        "timestamp": "2025-05-10T16:00:37Z"
+      },
+      {
+        "version": "7.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_7.2403.6.0.zip",
+        "checksum": "c34328ab0ec34c3374f0fbfa3dc9a88d",
+        "timestamp": "2024-03-30T00:15:05Z"
+      },
+      {
+        "version": "7.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_7.2403.5.0.zip",
+        "checksum": "2ef03469ce86a184090ffebe566ae088",
+        "timestamp": "2024-03-26T16:56:14Z"
+      }
+    ]
+  },
+  {
+    "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+    "name": "AniList",
+    "description": "AniList metadata provider\n",
+    "overview": "AniList metadata provider",
+    "owner": "jellyfin",
+    "category": "Anime",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniList.png",
+    "versions": [
+      {
+        "version": "11.2505.13.0",
+        "changelog": "- Cleanup (#91) @Shadowghost\n\n### New features and improvements ###\n- Added a setting to make only animation studio appear as metadata (with fixes) (#88) @sjorge",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_11.2505.13.0.zip",
+        "checksum": "c56d0aa6788258a6cb272434dab7bf74",
+        "timestamp": "2025-05-10T16:28:54Z"
+      },
+      {
+        "version": "7.2404.11.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_7.2404.11.0.zip",
+        "checksum": "8435304c17abf80080b0dd9005c3c5d6",
+        "timestamp": "2024-04-12T22:43:22Z"
+      },
+      {
+        "version": "7.2404.10.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_7.2404.10.0.zip",
+        "checksum": "616a69223ca9d9a711e657922a84f55b",
+        "timestamp": "2024-04-08T14:47:06Z"
+      },
+      {
+        "version": "7.2404.8.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_7.2404.8.0.zip",
+        "checksum": "1dec8088cca9eb1ca53b0388f4f7ba03",
+        "timestamp": "2024-04-07T19:41:13Z"
+      },
+      {
+        "version": "7.2403.7.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_7.2403.7.0.zip",
+        "checksum": "e56fa8750752256cd70b1f10a3d2c3ae",
+        "timestamp": "2024-03-30T00:15:16Z"
+      },
+      {
+        "version": "7.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_7.2403.6.0.zip",
+        "checksum": "0509016c18f14bafe41f4942d113fdcf",
+        "timestamp": "2024-03-26T16:56:15Z"
+      }
+    ]
+  },
+  {
+    "guid": "776d9158-b91f-49d9-82c5-dacce63d63b8",
+    "name": "AniSearch",
+    "description": "AniSearch metadata provider\n",
+    "overview": "AniSearch metadata provider",
+    "owner": "jellyfin",
+    "category": "Anime",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniSearch.png",
+    "versions": [
+      {
+        "version": "5.2505.8.0",
+        "changelog": "- 10.9 (#22) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#21) @methbkts\n- Use meta ci (#13) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency microsoft.extensions.http to v6 (#17) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#16) @h1dden-da3m0n\n- Use meta ci (#13) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anisearch/anisearch_5.2505.8.0.zip",
+        "checksum": "041ca6d7371a32adf154cd802accf115",
+        "timestamp": "2025-05-10T16:31:11Z"
+      },
+      {
+        "version": "5.2505.7.0",
+        "changelog": "- 10.9 (#22) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#21) @methbkts\n- Use meta ci (#13) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency microsoft.extensions.http to v6 (#17) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#16) @h1dden-da3m0n\n- Use meta ci (#13) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anisearch/anisearch_5.2505.7.0.zip",
+        "checksum": "7c334e67f328264a52a72c3da13a0726",
+        "timestamp": "2025-05-10T16:03:36Z"
+      },
+      {
+        "version": "5.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anisearch/anisearch_5.2403.6.0.zip",
+        "checksum": "0dcfa67611d5df20ea9f6b831675d049",
+        "timestamp": "2024-03-30T00:15:11Z"
+      },
+      {
+        "version": "5.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anisearch/anisearch_5.2403.5.0.zip",
+        "checksum": "c29ccb219550f7c0e701da7b529d24d5",
+        "timestamp": "2024-03-26T16:56:18Z"
+      }
+    ]
+  },
+  {
+    "guid": "8119f3c6-cfc2-4d9c-a0ba-028f1d93e526",
+    "name": "Cover Art Archive",
+    "description": "This plugin provides images from the Cover Art Archive https://musicbrainz.org/doc/Cover_Art_Archive and depends on the MusicBrainz metadata provider to know what images belong where\n",
+    "overview": "MusicBrainz Cover Art Archive",
+    "owner": "jellyfin",
+    "category": "Music",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cover Art Archive.png",
+    "versions": [
+      {
+        "version": "8.2505.7.0",
+        "changelog": "- 10.9 (#35) @crobibero\n\n### Bug Fixes ###\n- Check if the Types is flagged as 'Front' (#33) @GaaH\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#34) @methbkts\n- Use meta ci (#27) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency metabrainz.common.json to v5.1.0 (#30) @renovate\n\n### CI & build changes ###\n- fix: ci bumps (#29) @h1dden-da3m0n\n- Use meta ci (#27) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/cover-art-archive/cover-art-archive_8.2505.7.0.zip",
+        "checksum": "16d3e4054e89d891ed64a2c102f19774",
+        "timestamp": "2025-05-10T17:43:21Z"
+      },
+      {
+        "version": "8.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/cover-art-archive/cover-art-archive_8.2403.6.0.zip",
+        "checksum": "027159be5640f57e55660ae930f4ed1f",
+        "timestamp": "2024-03-30T00:15:42Z"
+      },
+      {
+        "version": "8.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/cover-art-archive/cover-art-archive_8.2403.5.0.zip",
+        "checksum": "5132cf2244d5d6315bbccea63ec5c372",
+        "timestamp": "2024-03-26T16:56:37Z"
+      }
+    ]
+  },
+  {
+    "guid": "7871d3b1-f1b9-4318-9c27-f35998ffbbcc",
+    "name": "Artwork",
+    "description": "Downloads artwork from a repository for various media types.\n",
+    "overview": "Download artwork",
+    "owner": "jellyfin",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.2505.10.0",
+        "changelog": "- 10.9 (#21) @crobibero\n- Use meta ci (#14) @crobibero\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#6) @dependabot\n- update ruleset (#7) @crobibero\n- 10.8 support (#4) @crobibero\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#2) @dependabot\n- Fix url image template (#1) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#19) @methbkts\n\n### CI & build changes ###\n- fix: meta ci workflows (#15) @h1dden-da3m0n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/artwork/artwork_1.2505.10.0.zip",
+        "checksum": "2f31db50f9183779efa49f9b73088d01",
+        "timestamp": "2025-05-10T16:04:31Z"
+      },
+      {
+        "version": "1.2403.9.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/artwork/artwork_1.2403.9.0.zip",
+        "checksum": "fa1a03e04a520383fd60f8ef71cd3db1",
+        "timestamp": "2024-03-30T00:15:30Z"
+      },
+      {
+        "version": "1.2403.8.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/artwork/artwork_1.2403.8.0.zip",
+        "checksum": "5f350d949c4b9c39ac3774d7f567a32d",
+        "timestamp": "2024-03-26T16:56:34Z"
+      }
+    ]
+  },
+  {
+    "guid": "33eba9cd-7da1-4720-967f-dd7dae7b74a1",
+    "name": "DLNA",
+    "description": "Adds DLNA capability to Jellyfin\n",
+    "overview": "DLNA Service",
+    "owner": "jellyfin",
+    "category": "General",
+    "imageUrl": "",
+    "versions": [
+      {
+        "version": "8.2509.13.0",
+        "changelog": "- Revert collection expression (#132) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_8.2509.13.0.zip",
+        "checksum": "e01561ffca6eb305130bff6e7de2db89",
+        "timestamp": "2025-09-23T02:44:47Z"
+      },
+      {
+        "version": "8.2509.12.0",
+        "changelog": "- Revert collection expression (#132) @crobibero",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_8.2509.12.0.zip",
+        "checksum": "06bd58d9e2cca0294906e36d471e8604",
+        "timestamp": "2025-09-23T02:40:14Z"
+      },
+      {
+        "version": "8.2509.11.0",
+        "changelog": "- Revert collection expression (#132) @crobibero",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_8.2509.11.0.zip",
+        "checksum": "867cf9f0584d37afec21527af2a1a9f9",
+        "timestamp": "2025-09-23T02:38:08Z"
+      },
+      {
+        "version": "3.2509.10.0",
+        "changelog": "- restore video transcoding (#68) @flashka07\n- Update dependency Microsoft.AspNetCore.Authorization to v8.0.8 (#54) @renovate\n- Set publisher uri to http (#62) @disgustipated\n- Remove . from friendlyname for identifying LG TVs (#60) @disgustipated",
+        "targetAbi": "10.9.10.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_3.2509.10.0.zip",
+        "checksum": "563aea7d2d993a48c0c374b055cdf371",
+        "timestamp": "2025-09-23T02:30:32Z"
+      },
+      {
+        "version": "1.2403.9.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_1.2403.9.0.zip",
+        "checksum": "27ba84c628bff5eaf071b70e74a84891",
+        "timestamp": "2024-03-30T00:19:50Z"
+      },
+      {
+        "version": "1.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_1.2403.6.0.zip",
+        "checksum": "dd31ce0baaadb55a443baab92a704457",
+        "timestamp": "2024-03-26T16:56:54Z"
+      }
+    ]
+  },
+  {
+    "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
+    "name": "Fanart",
+    "description": "Scrape poster images for movies, shows, and artists in your library.",
+    "overview": "Scrape poster images from Fanart",
+    "owner": "jellyfin",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Fanart.png",
+    "versions": [
+      {
+        "version": "12.2505.7.0",
+        "changelog": "- Use latest API 3.2 (#49) @enter-a-random-username",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/fanart/fanart_12.2505.7.0.zip",
+        "checksum": "5a20b546df1d6e8ed77f1ccc0af879f0",
+        "timestamp": "2025-05-10T17:42:10Z"
+      },
+      {
+        "version": "10.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/fanart/fanart_10.2403.6.0.zip",
+        "checksum": "4068a4415d10843fc30ebb0c2e53d555",
+        "timestamp": "2024-03-30T00:15:53Z"
+      },
+      {
+        "version": "10.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/fanart/fanart_10.2403.5.0.zip",
+        "checksum": "67d11b7c323a33ba2e772f6e87ca270a",
+        "timestamp": "2024-03-26T16:56:49Z"
+      }
+    ]
+  },
+  {
+    "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
+    "name": "Bookshelf",
+    "description": "Supports several different metadata providers and options for organizing your collection.\n",
+    "overview": "Manage your books",
+    "owner": "jellyfin",
+    "category": "Books",
+    "versions": [
+      {
+        "version": "12.2505.6.0",
+        "changelog": "- Fix nullability for 10.10 (#116) @crobibero\n- Update opf and add ISBN (#108) @AshleyDeo\n- Add Comic Vine Person provider (#85) @Pithaya\n\n### New features and improvements ###\n- Add support for covers from .cbt, .cb7 and .cbr (#112) @oddstr13\n\n### Dependency updates ###\n- Update dependency Microsoft.NET.Test.Sdk to 17.11.1 (#106) @renovate\n- Update xunit-dotnet monorepo (#84) @renovate\n- Update dependency Microsoft.Extensions.Http to 8.0.1 - autoclosed (#115) @renovate",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_12.2505.6.0.zip",
+        "checksum": "aa070f9c8f1b9943a79a11109ce93d4a",
+        "timestamp": "2025-05-10T16:16:27Z"
+      },
+      {
+        "version": "10.2404.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_10.2404.5.0.zip",
+        "checksum": "83cb98015c7291a90395672bd9595dad",
+        "timestamp": "2024-04-14T18:49:03Z"
+      },
+      {
+        "version": "10.2403.4.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_10.2403.4.0.zip",
+        "checksum": "ded44725b1d7d107c5e9532e49aa5389",
+        "timestamp": "2024-03-30T00:15:39Z"
+      },
+      {
+        "version": "10.2403.3.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_10.2403.3.0.zip",
+        "checksum": "d9b1bf3e4d5240ce68275ef7293b9ed3",
+        "timestamp": "2024-03-26T16:56:52Z"
+      }
+    ]
+  },
+  {
+    "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
+    "name": "IMVDb",
+    "description": "Get Music Video metadata from IMVDb\n",
+    "overview": "Get Music Video metadata from IMVDb",
+    "owner": "jellyfin",
+    "category": "Music",
+    "versions": [
+      {
+        "version": "4.2505.7.0",
+        "changelog": "- 10.9 (#21) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#20) @methbkts\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#16) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#14) @h1dden-da3m0n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/imvdb/imvdb_4.2505.7.0.zip",
+        "checksum": "3c89de53f03edd0fb4050aee9c156f44",
+        "timestamp": "2025-05-10T16:56:43Z"
+      },
+      {
+        "version": "4.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/imvdb/imvdb_4.2403.6.0.zip",
+        "checksum": "83c4f673cbaf0f950cd37660a7f959f1",
+        "timestamp": "2024-03-30T00:15:58Z"
+      },
+      {
+        "version": "4.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/imvdb/imvdb_4.2403.5.0.zip",
+        "checksum": "666691bcdd5d4cc854d70c965b94cab4",
+        "timestamp": "2024-03-26T16:57:04Z"
+      }
+    ]
+  },
+  {
+    "guid": "88d809e2-056b-47f4-9911-073949b9963f",
+    "name": "Kitsu",
+    "description": "Kitsu metadata provider\n",
+    "overview": "Kitsu metadata provider",
+    "owner": "jellyfin",
+    "category": "Anime",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Kitsu.png",
+    "versions": [
+      {
+        "version": "6.2505.7.0",
+        "changelog": "- Fallback on empty ParentIndexNumber (#36) @Shadowghost\n- Update kitsu domain (#34) @pikami",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kitsu/kitsu_6.2505.7.0.zip",
+        "checksum": "ef2daa3d1d7d10e6282a3af861da66a5",
+        "timestamp": "2025-05-10T17:00:24Z"
+      },
+      {
+        "version": "4.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kitsu/kitsu_4.2403.6.0.zip",
+        "checksum": "af8fa967312380980c4e023bb1a9dfe4",
+        "timestamp": "2024-03-30T00:16:00Z"
+      },
+      {
+        "version": "4.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kitsu/kitsu_4.2403.5.0.zip",
+        "checksum": "38017426f2cf1838f7273db600448362",
+        "timestamp": "2024-03-26T16:57:12Z"
+      }
+    ]
+  },
+  {
+    "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
+    "name": "Kodi Sync Queue",
+    "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.",
+    "overview": "Sync all media changes with Kodi clients",
+    "owner": "jellyfin",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Kodi Sync Queue.png",
+    "versions": [
+      {
+        "version": "14.2505.9.0",
+        "changelog": "### Bug Fixes ###\n- Implement a database upgrade system, properly migrate ItemId to Guid (#107) @Insprill",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kodi-sync-queue/kodi-sync-queue_14.2505.9.0.zip",
+        "checksum": "92bd4d04ecd46cf681015bea682ce517",
+        "timestamp": "2025-05-10T17:01:42Z"
+      },
+      {
+        "version": "9.2405.8.0",
+        "changelog": "",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kodi-sync-queue/kodi-sync-queue_9.2405.8.0.zip",
+        "checksum": "fa2c05a13f7d669d36efa9c4ba8b3627",
+        "timestamp": "2024-05-11T19:40:54Z"
+      },
+      {
+        "version": "9.2403.7.0",
+        "changelog": "",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kodi-sync-queue/kodi-sync-queue_9.2403.7.0.zip",
+        "checksum": "75e60e19b54b64d61957c4fb2fdaf9aa",
+        "timestamp": "2024-03-30T00:16:15Z"
+      },
+      {
+        "version": "9.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kodi-sync-queue/kodi-sync-queue_9.2403.6.0.zip",
+        "checksum": "9c100924f4b70c411ec4eb1949ba2ea2",
+        "timestamp": "2024-03-26T16:57:16Z"
+      }
+    ]
+  },
+  {
+    "guid": "4ce89c27-d3a1-4e4b-8f5f-4bd9191c857e",
+    "name": "Discogs",
+    "description": "Get music metadata from Discogs\n",
+    "overview": "Get music metadata from Discogs",
+    "owner": "jellyfin",
+    "category": "Music",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Discogs.png",
+    "versions": [
+      {
+        "version": "1.2505.13.0",
+        "changelog": "- 10.9 (#7) @crobibero\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#1) @renovate\n- Update workflows (#3) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/discogs/discogs_1.2505.13.0.zip",
+        "checksum": "e79a69a3f911b4a08c5195dabd245377",
+        "timestamp": "2025-05-10T17:43:01Z"
+      },
+      {
+        "version": "1.2404.12.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/discogs/discogs_1.2404.12.0.zip",
+        "checksum": "1e77154bcce5553f9db7289267168dad",
+        "timestamp": "2024-04-14T13:47:29Z"
+      },
+      {
+        "version": "1.2403.11.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/discogs/discogs_1.2403.11.0.zip",
+        "checksum": "3ec5a9745795839bc4cde6da2c96792e",
+        "timestamp": "2024-03-30T00:15:49Z"
+      },
+      {
+        "version": "1.2403.10.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/discogs/discogs_1.2403.10.0.zip",
+        "checksum": "c08de0ebf1f6e2b0ae070b2fcd4d5123",
+        "timestamp": "2024-03-26T16:57:14Z"
+      }
+    ]
+  },
+  {
+    "guid": "958aad66-3784-4d2a-b89a-a7b6fab6e25c",
+    "name": "LDAP Authentication",
+    "description": "Authenticate your Jellyfin users against an LDAP database, and optionally create users who do not yet exist automatically.\n\nAllows the administrator to customize most aspects of the LDAP authentication process, including customizable search attributes, username attribute, and a search filter for administrative users (set on user creation). The user, via the \"Manual Login\" process, can enter any valid attribute value, which will be mapped back to the specified username attribute automatically as well.\n",
+    "overview": "Authenticate users against an LDAP database",
+    "owner": "jellyfin",
+    "category": "Administration",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LDAP Authentication.png",
+    "versions": [
+      {
+        "version": "20.2506.10.0",
+        "changelog": "- Added ProfileImageFormat support (#174) @CEbbinghaus\n- Removed jpegphoto attribute when photo sync isn't enabled (#168) @CEbbinghaus\n\n### New features and improvements ###\n- Implement Password Modify Extended Operation (#172) @Zeault",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_20.2506.10.0.zip",
+        "checksum": "8e7004844fccfca257dcaacced323340",
+        "timestamp": "2025-06-10T14:22:31Z"
+      },
+      {
+        "version": "20.2505.9.0",
+        "changelog": "- Added ProfileImageFormat support (#174) @CEbbinghaus\n- Removed jpegphoto attribute when photo sync isn't enabled (#168) @CEbbinghaus\n\n### New features and improvements ###\n- Implement Password Modify Extended Operation (#172) @Zeault",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_20.2505.9.0.zip",
+        "checksum": "cd49017875a9d05e7493b1545a43f40d",
+        "timestamp": "2025-05-10T17:02:23Z"
+      },
+      {
+        "version": "20.2505.8.0",
+        "changelog": "- Added ProfileImageFormat support (#174) @CEbbinghaus\n- Removed jpegphoto attribute when photo sync isn't enabled (#168) @CEbbinghaus\n\n### New features and improvements ###\n- Implement Password Modify Extended Operation (#172) @Zeault",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_20.2505.8.0.zip",
+        "checksum": "501d8979033eae90438578fc483c8a74",
+        "timestamp": "2025-05-03T14:45:32Z"
+      },
+      {
+        "version": "18.2403.7.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_18.2403.7.0.zip",
+        "checksum": "529cb9828c1710f2d45398c97d5932be",
+        "timestamp": "2024-03-30T18:19:44Z"
+      },
+      {
+        "version": "18.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_18.2403.6.0.zip",
+        "checksum": "d9f562ef992c57b33ac340490b3a35c4",
+        "timestamp": "2024-03-30T00:16:24Z"
+      },
+      {
+        "version": "18.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_18.2403.5.0.zip",
+        "checksum": "89c19d8ea2127690281c31fbe6c6d340",
+        "timestamp": "2024-03-26T16:57:30Z"
+      }
+    ]
+  },
+  {
+    "guid": "5c534381-91a3-43cb-907a-35aa02eb9d2c",
+    "name": "Playback Reporting",
+    "description": "Collect and show user play statistics",
+    "overview": "Collect and show user play statistics",
+    "owner": "jellyfin",
+    "category": "Administration",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playback Reporting.png",
+    "versions": [
+      {
+        "version": "16.2505.7.0",
+        "changelog": "- fix: require admin privileges to access API (#104) @Theta-Dev\n- Fix GetLastSeenString method (#103) @Nathan5471\n- Fix database connection disposal on server shutdown (#98) @a-mnich\n- fix nullable warnings (#99) @a-mnich\n\n### Bug Fixes ###\n- Improve Timezone Handling and Fix End Date Picker (#101) @a-mnich",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/playback-reporting/playback-reporting_16.2505.7.0.zip",
+        "checksum": "702f47f3d33eb5d3082a1393561c2802",
+        "timestamp": "2025-05-10T17:11:51Z"
+      },
+      {
+        "version": "13.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/playback-reporting/playback-reporting_13.2403.6.0.zip",
+        "checksum": "0b3cf2931dee896ab501568eb791216e",
+        "timestamp": "2024-03-30T18:20:19Z"
+      },
+      {
+        "version": "13.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/playback-reporting/playback-reporting_13.2403.5.0.zip",
+        "checksum": "5a3f3568883bb777c5846d58675600b4",
+        "timestamp": "2024-03-30T00:23:52Z"
+      },
+      {
+        "version": "13.2403.4.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/playback-reporting/playback-reporting_13.2403.4.0.zip",
+        "checksum": "5ff9b6f26327edfbb9d3a075af22ab77",
+        "timestamp": "2024-03-26T16:57:34Z"
+      }
+    ]
+  },
+  {
+    "guid": "f30880ae-3365-449e-b9e6-bf133c8401b0",
+    "name": "OPDS",
+    "description": "Provides an OPDS feed for book browsing.\n",
+    "overview": "Provides an OPDS book feed",
+    "owner": "jellyfin",
+    "category": "Books",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/OPDS.png",
+    "versions": [
+      {
+        "version": "6.2505.7.0",
+        "changelog": "- 10.10 fixes (#44) @crobibero\n\n### New features and improvements ###\n- Add more descriptive feed name (#25) @crobibero\n\n### Bug Fixes ###\n- fix: Support different query parameter names in search (#41) @rluetzner\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.556 - autoclosed (#34) @renovate",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/opds/opds_6.2505.7.0.zip",
+        "checksum": "29452547bdf9a9362cdd422aaf7e8c74",
+        "timestamp": "2025-05-10T17:09:45Z"
+      },
+      {
+        "version": "5.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/opds/opds_5.2403.6.0.zip",
+        "checksum": "ab65a8fe8c4f8dfe503886539cf3bb97",
+        "timestamp": "2024-03-30T00:16:23Z"
+      },
+      {
+        "version": "5.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/opds/opds_5.2403.5.0.zip",
+        "checksum": "bf09b14d508cf0cd7d995425c209352c",
+        "timestamp": "2024-03-26T16:57:38Z"
+      }
+    ]
+  },
+  {
+    "guid": "d4312cd9-5c90-4f38-82e8-51da566790e8",
+    "name": "Reports",
+    "description": "Generate reports of your media library",
+    "overview": "Generate reports of your media library",
+    "owner": "jellyfin",
+    "category": "Administration",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Reports.png",
+    "versions": [
+      {
+        "version": "17.2505.7.0",
+        "changelog": "- put that thing in the correct place (#85) @crobibero\n\n### Bug Fixes ###\n- add reference to SixLabors.Fonts.dll (#84) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/reports/reports_17.2505.7.0.zip",
+        "checksum": "bb0b0cba048bbe26784778cfb69e1519",
+        "timestamp": "2025-05-10T17:14:06Z"
+      },
+      {
+        "version": "15.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/reports/reports_15.2403.6.0.zip",
+        "checksum": "c14a4e58025df4115849df2bdb219f3a",
+        "timestamp": "2024-03-30T18:21:00Z"
+      },
+      {
+        "version": "15.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/reports/reports_15.2403.5.0.zip",
+        "checksum": "02c1efde8f3a7a6dea4dee2170431f0f",
+        "timestamp": "2024-03-30T00:20:04Z"
+      },
+      {
+        "version": "15.2403.4.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/reports/reports_15.2403.4.0.zip",
+        "checksum": "be7958c0cb073da959325f673bdc1c21",
+        "timestamp": "2024-03-26T16:57:47Z"
+      }
+    ]
+  },
+  {
+    "guid": "07caef58-a94b-4211-a62c-f9774e04ebdb",
+    "name": "Simkl",
+    "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!\n",
+    "overview": "Scrobble to Simkl",
+    "owner": "crobibero",
+    "category": "General",
+    "versions": [
+      {
+        "version": "6.2505.8.0",
+        "changelog": "- Fix 10.9 support (#34) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/simkl/simkl_6.2505.8.0.zip",
+        "checksum": "3fac292d38c1ef8d5759397d2e2dbe96",
+        "timestamp": "2025-05-10T17:16:31Z"
+      },
+      {
+        "version": "4.2403.7.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/simkl/simkl_4.2403.7.0.zip",
+        "checksum": "f8277092b76a4582466b1e3b23951fdb",
+        "timestamp": "2024-03-30T18:21:10Z"
+      },
+      {
+        "version": "4.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/simkl/simkl_4.2403.6.0.zip",
+        "checksum": "cf5388e2fdc46c73e69bff15c727cddb",
+        "timestamp": "2024-03-30T00:17:05Z"
+      },
+      {
+        "version": "4.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/simkl/simkl_4.2403.5.0.zip",
+        "checksum": "3210750e78a9974c64832dca5d0c1413",
+        "timestamp": "2024-03-26T16:57:54Z"
+      }
+    ]
+  },
+  {
+    "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
+    "name": "Open Subtitles",
+    "description": "Download subtitles from the internet to use with your media files. (Requires configuration)",
+    "overview": "Download subtitles for your media",
+    "owner": "jellyfin",
+    "category": "Subtitles",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
+    "versions": [
+      {
+        "version": "20.2505.12.0",
+        "changelog": "- 10.9 (#145) @crobibero\n\n### Dependency updates ###\n- chore(deps): update xunit-dotnet monorepo (#117) @renovate",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_20.2505.12.0.zip",
+        "checksum": "47e99eb2484cae81d04643af88d3a89d",
+        "timestamp": "2025-05-10T17:10:44Z"
+      },
+      {
+        "version": "19.2404.11.0",
+        "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_19.2404.11.0.zip",
+        "checksum": "25f0c339e12af061ba9825c7bcb5beb0",
+        "timestamp": "2024-04-05T19:15:06Z"
+      },
+      {
+        "version": "19.2404.10.0",
+        "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_19.2404.10.0.zip",
+        "checksum": "65bbaefc97d749adf72884e5d5121761",
+        "timestamp": "2024-04-05T13:16:24Z"
+      },
+      {
+        "version": "19.2404.9.0",
+        "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_19.2404.9.0.zip",
+        "checksum": "856aa64402ab14a441f3b3a8943a4da5",
+        "timestamp": "2024-04-05T13:11:47Z"
+      },
+      {
+        "version": "19.2404.8.0",
+        "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_19.2404.8.0.zip",
+        "checksum": "c318431ae8a65a04302540b888ffeae8",
+        "timestamp": "2024-04-03T21:33:32Z"
+      },
+      {
+        "version": "19.2403.7.0",
+        "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_19.2403.7.0.zip",
+        "checksum": "7853c8a84ba26ab7c05e627c1b3aa118",
+        "timestamp": "2024-03-30T18:18:45Z"
+      },
+      {
+        "version": "19.2403.6.0",
+        "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_19.2403.6.0.zip",
+        "checksum": "57f427acdcb51c28228ed38031b02171",
+        "timestamp": "2024-03-30T00:16:40Z"
+      },
+      {
+        "version": "19.2403.5.0",
+        "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_19.2403.5.0.zip",
+        "checksum": "e6fed730f9ffcd36b707c8fe9415a634",
+        "timestamp": "2024-03-26T16:57:56Z"
+      }
+    ]
+  },
+  {
+    "guid": "cd893c24-b59e-4060-87b2-184070e1bf68",
+    "name": "Subtitle Extract",
+    "description": "Extracts embedded subtitles.\n",
+    "overview": "Extracts Subtitles.",
+    "owner": "jellyfin",
+    "category": "Subtitles",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Subtitle Extract.png",
+    "versions": [
+      {
+        "version": "4.2505.7.0",
+        "changelog": "### Code or Repo Maintenance ###\n- Downgrade log level to reduce spam (#27) @crobibero\n- Fix extracting subtitles, fix memory leak @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_4.2505.7.0.zip",
+        "checksum": "0db003161a050321b9b780fb41457125",
+        "timestamp": "2025-05-10T17:18:05Z"
+      },
+      {
+        "version": "2.2404.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_2.2404.6.0.zip",
+        "checksum": "3a0e85adb11a32e6f092eed14b7d7764",
+        "timestamp": "2024-04-14T14:17:48Z"
+      },
+      {
+        "version": "2.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_2.2403.5.0.zip",
+        "checksum": "aa0802be375e4a093b0e6f8d04f020b7",
+        "timestamp": "2024-03-30T00:16:58Z"
+      },
+      {
+        "version": "2.2403.4.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_2.2403.4.0.zip",
+        "checksum": "7de07e418322705ccb76f2223dd8e9ee",
+        "timestamp": "2024-03-26T16:58:18Z"
+      }
+    ]
+  },
+  {
+    "guid": "ec9e2a74-1311-4a14-b302-158e3d95fd1d",
+    "name": "Session Cleaner",
+    "description": "Removes old sessions (devices).\n",
+    "overview": "Removes old sessions (devices).",
+    "owner": "jellyfin",
+    "category": "Administration",
+    "versions": [
+      {
+        "version": "4.2505.6.0",
+        "changelog": "- Fixes for Jellyfin 10.9.9 (#21) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/session-cleaner/session-cleaner_4.2505.6.0.zip",
+        "checksum": "7c60a6048b07ac7f947aeb16e077c4fd",
+        "timestamp": "2025-05-10T17:14:56Z"
+      },
+      {
+        "version": "3.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/session-cleaner/session-cleaner_3.2403.5.0.zip",
+        "checksum": "517ee83ef0f87f8dd1633e9a1a86e146",
+        "timestamp": "2024-03-30T00:16:45Z"
+      },
+      {
+        "version": "3.2403.4.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/session-cleaner/session-cleaner_3.2403.4.0.zip",
+        "checksum": "e1f5d8c172d452fa01195cf10f4a20f7",
+        "timestamp": "2024-03-26T16:58:16Z"
+      }
+    ]
+  },
+  {
+    "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
+    "name": "TheTVDB",
+    "description": "Get TV metadata from TheTvdb\n",
+    "overview": "Get TV metadata from TheTvdb",
+    "owner": "jellyfin",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TheTVDB.png",
+    "versions": [
+      {
+        "version": "19.2505.13.0",
+        "changelog": "- Improved null handling for tvdb provider (#207) @systemcrash\n\n### New features and improvements ###\n- Added missing season type 'alttwo' (#200) @Kianda\n\n### Bug Fixes ###\n- Handle empty ParentIndexNumber (#209) @Shadowghost",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_19.2505.13.0.zip",
+        "checksum": "7bca3ba65a071c7ef8db2f676456485a",
+        "timestamp": "2025-05-10T17:42:36Z"
+      },
+      {
+        "version": "15.2410.12.0",
+        "changelog": "### Bug Fixes ###\n- Set ContentRatings list to be nullable (#171) @scampower3",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_15.2410.12.0.zip",
+        "checksum": "4faf1e05e408853f784061ebbceca35d",
+        "timestamp": "2024-10-01T20:22:54Z"
+      },
+      {
+        "version": "10.2404.11.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_10.2404.11.0.zip",
+        "checksum": "a182367e7d4e50317b3e8b8e7ef518be",
+        "timestamp": "2024-04-06T15:18:43Z"
+      },
+      {
+        "version": "10.2404.10.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_10.2404.10.0.zip",
+        "checksum": "5ccb9756002f4907a781a04eecc43c8d",
+        "timestamp": "2024-04-02T05:45:54Z"
+      },
+      {
+        "version": "10.2403.9.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_10.2403.9.0.zip",
+        "checksum": "7f549c486da8cf13c65945d9c12e42c5",
+        "timestamp": "2024-03-31T06:32:51Z"
+      },
+      {
+        "version": "10.2403.8.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_10.2403.8.0.zip",
+        "checksum": "a49ba745f570132967389aa8a00d2b6c",
+        "timestamp": "2024-03-30T00:17:08Z"
+      },
+      {
+        "version": "10.2403.7.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_10.2403.7.0.zip",
+        "checksum": "a29a9580d231bc160c5121e76ef4780a",
+        "timestamp": "2024-03-28T08:34:10Z"
+      },
+      {
+        "version": "10.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_10.2403.6.0.zip",
+        "checksum": "e8ec54fcd93a0cb88fe9da3d3b968849",
+        "timestamp": "2024-03-26T16:58:36Z"
+      }
+    ]
+  },
+  {
+    "guid": "a4a488d0-17a3-4919-8d82-7f3de4f6b209",
+    "name": "TVmaze",
+    "description": "Get TV metadata from TVmaze\n",
+    "overview": "Get TV metadata from TVmaze",
+    "owner": "jellyfin",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TVmaze.png",
+    "versions": [
+      {
+        "version": "12.2506.7.0",
+        "changelog": "- Fallback on empty ParentIndexNumber (#54) @Shadowghost\n- Should provide identifying info in its exception (#47) @michaelkrieger\n- Add basic handling for specials (#23) @Smith00101010",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvmaze/tvmaze_12.2506.7.0.zip",
+        "checksum": "ea0281d9404439e5c497ccdd966fb3d4",
+        "timestamp": "2025-06-12T22:24:27Z"
+      },
+      {
+        "version": "11.2403.5.0",
+        "changelog": "### Code or Repo Maintenance ###\n- Fix build (#36) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#33) @dependabot",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvmaze/tvmaze_11.2403.5.0.zip",
+        "checksum": "4eb10aad5ea59f6fa0fdd4566d485c70",
+        "timestamp": "2024-03-30T00:17:44Z"
+      },
+      {
+        "version": "11.2403.4.0",
+        "changelog": "### Code or Repo Maintenance ###\n- Fix build (#36) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#33) @dependabot",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvmaze/tvmaze_11.2403.4.0.zip",
+        "checksum": "6f030f6c739305603731b51215c05aa9",
+        "timestamp": "2024-03-26T16:58:32Z"
+      }
+    ]
+  },
+  {
+    "guid": "44616595-5798-47ad-8658-3c09f3030505",
+    "name": "VGMdb",
+    "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.\n",
+    "overview": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.",
+    "owner": "jellyfin",
+    "category": "Music",
+    "versions": [
+      {
+        "version": "4.2505.6.0",
+        "changelog": "- 10.9 (#23) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/vgmdb/vgmdb_4.2505.6.0.zip",
+        "checksum": "e770a6548a939bd440a79f53af410187",
+        "timestamp": "2025-05-10T17:34:08Z"
+      },
+      {
+        "version": "3.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/vgmdb/vgmdb_3.2403.5.0.zip",
+        "checksum": "c9cf0c444c20367bfa7893caec7785f2",
+        "timestamp": "2024-03-30T00:17:27Z"
+      },
+      {
+        "version": "3.2403.4.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/vgmdb/vgmdb_3.2403.4.0.zip",
+        "checksum": "9dc2a423cc04688fa63b39a005c6cfb0",
+        "timestamp": "2024-03-26T16:58:33Z"
+      }
+    ]
+  },
+  {
+    "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
+    "name": "Trakt",
+    "description": "Record your watched media with Trakt.\n",
+    "overview": "Record your watched media with Trakt",
+    "owner": "jellyfin",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Trakt.png",
+    "versions": [
+      {
+        "version": "26.2505.10.0",
+        "changelog": "- 10.10 support (#238) @crobibero\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to v8 (#187) @renovate",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_26.2505.10.0.zip",
+        "checksum": "432a9d8361c06df55a45026556f25d00",
+        "timestamp": "2025-05-10T17:21:17Z"
+      },
+      {
+        "version": "25.2410.9.0",
+        "changelog": "- 10.9 (#233) @crobibero\n\n### Dependency updates ###\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#214) @renovate",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_25.2410.9.0.zip",
+        "checksum": "5ca1dd16a6f6abcb986be6c6f5533ec4",
+        "timestamp": "2024-10-14T16:30:05Z"
+      },
+      {
+        "version": "25.2410.8.0",
+        "changelog": "- 10.9 (#233) @crobibero\n\n### Dependency updates ###\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#214) @renovate",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_25.2410.8.0.zip",
+        "checksum": "8c1db3dddb0f0f6a09ec110ad9e36f3a",
+        "timestamp": "2024-10-14T16:29:25Z"
+      },
+      {
+        "version": "24.2403.7.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_24.2403.7.0.zip",
+        "checksum": "ba24c3e152070444d6393d38af9a615b",
+        "timestamp": "2024-03-30T18:20:39Z"
+      },
+      {
+        "version": "24.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_24.2403.6.0.zip",
+        "checksum": "c612adc5e197ab49d2a9ca5ba772121d",
+        "timestamp": "2024-03-30T00:17:08Z"
+      },
+      {
+        "version": "24.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_24.2403.5.0.zip",
+        "checksum": "120637f1d9803d828029720b52f59a9f",
+        "timestamp": "2024-03-26T16:58:31Z"
+      }
+    ]
+  },
+  {
+    "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
+    "name": "TMDb Box Sets",
+    "description": "Automatically create movie box sets based on TMDb collections",
+    "overview": "Automatically create movie box sets based on TMDb collections",
+    "owner": "jellyfin",
+    "category": "MoviesAndShows",
+    "versions": [
+      {
+        "version": "11.2505.8.0",
+        "changelog": "- 10.9 (#79) @crobibero\n\n### Bug Fixes ###\n- Only add primary versions to collections (#69) @lordwelch\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#77) @methbkts\n\n### CI & build changes ###\n- fix: meta ci workflows (#70) @h1dden-da3m0n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tmdb-box-sets/tmdb-box-sets_11.2505.8.0.zip",
+        "checksum": "87b1703367da056c662a939885b6d162",
+        "timestamp": "2025-05-10T17:19:45Z"
+      },
+      {
+        "version": "10.2403.7.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tmdb-box-sets/tmdb-box-sets_10.2403.7.0.zip",
+        "checksum": "c9c6820d72f3149164ecc6629ebb22c5",
+        "timestamp": "2024-03-30T18:19:28Z"
+      },
+      {
+        "version": "10.2403.6.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tmdb-box-sets/tmdb-box-sets_10.2403.6.0.zip",
+        "checksum": "0a279045b062be192234d373e7dde573",
+        "timestamp": "2024-03-30T00:17:00Z"
+      },
+      {
+        "version": "10.2403.5.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tmdb-box-sets/tmdb-box-sets_10.2403.5.0.zip",
+        "checksum": "c6a931f8a9e4d5b6e1f98a426c141cf4",
+        "timestamp": "2024-03-26T16:58:41Z"
+      }
+    ]
+  },
+  {
+    "guid": "71552a5a-5c5c-4350-a2ae-ebe451a30173",
+    "name": "Webhook",
+    "description": "Sends notifications to destinations via webhooks.\n",
+    "overview": "Sends notifications.",
+    "owner": "jellyfin",
+    "category": "Administration",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Webhook.png",
+    "versions": [
+      {
+        "version": "17.2505.11.0",
+        "changelog": "- Update Ntfy.handlebars (#298) @Sk4lli\n- ntfy.sh: Template Optimizations Pt. 3 (#297) @v3DJG6GL\n\n### New features and improvements ###\n- feat: add url_encode helper (#314) @armanckeser",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_17.2505.11.0.zip",
+        "checksum": "514a1178218a3597207eb46abed92154",
+        "timestamp": "2025-05-10T17:35:35Z"
+      },
+      {
+        "version": "15.2410.10.0",
+        "changelog": "- Fix test badge typo (#257) @RyanMelena\n- Fix test status badge (#256) @RyanMelena\n- Make \"Original Aspect Ratio\" property available to WebHooks (#249) @RyanMelena\n\n### Breaking changes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Bug Fixes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Dependency updates ###\n- chore(deps): update dependency mailkit to v4.7.0 (#174) @renovate\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.6.1152 (#246) @renovate",
+        "targetAbi": "10.9.7.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_15.2410.10.0.zip",
+        "checksum": "4463ef9fa0cec3c6bfb7a73bce6d0231",
+        "timestamp": "2024-10-26T18:16:33Z"
+      },
+      {
+        "version": "15.2410.9.0",
+        "changelog": "- Fix test badge typo (#257) @RyanMelena\n- Fix test status badge (#256) @RyanMelena\n- Make \"Original Aspect Ratio\" property available to WebHooks (#249) @RyanMelena\n\n### Breaking changes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Bug Fixes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Dependency updates ###\n- chore(deps): update dependency mailkit to v4.7.0 (#174) @renovate\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.6.1152 (#246) @renovate",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_15.2410.9.0.zip",
+        "checksum": "abf0be45d0a3de556d7d714d834a34cc",
+        "timestamp": "2024-10-01T20:25:41Z"
+      },
+      {
+        "version": "12.2404.8.0",
+        "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_12.2404.8.0.zip",
+        "checksum": "4dd7342ef08c1887c3edce69538ce5b7",
+        "timestamp": "2024-04-15T03:58:16Z"
+      },
+      {
+        "version": "12.2403.7.0",
+        "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_12.2403.7.0.zip",
+        "checksum": "24cc1a9f1ab01dea1855949cee1e0f14",
+        "timestamp": "2024-03-29T23:47:28Z"
+      },
+      {
+        "version": "12.2403.6.0",
+        "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_12.2403.6.0.zip",
+        "checksum": "386897105ae066725c89159999e03722",
+        "timestamp": "2024-03-26T16:59:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "07d86795-01f2-4d22-b174-cdc6056c3e7c",
+    "name": "Local Intros",
+    "description": "Select a flashy pre-roll from local storage to run before any video content. The video details are loaded from disk after a video is played from the library from the beginning of the video. A random video is selected, and all videos in the local directory are enabled by default. Specific videos can be enabled or disabled as necessary. After videos are loaded for the first time, additional videos found in the directory are not enabled by default.\n",
+    "overview": "Display flashy intros before movies and other videos",
+    "owner": "Jellyfin",
+    "category": "MoviesAndShows",
+    "versions": [
+      {
+        "version": "3.2505.9.0",
+        "changelog": "- 10.9 (#38) @crobibero\n- Add org workflows (#29) @crobibero\n- Added code to order detected videos by name. (#16) @BrianCArnold\n\n### New features and improvements ###\n- added ability to only show intros for movies (#32) @Terence-D\n- Added code to handle repeating date ranges in backend.  (#15) @BrianCArnold\n\n### Documentation updates ###\n- Update config Discord link (#31) @anthonylavado",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/local-intros/local-intros_3.2505.9.0.zip",
+        "checksum": "0741f6d4dc75e372df519d11e7084ea6",
+        "timestamp": "2025-05-10T16:57:39Z"
+      },
+      {
+        "version": "2.2405.8.0",
+        "changelog": "Disabled Vimeo loading entirely, only plays back local videos.\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/local-intros/local-intros_2.2405.8.0.zip",
+        "checksum": "3ea675f0d88237dd531af3528e9620c9",
+        "timestamp": "2024-05-11T19:25:32Z"
+      },
+      {
+        "version": "2.2403.7.0",
+        "changelog": "Disabled Vimeo loading entirely, only plays back local videos.\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/local-intros/local-intros_2.2403.7.0.zip",
+        "checksum": "77a5ce94755e7d735620c03522948a08",
+        "timestamp": "2024-03-30T18:23:28Z"
+      },
+      {
+        "version": "2.2403.5.0",
+        "changelog": "Disabled Vimeo loading entirely, only plays back local videos.\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/local-intros/local-intros_2.2403.5.0.zip",
+        "checksum": "4f93c01813af6398dbcf6a4549cb4645",
+        "timestamp": "2024-03-26T17:01:57Z"
+      }
+    ]
+  },
+  {
+    "guid": "3fd018e5-5e78-4e58-b280-a0c068febee0",
+    "name": "TVHeadend",
+    "description": "Manage TVHeadend from Jellyfin",
+    "overview": "Manage TVHeadend from Jellyfin",
+    "owner": "jellyfin",
+    "category": "LiveTV",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TVHeadend.png",
+    "versions": [
+      {
+        "version": "12.2505.7.0",
+        "changelog": "- Fixed TV Recording channel for 10.9  (#81) @lomion0815\n- Fix live stream not working with 10.9 (#80) @lomion0815\n- Update for 10.9 - Step 1 (#78) @lomion0815\n- Stop Async connection handler threads if remote host has closed the connection. (#74) @Charlese2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvheadend/tvheadend_12.2505.7.0.zip",
+        "checksum": "52dafbc59a6fc951047e1f309008457d",
+        "timestamp": "2025-05-10T17:27:32Z"
+      },
+      {
+        "version": "12.2410.6.0",
+        "changelog": "- Fixed TV Recording channel for 10.9  (#81) @lomion0815\n- Fix live stream not working with 10.9 (#80) @lomion0815\n- Update for 10.9 - Step 1 (#78) @lomion0815\n- Stop Async connection handler threads if remote host has closed the connection. (#74) @Charlese2",
+        "targetAbi": "10.9.2.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvheadend/tvheadend_12.2410.6.0.zip",
+        "checksum": "52e627fc96a54cbee16a07a41e5d6020",
+        "timestamp": "2024-10-15T23:33:48Z"
+      },
+      {
+        "version": "11.2405.5.0",
+        "changelog": "### New features and improvements ###\n- Added Pre-Padding and Post-Padding to settings.  (#57) @lomion0815\n\n### Bug Fixes ###\n- Fix DLNA streaming (#46) @jkellerer\n\n### Code or Repo Maintenance ###\n- Use meta ci (#55) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#56) @h1dden-da3m0n\n- Use meta ci (#55) @crobibero",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvheadend/tvheadend_11.2405.5.0.zip",
+        "checksum": "af0b84b051b0d3d64c34720cc1b991d5",
+        "timestamp": "2024-05-20T11:06:03Z"
+      },
+      {
+        "version": "11.2405.4.0",
+        "changelog": "### New features and improvements ###\n- Added Pre-Padding and Post-Padding to settings.  (#57) @lomion0815\n\n### Bug Fixes ###\n- Fix DLNA streaming (#46) @jkellerer\n\n### Code or Repo Maintenance ###\n- Use meta ci (#55) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#56) @h1dden-da3m0n\n- Use meta ci (#55) @crobibero",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvheadend/tvheadend_11.2405.4.0.zip",
+        "checksum": "b7768c22ba10ed7d95fe6fabc1c20683",
+        "timestamp": "2024-05-18T16:53:26Z"
+      },
+      {
+        "version": "11.2405.3.0",
+        "changelog": "### New features and improvements ###\n- Added Pre-Padding and Post-Padding to settings.  (#57) @lomion0815\n\n### Bug Fixes ###\n- Fix DLNA streaming (#46) @jkellerer\n\n### Code or Repo Maintenance ###\n- Use meta ci (#55) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#56) @h1dden-da3m0n\n- Use meta ci (#55) @crobibero",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvheadend/tvheadend_11.2405.3.0.zip",
+        "checksum": "0d3406f41dbc7329636c4b54a4ed43d0",
+        "timestamp": "2024-05-11T21:09:17Z"
+      }
+    ]
+  },
+  {
+    "guid": "698b6f33-14ca-49b5-9d79-fc3c0ab941f5",
+    "name": "Chapter Segments Provider",
+    "description": "Create media segments based on chapters.\n",
+    "overview": "Create media segments based on chapters.",
+    "owner": "jellyfin",
+    "category": "General",
+    "versions": [
+      {
+        "version": "3.2505.3.0",
+        "changelog": "",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/chapter-segments-provider/chapter-segments-provider_3.2505.3.0.zip",
+        "checksum": "4d865c9157370c0cd865b61eff2509eb",
+        "timestamp": "2025-05-10T17:43:49Z"
+      },
+      {
+        "version": "3.2410.2.0",
+        "changelog": "",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/chapter-segments-provider/chapter-segments-provider_3.2410.2.0.zip",
+        "checksum": "e90da733d1f3e17e6f870a334c89b4bb",
+        "timestamp": "2024-10-06T23:00:33Z"
+      }
+    ]
+  },
+  {
+    "guid": "d106ebe6-9ca8-4fbc-9cd1-a92a213da9f9",
+    "name": "LrcLib Lyrics",
+    "description": "Download lyrics from https://lrclib.net/\n",
+    "overview": "Download lyrics from https://lrclib.net/",
+    "owner": "jellyfin",
+    "category": "Music",
+    "versions": [
+      {
+        "version": "2.2505.1.0",
+        "changelog": "### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 8.0.1 (#8) @renovate",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/lrclib-lyrics/lrclib-lyrics_2.2505.1.0.zip",
+        "checksum": "e2f8c81fd72912c00d31dccc4184e139",
+        "timestamp": "2025-05-10T17:03:26Z"
+      }
+    ]
+  },
+  {
+    "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
+    "name": "NextPVR",
+    "description": "Provides access to live TV, program guide, and recordings from NextPVR.\n",
+    "overview": "Live TV plugin for NextPVR",
+    "owner": "jellyfin",
+    "category": "LiveTV",
+    "versions": [
+      {
+        "version": "11.2505.2.0",
+        "changelog": "- Recording enhancements (#53) @emveepee",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/nextpvr/nextpvr_11.2505.2.0.zip",
+        "checksum": "9325976434d6ec7c3f28f24c3c019d8c",
+        "timestamp": "2025-05-10T17:08:43Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NextPVR.png"
+  },
+  {
+    "guid": "a0444c3b-fe1c-4258-9e0f-a139fc093949",
+    "name": "Transcode Killer",
+    "description": "Kills transcoded streams.\n",
+    "overview": "Kills transcoded streams.",
+    "owner": "jellyfin",
+    "category": "Administration",
+    "versions": [
+      {
+        "version": "3.2505.1.0",
+        "changelog": "",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/transcode-killer/transcode-killer_3.2505.1.0.zip",
+        "checksum": "972c8905682819bb8f6d63a449980de4",
+        "timestamp": "2025-05-10T17:21:48Z"
+      }
+    ]
+  },
+  {
     "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
     "name": "Apple Music",
     "description": "Apple Music artist and album images and metadata provider.\n",
