@@ -10459,6 +10459,14 @@
     "imageUrl": "",
     "versions": [
       {
+        "version": "8.2510.14.0",
+        "changelog": "- Revert collection expression (#132) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_8.2510.14.0.zip",
+        "checksum": "cabd9517d065873d599e5751e34555a3",
+        "timestamp": "2025-10-04T17:51:16Z"
+      },
+      {
         "version": "8.2509.13.0",
         "changelog": "- Revert collection expression (#132) @crobibero",
         "targetAbi": "10.11.0.0",
@@ -10886,6 +10894,14 @@
     "category": "Administration",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Reports.png",
     "versions": [
+      {
+        "version": "17.2510.9.0",
+        "changelog": "- put that thing in the correct place (#85) @crobibero\n\n### Bug Fixes ###\n- add reference to SixLabors.Fonts.dll (#84) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/reports/reports_17.2510.9.0.zip",
+        "checksum": "85d2846efeb049e7910165a725304b7f",
+        "timestamp": "2025-10-04T17:20:03Z"
+      },
       {
         "version": "17.2505.7.0",
         "changelog": "- put that thing in the correct place (#85) @crobibero\n\n### Bug Fixes ###\n- add reference to SixLabors.Fonts.dll (#84) @crobibero",
