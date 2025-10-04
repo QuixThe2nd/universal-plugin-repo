@@ -12091,6 +12091,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.3.4.0",
+        "changelog": "No changelog supplied",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.3.4.0/Release-10.11.0-rc8.zip",
+        "checksum": "C266BC166EA02B4BD405BDA75693C784",
+        "timestamp": "2025-10-03T20:18:22",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.3.0",
         "changelog": "No changelog supplied",
         "targetAbi": "10.11.0.0",
