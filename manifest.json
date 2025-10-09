@@ -12202,6 +12202,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.3.11.0",
+        "changelog": "🔒 Security Hotfix Release Notes\r\n\r\n- Fixed issue with DiscoverRequest endpoint allowing any user to request on behalf of any user.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.11.0/Release-10.11.0-rc8.zip",
+        "checksum": "A2FBBCE6D7991771605FFFD4E0D6039B",
+        "timestamp": "2025-10-09T18:59:32",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.10.0",
         "changelog": "✨ Enhancements & Bug Fixes\r\n\r\n- Fixed issue where TV shows couldn't be requested in discover section\r\n- Adding ability for admins to configure whether each section should show/hide played content\r\n- Changed Jellyseerr API key to be masked\r\n- Fixed some issues with the cache bust text\r\n- Added authorize to discover request fixing security vulnerability highlighted in #93",
         "targetAbi": "10.11.0.0",
