@@ -10499,6 +10499,14 @@
     "imageUrl": "",
     "versions": [
       {
+        "version": "8.2510.15.0",
+        "changelog": "- Revert collection expression (#132) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_8.2510.15.0.zip",
+        "checksum": "939d50a95bd72ffca0d83d517361c2bd",
+        "timestamp": "2025-10-13T20:13:07Z"
+      },
+      {
         "version": "8.2510.14.0",
         "changelog": "- Revert collection expression (#132) @crobibero",
         "targetAbi": "10.11.0.0",
