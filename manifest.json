@@ -11028,6 +11028,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
     "versions": [
       {
+        "version": "20.2510.13.0",
+        "changelog": "- 10.9 (#145) @crobibero\n\n### Dependency updates ###\n- chore(deps): update xunit-dotnet monorepo (#117) @renovate",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_20.2510.13.0.zip",
+        "checksum": "4a40dd2a0c9c1143d4c365320226e57c",
+        "timestamp": "2025-10-13T18:28:51Z"
+      },
+      {
         "version": "20.2505.12.0",
         "changelog": "- 10.9 (#145) @crobibero\n\n### Dependency updates ###\n- chore(deps): update xunit-dotnet monorepo (#117) @renovate",
         "targetAbi": "10.11.0.0",
