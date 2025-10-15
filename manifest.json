@@ -12172,6 +12172,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.3.5.0",
+        "changelog": "✨ New Features\r\n\r\n- Added extra configuration options in plugin settings to override the JavaScript config offered to the user.\r\n- Synced up to date with upstream repo.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.3.5.0/Release-10.11.0-rc8.zip",
+        "checksum": "629EC7276EB44EDF7A16D98D00275ACD",
+        "timestamp": "2025-10-15T21:37:22",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.4.0",
         "changelog": "No changelog supplied",
         "targetAbi": "10.11.0.0",
@@ -12257,6 +12268,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.3.13.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where TV shows weren't able to be requested in discover sections\r\n- Fixed issue where request responses wouldn't give user feedback when the request was successful\r\n- Fixed a minor formatting issue on the admin config page",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.13.0/Release-10.11.0-rc8.zip",
+        "checksum": "12EA987EF682300B6CFE1513FAB03F08",
+        "timestamp": "2025-10-12T21:46:36",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.3.12.0",
         "changelog": "✨ New Features\r\n\r\n- Genre Section: Introduced a new genre section on the home screen (details explained below).\r\n  - Closes https://features.iamparadox.dev/posts/20/versatile-home-sections\r\n- Support for \"My Media (small)\". In the plugin settings, admin's can now select \"Small\" as a View Mode for My Media. If it's selected by anything else, it will revert back to Landscape when loaded by the client.\r\n  - Closes https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/81\r\n- Added experimental Streamyfin integration (details explained below).\r\n  - Fulfills the remaining requirements to https://github.com/streamyfin/streamyfin/issues/1108\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue when requesting a Movie from Discover sections.\r\n  - Closes https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/96\r\n- Fixed messaging issue that could occur from DiscoverRequest saying the item was requested successfully when an error had occurred.\r\n\r\n🏃‍➡️ Performance and Code Improvements\r\n\r\n- Home section calculation now uses parallelism, hopefully resulting in faster loading times on the home screen.\r\n- Refactored some code Home screen controller code has been moved into a service for improved maintainability and easier future enhancements.\r\n\r\nGenre Section\r\n\r\n- This section is very early in development and may have issues, please open an issue on GitHub if you experience any issues.\r\n- Set the number of times it should appear between 1 and N, it will appear a random number of times between those numbers.\r\n- Each first request will calculate which Genres will appear on the home screen, this is based on a weighted scoring system that favours 'Favourites', 'Likes' and 'Recently Watched' per person. \r\n- A future release will bring the ability to restrict which genres are displayed, or even fix it to a certain list always, but that support is dependant on PR 70.\r\n\r\nStreamyfin Integration\r\n\r\n- In the Home Screen Sections plugin settings, admins will find an option to override the Streamyfin home sections with one's provided by HSS.\r\n- Please note this requires plugin version 0.63.0.0 and a currently unreleased version of the app due to integration of a new Home Section type in Streamyfin, please be patient and wait for the release after v0.30.2 before making use of this setting.",
