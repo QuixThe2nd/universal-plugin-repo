@@ -11699,6 +11699,14 @@
     "image": "image.png",
     "versions": [
       {
+        "version": "3.0.5.1",
+        "changelog": "Fix:\n  - Album artwork being pulled if artist did not have one\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/apple-music/apple-music_3.0.5.1.zip",
+        "checksum": "80c5b9ab641493185a538fd0e73b92ef",
+        "timestamp": "2025-10-15T17:59:28Z"
+      },
+      {
         "version": "3.0.4.9",
         "changelog": "Maintenance:\n  - Rename `iTunes` to `Apple Music` in code\n  - Clean up web scraping implementation (should now be more reliable)\n  - Update dependencies\n",
         "targetAbi": "10.10.0.0",
