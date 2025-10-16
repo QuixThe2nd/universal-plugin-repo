@@ -3976,6 +3976,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
     "versions": [
       {
+        "version": "1.0.0.4",
+        "changelist": "Patched image and version after installation",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.4/CustomLogo.zip",
+        "checksum": "42F764E2A6723915C198272F257C9E01",
+        "timestamp": "2025-10-15T03:00:00"
+      },
+      {
         "version": "1.0.0.3",
         "changelist": "Pathched image and version after installation",
         "targetAbi": "10.10.7.0",
@@ -5087,6 +5095,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
+        "changelog": "- Add option to set disable custom subtitle styles\n - Add new selectors to splash screen hide list",
+        "targetAbi": "10.10.7.0",
+        "version": "7.11.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/7.11.0.0/Jellyfin.Plugin.JellyfinEnhanced.zip",
+        "checksum": "AD1AFEE82C5ACD96B7CC541C876AF9E8",
+        "timestamp": "2025-10-15T06:13:49"
+      },
+      {
         "changelog": "- Change Jellyseerr API endpoint for connectivity check\n - Add TMDB API key validation to config page\n - Fix TMDB API key query string handling",
         "targetAbi": "10.10.7.0",
         "version": "7.10.0.0",
@@ -5822,6 +5838,14 @@
     "owner": "Ryan Dash",
     "overview": "myanimelist metadata provider",
     "versions": [
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.5",
+        "checksum": "1f2078db325f6e97762e0053f8aad989",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.5/myanimelist_6.3.5.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-10-15T22:29:17Z",
+        "version": "6.3.5"
+      },
       {
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.4",
         "checksum": "353d02c91ccecf392a0f8a4006d65885",
@@ -10315,6 +10339,14 @@
     "image": "image.png",
     "versions": [
       {
+        "version": "3.0.5.1",
+        "changelog": "Fix:\n  - Album artwork being pulled if artist did not have one\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/apple-music/apple-music_3.0.5.1.zip",
+        "checksum": "80c5b9ab641493185a538fd0e73b92ef",
+        "timestamp": "2025-10-15T17:59:28Z"
+      },
+      {
         "version": "3.0.4.9",
         "changelog": "Maintenance:\n  - Rename `iTunes` to `Apple Music` in code\n  - Clean up web scraping implementation (should now be more reliable)\n  - Update dependencies\n",
         "targetAbi": "10.10.0.0",
@@ -10857,6 +10889,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.3.5.0",
+        "changelog": "✨ New Features\r\n\r\n- Added extra configuration options in plugin settings to override the JavaScript config offered to the user.\r\n- Synced up to date with upstream repo.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.3.5.0/Release-10.10.7.zip",
+        "checksum": "76A4FF81C51BDCFF40890EE6406CE7A1",
+        "timestamp": "2025-10-15T21:37:22",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.4.0",
         "changelog": "No changelog supplied",
         "targetAbi": "10.10.7.0",
@@ -10997,6 +11040,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.3.13.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where TV shows weren't able to be requested in discover sections\r\n- Fixed issue where request responses wouldn't give user feedback when the request was successful\r\n- Fixed a minor formatting issue on the admin config page",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.13.0/Release-10.10.7.zip",
+        "checksum": "5DF9E87C12A0A945324199B408BFF6DF",
+        "timestamp": "2025-10-12T21:46:36",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.3.12.0",
         "changelog": "✨ New Features\r\n\r\n- Genre Section: Introduced a new genre section on the home screen (details explained below).\r\n  - Closes https://features.iamparadox.dev/posts/20/versatile-home-sections\r\n- Support for \"My Media (small)\". In the plugin settings, admin's can now select \"Small\" as a View Mode for My Media. If it's selected by anything else, it will revert back to Landscape when loaded by the client.\r\n  - Closes https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/81\r\n- Added experimental Streamyfin integration (details explained below).\r\n  - Fulfills the remaining requirements to https://github.com/streamyfin/streamyfin/issues/1108\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue when requesting a Movie from Discover sections.\r\n  - Closes https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/96\r\n- Fixed messaging issue that could occur from DiscoverRequest saying the item was requested successfully when an error had occurred.\r\n\r\n🏃‍➡️ Performance and Code Improvements\r\n\r\n- Home section calculation now uses parallelism, hopefully resulting in faster loading times on the home screen.\r\n- Refactored some code Home screen controller code has been moved into a service for improved maintainability and easier future enhancements.\r\n\r\nGenre Section\r\n\r\n- This section is very early in development and may have issues, please open an issue on GitHub if you experience any issues.\r\n- Set the number of times it should appear between 1 and N, it will appear a random number of times between those numbers.\r\n- Each first request will calculate which Genres will appear on the home screen, this is based on a weighted scoring system that favours 'Favourites', 'Likes' and 'Recently Watched' per person. \r\n- A future release will bring the ability to restrict which genres are displayed, or even fix it to a certain list always, but that support is dependant on PR 70.\r\n\r\nStreamyfin Integration\r\n\r\n- In the Home Screen Sections plugin settings, admins will find an option to override the Streamyfin home sections with one's provided by HSS.\r\n- Please note this requires plugin version 0.63.0.0 and a currently unreleased version of the app due to integration of a new Home Section type in Streamyfin, please be patient and wait for the release after v0.30.2 before making use of this setting.",
