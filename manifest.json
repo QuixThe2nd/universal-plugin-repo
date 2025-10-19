@@ -12050,6 +12050,27 @@
     ]
   },
   {
+    "guid": "074fa1cc-5c7a-4203-bf96-1a33d36b7de7",
+    "name": "Home Screen Sections (Experimental)",
+    "description": "Adds support for server provided home screen sections\n\nNote: This is an experimental build and cannot be used in conjunction with the stable release of Home Screen Sections. Please only install one of them.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-home-sections",
+    "owner": "IAmParadox27",
+    "category": "Experimental",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections (Experimental).png",
+    "versions": [
+      {
+        "version": "2.3.13.1",
+        "changelog": "Experimental builds do not have changelogs yet",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.13.1/Release-10.11.0-rc8.zip",
+        "checksum": "8FE4B4DF546B99DA005E971FC8DCD006",
+        "timestamp": "2025-10-12T21:46:36",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      }
+    ]
+  },
+  {
     "guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
     "name": "Custom Tabs",
     "description": "Adds support for custom tabs to be added to the Jellyfin webpage. Commonly used to add Requests tab.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-custom-tabs",
