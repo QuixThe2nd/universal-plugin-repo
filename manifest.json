@@ -10588,8 +10588,8 @@
         "changelog": "- Jellyfin 10.11 support (#9) @crobibero\n- Added additional commercial terms (#8) @JPVenson\n- Fix wrong order of RegEx comments (#13) @mihawk90\n- Add \"credits\" to outro segment RegEx (#4) @mihawk90",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://repo.jellyfin.org/files/plugin/chapter-segments-provider/chapter-segments-provider_2.0.0.0.zip",
-        "checksum": "ad905ffa154a37120e84a072ef0111d9",
-        "timestamp": "2025-10-20T01:31:39Z"
+        "checksum": "e0cd8265147bcd15d02da5cef0411a09",
+        "timestamp": "2025-10-20T14:11:49Z"
       }
     ]
   },
