@@ -5066,6 +5066,22 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
+        "changelog": "- 10.11 Support!",
+        "targetAbi": "10.10.7.0",
+        "version": "8.0.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/8.0.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.10.7.zip",
+        "checksum": "615F30A482401761D0EA5EAD7FFCAA0E",
+        "timestamp": "2025-10-20T11:37:02"
+      },
+      {
+        "changelog": "- 10.11 Support!",
+        "targetAbi": "10.11.0.0",
+        "version": "8.0.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/8.0.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
+        "checksum": "4571C59DCE6E606ABDBB946B9ABF890F",
+        "timestamp": "2025-10-20T11:37:06"
+      },
+      {
         "changelog": "- Fix the ordering of Pause Screen setting in the Enhanced Panel\n - Update pause screen to show back button\n - Align watchlist with upstream from ranaldsgift\n - Improve loading of filesize and language tags\n - Add 3D video tag detection and styling\n - Add multi-language support for genre icons",
         "targetAbi": "10.10.7.0",
         "version": "7.13.0.0",
@@ -12316,6 +12332,7 @@
   {
     "guid": "074fa1cc-5c7a-4203-bf96-1a33d36b7de7",
     "name": "Home Screen Sections (Experimental)",
+    "overview": null,
     "description": "Adds support for server provided home screen sections\n\nNote: This is an experimental build and cannot be used in conjunction with the stable release of Home Screen Sections. Please only install one of them.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-home-sections",
     "owner": "IAmParadox27",
     "category": "Experimental",
@@ -12370,6 +12387,7 @@
   {
     "guid": "fbacd0b6-fd46-4a05-b0a4-2045d6a135b0",
     "name": "Custom Tabs",
+    "overview": null,
     "description": "Adds support for custom tabs to be added to the Jellyfin webpage. Commonly used to add Requests tab.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-custom-tabs",
     "owner": "IAmParadox27",
     "category": "General",
@@ -12424,6 +12442,7 @@
   {
     "guid": "043b2c48-b3e0-4610-b398-8217b146d1a4",
     "name": "Collection Sections",
+    "overview": null,
     "description": "Adds home screen section for collections/playlists\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-collection-sections",
     "owner": "IAmParadox27",
     "category": "General",
@@ -12478,6 +12497,7 @@
   {
     "guid": "5e87cc92-571a-4d8d-8d98-d2d4147f9f90",
     "name": "File Transformation",
+    "overview": null,
     "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
     "owner": "IAmParadox27",
     "category": "General",
@@ -12565,6 +12585,7 @@
   {
     "guid": "08f615ea-2107-4f04-89cc-091035f54448",
     "name": "Media Bar",
+    "overview": null,
     "description": "Adds a media bar element at the top of the homepage on Jellyfin web\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-media-bar",
     "owner": "IAmParadox27 & M0RPH3US",
     "category": "General",
@@ -12630,6 +12651,7 @@
   {
     "guid": "5b6550fa-a014-4f4c-8a2c-59a43680ac6d",
     "name": "Plugin Pages",
+    "overview": null,
     "description": "Adds support for plugins to define their own user settings pages, rather than just admin sided.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-pages",
     "owner": "IAmParadox27",
     "category": "General",
@@ -12684,6 +12706,7 @@
   {
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections",
+    "overview": null,
     "description": "Adds support for server provided home screen sections\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-home-sections",
     "owner": "IAmParadox27",
     "category": "General",
