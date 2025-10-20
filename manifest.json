@@ -5090,14 +5090,6 @@
         "timestamp": "2025-10-20T11:37:02"
       },
       {
-        "changelog": "- 10.11 Support!",
-        "targetAbi": "10.11.0.0",
-        "version": "8.0.0.0",
-        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/8.0.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.11.0.zip",
-        "checksum": "4571C59DCE6E606ABDBB946B9ABF890F",
-        "timestamp": "2025-10-20T11:37:06"
-      },
-      {
         "changelog": "- Fix the ordering of Pause Screen setting in the Enhanced Panel\n - Update pause screen to show back button\n - Align watchlist with upstream from ranaldsgift\n - Improve loading of filesize and language tags\n - Add 3D video tag detection and styling\n - Add multi-language support for genre icons",
         "targetAbi": "10.10.7.0",
         "version": "7.13.0.0",
@@ -10575,6 +10567,14 @@
     "owner": "jellyfin",
     "category": "General",
     "versions": [
+      {
+        "version": "4.0.0.0",
+        "changelog": "- Jellyfin 10.11 support (#9) @crobibero\n- Added additional commercial terms (#8) @JPVenson\n- Fix wrong order of RegEx comments (#13) @mihawk90\n- Add \"credits\" to outro segment RegEx (#4) @mihawk90",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/chapter-segments-provider/chapter-segments-provider_4.0.0.0.zip",
+        "checksum": "350bed6ec06959cf315e9cdb6e6f7cb5",
+        "timestamp": "2025-10-20T14:29:56Z"
+      },
       {
         "version": "3.0.0.0",
         "changelog": "",
