@@ -11721,11 +11721,19 @@
   {
     "guid": "a0444c3b-fe1c-4258-9e0f-a139fc093949",
     "name": "Transcode Killer",
-    "description": "Kills transcoded streams.\n",
-    "overview": "Kills transcoded streams.",
+    "description": "Kills transcodes above set resolutions to prevent server overload.",
+    "overview": "Kills transcodes to prevent server overload.",
     "owner": "jellyfin",
     "category": "Administration",
     "versions": [
+      {
+        "version": "3.2510.2.0",
+        "changelog": "",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/transcode-killer/transcode-killer_3.2510.2.0.zip",
+        "checksum": "724dcbafc443c836f35d8ad00992e08a",
+        "timestamp": "2025-10-20T01:07:56Z"
+      },
       {
         "version": "3.2505.1.0",
         "changelog": "",
@@ -12057,6 +12065,17 @@
     "category": "Experimental",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections (Experimental).png",
     "versions": [
+      {
+        "version": "2.3.13.2",
+        "changelog": "Experimental builds do not have changelogs yet",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.3.13.2/Release-10.11.0-rc8.zip",
+        "checksum": "CA36CDFB34B3D596450A2E7B4FF61158",
+        "timestamp": "2025-10-19T18:05:49",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.3.13.1",
         "changelog": "Experimental builds do not have changelogs yet",
