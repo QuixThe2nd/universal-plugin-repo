@@ -5698,9 +5698,17 @@
     "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\n\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.\n\n\nhttps://github.com/nikarh/jellyfin-plugin-authelia",
     "overview": "Authenticate users via Authelia",
     "owner": "nikarh",
-    "category": "Authentication",
+    "category": "Administration",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Authelia Authentication.png",
     "versions": [
+      {
+        "version": "1.0.16.0",
+        "changelog": "### Changed\n- Updated for Jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.16/authelia-authentication_1.0.16.0.zip",
+        "checksum": "d834566c8218a53b401f21448ca01dff",
+        "timestamp": "2025-10-21T10:45:20Z"
+      },
       {
         "version": "1.0.15.0",
         "changelog": "### Changed\n- Updated for Jellyfin 10.9",
@@ -7545,6 +7553,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Language Tags.png",
     "versions": [
+      {
+        "version": "0.2.0.1",
+        "changelog": "- Update build.yaml to target .NET 9.0 framework\n- Bump version to 0.2.0.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.2.0.1/language-tags_0.2.0.1.zip",
+        "checksum": "90879c3a56eed75f7482a000c220b12e",
+        "timestamp": "2025-10-21T10:46:36Z"
+      },
       {
         "version": "0.1.8.0",
         "changelog": "- Bump version to 0.1.8.0\n- Make sure to only add 3 letter language tags, even if the extracted tags for a subtitle file are 2 letter codes\n- Make sure external subtitles are scanned daily if subtitle extraction is enabled, see #13\n- Fixes language tag refresh for external subtitles due to invalid stripping of nonexistent prefixes, see #13\n- Make sure all tags for external subtitles are lower case. Fixes #12",
