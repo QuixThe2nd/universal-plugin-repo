@@ -1722,6 +1722,14 @@
     "owner": "kookxiang",
     "versions": [
       {
+        "targetAbi": null,
+        "changelog": "修复 Jellyfin 10.11.0 中遇到的一些小问题\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.3...1.7.4",
+        "timestamp": "2025-10-21T14:22:20",
+        "version": "1.7.4.0",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.4.0.zip",
+        "checksum": "d415d656e7b9c60e410bedf68e07dce7"
+      },
+      {
         "version": "1.7.3.0",
         "targetAbi": null,
         "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.3.0.zip",
@@ -2126,6 +2134,14 @@
     "owner": "9p4",
     "versions": [
       {
+        "changelog": "More CI fixes\r\n\r\n## What's Changed\r\n* fix: consistently use OpenID instead of OID on the config page by @CFenner in https://github.com/9p4/jellyfin-plugin-sso/pull/193\r\n* Support DisableHttps/DoNotValidateIssuerName in SSOController.OidChallenge by @andreblanke in https://github.com/9p4/jellyfin-plugin-sso/pull/239\r\n* Allow to disable pushed authorization by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/244\r\n* Update oddstr13/jellyfin-plugin-repository-manager by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/247\r\n* Avatar via OIDC Provider by @Estyms in https://github.com/9p4/jellyfin-plugin-sso/pull/202\r\n* Allow port override by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/246\r\n* Fix artifact names by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/248\r\n* Prevent force updating username by @FeikoJoosten in https://github.com/9p4/jellyfin-plugin-sso/pull/251\r\n* remove deprecated redirect uri from readme by @hendrik1120 in https://github.com/9p4/jellyfin-plugin-sso/pull/280\r\n* Match the styling of the redirection page with Jellyfin colors and font by @kernelb00t in https://github.com/9p4/jellyfin-plugin-sso/pull/269\r\n* Use punycode URL for redirect page - OIDC by @babbitt in https://github.com/9p4/jellyfin-plugin-sso/pull/265\r\n\r\n## New Contributors\r\n* @CFenner made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/193\r\n* @andreblanke made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/239\r\n* @bdovaz made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/244\r\n* @Estyms made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/202\r\n* @FeikoJoosten made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/251\r\n* @kernelb00t made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/269\r\n* @babbitt made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/265\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.2.4...v4.0.0.3",
+        "checksum": "ea6673c5c9aeddcf01a38604046e7ffc",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v4.0.0.3/sso-authentication_4.0.0.3.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-10-21T14:39:25Z",
+        "version": "4.0.0.3"
+      },
+      {
         "changelog": "## What's Changed\r\n* Update version in SSO-Auth.csproj by @lf- in https://github.com/9p4/jellyfin-plugin-sso/pull/169\r\n* update authelia example to authelia v4.38 by @hendrik1120 in https://github.com/9p4/jellyfin-plugin-sso/pull/170\r\n* Update providers.md to include android app keycloak OIDC redirect URI by @tbelway in https://github.com/9p4/jellyfin-plugin-sso/pull/190\r\n* Update plugin to function with Jellyfin 10.9\r\n\r\n## New Contributors\r\n* @lf- made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/169\r\n* @hendrik1120 made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/170\r\n* @tbelway made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/190\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.2.3...v3.5.2.4",
         "checksum": "e325bcf4c60c5cae3e0cd4614faae07a",
         "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.2.4/sso-authentication_3.5.2.4.zip",
@@ -2207,7 +2223,7 @@
       },
       {
         "changelog": "Nightly build\n",
-        "checksum": "19ae51733234d33706331456a72208f7",
+        "checksum": "00236907a923161188050101703950e2",
         "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/nightly/sso-authentication_0.0.0.9000.zip",
         "targetAbi": "10.11.0.0",
         "timestamp": "2022-07-01T01:20:33Z",
@@ -2394,6 +2410,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Meilisearch.svg",
     "versions": [
+      {
+        "version": "1.11.1.5",
+        "changelog": "- [2b07d86] try hard coded\n- [117f7f8] fix code problems\n- [e65fb94] Enhance publish.yaml with .NET inputs\n- [56251a3] Support Jellyfin 10.11 (#46)\n- [964e84f] chore: Bump MeiliSearch from 0.17.0 to 0.17.1 (#58)\n- [e686e5f] ci(deps): bump ad-m/github-push-action from 0.8.0 to 1.0.0 (#57)\n- [96004e2] ci(deps): bump ncipollo/release-action from 1.19.1 to 1.20.0 (#55)\n- [6c523f0] ci(deps): bump actions/setup-dotnet from 4.3.1 to 5.0.0 (#54)\n- [0710117] ci(deps): Bump ncipollo/release-action from 1.18.0 to 1.19.1 (#53)\n- [5ece260] chore: Bump MeiliSearch from 0.16.0 to 0.17.0 (#49)\n- [e14c999] ci(deps): bump actions/download-artifact from 4.3.0 to 5.0.0 (#48)\n- [a617a3c] ci(deps): bump actions/checkout from 4.2.2 to 5.0.0 (#47)\n- [3aeb27e] add a LICENSE\n- [1f42852] refactor: improve status display and indexing logic refactor: remove unnecessary newline in MeilisearchMutateFilter\n- [d8a73e3] ci(deps): bump ncipollo/release-action from 1.16.0 to 1.18.0 (#44)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/arnesacnussem/jellyfin-plugin-meilisearch/releases/download/1.11.1.5/meilisearch_1.11.1.5.zip",
+        "checksum": "5c988649af17a76e1ae239d39b01da8f",
+        "timestamp": "2025-10-21T16:58:05Z"
+      },
       {
         "version": "1.11.1.4",
         "changelog": "- [f9657de] PlaylistFolder is Emby.Server.Implementations.Playlists.PlaylistsFolder\n- [50895b7] add all jellyfin types",
@@ -2986,6 +3010,14 @@
     "owner": "danieladov",
     "category": "General",
     "versions": [
+      {
+        "version": "10.11.0.1",
+        "changelog": "Update to 10.11.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-themesongs/releases/download/10.11.0.1/Jellyfin-Plugin-ThemeSongs.zip",
+        "checksum": "29e161420e119e1dbc6ad0a908c14196",
+        "timestamp": "2025-10-21T09:30:00"
+      },
       {
         "version": "10.10.0.1",
         "changelog": "Update to 10.10.0",
@@ -4158,6 +4190,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellysleep.png",
     "versions": [
       {
+        "version": "0.5.1.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.5.1)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.5.1/jellyfin-plugin-jellysleep-0.5.1.zip",
+        "checksum": "950c0cd96dc4d1191b394eda0c48c9c3",
+        "timestamp": "2025-10-21T17:12:13Z"
+      },
+      {
         "version": "0.5.0.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.5.0)\n",
         "targetAbi": "10.10.0.0",
@@ -4808,6 +4848,14 @@
     "owner": "lostb1t",
     "category": "General",
     "versions": [
+      {
+        "version": "0.45.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.45.0.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.45.0.0/collection-import-0.45.0.0.zip",
+        "checksum": "a6352e617a89863e05b3f6826269e86d",
+        "timestamp": "2025-10-21T13:00:20Z"
+      },
       {
         "version": "0.44.0.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.44.0.0)\n",
@@ -5608,6 +5656,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/InPlayerEpisodePreview.png",
     "versions": [
       {
+        "version": "1.4.1.0",
+        "changelog": "minimize info logs",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.4.1.0/InPlayerEpisodePreview_1.4.1.0.zip",
+        "checksum": "f884d2c10090f7f84aaab80e594b8a54",
+        "timestamp": "2025-10-21T18:02:32Z"
+      },
+      {
         "version": "1.4.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -5719,9 +5775,17 @@
     "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\n\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.\n\n\nhttps://github.com/nikarh/jellyfin-plugin-authelia",
     "overview": "Authenticate users via Authelia",
     "owner": "nikarh",
-    "category": "Authentication",
+    "category": "Administration",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Authelia Authentication.png",
     "versions": [
+      {
+        "version": "1.0.16.0",
+        "changelog": "### Changed\n- Updated for Jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.16/authelia-authentication_1.0.16.0.zip",
+        "checksum": "d834566c8218a53b401f21448ca01dff",
+        "timestamp": "2025-10-21T10:45:20Z"
+      },
       {
         "version": "1.0.15.0",
         "changelog": "### Changed\n- Updated for Jellyfin 10.9",
@@ -5773,7 +5837,7 @@
     ]
   },
   {
-    "category": "Notifications",
+    "category": "Administration",
     "guid": "fd76211d-17e0-4a72-a23f-c6eeb1e48b3a",
     "name": "Telegram Notifier",
     "owner": "RomainPierre7",
@@ -5781,6 +5845,14 @@
     "description": "Configure for each user where to send notifications, and what kind of notifications to send.\n\nhttps://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Telegram Notifier.png",
     "versions": [
+      {
+        "checksum": "e9d7ac35efdfdb369f5e0a25d2f53161",
+        "version": "12.0.0.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/RomainPierre7/jellyfin-plugin-TelegramNotifier/releases/download/12.0.0.0/TelegramNotifier.zip",
+        "timestamp": "2025-10-21T00:00:00Z",
+        "changelog": "### 🚀 New features: ###\n- Bump to Jellyfin 10.11"
+      },
       {
         "checksum": "f377abfd5d5349639ca68034431dd543",
         "version": "11.2.0.0",
@@ -7567,6 +7639,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Language Tags.png",
     "versions": [
       {
+        "version": "0.2.1.2",
+        "changelog": "- Bump version to 0.2.1.2\n- Fix changelog special character handling using environment variable\n- Remove outdated preview version entries from manifest files\n- Fix changelog formatting to handle special characters in workflow\n- Bump version to 0.2.1.1\n- Remove redundant step to get last release tag in release workflow\n- Bump version to 0.2.1.0\n- - Migrate from .NET 8.0 to .NET 9.0 - Replace deprecated GetItemList() with QueryItems() API - Update TaskTriggerInfo to use TaskTriggerInfoType.IntervalTrigger - Add null path handling for video files in Jellyfin 10.11.0 - Filter out virtual items from TV show queries - Refactor file path validation logic - Add preview release workflow support\"\n- Update build.yaml and manifest.json for release version 0.2.0.1\n- Update build.yaml and manifest.json for release version 0.2.0.1\n- Update build.yaml to target .NET 9.0 framework\n- Bump version to 0.2.0.1\n- Enhance release workflow: update version handling, target .NET 9.0, and improve changelog generation\n- - Replace deprecated GetItemList() with QueryItems() API - Update TaskTriggerInfo to use TaskTriggerInfoType.IntervalTrigger\n- - Update to target Jellyfin 10.11.0 - Migrate from .NET 8.0 to .NET 9.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.2.1.2/language-tags_0.2.1.2.zip",
+        "checksum": "a945d2219576cda512b25f9db9f42f85",
+        "timestamp": "2025-10-21T12:22:02Z"
+      },
+      {
         "version": "0.1.8.0",
         "changelog": "- Bump version to 0.1.8.0\n- Make sure to only add 3 letter language tags, even if the extracted tags for a subtitle file are 2 letter codes\n- Make sure external subtitles are scanned daily if subtitle extraction is enabled, see #13\n- Fixes language tag refresh for external subtitles due to invalid stripping of nonexistent prefixes, see #13\n- Make sure all tags for external subtitles are lower case. Fixes #12",
         "targetAbi": "10.10.0.0",
@@ -7632,6 +7712,22 @@
     "overview": "Metadata for your TubeArchivist library on Jellyfin",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TubeArchivistMetadata.png",
     "versions": [
+      {
+        "version": "1.4.1.0",
+        "changelog": "Introduce bidirectional playlists synchronization\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.1/tubearchivistmetadata_1.4.1.0.zip",
+        "checksum": "b5605077e1438f911e80df822e2f52f0",
+        "timestamp": "2025-10-21T21:54:11Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Align compatibility with Jellyfin 10.11.x\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.0/tubearchivistmetadata_1.4.0.0.zip",
+        "checksum": "7afb9abd4361ee991c1b3eae2a8d4cec",
+        "timestamp": "2025-10-21T21:34:51Z"
+      },
       {
         "version": "1.3.7.0",
         "changelog": "Fix JF->TA Sync\n",
@@ -7829,6 +7925,22 @@
     "owner": "Viperinius",
     "category": "Metadata",
     "versions": [
+      {
+        "version": "1.16.0.0",
+        "changelog": "# Changelog\n\n## [1.16.0.0] - 2025-10-21\n\n### Added\n\n- Support for Jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.16.0.0/spotify-import_1.16.0.0.zip",
+        "checksum": "d4e6926b5c09fe18fe300147c5021191",
+        "timestamp": "2025-10-21T17:51:52Z"
+      },
+      {
+        "version": "1.15.1.0",
+        "changelog": "# Changelog\n\n## [1.15.1.0] - 2025-10-21\n\n### Changed\n\n- Replace the default URL for Spotify TOTP",
+        "targetAbi": "10.10.3.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.15.1.0/spotify-import_1.15.1.0.zip",
+        "checksum": "8a9924300942a83c06a345f486ae62be",
+        "timestamp": "2025-10-21T17:31:31Z"
+      },
       {
         "version": "1.15.0.0",
         "changelog": "# Changelog\n\n## [1.15.0.0] - 2025-10-01\n\n### Added\n\n- Also ignore diacritics when using match level Ignore Punctuation + Case (or further relaxed levels)\n\n### Changed\n\n- Manual map interface now allows pasting in JSON (e.g. missing tracks file entries)\n- Manual map entries can now be specified either be the previous information or just using the Spotify track ID / URI, similar to how playlist URIs are handled when configuring the plugin",
@@ -8868,6 +8980,14 @@
     "category": "Subtitles",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
     "versions": [
+      {
+        "version": "22.0.0.0",
+        "changelog": "- Don't dispose the static rate limiter (#173) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/open-subtitles/open-subtitles_22.0.0.0.zip",
+        "checksum": "5834e50958974b22934452be93dafe8d",
+        "timestamp": "2025-10-22T00:19:50Z"
+      },
       {
         "version": "21.0.0.0",
         "changelog": "- Jellyfin 10.11 support (#166) @crobibero\n- Fix disposing in OpenSubtitlesRequestHelper (#162) @MBR-0001\n- Better logging (#152) @MBR-0001\n- Fix loading message and save button (#149) @chiragkrishna",
