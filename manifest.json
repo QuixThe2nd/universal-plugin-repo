@@ -13031,6 +13031,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.4.2.0",
+        "changelog": "⚡ Performance Improvements\r\n\r\n- The Genre section calculation has been drastically improved (I've seen my personal speeds drop from 8 seconds to 1 second for the calculation and 3 seconds to 250 ms for the results)\r\n- The Because you watched section has been drastically improved (I've seen my personal speeds drop from 4 seconds to 1 second for the calculation and 3 seconds to 300ms for the results)\r\n\r\n🪲 Bug Fixes\r\n\r\n- The Recently Added sections lost support for hiding watched content, this has now been fixed.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.2.0/Release-10.11.0.zip",
+        "checksum": "08A4B442A883DEFDA67E7E5ECB0DF46F",
+        "timestamp": "2025-10-23T14:52:59",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.1.0",
         "changelog": "✨ New Features\r\n\r\n- Music Video Sections: Added music video library support to Latest and Recently Added sections\r\n  - Closes #101\r\n- Added Home Screen Sections as an option on the main dashboard sidebar for quicker access to modifying the settings.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed crash that can occur with the Genre section\r\n  - Relates to #105\r\n- Fixed another crash that could occur relating to the users display preferences\r\n  - Relates to #105\r\n\r\n🚨 Breaking Change\r\n\r\n- Please be aware that due to a crash that was sometimes occurring when the home screen sections were being requested, support for the user's \"home\" settings from their profile has had to be temporarily removed. It is planned to bring this back but at this stage it is unknown when this will be.",
         "targetAbi": "10.11.0.0",
