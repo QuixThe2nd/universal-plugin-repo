@@ -5163,7 +5163,7 @@
       {
         "checksum": "926fdc5ccd18c8c5a19b66381abf5c71",
         "changelog": "Auto Released by Actions",
-        "targetAbi": "10.9.0.0",
+        "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.1022.2118.0/Jellyfin.MetaTube@v2025.1022.2118.0.zip",
         "timestamp": "2025-10-22T21:19:17Z",
         "version": "2025.1022.2118.0"
