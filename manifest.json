@@ -1320,6 +1320,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Editor's Choice.png",
     "versions": [
       {
+        "version": "1.4.0.0",
+        "changelog": "Compatible with Jellyfin 10.11.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.4.0/EditorsChoicePlugin.v1.4.0.zip",
+        "checksum": "4c897eebe1c439a0d7c2e052d277a7c8",
+        "timestamp": "2025-10-23 21:35:00"
+      },
+      {
         "version": "1.3.3.0",
         "changelog": "Updates compatability with FileTransformation. Fixes bug where un-rated items don't show despite minimum rating filter set to zero. Fixes bug loading on some TVs, adds option to hide slider on TV mode.",
         "targetAbi": "10.10.6.0",
@@ -5190,7 +5198,7 @@
       {
         "checksum": "926fdc5ccd18c8c5a19b66381abf5c71",
         "changelog": "Auto Released by Actions",
-        "targetAbi": "10.9.0.0",
+        "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.1022.2118.0/Jellyfin.MetaTube@v2025.1022.2118.0.zip",
         "timestamp": "2025-10-22T21:19:17Z",
         "version": "2025.1022.2118.0"
@@ -5719,6 +5727,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/InPlayerEpisodePreview.png",
     "versions": [
+      {
+        "version": "1.4.2.0",
+        "changelog": "",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.4.2.0/InPlayerEpisodePreview_1.4.2.0.zip",
+        "checksum": "1844e25ed62f5d692324c4f6d07d4793",
+        "timestamp": "2025-10-23T19:35:40Z"
+      },
       {
         "version": "1.4.1.0",
         "changelog": "minimize info logs",
@@ -7792,6 +7808,14 @@
     "overview": "Metadata for your TubeArchivist library on Jellyfin",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TubeArchivistMetadata.png",
     "versions": [
+      {
+        "version": "1.4.2.0",
+        "changelog": "Introduce episode numbering alternative schema\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.2/tubearchivistmetadata_1.4.2.0.zip",
+        "checksum": "8df142d2f1f0c0dffa302a567b40ef84",
+        "timestamp": "2025-10-23T20:27:32Z"
+      },
       {
         "version": "1.4.1.0",
         "changelog": "Introduce bidirectional playlists synchronization\n",
@@ -11260,6 +11284,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections (Experimental).png",
     "versions": [
       {
+        "version": "2.4.1.1",
+        "changelog": "Experimental builds do not have changelogs yet",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.1.1/Release-10.10.7.zip",
+        "checksum": "E6BEFDD12F61FE1A0F2E2E47BDC4CAA7",
+        "timestamp": "2025-10-22T23:20:22",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.0.1",
         "changelog": "Experimental builds do not have changelogs yet",
         "targetAbi": "10.10.7.0",
@@ -11765,6 +11800,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.2.0",
+        "changelog": "⚡ Performance Improvements\r\n\r\n- The Genre section calculation has been drastically improved (I've seen my personal speeds drop from 8 seconds to 1 second for the calculation and 3 seconds to 250 ms for the results)\r\n- The Because you watched section has been drastically improved (I've seen my personal speeds drop from 4 seconds to 1 second for the calculation and 3 seconds to 300ms for the results)\r\n\r\n🪲 Bug Fixes\r\n\r\n- The Recently Added sections lost support for hiding watched content, this has now been fixed.",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.2.0/Release-10.10.7.zip",
+        "checksum": "5CF4F6BB8CF021F2D892403725825F34",
+        "timestamp": "2025-10-23T14:52:59",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.1.0",
         "changelog": "✨ New Features\r\n\r\n- Music Video Sections: Added music video library support to Latest and Recently Added sections\r\n  - Closes #101\r\n- Added Home Screen Sections as an option on the main dashboard sidebar for quicker access to modifying the settings.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed crash that can occur with the Genre section\r\n  - Relates to #105\r\n- Fixed another crash that could occur relating to the users display preferences\r\n  - Relates to #105\r\n\r\n🚨 Breaking Change\r\n\r\n- Please be aware that due to a crash that was sometimes occurring when the home screen sections were being requested, support for the user's \"home\" settings from their profile has had to be temporarily removed. It is planned to bring this back but at this stage it is unknown when this will be.",
