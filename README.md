@@ -34,4 +34,4 @@ There is minimal risk from having even a known bad repository installed, as this
 Make sure you only install plugins you recognise.
 
 # Contribution
-If you find one that isn't included please take a few minutes to add it to sources.txt and create a pull request.
+If you find a plugin that isn't included please take a few minutes to add it to sources.txt and create a pull request.
