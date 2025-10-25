@@ -13079,6 +13079,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.4.3.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- The Watch Again section wasn't working properly, this has now been fixed\r\n\r\n⚡ Performance Improvements\r\n\r\n- The Watch Again section has also had some TLC to its performance. Its still not perfect but has improved on my instance from 15 seconds to 6 seconds.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.3.0/Release-10.11.0.zip",
+        "checksum": "A0F3529F6D821211E45142EA0539F23E",
+        "timestamp": "2025-10-25T13:42:28",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.2.0",
         "changelog": "⚡ Performance Improvements\r\n\r\n- The Genre section calculation has been drastically improved (I've seen my personal speeds drop from 8 seconds to 1 second for the calculation and 3 seconds to 250 ms for the results)\r\n- The Because you watched section has been drastically improved (I've seen my personal speeds drop from 4 seconds to 1 second for the calculation and 3 seconds to 300ms for the results)\r\n\r\n🪲 Bug Fixes\r\n\r\n- The Recently Added sections lost support for hiding watched content, this has now been fixed.",
         "targetAbi": "10.11.0.0",
