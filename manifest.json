@@ -6093,13 +6093,22 @@
     ]
   },
   {
-    "category": "Metadata",
     "guid": "ed04e975-f906-4b58-a250-705550810623",
-    "name": "myanimelist",
-    "description": "myanimelist metadata provider\n\nhttps://github.com/ryandash/jellyfin-plugin-myanimelist",
+    "name": "MyAnimeList",
+    "description": "MyAnimeList metadata provider\n\nhttps://github.com/ryandash/jellyfin-plugin-myanimelist",
+    "overview": "MyAnimeList metadata provider",
     "owner": "Ryan Dash",
-    "overview": "myanimelist metadata provider",
+    "category": "Anime",
+    "imageUrl": "",
     "versions": [
+      {
+        "version": "6.3.7",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.7",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.7/myanimelist_6.3.7.zip",
+        "checksum": "de67ee50ec0952b407e3ff9d0917768b",
+        "timestamp": "2025-10-25T16:00:30Z"
+      },
       {
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.6",
         "checksum": "3ba704b705178b6da29a712c412ddd4b",
@@ -10782,6 +10791,14 @@
     "category": "General",
     "imageUrl": "",
     "versions": [
+      {
+        "version": "10.0.0.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/dlna/dlna_10.0.0.0.zip",
+        "checksum": "c96dbf59c9daf5af1ccc09bea68eca2c",
+        "timestamp": "2025-10-25T15:29:13Z"
+      },
       {
         "version": "9.0.0.0",
         "changelog": "- 10.11 support (#163) @crobibero\n- add emby-button class to the help button (#155) @Krafting\n- fix resolution for ts (#146) @tomty89\n- Fix typo in client discovery interval help text (#149) @AnAnalogGuy\n- Strip URL parameters (#137) @Vebryn",
