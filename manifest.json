@@ -13096,6 +13096,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.4.4.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- There was an issue that could occur with the genre section which would result in an index out of range exception and no sections would appear on the server as reported in https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/116. This has hopefully now been fixed.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.4.0/Release-10.11.0.zip",
+        "checksum": "A658D30CB64337C446080053F6C02BF2",
+        "timestamp": "2025-10-25T17:18:18",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.3.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- The Watch Again section wasn't working properly, this has now been fixed\r\n\r\n⚡ Performance Improvements\r\n\r\n- The Watch Again section has also had some TLC to its performance. Its still not perfect but has improved on my instance from 15 seconds to 6 seconds.",
         "targetAbi": "10.11.0.0",
