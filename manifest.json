@@ -1541,6 +1541,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
     "versions": [
       {
+        "version": "1.10.11.7",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.7)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.7/intro-skipper-v1.10.11.7.zip",
+        "checksum": "a96f17dddc3d5a2d50f3b4e65ca6a113",
+        "timestamp": "2025-10-24T18:55:22Z"
+      },
+      {
         "version": "1.10.11.6",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.6)\n",
         "targetAbi": "10.11.0.0",
@@ -3446,6 +3454,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playlist Generator.png",
     "versions": [
+      {
+        "version": "1.4.1.0",
+        "changelog": "Added Jellyfin 10.11.0 compatability",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Eeeeelias/playlist-generator/releases/download/v1.4.1.0/v1.4.1.0-release.zip",
+        "checksum": "c315035ece2c18b511f7372563002501",
+        "timestamp": "2025-10-24T15:47:12Z"
+      },
       {
         "version": "1.4.0.0",
         "changelog": "Added ability to select libraries",
