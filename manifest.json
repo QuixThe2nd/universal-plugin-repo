@@ -9187,6 +9187,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
     "versions": [
       {
+        "version": "23.0.0.0",
+        "changelog": "- 5 requests per second, not 5 requests per 5 second (#175) @crobibero\n- Add bad subtitle handling (#165) @MBR-0001",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/open-subtitles/open-subtitles_23.0.0.0.zip",
+        "checksum": "6b9907bc34394545250a04669b3fc98b",
+        "timestamp": "2025-10-26T17:50:03Z"
+      },
+      {
         "version": "22.0.0.0",
         "changelog": "- Don't dispose the static rate limiter (#173) @crobibero",
         "targetAbi": "10.11.0.0",
