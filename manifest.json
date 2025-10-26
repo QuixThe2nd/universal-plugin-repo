@@ -1605,6 +1605,14 @@
     "category": "music",
     "versions": [
       {
+        "version": "10.0.0.0",
+        "changelog": "Jellyfin LastFM build v10.0.0.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jesseward/jellyfin-plugin-lastfm/releases/download/10.0.0.0/lastfm_10.0.0.0.zip",
+        "checksum": "32277a418e7cddad5c66865418091438",
+        "timestamp": "2025-10-25T20:03:04Z"
+      },
+      {
         "version": "9.0.0.0",
         "changelog": "Jellyfin LastFM build v9.0.0.0",
         "targetAbi": "10.10.0.0",
@@ -2572,6 +2580,14 @@
     "overview": "Enable Jellyfin's Cinema Mode",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cinema Mode.jpg",
     "versions": [
+      {
+        "checksum": "9dd5610f5216745d9b57c2abae13441b",
+        "changelog": "- Target Jellyfin 10.11 ABI and fix broken API.\n- Update \"More Like This\" trailer selection.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.6.0.0/cinemamode_0.6.0.0.zip",
+        "timestamp": "2025-10-25T00:04:04.332083",
+        "version": "0.6.0.0"
+      },
       {
         "checksum": "4df3efb4098438472ff1373f78ace427",
         "changelog": "- New exclude out of season tags for pre-rolls logic that supports multiple out of season tags.\\n - Fix trailer rating enforcement to ignore \"Unrated\" and blank ratings.\\n - Target Jellyfin 10.10 ABI.\\n\n",
@@ -4411,6 +4427,70 @@
     "category": "General",
     "versions": [
       {
+        "version": "0.0.3.25",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.25)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.25/auto-collections-0.0.3.25.zip",
+        "checksum": "8611bae88157af3622c4252de62fea01",
+        "timestamp": "2025-10-24T22:26:18Z"
+      },
+      {
+        "version": "0.0.3.24",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.24)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.24/auto-collections-0.0.3.24.zip",
+        "checksum": "db7b32db768f13297a03a68dca82eaac",
+        "timestamp": "2025-10-24T22:14:31Z"
+      },
+      {
+        "version": "0.0.3.23",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.23)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.23/auto-collections-0.0.3.23.zip",
+        "checksum": "20f9148e42419df5100b3bc69617d0ce",
+        "timestamp": "2025-10-24T21:57:48Z"
+      },
+      {
+        "version": "0.0.3.22",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.22)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.22/auto-collections-0.0.3.22.zip",
+        "checksum": "44343e3c7ab85edc9ccb10c32d6e732b",
+        "timestamp": "2025-10-24T21:49:01Z"
+      },
+      {
+        "version": "0.0.3.21",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.21)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.21/auto-collections-0.0.3.21.zip",
+        "checksum": "65d55462acc299f2df73b6b3d53a5aab",
+        "timestamp": "2025-10-24T21:25:27Z"
+      },
+      {
+        "version": "0.0.3.2",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.2)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.2/auto-collections-0.0.3.2.zip",
+        "checksum": "6e7c2b3d610fe5c0ec68b8acac6d60e9",
+        "timestamp": "2025-10-23T05:58:04Z"
+      },
+      {
+        "version": "0.0.3.1",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.1)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.1/auto-collections-0.0.3.1.zip",
+        "checksum": "6e6d9042de08f8c344ef6b2e84894985",
+        "timestamp": "2025-10-21T19:39:43Z"
+      },
+      {
+        "version": "0.0.3.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.3.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/download/0.0.3.0/auto-collections-0.0.3.0.zip",
+        "checksum": "491365e45f7eb8f243597b31eea339e3",
+        "timestamp": "2025-10-21T19:17:25Z"
+      },
+      {
         "version": "0.0.2.67",
         "changelog": "- See the full changelog at [GitHub](https://github.com/KeksBombe/jellyfin-plugin-auto-collections/releases/tag/0.0.2.67)\n",
         "targetAbi": "10.9.9.0",
@@ -5176,6 +5256,22 @@
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaTube.png",
     "versions": [
+      {
+        "checksum": "e73b0c9a2a1f9703370488b99db2f2f0",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.1025.2000.0/Jellyfin.MetaTube@v2025.1025.2000.0.zip",
+        "timestamp": "2025-10-25T20:01:12Z",
+        "version": "2025.1025.2000.0"
+      },
+      {
+        "checksum": "34160774efe937116a5eba92132875c3",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.1025.400.0/Jellyfin.MetaTube@v2025.1025.400.0.zip",
+        "timestamp": "2025-10-25T04:01:07Z",
+        "version": "2025.1025.400.0"
+      },
       {
         "checksum": "926fdc5ccd18c8c5a19b66381abf5c71",
         "changelog": "Auto Released by Actions",
@@ -6077,13 +6173,22 @@
     ]
   },
   {
-    "category": "Metadata",
     "guid": "ed04e975-f906-4b58-a250-705550810623",
-    "name": "myanimelist",
-    "description": "myanimelist metadata provider\n\nhttps://github.com/ryandash/jellyfin-plugin-myanimelist",
+    "name": "MyAnimeList",
+    "description": "MyAnimeList metadata provider\n\nhttps://github.com/ryandash/jellyfin-plugin-myanimelist",
+    "overview": "MyAnimeList metadata provider",
     "owner": "Ryan Dash",
-    "overview": "myanimelist metadata provider",
+    "category": "Anime",
+    "imageUrl": "",
     "versions": [
+      {
+        "version": "6.3.7",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.7",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.7/myanimelist_6.3.7.zip",
+        "checksum": "de67ee50ec0952b407e3ff9d0917768b",
+        "timestamp": "2025-10-25T16:00:30Z"
+      },
       {
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.6",
         "checksum": "3ba704b705178b6da29a712c412ddd4b",
@@ -10767,6 +10872,14 @@
     "imageUrl": "",
     "versions": [
       {
+        "version": "10.0.0.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/dlna/dlna_10.0.0.0.zip",
+        "checksum": "c96dbf59c9daf5af1ccc09bea68eca2c",
+        "timestamp": "2025-10-25T15:29:13Z"
+      },
+      {
         "version": "9.0.0.0",
         "changelog": "- 10.11 support (#163) @crobibero\n- add emby-button class to the help button (#155) @Krafting\n- fix resolution for ts (#146) @tomty89\n- Fix typo in client discovery interval help text (#149) @AnAnalogGuy\n- Strip URL parameters (#137) @Vebryn",
         "targetAbi": "10.11.0.0",
@@ -11649,6 +11762,28 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.4.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- There was an issue that could occur with the genre section which would result in an index out of range exception and no sections would appear on the server as reported in https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/116. This has hopefully now been fixed.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.4.0/Release-10.11.0.zip",
+        "checksum": "A658D30CB64337C446080053F6C02BF2",
+        "timestamp": "2025-10-25T17:18:18",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
+        "version": "2.4.3.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- The Watch Again section wasn't working properly, this has now been fixed\r\n\r\n⚡ Performance Improvements\r\n\r\n- The Watch Again section has also had some TLC to its performance. Its still not perfect but has improved on my instance from 15 seconds to 6 seconds.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.3.0/Release-10.11.0.zip",
+        "checksum": "A0F3529F6D821211E45142EA0539F23E",
+        "timestamp": "2025-10-25T13:42:28",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.2.0",
         "changelog": "⚡ Performance Improvements\r\n\r\n- The Genre section calculation has been drastically improved (I've seen my personal speeds drop from 8 seconds to 1 second for the calculation and 3 seconds to 250 ms for the results)\r\n- The Because you watched section has been drastically improved (I've seen my personal speeds drop from 4 seconds to 1 second for the calculation and 3 seconds to 300ms for the results)\r\n\r\n🪲 Bug Fixes\r\n\r\n- The Recently Added sections lost support for hiding watched content, this has now been fixed.",
