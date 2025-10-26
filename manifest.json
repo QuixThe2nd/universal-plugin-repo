@@ -1141,6 +1141,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.2.0.0",
+        "changelog": "支持jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.0/metashark_2.2.0.0.zip",
+        "checksum": "bc76c01f53292a09f96710257a86f5e7",
+        "timestamp": "2025-10-26T08:37:11"
+      },
+      {
         "version": "2.1.4.0",
         "changelog": "修正刮削虚拟剧集导致的异常",
         "targetAbi": "10.9.0.0",
