@@ -12507,7 +12507,7 @@
     "overview": "Fetch images and metadata from Apple Music.",
     "owner": "lyarenei",
     "category": "Metadata",
-    "imageUrl": "https://repo.xkrivo.net/jellyfin/apple-music/image.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Apple Music.png",
     "image": "image.png",
     "versions": [
       {
