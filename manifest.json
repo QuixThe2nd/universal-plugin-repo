@@ -1141,6 +1141,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.2.0.0",
+        "changelog": "支持jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.0/metashark_2.2.0.0.zip",
+        "checksum": "bc76c01f53292a09f96710257a86f5e7",
+        "timestamp": "2025-10-26T08:37:11"
+      },
+      {
         "version": "2.1.4.0",
         "changelog": "修正刮削虚拟剧集导致的异常",
         "targetAbi": "10.9.0.0",
@@ -5332,6 +5340,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
+        "changelog": "- Add placeholder and info for splash screen URL\n - Fix subtitle styling for Jellyfin 10.11\n - Watchlist from KefinTweaks\n - Add long press for 2x speed playback feature\n - Migrate Settings to Server!\n - Add option to link Jellyseerr site to Jellyseerr results\n - Add 'reviews expanded by default' setting\n\n - Please add the manifest for 10.11 if you are on 10.11. https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json",
+        "targetAbi": "10.10.7.0",
+        "version": "9.0.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.0.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.10.7.zip",
+        "checksum": "141830ADE5F418057BACBFC393AD0802",
+        "timestamp": "2025-10-26T05:40:18"
+      },
+      {
         "changelog": "- Refactor file size and audio language display logic (again!)\n - Refactor reviews.js\n - Restrict genre tag processing to Movie and Series cards\n - Fix HDR10+ regex to match 'hdr10plus' format\n - Show dash placeholder when no audio languages",
         "targetAbi": "10.10.7.0",
         "version": "8.1.0.0",
@@ -5805,8 +5821,16 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/InPlayerEpisodePreview.png",
     "versions": [
       {
+        "version": "1.4.3.0",
+        "changelog": "- Starting a new episode will only start the stream on the current device\n - Playtime should now show correct values for all episodes",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.4.3.0/InPlayerEpisodePreview_1.4.3.0.zip",
+        "checksum": "478bc6a21477089b56ba2d9a2eaf63ed",
+        "timestamp": "2025-10-26T18:18:47Z"
+      },
+      {
         "version": "1.4.2.0",
-        "changelog": "",
+        "changelog": "load all episodes correctly",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.4.2.0/InPlayerEpisodePreview_1.4.2.0.zip",
         "checksum": "1844e25ed62f5d692324c4f6d07d4793",
@@ -9170,6 +9194,14 @@
     "category": "Subtitles",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
     "versions": [
+      {
+        "version": "23.0.0.0",
+        "changelog": "- 5 requests per second, not 5 requests per 5 second (#175) @crobibero\n- Add bad subtitle handling (#165) @MBR-0001",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/open-subtitles/open-subtitles_23.0.0.0.zip",
+        "checksum": "6b9907bc34394545250a04669b3fc98b",
+        "timestamp": "2025-10-26T17:50:03Z"
+      },
       {
         "version": "22.0.0.0",
         "changelog": "- Don't dispose the static rate limiter (#173) @crobibero",
