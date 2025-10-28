@@ -1141,6 +1141,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.2.1.0",
+        "changelog": "修复演员链接错误",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.1/metashark_2.2.1.0.zip",
+        "checksum": "898c019132e0dfd5afb31857d70182dc",
+        "timestamp": "2025-10-27T12:30:49"
+      },
+      {
         "version": "2.2.0.0",
         "changelog": "支持jellyfin 10.11",
         "targetAbi": "10.11.0.0",
@@ -1881,6 +1889,14 @@
     "owner": "jellyfin",
     "versions": [
       {
+        "changelog": "## What's Changed\r\n* Bump jellyfin version to 10.11.x by @NooNameR in https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/pull/69\r\n\r\n\r\n**Full Changelog**: https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/compare/0.1.1.11...0.2.0.0",
+        "checksum": "4f5a135f7844dc83335e6876a7a8efc4",
+        "sourceUrl": "https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/releases/download/0.2.0.0/local-posters_0.2.0.0.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-10-27T10:11:31Z",
+        "version": "0.2.0.0"
+      },
+      {
         "changelog": "## What's Changed\r\n* ci(deps): bump shogo82148/actions-upload-release-asset from 1.8.0 to 1.8.1 by @dependabot[bot] in https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/pull/44\r\n* chore: Bump Microsoft.NET.Test.Sdk from 17.13.0 to 18.0.0 by @dependabot[bot] in https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/pull/62\r\n* chore: Bump Google.Apis.Drive.v3 from 1.69.0.3783 to 1.71.0.3905 by @dependabot[bot] in https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/pull/58\r\n* ci(deps): bump actions/download-artifact from 4 to 5 by @dependabot[bot] in https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/pull/60\r\n* ci(deps): bump shogo82148/actions-upload-release-asset from 1.8.1 to 1.9.1 by @dependabot[bot] in https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/pull/61\r\n\r\n\r\n**Full Changelog**: https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/compare/0.1.1.10...0.1.1.11",
         "checksum": "82691e03a6fd5292750fa4a87d8b42b6",
         "sourceUrl": "https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/releases/download/0.1.1.11/local-posters_0.1.1.11.zip",
@@ -2110,14 +2126,6 @@
         "sourceUrl": "https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/releases/download/0.0.7.2/local-posters_0.0.7.1.zip",
         "targetAbi": "10.10.0.0",
         "timestamp": "2025-02-17T21:12:03Z",
-        "version": "0.0.7.1"
-      },
-      {
-        "changelog": "**Full Changelog**: https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/compare/0.0.7.0...0.0.7.1",
-        "checksum": "9ef002811db50d498bb58950baf03205",
-        "sourceUrl": "https://github.com/NooNameR/Jellyfin.Plugin.LocalPosters/releases/download/0.0.7.1/local-posters_0.0.7.1.zip",
-        "targetAbi": "10.10.0.0",
-        "timestamp": "2025-02-17T19:48:27Z",
         "version": "0.0.7.1"
       }
     ]
@@ -11476,6 +11484,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.2.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.1.0/Release-10.11.0.zip",
+        "checksum": "6070441B829898F9308CB928D5FE32AC",
+        "timestamp": "2025-10-27T23:56:51",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -11531,6 +11550,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
       {
+        "version": "2.3.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.1.0/Release-10.11.0.zip",
+        "checksum": "70A1A9B307DE9FB26EC8F50D4A42161C",
+        "timestamp": "2025-10-27T22:57:37",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -11585,6 +11615,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
+      {
+        "version": "2.4.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.4.1.0/Release-10.11.0.zip",
+        "checksum": "BA819BD797789BEEEA42CBADBEE00699",
+        "timestamp": "2025-10-27T22:56:08",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.0.0",
         "changelog": "✨ 10.11.0 Release Update",
@@ -11674,6 +11715,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.4.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.1.0/Release-10.11.0.zip",
+        "checksum": "372424D7244A526FA7CA162E7FDE6EBD",
+        "timestamp": "2025-10-27T22:57:38",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -11740,6 +11792,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.4.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.1.0/Release-10.11.0.zip",
+        "checksum": "226ED1EBDE12152338B9F2316E282681",
+        "timestamp": "2025-10-27T22:57:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -11794,6 +11857,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.5.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.5.0/Release-10.11.0.zip",
+        "checksum": "242B2E26E4BA88604BD2C5325B20D317",
+        "timestamp": "2025-10-27T22:57:37",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.4.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- There was an issue that could occur with the genre section which would result in an index out of range exception and no sections would appear on the server as reported in https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/116. This has hopefully now been fixed.",
