@@ -12897,6 +12897,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.2.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.1.0/Release-10.11.0.zip",
+        "checksum": "6070441B829898F9308CB928D5FE32AC",
+        "timestamp": "2025-10-27T23:56:51",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -12952,6 +12963,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
       {
+        "version": "2.3.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.1.0/Release-10.11.0.zip",
+        "checksum": "70A1A9B307DE9FB26EC8F50D4A42161C",
+        "timestamp": "2025-10-27T22:57:37",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -13006,6 +13028,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
+      {
+        "version": "2.4.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.4.1.0/Release-10.11.0.zip",
+        "checksum": "BA819BD797789BEEEA42CBADBEE00699",
+        "timestamp": "2025-10-27T22:56:08",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.0.0",
         "changelog": "✨ 10.11.0 Release Update",
@@ -13095,6 +13128,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.4.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.1.0/Release-10.11.0.zip",
+        "checksum": "372424D7244A526FA7CA162E7FDE6EBD",
+        "timestamp": "2025-10-27T22:57:38",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -13161,6 +13205,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.4.1.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.1.0/Release-10.11.0.zip",
+        "checksum": "226ED1EBDE12152338B9F2316E282681",
+        "timestamp": "2025-10-27T22:57:39",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.0.0",
         "changelog": "✨ 10.11.0 Release Update",
         "targetAbi": "10.11.0.0",
@@ -13215,6 +13270,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.5.0",
+        "changelog": "🆕 Updated to support 10.11.1",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.5.0/Release-10.11.0.zip",
+        "checksum": "242B2E26E4BA88604BD2C5325B20D317",
+        "timestamp": "2025-10-27T22:57:37",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.4.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- There was an issue that could occur with the genre section which would result in an index out of range exception and no sections would appear on the server as reported in https://github.com/IAmParadox27/jellyfin-plugin-home-sections/issues/116. This has hopefully now been fixed.",
