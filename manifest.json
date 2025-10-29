@@ -930,6 +930,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.3.0.0",
+        "changelog": "支持Jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.3.0/danmu_2.3.0.0.zip",
+        "checksum": "45680ff4a48b6fa37702bde5ba20e28a",
+        "timestamp": "2025-10-29T14:06:24"
+      },
+      {
         "version": "2.2.0.0",
         "changelog": "修复iqiyi，废弃弹弹play",
         "targetAbi": "10.9.0.0",
