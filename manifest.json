@@ -13322,6 +13322,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.4.8.0",
+        "changelog": "✨ New Features\r\n\r\n- Added new \"My Requests\" section, building off the work done for the \"Discover\" sections, a new section is born, each user gets a row of movies/tv shows they have requested\r\n\r\n⚡ Performance Improvements\r\n\r\n- Minor optimisations to recently added sections\r\n- Some of the code that handles sections has been refactored paving the way to allow the return of the heavily requested \"Recently Added in {library}\" sections, the default behaviour of Jellyfin.\r\n    - Note this isn't added in this release, but soon it will be added.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue where Recently Added sections can duplicate content",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.8.0/Release-10.11.0.zip",
+        "checksum": "71CE769FB7355176891145B19DE65416",
+        "timestamp": "2025-10-30T22:35:44",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.7.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where RecentlyAddedShows section might fail when getting its results.",
         "targetAbi": "10.11.0.0",
