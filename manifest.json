@@ -9160,6 +9160,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NextPVR.png",
     "versions": [
       {
+        "version": "13.0.0.0",
+        "changelog": "- UTC fixes (#70) @emveepee\n- Use 7.0.3 deferred art (#71) @emveepee",
+        "targetAbi": "10.11.1.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/nextpvr/nextpvr_13.0.0.0.zip",
+        "checksum": "e6914b4fdbc76a44df96425ff5558ef8",
+        "timestamp": "2025-10-31T04:00:29Z"
+      },
+      {
         "version": "12.0.0.0",
         "changelog": "- Jellyfin 10.11 support (#65) @crobibero\n- Fix unhandled TaskCancelledException for HTTPClient (#61) @prahal",
         "targetAbi": "10.11.0.0",
