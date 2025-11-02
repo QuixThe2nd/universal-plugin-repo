@@ -5289,6 +5289,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaTube.png",
     "versions": [
       {
+        "checksum": "3ca56b00fa6e52106a0db7848ec0f20c",
+        "changelog": "Auto Released by Actions",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/metatube-community/jellyfin-plugin-metatube/releases/download/v2025.1102.2200.0/Jellyfin.MetaTube@v2025.1102.2200.0.zip",
+        "timestamp": "2025-11-02T22:00:34Z",
+        "version": "2025.1102.2200.0"
+      },
+      {
         "checksum": "e73b0c9a2a1f9703370488b99db2f2f0",
         "changelog": "Auto Released by Actions",
         "targetAbi": "10.11.0.0",
