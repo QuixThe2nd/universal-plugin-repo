@@ -9,14 +9,14 @@ const imageBaseUrl = 'https://raw.githubusercontent.com/0belous/universal-plugin
 async function getSources(){
     let sources = [];
     try {
-        const fileContent = await fs.readFile('sources.txt', 'utf8'); 
-        sources = fileContent.split(/\r?\n/).filter(line => line.trim() !== ''); 
+        const fileContent = await fs.readFile('sources.txt', 'utf8');
+        sources = fileContent.split(/\r?\n/).filter(line => line.trim() !== '' && !line.trim().startsWith('#'));
     } catch (err) {
         console.error("Error reading sources.txt:", err);
-        return []; 
+        return [];
     }
 
-    let mergedData = []; 
+    let mergedData = [];
 
     for(const url of sources){
         try {
@@ -37,7 +37,7 @@ async function getSources(){
         }
     }
 
-    return mergedData; 
+    return mergedData;
 }
 
 async function clearImagesFolder() {
