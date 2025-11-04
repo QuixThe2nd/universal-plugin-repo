@@ -4059,6 +4059,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
+        "changelog": "- Add endpoint for Jellyseerr partial requests setting",
+        "targetAbi": "10.10.7.0",
+        "version": "9.3.1.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.3.1.0/Jellyfin.Plugin.JellyfinEnhanced_10.10.7.zip",
+        "checksum": "2D682EC1BB7AA20D3194C2B0FF95082A",
+        "timestamp": "2025-11-03T16:28:23"
+      },
+      {
         "changelog": "- 🐛[BUG] Unable to open user menu on WebOS Fixes [#148](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/148)\n - Prevent reviews from running on items without TMDB ID\n - Enable dynamic re-initialization for tag features\n - Improve audio language layout styling (especially on mobile)\n - Add default user settings initialization\n - Improve logging and write logs to JellyfinEnhanced Log file\n - Add manual refresh button to Jellyseerr results\n - Reset all user settings using config directories\n - Add support for Jellyseerr's partial TV season requests setting\n - Fix config check for provider icons on Jellyseerr cards",
         "targetAbi": "10.10.7.0",
         "version": "9.3.0.0",
@@ -7281,6 +7289,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LDAP Authentication.png",
     "versions": [
       {
+        "version": "22.0.0.0",
+        "changelog": "- Fix 10.11.2 support (#195) @crobibero",
+        "targetAbi": "10.11.2.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/ldap-authentication/ldap-authentication_22.0.0.0.zip",
+        "checksum": "2ee66432cb59540b537bdad3a1162e99",
+        "timestamp": "2025-11-03T02:58:12Z"
+      },
+      {
         "version": "21.0.0.0",
         "changelog": "- Jellyfin 10.11 support (#182) @crobibero\n- Improve binary/uri ProfileImage handling (#183) @dshoreman\n- Fixed ProfileImage ServiceTask and Format Sync (#177) @CEbbinghaus",
         "targetAbi": "10.11.0.0",
@@ -9787,6 +9803,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.2.2.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.2.0/Release-10.11.0.zip",
+        "checksum": "347EF40D4AFCA7681C2D67802FFD93FA",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.1.0",
         "changelog": "🆕 Updated to support 10.11.1",
         "targetAbi": "10.11.0.0",
@@ -9853,6 +9880,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
       {
+        "version": "2.3.2.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.2.0/Release-10.11.0.zip",
+        "checksum": "DBFC88F786D1C69E026BD9D185FBC8D6",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.1.0",
         "changelog": "🆕 Updated to support 10.11.1",
         "targetAbi": "10.11.0.0",
@@ -9918,6 +9956,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
+      {
+        "version": "2.4.2.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.4.2.0/Release-10.11.0.zip",
+        "checksum": "E1451A2279C88D5CBC83BE3D22633284",
+        "timestamp": "2025-11-03T22:24:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.1.0",
         "changelog": "🆕 Updated to support 10.11.1",
@@ -10018,6 +10067,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.4.2.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2\r\n- Updated branch with upstream",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.2.0/Release-10.11.0.zip",
+        "checksum": "22911CDB2C9F61AEF94EC31A83143033",
+        "timestamp": "2025-11-03T22:34:47",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.1.0",
         "changelog": "🆕 Updated to support 10.11.1",
         "targetAbi": "10.11.0.0",
@@ -10095,6 +10155,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.4.2.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.2.0/Release-10.11.0.zip",
+        "checksum": "72EFF93B1AE17509C27B019830E68F6E",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.1.0",
         "changelog": "🆕 Updated to support 10.11.1",
         "targetAbi": "10.11.0.0",
@@ -10160,6 +10231,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.10.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue where Recently Added Shows would be ordered wrong on 10.10.7 due to missing item field not being requested.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.10.0/Release-10.11.0.zip",
+        "checksum": "AD4AB991096BF7AD95C325E3A37D80C7",
+        "timestamp": "2025-11-03T22:24:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.9.0",
         "changelog": "✨ New Features\r\n\r\n- When failing to retrieve the home screen sections, instead of completely erroring, we now fallback to the default jellyfin behaviour. This should help with some issues during the install process.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed #128 where a crash was occurring when getting the Because You Watched sections\r\n- Added logging to help diagnose the problems occurring in #125 (recently added shows appearing in the wrong order)",
