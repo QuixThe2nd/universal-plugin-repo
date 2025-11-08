@@ -12661,7 +12661,7 @@
     ]
   },
   {
-    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+    "guid": "a9f62a44-fea5-46c3-ac26-55abba29c7c8",
     "name": "Apple Music",
     "description": "Apple Music artist and album images and metadata provider.\n",
     "overview": "Fetch images and metadata from Apple Music.",
