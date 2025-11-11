@@ -13447,6 +13447,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.4.3.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue that meant the shortened URL support would never get used",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.3.0/Release-10.11.0.zip",
+        "checksum": "B6B55CDC2DE8EB37351F990CE570CED0",
+        "timestamp": "2025-11-11T22:05:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.2.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
         "targetAbi": "10.11.0.0",
@@ -13523,6 +13534,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.11.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where MyRequests section could crash if results from Jellyseerr weren't found (#131)\r\n- Fixed issue where users would potentially be shown items they don't have access to (#136)\r\n- Fixed potential issue that could occur with upcoming posters if the user is hosting jellyfin in a subpath of their domain (#139 comment)\r\n- Fixed potential crash that could occur in discover section (#141)\r\n- Changed the ordering of sections to make use of css `flex-order` instead of relying on render order, makes the plugin more closer compatible with other plugins like KefinTweaks (#143)\r\n- Fixed issue where the Modular Home settings weren't accessible after the first visit in a session\r\n- Fixed issue where settings in the Modular Home screen wouldn't properly reflect the admin's configuration\r\n- Made the non-overridable checkboxes disabled to better convey to the user what their home screen should look like",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.11.0/Release-10.11.0.zip",
+        "checksum": "4B4F25E6823A240EEF7AFB268EEF59CD",
+        "timestamp": "2025-11-11T22:30:40",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.10.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue where Recently Added Shows would be ordered wrong on 10.10.7 due to missing item field not being requested.",
