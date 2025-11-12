@@ -1735,13 +1735,19 @@
     ]
   },
   {
-    "category": "Metadata",
-    "description": "bgm.tv metadata provider for Jellyfin\n\nhttps://github.com/kookxiang/jellyfin-plugin-bangumi",
-    "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
-    "name": "Bangumi",
-    "overview": "Jellyfin bgm.tv 数据源插件，用于拉取中文番剧信息及图片。",
     "owner": "kookxiang",
+    "name": "Bangumi",
+    "guid": "41b59f1b-a6cf-474a-b416-785379cbd856",
     "versions": [
+      {
+        "version": "1.7.5.0",
+        "targetAbi": "10.11.0.0",
+        "imageUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/poster.png",
+        "changelog": "## What's Changed\r\n* 支持人物搜索\r\n* 为 Emby 添加 bangumi.ini 支持 by @luoboQAQ in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/224\r\n* 优化 markdown 换行转换，对于不支持 markdown 显示的第三方播放器更友好\r\n* 修复元数据中 `Bangumi ID` 显示为 `Bangumi 专辑 ID` 的问题\r\n* 修复插件配置目录不存在导致的登录失败 #218\r\n* 添加了插件 logo 图（改自 https://www.pixiv.net/artworks/4455303 ）\r\n\r\n## New Contributors\r\n* @luoboQAQ made their first contribution in https://github.com/kookxiang/jellyfin-plugin-bangumi/pull/224\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.4...1.7.5",
+        "sourceUrl": "https://kookxiang.github.io/jellyfin-plugin-bangumi/1.7.5.0.zip",
+        "checksum": "0b009a8a40cae46d72190a4580257bf0",
+        "timestamp": "2025-11-12T17:02:18"
+      },
       {
         "targetAbi": null,
         "changelog": "修复 Jellyfin 10.11.0 中遇到的一些小问题\r\n\r\n**Full Changelog**: https://github.com/kookxiang/jellyfin-plugin-bangumi/compare/1.7.3...1.7.4",
@@ -1894,7 +1900,11 @@
         "timestamp": "2021-10-28T14:27:27Z",
         "version": "1.0.0.0"
       }
-    ]
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Bangumi.png",
+    "description": "bgm.tv metadata provider for Jellyfin\n\nhttps://github.com/kookxiang/jellyfin-plugin-bangumi",
+    "overview": "Jellyfin bgm.tv 数据源插件，用于拉取中文番剧信息及图片。",
+    "category": "Metadata"
   },
   {
     "category": "Metadata",
