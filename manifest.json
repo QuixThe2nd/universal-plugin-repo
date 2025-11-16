@@ -930,6 +930,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.4.0.0",
+        "changelog": "剧集弹幕倒序下载，支持弹弹接口规范，方便接入senplayer等播放器",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.0/danmu_2.4.0.0.zip",
+        "checksum": "b8d1280008ff90351df64dd88eabe795",
+        "timestamp": "2025-11-16T14:29:02"
+      },
+      {
         "version": "2.3.0.0",
         "changelog": "支持Jellyfin 10.11",
         "targetAbi": "10.11.0.0",
