@@ -13121,6 +13121,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Custom Tabs.png",
     "versions": [
       {
+        "version": "0.2.3.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs/releases/download/0.2.3.0/Release-10.11.0.zip",
+        "checksum": "1D0235177883045E59D02DF8CA0C73D3",
+        "timestamp": "2025-11-03T22:24:54",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "0.2.2.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
         "targetAbi": "10.11.0.0",
@@ -13198,6 +13209,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
       {
+        "version": "2.3.3.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-collection-sections/releases/download/2.3.3.0/Release-10.11.0.zip",
+        "checksum": "125DF8C03DFD14C807D2996479F9301F",
+        "timestamp": "2025-11-03T22:24:52",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.3.2.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
         "targetAbi": "10.11.0.0",
@@ -13274,6 +13296,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
+      {
+        "version": "2.4.3.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.4.3.0/Release-10.11.0.zip",
+        "checksum": "7E50EF3DE0931806CE19227F64BBD1E8",
+        "timestamp": "2025-11-03T22:24:53",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.2.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2",
@@ -13385,6 +13418,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.4.3.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.3.0/Release-10.11.0.zip",
+        "checksum": "93EFC27B8F24D99E7BBCFA71A44F5ED5",
+        "timestamp": "2025-11-03T22:34:47",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.2.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.2\r\n- Updated branch with upstream",
         "targetAbi": "10.11.0.0",
@@ -13473,6 +13517,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Plugin Pages.png",
     "versions": [
       {
+        "version": "2.4.4.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/2.4.4.0/Release-10.11.0.zip",
+        "checksum": "DB4C5762A4D15A986A59E0D2DF0783E8",
+        "timestamp": "2025-11-11T22:05:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.3.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue that meant the shortened URL support would never get used",
         "targetAbi": "10.11.0.0",
@@ -13560,6 +13615,17 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.4.12.0",
+        "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed issue where user settings wouldn't correctly display enabled checkbox",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.4.12.0/Release-10.11.0.zip",
+        "checksum": "D64BB9C821850CE6388973DAF8A8A1E2",
+        "timestamp": "2025-11-17T22:34:45",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.4.11.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed issue where MyRequests section could crash if results from Jellyseerr weren't found (#131)\r\n- Fixed issue where users would potentially be shown items they don't have access to (#136)\r\n- Fixed potential issue that could occur with upcoming posters if the user is hosting jellyfin in a subpath of their domain (#139 comment)\r\n- Fixed potential crash that could occur in discover section (#141)\r\n- Changed the ordering of sections to make use of css `flex-order` instead of relying on render order, makes the plugin more closer compatible with other plugins like KefinTweaks (#143)\r\n- Fixed issue where the Modular Home settings weren't accessible after the first visit in a session\r\n- Fixed issue where settings in the Modular Home screen wouldn't properly reflect the admin's configuration\r\n- Made the non-overridable checkboxes disabled to better convey to the user what their home screen should look like",
