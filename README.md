@@ -4,9 +4,6 @@
 > [!NOTE]
 > Updated every 24 hours, or when a change is pushed to this project
 
-> [!CAUTION]
-> Some plugins require further configuration or software so be sure to read the respective READMEs to ensure they work correctly
-
 > [!TIP]
 > Up to 3x faster catalogue loading <br>
 > (tested on server with gigabit connection, client with 10mbps download from server)
@@ -19,12 +16,12 @@ After: 4 seconds to load items 1 second to load images, 1-2 seconds with cache
 # Installation
 1. Open Jellyfin dashboard
 2. Naviage to to catalogue settings
-3. (Optional) Remove all old repositories including the default jellyfin, this speeds up catalogue loading
+3. (Optional) Remove all old repositories including the default jellyfin repo, this speeds up catalogue loading
 4. Add the universal repository
 ```
 https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/manifest.json
 ```
-4. Never add another repository again!
+5. Never add another repository again!
 
 # Security
 Most sources are from [awesome-jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin)
