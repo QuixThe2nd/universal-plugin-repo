@@ -722,7 +722,7 @@
     "description": "Scrape media's metadata from Douban\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
     "owner": "caryyu",
     "overview": "Get your Movie/TV metadata from Douban",
-    "imageUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/image.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Douban.png",
     "versions": [
       {
         "checksum": "ffef0798b8285b9ac7610f38ab1bff16",
@@ -927,7 +927,7 @@
     "overview": "jellyfin弹幕下载插件",
     "owner": "cxfksword",
     "category": "Metadata",
-    "imageUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/raw/main/doc/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
         "version": "2.4.1.0",
@@ -1162,7 +1162,7 @@
     "overview": "jellyfin电影元数据插件",
     "owner": "cxfksword",
     "category": "Metadata",
-    "imageUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/raw/main/doc/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
         "version": "2.2.1.0",
@@ -4040,7 +4040,7 @@
     "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly",
     "owner": "hexxone",
     "category": "Authentication",
-    "imageUrl": "https://github.com/hexxone/TeleJelly/blob/main/TeleJelly/thumb.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TeleJelly.jpg",
     "versions": [
       {
         "targetAbi": "10.9.0.0",
@@ -4164,7 +4164,7 @@
     "description": "Add the abiliy to replace the Jellyfin logo\n\nhttps://github.com/ImLacy/Jellyfin-CustomLogo",
     "owner": "Lacy",
     "category": "General",
-    "imageUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/blob/main/logo.png?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
     "versions": [
       {
         "version": "1.0.0.4",
