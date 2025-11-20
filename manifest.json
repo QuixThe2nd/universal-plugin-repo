@@ -725,6 +725,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.4.1.0",
+        "changelog": "修正iqiyi部分弹幕下载失败",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.1/danmu_2.4.1.0.zip",
+        "checksum": "572e0bb954394b9b723c2f87a369a7eb",
+        "timestamp": "2025-11-19T03:11:58"
+      },
+      {
         "version": "2.4.0.0",
         "changelog": "剧集弹幕倒序下载，支持弹弹接口规范，方便接入senplayer等播放器",
         "targetAbi": "10.11.0.0",
@@ -4432,6 +4440,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/JavaScript Injector.png",
     "versions": [
       {
+        "changelog": "- Revise repository URL instructions in README\n - refactor: create javascript helper\n - feat: add plugin interface\n - chore: remove unused imports\n - fix: dont validate payload in plugin interface\n - docs: fix example formatting",
+        "targetAbi": "10.10.7.0",
+        "version": "3.1.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-JavaScript-Injector/releases/download/3.1.0.0/Jellyfin.Plugin.JavaScriptInjector_10.10.7.zip",
+        "checksum": "CA3DF0B83C5150146A6E1477E62757D0",
+        "timestamp": "2025-11-19T19:19:13"
+      },
+      {
         "changelog": "- Fix script path for installations with base url\n - Please remove this manifest and add the manifest for 10.11 if you are on 10.11. \n https://raw.githubusercontent.com/n00bcodr/jellyfin-plugins/main/10.11/manifest.json ",
         "targetAbi": "10.10.7.0",
         "version": "3.0.1.0",
@@ -6202,6 +6218,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Language Tags.png",
     "versions": [
+      {
+        "version": "0.5.2.1",
+        "changelog": "- Bump version to 0.5.2.1\n- fix: incorrect variable names\n- Bump version to 0.5.2.0\n- fix: made sure series processing uses the correct language data types (iso, name) where appropriate, fixes #31\n- Merge pull request #30 from Rand0mB0y/patch-3\n- Revise README for LanguageTags plugin details\n- Updated the README to reflect the recent major changes\n- Update build.yaml and manifest.json for release version 0.5.1.0\n- Bump version to 0.5.1.0\n- Merge pull request #28 from TheXaman/refactor\n- Implement language tagging system with performance optimizations\n- Update build.yaml and manifest.json for release version 0.4.4.8\n- Merge pull request #26 from TheXaman/mediasources\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Bump version to 0.4.4.8\n- fix: removed unuses manifest entries\n- feat: add fallback for series where episodes have the seriesId as parentId instead of the seasonId refactor: reduce logging verbosity in LanguageTagsManager\n- feat: enhance logging and handling for media sources and streams in LanguageTagsManager\n- feat: improve video processing logic for audio and subtitle tags in LanguageTagsManager\n- feat: enhance video processing logic for audio and subtitle tags in LanguageTagsManager, addresses #25\n- refactor: optimize collection item retrieval in LanguageTagsManager, addresses #21\n- feat: add checkboxes for Music Genre and Live TV channels in configuration, addresses #20\n- fix: changed how movies are retrieved from collections, fixes #21\n- fix: \"Force full refresh for tv shows\" triggering a complete refresh, fixes #17 fix: Change return statements to continue in library processing for null checks\n- feat: Add non-media tagging functionality with configuration options\n- Remove commas from language names to avoid tag splitting issue in Parental Control (#23)\n- feat: Enhance language checkbox display with ISO codes and improve selected language chips\n- feat: add silent movies to whitelist, addresses #22",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.5.2.1/language-tags_0.5.2.1.zip",
+        "checksum": "597d5fc22cf5b23682d1a9b47fbbbac0",
+        "timestamp": "2025-11-19T09:26:16Z"
+      },
       {
         "version": "0.5.1.0",
         "changelog": "- Bump version to 0.5.1.0\n- Merge pull request #28 from TheXaman/refactor\n- Implement language tagging system with performance optimizations\n- Update build.yaml and manifest.json for release version 0.4.4.8\n- Merge pull request #26 from TheXaman/mediasources\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Bump version to 0.4.4.8\n- fix: removed unuses manifest entries\n- feat: add fallback for series where episodes have the seriesId as parentId instead of the seasonId refactor: reduce logging verbosity in LanguageTagsManager\n- feat: enhance logging and handling for media sources and streams in LanguageTagsManager\n- feat: improve video processing logic for audio and subtitle tags in LanguageTagsManager\n- feat: enhance video processing logic for audio and subtitle tags in LanguageTagsManager, addresses #25\n- refactor: optimize collection item retrieval in LanguageTagsManager, addresses #21\n- feat: add checkboxes for Music Genre and Live TV channels in configuration, addresses #20\n- fix: changed how movies are retrieved from collections, fixes #21\n- fix: \"Force full refresh for tv shows\" triggering a complete refresh, fixes #17 fix: Change return statements to continue in library processing for null checks\n- feat: Add non-media tagging functionality with configuration options\n- Remove commas from language names to avoid tag splitting issue in Parental Control (#23)\n- feat: Enhance language checkbox display with ISO codes and improve selected language chips\n- feat: add silent movies to whitelist, addresses #22",
