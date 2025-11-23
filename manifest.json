@@ -11686,6 +11686,14 @@
     "category": "Books",
     "versions": [
       {
+        "version": "12.2511.7.0",
+        "changelog": "- Fix nullability for 10.10 (#116) @crobibero\n- Update opf and add ISBN (#108) @AshleyDeo\n- Add Comic Vine Person provider (#85) @Pithaya\n\n### New features and improvements ###\n- Add support for covers from .cbt, .cb7 and .cbr (#112) @oddstr13\n\n### Dependency updates ###\n- Update dependency Microsoft.NET.Test.Sdk to 17.11.1 (#106) @renovate\n- Update xunit-dotnet monorepo (#84) @renovate\n- Update dependency Microsoft.Extensions.Http to 8.0.1 - autoclosed (#115) @renovate",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_12.2511.7.0.zip",
+        "checksum": "39a9066e145c23935f3c192cd7e5f1bc",
+        "timestamp": "2025-11-23T16:25:07Z"
+      },
+      {
         "version": "12.2505.6.0",
         "changelog": "- Fix nullability for 10.10 (#116) @crobibero\n- Update opf and add ISBN (#108) @AshleyDeo\n- Add Comic Vine Person provider (#85) @Pithaya\n\n### New features and improvements ###\n- Add support for covers from .cbt, .cb7 and .cbr (#112) @oddstr13\n\n### Dependency updates ###\n- Update dependency Microsoft.NET.Test.Sdk to 17.11.1 (#106) @renovate\n- Update xunit-dotnet monorepo (#84) @renovate\n- Update dependency Microsoft.Extensions.Http to 8.0.1 - autoclosed (#115) @renovate",
         "targetAbi": "10.11.0.0",
