@@ -1374,20 +1374,12 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
     "versions": [
       {
-        "version": "1.10.11.7",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.7)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.7/intro-skipper-v1.10.11.7.zip",
-        "checksum": "a96f17dddc3d5a2d50f3b4e65ca6a113",
-        "timestamp": "2025-10-24T18:55:22Z"
-      },
-      {
-        "version": "1.10.11.6",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.6)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.6/intro-skipper-v1.10.11.6.zip",
-        "checksum": "187e15f1cc91a1f2e1c190ffaa299de1",
-        "timestamp": "2025-10-22T08:01:00Z"
+        "version": "1.10.11.8",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.8)\n",
+        "targetAbi": "10.11.3.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.8/intro-skipper-v1.10.11.8.zip",
+        "checksum": "5d1b4198e2bd8d8818cdc18d3595fa7d",
+        "timestamp": "2025-11-23T19:04:22Z"
       }
     ]
   },
@@ -3330,6 +3322,30 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellysleep.png",
     "versions": [
       {
+        "version": "0.8.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.8.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.8.0/jellyfin-plugin-jellysleep-0.8.0.zip",
+        "checksum": "dbb0d13fcfd72db1fee9df56c8960936",
+        "timestamp": "2025-11-23T21:04:31Z"
+      },
+      {
+        "version": "0.7.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.7.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.7.0/jellyfin-plugin-jellysleep-0.7.0.zip",
+        "checksum": "6436713a3406e121efb24bb2b7e24faa",
+        "timestamp": "2025-11-23T19:58:57Z"
+      },
+      {
+        "version": "0.6.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.6.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.6.0/jellyfin-plugin-jellysleep-0.6.0.zip",
+        "checksum": "7489dda1c1ea5f14289a0fd5404e952c",
+        "timestamp": "2025-11-23T18:39:35Z"
+      },
+      {
         "version": "0.5.1.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.5.1)\n",
         "targetAbi": "10.11.0.0",
@@ -4124,6 +4140,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
+      {
+        "changelog": "- Add custom branding options for Elsewhere panel\n - feat: watch progress for item details\n - add styling to support vanilla jellyfin css\n - Add language selection and cache clearing to UI\n - Populate Language Tags in IPEP\n - Improve genre and language detection for Series/Season\n - Add Open Episode Preview keyboard shortcut\n - Better close subtitles dialog\n - Add Jellyseerr URL mapping support\n - Persist active tab in config settings\n - Align placeholders vertically in feature tooltips\n - Add automatic season request feature\n - Update README with download badges for versions\n - Add Jellyseerr watchlist sync and auto-watchlist features\n - Improve translation caching with versioning\n - Update Jellyseerr integration and translation caching docs\n - Improve modal accessibility and keyboard navigation\n - Update README.md\n - Fix version specific logic!",
+        "targetAbi": "10.10.7.0",
+        "version": "9.6.0.0",
+        "sourceUrl": "https://github.com/n00bcodr/Jellyfin-Enhanced/releases/download/9.6.0.0/Jellyfin.Plugin.JellyfinEnhanced_10.10.7.zip",
+        "checksum": "7525A51EB18E7D5B4437ECE3B8EF3552",
+        "timestamp": "2025-11-23T17:50:19"
+      },
       {
         "changelog": "\n - Ignore tags on chapter card image container\n - Update plugin.js\n - feat: file size info for shows and seasons\n - feat: fetch translations from GitHub with caching and fallback\n - fix: repair translation validation workflow\n - Add Missed translation keys for Elsewhere panel UI elements\n - add spacing after arr-tag-link-icon",
         "targetAbi": "10.10.7.0",
@@ -10956,6 +10980,30 @@
     "owner": "lstb1t",
     "versions": [
       {
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.24.1.0...v0.24.2.0",
+        "checksum": "335e3e0919ae297031948282b150bf5f",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.2.0/gelato_0.24.2.0.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-23T18:45:25Z",
+        "version": "0.24.2.0"
+      },
+      {
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.24.0.0...v0.24.1.0",
+        "checksum": "3769caf9d577d7825b2e910d345fcb1b",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.1.0/gelato_0.24.1.0.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-23T18:22:46Z",
+        "version": "0.24.1.0"
+      },
+      {
+        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.23.1.0...v0.24.0.0",
+        "checksum": "ad6e52c04d57c48af4719e4c444aa069",
+        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.24.0.0/gelato_0.24.0.0.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-11-23T11:03:54Z",
+        "version": "0.24.0.0"
+      },
+      {
         "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.23.0.0...v0.23.1.0",
         "checksum": "824eb5b0603f0a18fa058ba5f0d230f1",
         "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.23.1.0/gelato_0.23.1.0.zip",
@@ -11170,30 +11218,6 @@
         "targetAbi": "10.11.0.0",
         "timestamp": "2025-11-06T06:28:45Z",
         "version": "0.20.2.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.20.0.0...v0.20.1.0",
-        "checksum": "c61474eb8ea75ccb2f0b2f9ea4d441bb",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.20.1.0/gelato_0.20.1.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-06T05:26:42Z",
-        "version": "0.20.1.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.19.0.0...v0.20.0.0",
-        "checksum": "fa603496d88c60a815509f690fba4fde",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.20.0.0/gelato_0.20.0.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-05T22:08:25Z",
-        "version": "0.20.0.0"
-      },
-      {
-        "changelog": "<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n\n\n**Full Changelog**: https://github.com/lostb1t/Gelato/compare/v0.18.5.0...v0.19.0.0",
-        "checksum": "696e2a3b925daf49ef4588d17b73324a",
-        "sourceUrl": "https://github.com/lostb1t/Gelato/releases/download/v0.19.0.0/gelato_0.19.0.0.zip",
-        "targetAbi": "10.11.0.0",
-        "timestamp": "2025-11-05T17:10:22Z",
-        "version": "0.19.0.0"
       }
     ]
   }
