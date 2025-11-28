@@ -13409,6 +13409,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
       {
+        "version": "2.5.0.0",
+        "changelog": "✨ New Features\r\n\r\n- Added support for users to define their own transformations which make web mods like BobHasNoSoul's a lot easier to integrate into systems without having to modify the files directly. Note: Where mods require other files, those will still be required to be dropped where directed.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/releases/download/2.5.0.0/Release-10.11.0.zip",
+        "checksum": "0963D8C8847222CDF22A087A32DFEB4D",
+        "timestamp": "2025-11-28T20:39:29",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.3.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.3",
         "targetAbi": "10.11.0.0",
