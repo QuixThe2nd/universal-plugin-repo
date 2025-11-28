@@ -4057,6 +4057,14 @@
         "timestamp": "2025-11-22T16:22:27Z",
         "version": "1.0.9",
         "changelog": "Automatic Release by Github Actions:  https://github.com/hexxone/TeleJelly/releases/tag/1.0.9"
+      },
+      {
+        "targetAbi": "10.11.0.0",
+        "checksum": "d54b2952415f580e2f0b9c42515b1e2f",
+        "sourceUrl": "https://github.com/hexxone/TeleJelly/releases/download/1.0.10/TeleJelly_v1.0.10.zip",
+        "timestamp": "2025-11-28T16:35:33Z",
+        "version": "1.0.10",
+        "changelog": "Automatic Release by Github Actions:  https://github.com/hexxone/TeleJelly/releases/tag/1.0.10"
       }
     ]
   },
