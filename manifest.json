@@ -930,6 +930,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.4.3.0",
+        "changelog": "修正影响电视剧季名称更新",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.4.3/danmu_2.4.3.0.zip",
+        "checksum": "96f9446ddafe23475d0e048521816203",
+        "timestamp": "2025-11-30T08:06:14"
+      },
+      {
         "version": "2.4.2.0",
         "changelog": "修正插件版本兼容性",
         "targetAbi": "10.11.0.0",
