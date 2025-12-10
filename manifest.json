@@ -930,6 +930,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.5.0.0",
+        "changelog": "支持自建danmu_api源",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.5.0/danmu_2.5.0.0.zip",
+        "checksum": "8e8d59f3412cc5bc0a1553e3a2e31b32",
+        "timestamp": "2025-12-10T13:47:16"
+      },
+      {
         "version": "2.4.3.0",
         "changelog": "修正影响电视剧季名称更新",
         "targetAbi": "10.11.0.0",
@@ -4244,7 +4252,7 @@
     "description": "Add the abiliy to replace the Jellyfin logo\n\nhttps://github.com/ImLacy/Jellyfin-CustomLogo",
     "owner": "Lacy",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
+    "imageUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/blob/main/logo.png?raw=true",
     "versions": [
       {
         "version": "1.0.0.4",
