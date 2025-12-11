@@ -927,7 +927,7 @@
     "overview": "jellyfin弹幕下载插件",
     "owner": "cxfksword",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
+    "imageUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/raw/main/doc/logo.png",
     "versions": [
       {
         "version": "2.5.0.0",
@@ -2497,7 +2497,7 @@
     "description": "Enable Cinema Mode with local trailers and pre-rolls.\n\nhttps://github.com/CherryFloors/jellyfin-plugin-cinemamode",
     "owner": "CherryFloors",
     "overview": "Enable Jellyfin's Cinema Mode",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cinema Mode.jpg",
+    "imageUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/raw/main/Jellyfin.Plugin.CinemaMode/Images/jellyfin-plugin-cinemamode.jpg",
     "versions": [
       {
         "checksum": "9dd5610f5216745d9b57c2abae13441b",
@@ -8264,7 +8264,7 @@
         "timestamp": "2022-10-11T14:23:10Z"
       }
     ],
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NFO Chapters.png"
+    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/raw/master/viperinius-plugin-nfochapters.png"
   },
   {
     "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
@@ -12943,6 +12943,48 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_2.3.0.0.zip",
         "checksum": "27ff3ac6cfbb6f6a5877c241bbdf96a2",
         "timestamp": "2023-05-12T09:31:30Z"
+      }
+    ]
+  },
+  {
+    "guid": "69384327-d223-447a-ae23-47767eed1749",
+    "name": "M3U Editor",
+    "description": "Edit Live TV M3U channel lists",
+    "overview": "Edit Live TV M3U channel lists",
+    "owner": "Mr. Chip53",
+    "category": "Live TV",
+    "versions": [
+      {
+        "version": "0.1.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.01/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "1f7e24908bfc1a68374890706c9fd1d4",
+        "timestamp": "2021-01-16T06:18:27Z"
+      },
+      {
+        "version": "0.2.0.0",
+        "changelog": "-Add API key to M3U urls, add 'tvg-chno' attribute to channels that don't already have it",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.02/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "2e1d1aa0648eb2643bb440dbf2b5927c",
+        "timestamp": "2021-01-17T06:18:27Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- Add tabs to UI<br />- Filter by hidden value<br />- Search by channel name<br />- Delete playlists<br />- Refresh channels from source<br />- Custom user agents when fetching m3u<br />- Minor improvements<br />",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.0.0.0/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "3c692f2b5d6327986e2faefb0b575868",
+        "timestamp": "2021-01-22T06:18:27Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "- Improve mass hiding functions",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.1.0.0/Jellyfin.Plugin.M3UEditor.zip",
+        "checksum": "0f39094bc7225672d040fc5f469c8ab6",
+        "timestamp": "2021-01-22T06:18:27Z"
       }
     ]
   },
