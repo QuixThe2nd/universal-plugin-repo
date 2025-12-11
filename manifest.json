@@ -1602,6 +1602,24 @@
     ]
   },
   {
+    "category": "Metadata",
+    "guid": "e325b8d5-5f54-447f-a38a-a951b933d22c",
+    "name": "Douban",
+    "description": "Get Movie/TV information from Douban\n\nhttps://github.com/Libitum/jellyfin-plugin-douban",
+    "owner": "Libitum",
+    "overview": "Manage Your Movie/TV by Douban",
+    "versions": [
+      {
+        "checksum": "b01077ed8b477a2b94fd4c3e3ce063bb",
+        "changelog": "Compatible with Jellyfin 10.8.*",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/Libitum/jellyfin-plugin-douban/releases/download/v2.0.0/Jellyfin.Plugin.Douban.zip",
+        "timestamp": "2024-02-21T13:23:00Z",
+        "version": "2.0.0.0"
+      }
+    ]
+  },
+  {
     "guid": "c83d86bb-a1e0-4c35-a113-e2101cf4ee6b",
     "name": "Intro Skipper",
     "overview": "Automatically detect and skip intros in television episodes",
@@ -4094,7 +4112,7 @@
     "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly",
     "owner": "hexxone",
     "category": "Authentication",
-    "imageUrl": "https://github.com/hexxone/TeleJelly/blob/main/TeleJelly/thumb.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TeleJelly.jpg",
     "versions": [
       {
         "targetAbi": "10.9.0.0",
