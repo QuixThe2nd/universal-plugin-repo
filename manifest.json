@@ -12903,6 +12903,24 @@
     ]
   },
   {
+    "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
+    "name": "Google Books",
+    "description": "Pulls book metadata and cover images from Google Books.\n",
+    "overview": "Google Books Metadata Provider",
+    "owner": "jellyfin",
+    "category": "Books",
+    "versions": [
+      {
+        "version": "1.2512.1.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_1.2512.1.0.zip",
+        "checksum": "c9ca715f0e4f3a691ee8503a45df9b1b",
+        "timestamp": "2025-12-12T05:06:16Z"
+      }
+    ]
+  },
+  {
     "guid": "a9f62a44-fea5-46c3-ac26-55abba29c7c8",
     "name": "Apple Music",
     "description": "Apple Music artist and album images and metadata provider.\n",
