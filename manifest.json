@@ -8499,7 +8499,7 @@
         "timestamp": "2022-10-11T14:23:10Z"
       }
     ],
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NFO Chapters.png"
+    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/raw/master/viperinius-plugin-nfochapters.png"
   },
   {
     "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
@@ -8750,7 +8750,7 @@
         "timestamp": "2023-02-26T19:54:34Z"
       }
     ],
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Spotify Import.png"
+    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/raw/master/viperinius-plugin-spotifyimport.png"
   },
   {
     "category": "General",
