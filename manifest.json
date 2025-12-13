@@ -12919,6 +12919,30 @@
     "category": "Books",
     "versions": [
       {
+        "version": "1.2512.6.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_1.2512.6.0.zip",
+        "checksum": "95f06aa9d077e8cf1582c7ec11b6b8bb",
+        "timestamp": "2025-12-13T05:23:40Z"
+      },
+      {
+        "version": "1.2512.5.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_1.2512.5.0.zip",
+        "checksum": "cc0c945a4db8cd64a7ed9429e78267bb",
+        "timestamp": "2025-12-13T05:21:23Z"
+      },
+      {
+        "version": "1.2512.4.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_1.2512.4.0.zip",
+        "checksum": "d0d012174d681bf8190a5b90006d045c",
+        "timestamp": "2025-12-13T05:17:10Z"
+      },
+      {
         "version": "1.2512.3.0",
         "changelog": "Initial Release",
         "targetAbi": "10.11.0.0",
