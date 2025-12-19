@@ -13793,6 +13793,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Bar.png",
     "versions": [
       {
+        "version": "2.4.6.0",
+        "changelog": "✨ New Features\r\n\r\n- Missed some more upstream improvements",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-media-bar/releases/download/2.4.6.0/Release-10.11.0.zip",
+        "checksum": "FC2F4C24FD44E91D2F98518B848BBD3C",
+        "timestamp": "2025-12-19T13:24:38",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.4.5.0",
         "changelog": "✨ New Features\r\n\r\n- Updated to support 10.11.5\r\n- Merged with upstream improvements",
         "targetAbi": "10.11.0.0",
