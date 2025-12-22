@@ -716,13 +716,218 @@
     ]
   },
   {
+    "category": "Metadata",
+    "guid": "7834517B-1A9A-4758-9DD3-73FE02C98AA3",
+    "name": "Open Douban",
+    "description": "Scrape media's metadata from Douban\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV metadata from Douban",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Douban.png",
+    "versions": [
+      {
+        "checksum": "ffef0798b8285b9ac7610f38ab1bff16",
+        "changelog": "the init release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.1.zip",
+        "timestamp": "2021-05-08T23:11:00Z",
+        "version": "1.0.1"
+      },
+      {
+        "checksum": "7587b9e7cd1665877032d74c9bf8bfed",
+        "changelog": "fix image and support backdrop",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.2.zip",
+        "timestamp": "2021-05-10T20:14:00Z",
+        "version": "1.0.2"
+      },
+      {
+        "checksum": "293d281e89d65dc1830b090f53d74dd4",
+        "changelog": "fix checksum",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.3.zip",
+        "timestamp": "2021-05-15T02:49:41Z",
+        "version": "1.0.3"
+      },
+      {
+        "checksum": "95fce615cea9bff07694d96f24901dc0",
+        "changelog": "fix celebrities",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.4.zip",
+        "timestamp": "2021-05-15T14:03:08Z",
+        "version": "1.0.4"
+      },
+      {
+        "checksum": "7c0811b654dffe0dddf33a99f8c7b69f",
+        "changelog": "load more celebrities and stick imdb on it (#2)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.5.zip",
+        "timestamp": "2021-06-06T04:01:31Z",
+        "version": "1.0.5"
+      },
+      {
+        "checksum": "37b5243a1847379b6d00fca9960102a3",
+        "changelog": "filter media name by regex (#4)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.6.zip",
+        "timestamp": "2021-06-25T13:50:54Z",
+        "version": "1.0.6"
+      },
+      {
+        "checksum": "d55b322112895f548f38bf5163b4a985",
+        "changelog": "restructure the whole project (#5)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.7.zip",
+        "timestamp": "2021-07-02T14:14:46Z",
+        "version": "1.0.7"
+      },
+      {
+        "checksum": "c6653fbc39e68e313643551a213606d2",
+        "changelog": "Re-adapt backdrop image (#8)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.8.zip",
+        "timestamp": "2021-08-19T13:55:34Z",
+        "version": "1.0.8"
+      },
+      {
+        "checksum": "c9da1db799089236ccd153ee7efb1dc4",
+        "changelog": "Fix version compatibility (#9)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.9.zip",
+        "timestamp": "2021-08-21T09:32:08Z",
+        "version": "1.0.9"
+      },
+      {
+        "checksum": "900c6d54161c208c3a35845a0f4232c6",
+        "changelog": "Fix metadata of Shows (#13)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.10.zip",
+        "timestamp": "2021-10-01T15:16:18Z",
+        "version": "1.0.10"
+      },
+      {
+        "checksum": "bfb577367e94fe1184b55c3fdbe16d93",
+        "changelog": "Bugfixes: OriginalTitle & PremiereDate",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.11.zip",
+        "timestamp": "2021-10-16T07:01:57Z",
+        "version": "1.0.11"
+      },
+      {
+        "checksum": "dae635e863ad9493dceda0eadd3978d1",
+        "changelog": "Bugfixes: Name and OriginalName (#18)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.12.zip",
+        "timestamp": "2021-10-31T10:53:05Z",
+        "version": "1.0.12"
+      },
+      {
+        "checksum": "62d5bd0618fb779f0eb1ed444345c8eb",
+        "changelog": "fix 10.8.0 compatibility",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.1.zip",
+        "timestamp": "2022-01-07T13:31:32Z",
+        "version": "2.0.1"
+      },
+      {
+        "checksum": "0687f16ab2bca7b3ed1364e0df669f77",
+        "changelog": "Fix CancellationToken bypass (#21)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.13.zip",
+        "timestamp": "2022-01-21T12:55:38Z",
+        "version": "1.0.13"
+      },
+      {
+        "checksum": "3da636e31c57801be3b0fea0fe6f69ed",
+        "changelog": "Fix CancellationToken bypass (#23)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.2.zip",
+        "timestamp": "2022-01-21T12:59:03Z",
+        "version": "2.0.2"
+      },
+      {
+        "checksum": "1a573c6afdf6cfcc76eaf2532b4351ba",
+        "changelog": "Fix unsupported-roles (#36)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.15.zip",
+        "timestamp": "2022-05-29T06:55:02Z",
+        "version": "1.0.15"
+      },
+      {
+        "checksum": "c5f7a048dc8c1b7badbee1883c615e2b",
+        "changelog": "Fix unsupported-roles (#37)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.3.zip",
+        "timestamp": "2022-05-29T06:56:06Z",
+        "version": "2.0.3"
+      },
+      {
+        "checksum": "dff3ba0a48ed662ee2557b3e4436db58",
+        "changelog": "Support custom poster size (#42)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.1.0.zip",
+        "timestamp": "2022-06-16T04:45:22Z",
+        "version": "1.1.0"
+      },
+      {
+        "checksum": "03a2da219b5a25a78dda3073cabfa510",
+        "changelog": "Add poster quality config (#44)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.4.zip",
+        "timestamp": "2022-07-25T11:03:28Z",
+        "version": "2.0.4"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "4EAEDA51-B4CF-45F8-99B3-EB2B1F6D3A53",
+    "name": "MaxSubtitle",
+    "description": "Download subtitles from Internet\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV subtitles from Internet",
+    "versions": [
+      {
+        "checksum": "af05043cdfddb8b0ebcf43a3fe2324d2",
+        "changelog": "the first release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.1.zip",
+        "timestamp": "2021-11-18T23:11:00Z",
+        "version": "0.0.1"
+      },
+      {
+        "checksum": "84633418ccebd73a2604d53de6fa9bce",
+        "changelog": "fix language type",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.2.zip",
+        "timestamp": "2021-12-08T23:11:00Z",
+        "version": "0.0.2"
+      },
+      {
+        "checksum": "70c414e67578c129c71f91fc3980642e",
+        "changelog": "Add CancellationToken & CICD",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.3.zip",
+        "timestamp": "2022-01-23T12:17:02Z",
+        "version": "0.0.3"
+      },
+      {
+        "checksum": "fd76c508fa0cbcb54a1adb0c78086015",
+        "changelog": "Fix 10.8.0 compatibility",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.2.0.0.zip",
+        "timestamp": "2022-01-23T13:35:50Z",
+        "version": "2.0.0"
+      }
+    ]
+  },
+  {
     "guid": "5B39DA44-5314-4940-8E26-54C821C17F86",
     "name": "Danmu",
     "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。\n\nhttps://github.com/cxfksword/jellyfin-plugin-danmu",
     "overview": "jellyfin弹幕下载插件",
     "owner": "cxfksword",
     "category": "Metadata",
-    "imageUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/raw/main/doc/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
         "version": "2.5.1.0",
@@ -979,6 +1184,446 @@
         "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v1.7.4/danmu_1.7.4.0.zip",
         "checksum": "7d0c2f8f70111363f03a5aea39583eef",
         "timestamp": "2023-12-16T07:40:58"
+      }
+    ]
+  },
+  {
+    "guid": "9a19103f-16f7-4668-be54-9a1e7a4f7556",
+    "name": "MetaShark",
+    "description": "jellyfin电影元数据插件，影片信息只要从豆瓣获取，并由TMDB补充缺失的剧集数据。\n\nhttps://github.com/cxfksword/jellyfin-plugin-metashark",
+    "overview": "jellyfin电影元数据插件",
+    "owner": "cxfksword",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
+    "versions": [
+      {
+        "version": "2.3.0.0",
+        "changelog": "支持tmdb剧集组，优化刮削",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.0/metashark_2.3.0.0.zip",
+        "checksum": "f0b298b487af04e886bbf0afd3912bc3",
+        "timestamp": "2025-12-04T12:52:27"
+      },
+      {
+        "version": "2.2.2.0",
+        "changelog": "对Jellyfin 10.11进行刮削优化，增加开关控制降级到tmdb进行自动匹配",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.2/metashark_2.2.2.0.zip",
+        "checksum": "ac7d09477ba12e9518d1e130c90b4c14",
+        "timestamp": "2025-11-29T07:58:56"
+      },
+      {
+        "version": "2.2.1.0",
+        "changelog": "修复演员链接错误",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.1/metashark_2.2.1.0.zip",
+        "checksum": "898c019132e0dfd5afb31857d70182dc",
+        "timestamp": "2025-10-27T12:30:49"
+      },
+      {
+        "version": "2.2.0.0",
+        "changelog": "支持jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.2.0/metashark_2.2.0.0.zip",
+        "checksum": "bc76c01f53292a09f96710257a86f5e7",
+        "timestamp": "2025-10-26T08:37:11"
+      },
+      {
+        "version": "2.1.4.0",
+        "changelog": "修正刮削虚拟剧集导致的异常",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.4/metashark_2.1.4.0.zip",
+        "checksum": "a10c6dbf0420bf93211a8da3c74250fa",
+        "timestamp": "2025-03-30T05:59:55"
+      },
+      {
+        "version": "2.1.3.0",
+        "changelog": "修正剧集识别",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.3/metashark_2.1.3.0.zip",
+        "checksum": "6d23cf8eee4e18ff52371659d884c926",
+        "timestamp": "2025-03-09T03:19:35"
+      },
+      {
+        "version": "2.1.2.0",
+        "changelog": "",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.2/metashark_2.1.2.0.zip",
+        "checksum": "98d6e3d75efab3fca6ad8c655ea530bf",
+        "timestamp": "2025-02-16T07:26:59"
+      },
+      {
+        "version": "2.1.1.0",
+        "changelog": "tmdb图片改使用https请求",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.1/metashark_2.1.1.0.zip",
+        "checksum": "9cc02efc9468f66815dae5830dba5ab4",
+        "timestamp": "2024-11-10T03:27:04"
+      },
+      {
+        "version": "2.1.0.0",
+        "changelog": "支持刮削合集，商标支持获取日语版本",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.1.0/metashark_2.1.0.0.zip",
+        "checksum": "4c5d7a93e15a13dbea37eb8a5b64c0ed",
+        "timestamp": "2024-09-04T07:55:38"
+      },
+      {
+        "version": "2.0.4.0",
+        "changelog": "支持新的演员访问链接",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.4/metashark_2.0.4.0.zip",
+        "checksum": "aad090cde11063388e86ca2be7ecc878",
+        "timestamp": "2024-07-02T08:28:00"
+      },
+      {
+        "version": "2.0.3.0",
+        "changelog": "优化季数识别处理",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.3/metashark_2.0.3.0.zip",
+        "checksum": "6695e0a9dcdf90a0c6e7566770205489",
+        "timestamp": "2024-06-08T02:38:08"
+      },
+      {
+        "version": "1.7.16.0",
+        "changelog": "优化识别（这是10.8.x最后一次更新）",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.16/metashark_1.7.16.0.zip",
+        "checksum": "d8e0c03e20b799b7cf306574aa44c2ec",
+        "timestamp": "2024-06-08T02:31:31"
+      },
+      {
+        "version": "2.0.2.0",
+        "changelog": "修正剧集数识别",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.2/metashark_2.0.2.0.zip",
+        "checksum": "1544315a1969901ba2d891c573ac7b7a",
+        "timestamp": "2024-05-25T08:11:49"
+      },
+      {
+        "version": "1.7.15.0",
+        "changelog": "修正剧集数识别",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.15/metashark_1.7.15.0.zip",
+        "checksum": "d8f0407bd4cf8ada73173f8321778dd5",
+        "timestamp": "2024-05-25T08:05:22"
+      },
+      {
+        "version": "2.0.1.0",
+        "changelog": "修正演员信息缺失",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.1/metashark_2.0.1.0.zip",
+        "checksum": "d88fc5cca3e003fff411882082fa856e",
+        "timestamp": "2024-05-18T08:26:03"
+      },
+      {
+        "version": "1.7.14.0",
+        "changelog": "修正演员信息缺失",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.14/metashark_1.7.14.0.zip",
+        "checksum": "fc85bd567c204f6aa9cd64055266279d",
+        "timestamp": "2024-05-18T08:19:52"
+      },
+      {
+        "version": "2.0.0.0",
+        "changelog": "支持Jellyfin 10.9\n支持直接在文件夹名中设置指定豆瓣ID",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.0.0/metashark_2.0.0.0.zip",
+        "checksum": "344cd6f0a0c5a7335d61089f487f85eb",
+        "timestamp": "2024-05-12T10:53:51"
+      },
+      {
+        "version": "1.7.13.0",
+        "changelog": "优化 tmdb id 查找",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.13/metashark_1.7.13.0.zip",
+        "checksum": "7de7b6ee39fb241551b68626b4d693b5",
+        "timestamp": "2024-04-13T07:32:23"
+      },
+      {
+        "version": "1.7.12.0",
+        "changelog": "修正电影推荐列表只有一部影片",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.12/metashark_1.7.12.0.zip",
+        "checksum": "c0fce92fbbc6f5a96421e7c0cb75b5ad",
+        "timestamp": "2024-02-28T03:04:59"
+      },
+      {
+        "version": "1.7.11.0",
+        "changelog": "修正不支持 SxxEPxx 格式",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.11/metashark_1.7.11.0.zip",
+        "checksum": "47db3474ceb12b2bf97574f0d2d4005a",
+        "timestamp": "2024-02-23T06:56:06"
+      },
+      {
+        "version": "1.7.10.0",
+        "changelog": "修正名称带数字时刮削失败、拆分获取商标配置",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.10/metashark_1.7.10.0.zip",
+        "checksum": "eaf9bb6cfaedee236a869d5b29865a1a",
+        "timestamp": "2024-02-07T04:19:51"
+      },
+      {
+        "version": "1.7.9.0",
+        "changelog": "添加获取tmdb商标",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.9/metashark_1.7.9.0.zip",
+        "checksum": "03c3246ed32791c4ef3c96491a36b195",
+        "timestamp": "2024-02-03T06:06:17"
+      },
+      {
+        "version": "1.7.8.0",
+        "changelog": "优化日志输出，剧集支持EP前缀命名",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.8/metashark_1.7.8.0.zip",
+        "checksum": "a7982662696b1ddd46480a6507a1a9ba",
+        "timestamp": "2024-01-06T02:20:02"
+      },
+      {
+        "version": "1.7.7.0",
+        "changelog": "增加获取海报大图配置\n优化图片处理",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.7/metashark_1.7.7.0.zip",
+        "checksum": "b0b8b8f715f54b05b20c8288ec33ac68",
+        "timestamp": "2023-12-30T07:19:48"
+      },
+      {
+        "version": "1.7.6.0",
+        "changelog": "改回使用旧国内加速域",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.6/metashark_1.7.6.0.zip",
+        "checksum": "59a0eceae6022cb032667fc9ca013804",
+        "timestamp": "2023-12-16T07:22:10"
+      }
+    ]
+  },
+  {
+    "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
+    "name": "Editor's Choice",
+    "overview": "Create a Netflix-style featured content slider on the main page.",
+    "description": "Create a Netflix-style featured content slider on the main page.\n\nhttps://github.com/lachlandcp/jellyfin-editors-choice-plugin",
+    "owner": "lachlandcp",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Editor's Choice.png",
+    "versions": [
+      {
+        "version": "1.4.2.0",
+        "changelog": "Fix version mismatch",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.4.2/EditorsChoicePlugin.v1.4.2.zip",
+        "checksum": "8351fbf0302bac1a23e94c6d7cec6c74",
+        "timestamp": "2025-12-05 18:06:00"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Compatible with Jellyfin 10.11.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.4.0/EditorsChoicePlugin.v1.4.0.zip",
+        "checksum": "4c897eebe1c439a0d7c2e052d277a7c8",
+        "timestamp": "2025-10-23 21:35:00"
+      },
+      {
+        "version": "1.3.3.0",
+        "changelog": "Updates compatability with FileTransformation. Fixes bug where un-rated items don't show despite minimum rating filter set to zero. Fixes bug loading on some TVs, adds option to hide slider on TV mode.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.3.3.0/EditorsChoicePlugin-v1.3.3.0.zip",
+        "checksum": "84b3f11f5799af0b483b8f2c638502bd",
+        "timestamp": "2025-09-20 13:02:00"
+      },
+      {
+        "version": "1.3.2.0",
+        "changelog": "Improves function of 'new mode'. TV shows with an end date within the selected time period will be included. Restores 'open in new tab' ability to slider. Replaces 1.3.1.0 release which also: Improves FileTransformation mode reliability, adds heading option, and adds more options to 'New' mode",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.3.2.0/EditorsChoicePlugin-v1.3.2.0.zip",
+        "checksum": "2b3c3e5c06585b5ef3bab9091d536403",
+        "timestamp": "2025-07-25 19:38:00"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Adds integration with the FileTransformation plugin for easier installation.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.3.0.0/EditorsChoicePlugin-v1.3.0.0.zip",
+        "checksum": "afb03b144b2fa9e3467118964811137f",
+        "timestamp": "2025-07-13 21:23:11"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Adds options to exclude played items, and configure the height of the slider.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.2.0.0/EditorsChoicePlugin-v1.2.0.0.zip",
+        "checksum": "ec0b23fc7ebe19a08836e4b1516dda01",
+        "timestamp": "2025-06-29 12:34:45"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "Stylistic corrections and compatability with ElegantFin.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.1.1.0/EditorsChoicePlugin-v1.1.1.0.zip",
+        "checksum": "25e915de71afc48813b7363c8cbc0075",
+        "timestamp": "2025-05-31 20:06:15"
+      },
+      {
+        "version": "1.1.0.2",
+        "changelog": "Re-release of 1.1.0.1 to fix versioning. Removes image resizing as default to improve plugin performance.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.1.0.2/EditorsChoicePlugin-v1.1.0.2.zip",
+        "checksum": "f8a111d2b52b470b61a73370ecefc8c5",
+        "timestamp": "2025-05-20 18:25:21"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Adds new 'recent releases' mode, localisation for 'Watch' button, option to change autoplay interval, and options to show description and rating or not.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.1.0.0/EditorsChoicePlugin-v1.1.0.0.zip",
+        "checksum": "f2813373052dba633473c5ec4f1cd0c3",
+        "timestamp": "2025-04-30 19:20:46"
+      },
+      {
+        "version": "1.0.8.0",
+        "changelog": "Adds parental rating filtering.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.8.0/EditorsChoicePlugin-v1.0.8.0.zip",
+        "checksum": "9716bbcfdc39c04671dea43001e4485f",
+        "timestamp": "2025-04-05 12:03:29"
+      },
+      {
+        "version": "1.0.7.1",
+        "changelog": "Fixes issues on TV mode.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.7.1/EditorsChoicePlugin-v1.0.7.1.zip",
+        "checksum": "0e5e25d83517ece9955af789bcbff3fa",
+        "timestamp": "2025-03-14 18:25:00"
+      },
+      {
+        "version": "1.0.7.0",
+        "changelog": "New and improved slider! Including autoplay, looping, and improved loading reliability",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.7.0/EditorsChoicePlugin-v1.0.7.0.zip",
+        "checksum": "011ae72355f00a1cd5ea2a939f1dbeb0",
+        "timestamp": "2025-03-12 20:38:38"
+      },
+      {
+        "version": "1.0.6.1",
+        "changelog": "Compatability with Jellygin 10.10.6",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.6.1/EditorsChoicePlugin-v1.0.6.1.zip",
+        "checksum": "09ccc0326c17140d6a5373155aa7a737",
+        "timestamp": "2025-03-08 13:20:38"
+      },
+      {
+        "version": "1.0.6.0",
+        "changelog": "Allows filtering by library, adds 'Collections' mode, speeds up load times, and improves config UI",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.6.0/EditorsChoicePlugin-v1.0.6.0.zip",
+        "checksum": "fc7041f859a883bf8dfeb055f92b8f66",
+        "timestamp": "2025-01-06 15:43:00"
+      },
+      {
+        "version": "1.0.5.0",
+        "changelog": "Allows filtering by minimum community or critic rating! And fixes slider on Jellyfin Android app",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.5.0/EditorsChoicePlugin-v1.0.5.0.zip",
+        "checksum": "0054586015bed521b556ed7e3b9b21af",
+        "timestamp": "2024-12-30 10:48:00"
+      },
+      {
+        "version": "1.0.4.0",
+        "changelog": "This version greatly improves the mechanism to load the slider, so that it is faster and more reliable.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.4.0/EditorsChoicePlugin-v1.0.4.0.zip",
+        "checksum": "184a35514a3a1901401aa710a18c4b21",
+        "timestamp": "2024-12-29 13:48:00"
+      },
+      {
+        "version": "1.0.3.0",
+        "changelog": "Now works with Jellyfin 10.10.x. Other changes in this version include: Users can now only see items from libraries that they have permission to access. The option to show a particular number of items applies to 'favourites' mode as well as random mode. Slider will not show IMDB ratings if unavailable. Scroller buttons adjusted to stand out more on light background.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.3.0/EditorsChoicePlugin-v1.0.3.0.zip",
+        "checksum": "0599d79e62f26815e94323f2c5d2b917",
+        "timestamp": "2024-12-20 16:00:00"
+      },
+      {
+        "version": "1.0.2.2",
+        "changelog": "Fix bug where only admins can load the editors choice slider.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.2.2/EditorsChoicePlugin-v1.0.2.2.zip",
+        "checksum": "eba01c3237a9c13f4e2f4795e93ee887",
+        "timestamp": "2024-09-07 13:19:00"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "Add new 'random' banner option",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.2.0/EditorsChoicePlugin-v1.0.2.0.zip",
+        "checksum": "5cc6dc035617c3e410f45560d2882a2a",
+        "timestamp": "2024-08-31 19:31:00"
+      },
+      {
+        "version": "1.0.1.4",
+        "changelog": "Fix hyperlinks occassionally not working",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.4/EditorsChoicePlugin-v1.0.1.4.zip",
+        "checksum": "ed79e024493118e3738cc693da45acaa",
+        "timestamp": "2024-08-31 18:13:00"
+      },
+      {
+        "version": "1.0.1.3",
+        "changelog": "Fix loading process",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.3/EditorsChoicePlugin-v.1.0.1.3.zip",
+        "checksum": "d03f8d71d69d1b59a8ccb590d665736d",
+        "timestamp": "2024-08-23 15:41:00"
+      },
+      {
+        "version": "1.0.1.2",
+        "changelog": "Fix links on banner items",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.2/EditorsChoicePlugin-v.1.0.1.2.zip",
+        "checksum": "1a8cda7e7f7652011e1e5c0481aa5afe",
+        "timestamp": "2024-07-12 20:25:00"
+      },
+      {
+        "version": "1.0.1.1",
+        "changelog": "Update for Jellyfin 10.9 and fix package versions for 10.9.1 to 10.9.3",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.1/EditorsChoicePlugin-v1.0.1.1.zip",
+        "checksum": "b8aba4fe8f069e0a3ed9a69768fea61e",
+        "timestamp": "2024-06-09 16:05:00"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "Fix issues with favourited seasons/episodes and exclude other unsupported favouritable items",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.0.1/EditorsChoicePlugin-v.1.0.0.1.zip",
+        "checksum": "25a4a68e2c447d246963909ac14e6874",
+        "timestamp": "2024-04-25 16:49:00"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.0.0/EditorsChoicePlugin-v1.0.0.0.zip",
+        "checksum": "b8da53d22f379d01c8c696e4fc11d75f",
+        "timestamp": "2024-04-25 14:06:00"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "e325b8d5-5f54-447f-a38a-a951b933d22c",
+    "name": "Douban",
+    "description": "Get Movie/TV information from Douban\n\nhttps://github.com/Libitum/jellyfin-plugin-douban",
+    "owner": "Libitum",
+    "overview": "Manage Your Movie/TV by Douban",
+    "versions": [
+      {
+        "checksum": "b01077ed8b477a2b94fd4c3e3ce063bb",
+        "changelog": "Compatible with Jellyfin 10.8.*",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/Libitum/jellyfin-plugin-douban/releases/download/v2.0.0/Jellyfin.Plugin.Douban.zip",
+        "timestamp": "2024-02-21T13:23:00Z",
+        "version": "2.0.0.0"
       }
     ]
   },
@@ -2079,7 +2724,7 @@
     "description": "Enable Cinema Mode with local trailers and pre-rolls.\n\nhttps://github.com/CherryFloors/jellyfin-plugin-cinemamode",
     "owner": "CherryFloors",
     "overview": "Enable Jellyfin's Cinema Mode",
-    "imageUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/raw/main/Jellyfin.Plugin.CinemaMode/Images/jellyfin-plugin-cinemamode.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cinema Mode.jpg",
     "versions": [
       {
         "checksum": "9dd5610f5216745d9b57c2abae13441b",
@@ -3483,7 +4128,7 @@
     "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly",
     "owner": "hexxone",
     "category": "Authentication",
-    "imageUrl": "https://github.com/hexxone/TeleJelly/blob/main/TeleJelly/thumb.jpg?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TeleJelly.jpg",
     "versions": [
       {
         "targetAbi": "10.9.0.0",
@@ -3639,7 +4284,7 @@
     "description": "Add the abiliy to replace the Jellyfin logo\n\nhttps://github.com/ImLacy/Jellyfin-CustomLogo",
     "owner": "Lacy",
     "category": "General",
-    "imageUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/blob/main/logo.png?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
     "versions": [
       {
         "version": "1.0.0.4",
@@ -7910,7 +8555,7 @@
         "timestamp": "2022-10-11T14:23:10Z"
       }
     ],
-    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/raw/master/viperinius-plugin-nfochapters.png"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NFO Chapters.png"
   },
   {
     "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
@@ -8161,7 +8806,7 @@
         "timestamp": "2023-02-26T19:54:34Z"
       }
     ],
-    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/raw/master/viperinius-plugin-spotifyimport.png"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Spotify Import.png"
   },
   {
     "category": "General",
