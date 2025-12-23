@@ -716,6 +716,211 @@
     ]
   },
   {
+    "category": "Metadata",
+    "guid": "7834517B-1A9A-4758-9DD3-73FE02C98AA3",
+    "name": "Open Douban",
+    "description": "Scrape media's metadata from Douban\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV metadata from Douban",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Douban.png",
+    "versions": [
+      {
+        "checksum": "ffef0798b8285b9ac7610f38ab1bff16",
+        "changelog": "the init release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.1.zip",
+        "timestamp": "2021-05-08T23:11:00Z",
+        "version": "1.0.1"
+      },
+      {
+        "checksum": "7587b9e7cd1665877032d74c9bf8bfed",
+        "changelog": "fix image and support backdrop",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.2.zip",
+        "timestamp": "2021-05-10T20:14:00Z",
+        "version": "1.0.2"
+      },
+      {
+        "checksum": "293d281e89d65dc1830b090f53d74dd4",
+        "changelog": "fix checksum",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.3.zip",
+        "timestamp": "2021-05-15T02:49:41Z",
+        "version": "1.0.3"
+      },
+      {
+        "checksum": "95fce615cea9bff07694d96f24901dc0",
+        "changelog": "fix celebrities",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.4.zip",
+        "timestamp": "2021-05-15T14:03:08Z",
+        "version": "1.0.4"
+      },
+      {
+        "checksum": "7c0811b654dffe0dddf33a99f8c7b69f",
+        "changelog": "load more celebrities and stick imdb on it (#2)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.5.zip",
+        "timestamp": "2021-06-06T04:01:31Z",
+        "version": "1.0.5"
+      },
+      {
+        "checksum": "37b5243a1847379b6d00fca9960102a3",
+        "changelog": "filter media name by regex (#4)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.6.zip",
+        "timestamp": "2021-06-25T13:50:54Z",
+        "version": "1.0.6"
+      },
+      {
+        "checksum": "d55b322112895f548f38bf5163b4a985",
+        "changelog": "restructure the whole project (#5)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.7.zip",
+        "timestamp": "2021-07-02T14:14:46Z",
+        "version": "1.0.7"
+      },
+      {
+        "checksum": "c6653fbc39e68e313643551a213606d2",
+        "changelog": "Re-adapt backdrop image (#8)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.8.zip",
+        "timestamp": "2021-08-19T13:55:34Z",
+        "version": "1.0.8"
+      },
+      {
+        "checksum": "c9da1db799089236ccd153ee7efb1dc4",
+        "changelog": "Fix version compatibility (#9)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.9.zip",
+        "timestamp": "2021-08-21T09:32:08Z",
+        "version": "1.0.9"
+      },
+      {
+        "checksum": "900c6d54161c208c3a35845a0f4232c6",
+        "changelog": "Fix metadata of Shows (#13)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.10.zip",
+        "timestamp": "2021-10-01T15:16:18Z",
+        "version": "1.0.10"
+      },
+      {
+        "checksum": "bfb577367e94fe1184b55c3fdbe16d93",
+        "changelog": "Bugfixes: OriginalTitle & PremiereDate",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.11.zip",
+        "timestamp": "2021-10-16T07:01:57Z",
+        "version": "1.0.11"
+      },
+      {
+        "checksum": "dae635e863ad9493dceda0eadd3978d1",
+        "changelog": "Bugfixes: Name and OriginalName (#18)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.12.zip",
+        "timestamp": "2021-10-31T10:53:05Z",
+        "version": "1.0.12"
+      },
+      {
+        "checksum": "62d5bd0618fb779f0eb1ed444345c8eb",
+        "changelog": "fix 10.8.0 compatibility",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.1.zip",
+        "timestamp": "2022-01-07T13:31:32Z",
+        "version": "2.0.1"
+      },
+      {
+        "checksum": "0687f16ab2bca7b3ed1364e0df669f77",
+        "changelog": "Fix CancellationToken bypass (#21)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.13.zip",
+        "timestamp": "2022-01-21T12:55:38Z",
+        "version": "1.0.13"
+      },
+      {
+        "checksum": "3da636e31c57801be3b0fea0fe6f69ed",
+        "changelog": "Fix CancellationToken bypass (#23)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.2.zip",
+        "timestamp": "2022-01-21T12:59:03Z",
+        "version": "2.0.2"
+      },
+      {
+        "checksum": "1a573c6afdf6cfcc76eaf2532b4351ba",
+        "changelog": "Fix unsupported-roles (#36)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.15.zip",
+        "timestamp": "2022-05-29T06:55:02Z",
+        "version": "1.0.15"
+      },
+      {
+        "checksum": "c5f7a048dc8c1b7badbee1883c615e2b",
+        "changelog": "Fix unsupported-roles (#37)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.3.zip",
+        "timestamp": "2022-05-29T06:56:06Z",
+        "version": "2.0.3"
+      },
+      {
+        "checksum": "dff3ba0a48ed662ee2557b3e4436db58",
+        "changelog": "Support custom poster size (#42)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.1.0.zip",
+        "timestamp": "2022-06-16T04:45:22Z",
+        "version": "1.1.0"
+      },
+      {
+        "checksum": "03a2da219b5a25a78dda3073cabfa510",
+        "changelog": "Add poster quality config (#44)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.4.zip",
+        "timestamp": "2022-07-25T11:03:28Z",
+        "version": "2.0.4"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "4EAEDA51-B4CF-45F8-99B3-EB2B1F6D3A53",
+    "name": "MaxSubtitle",
+    "description": "Download subtitles from Internet\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV subtitles from Internet",
+    "versions": [
+      {
+        "checksum": "af05043cdfddb8b0ebcf43a3fe2324d2",
+        "changelog": "the first release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.1.zip",
+        "timestamp": "2021-11-18T23:11:00Z",
+        "version": "0.0.1"
+      },
+      {
+        "checksum": "84633418ccebd73a2604d53de6fa9bce",
+        "changelog": "fix language type",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.2.zip",
+        "timestamp": "2021-12-08T23:11:00Z",
+        "version": "0.0.2"
+      },
+      {
+        "checksum": "70c414e67578c129c71f91fc3980642e",
+        "changelog": "Add CancellationToken & CICD",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.3.zip",
+        "timestamp": "2022-01-23T12:17:02Z",
+        "version": "0.0.3"
+      },
+      {
+        "checksum": "fd76c508fa0cbcb54a1adb0c78086015",
+        "changelog": "Fix 10.8.0 compatibility",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.2.0.0.zip",
+        "timestamp": "2022-01-23T13:35:50Z",
+        "version": "2.0.0"
+      }
+    ]
+  },
+  {
     "guid": "5B39DA44-5314-4940-8E26-54C821C17F86",
     "name": "Danmu",
     "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。\n\nhttps://github.com/cxfksword/jellyfin-plugin-danmu",
