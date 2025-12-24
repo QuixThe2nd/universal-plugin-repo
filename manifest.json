@@ -14070,6 +14070,17 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
+        "version": "2.5.1.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed #173; Order index 0 was previously being mishandled in the new section logic, this has now been rectified so previous configurations should continue to work.\r\n- Fixed LiveTV localization key being inconsistent with section key",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.1.0/Release-10.11.0.zip",
+        "checksum": "24662E3900324F4A77ECE861A76F812C",
+        "timestamp": "2025-12-24T22:34:12",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
+      {
         "version": "2.5.0.0",
         "changelog": "✨ New Features\r\n\r\n- Added \"Continue Watching / Next Up\" combined section. Closes: https://features.iamparadox.dev/posts/46/add-the-option-to-combine-next-up-and-continue-watching\r\n- Added offline translation support as a preferred alternative to LibreTranslate. Translations are community driven and pulled daily into the plugin if there is an internet connection, otherwise it will only use the embedded translations. Initially supported languages are; English, French, Italian, German, Spanish, Portuguese, Brazilian Portuguese, Swedish, Dutch. Please note these translations have been done using AI and if there are any issues please open a PR to rectify them.\r\n- Added lazy loading support for the home screen, this new feature means that home screens should load quicker and will dynamically load new sections as the user scrolls to the bottom of the page. As time goes on this feature papers the way for a truly infinite home screen. Future releases will include more configuration properties, for now the only configurables are whether to enable lazy loading and how many sections per page there are.\r\n\r\n🪲 Bug Fixes\r\n\r\n- Fixed #130; Images are now dynamically resized if too large to avoid very high quality posters that aren't necessary (PR #139, @AdamWHY2K)\r\n- Fixed #159; LG WebOS clients wouldn't be functional at all due to DOM incompatibilities that have now been fixed (PR #170, @WoolMagician)\r\n\r\n🌐 Translations\r\n\r\n- Added Hungarian translation (PR #172, @Gabor2180)\r\n\r\n🔜 Coming Soon\r\n\r\n- \"Starring\" and \"Directed By\" sections will soon be added to HSS! I've been working hard on trying to get these sections ready for this release but unfortunately the performance of them isn't at the level I'd like for release so these have been disabled for the time being.\r\n\r\n🎉 Thank you!\r\n\r\n- I'd just like to also say a massive thank you to everyone who's started using Home Screen Sections this year, as well as those contributing to its improvements, its been amazing to see in the 10 months since my initial release the amount of use and love my plugins get and I just wanted to say a huge thank you! For those who celebrate it I hope you have a great Christmas, for those that don't I hope 2025 has been a wonderful year for you. I wish you all a very happy new year, and an amazing 2026! Thank you again!",
         "targetAbi": "10.11.0.0",
