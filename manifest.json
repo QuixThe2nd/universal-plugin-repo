@@ -14080,11 +14080,22 @@
     "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
     "name": "Home Screen Sections",
     "overview": null,
-    "description": "Adds support for server provided home screen sections\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-home-sections",
+    "description": "Adds support for server provided home screen sections\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
     "owner": "IAmParadox27",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
+      {
+        "version": "2.5.2.0",
+        "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed #176 and https://github.com/IAmParadox27/jellyfin-plugin-file-transformation/issues/33, Solves issue where dll scan could happen on missing directory causing the plugin to malfunction",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/2.5.2.0/Release-10.11.0.zip",
+        "checksum": "0EC2B37E34307EF9A476B7B630EDFD5A",
+        "timestamp": "2025-12-27T10:18:46",
+        "dependencies": [
+          "5e87cc92-571a-4d8d-8d98-d2d4147f9f90"
+        ]
+      },
       {
         "version": "2.5.1.0",
         "changelog": "🪲 Bug Fixes\r\n\r\n- Fixed #173; Order index 0 was previously being mishandled in the new section logic, this has now been rectified so previous configurations should continue to work.\r\n- Fixed LiveTV localization key being inconsistent with section key",
