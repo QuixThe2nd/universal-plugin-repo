@@ -930,6 +930,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.5.2.0",
+        "changelog": "限制bilibili弹幕下载频率，避免风控",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.5.2/danmu_2.5.2.0.zip",
+        "checksum": "4176b5e7e4d25b12ada2aed49739a886",
+        "timestamp": "2026-01-10T06:51:33"
+      },
+      {
         "version": "2.5.1.0",
         "changelog": "修正不触发nfo更新元数据",
         "targetAbi": "10.11.0.0",
