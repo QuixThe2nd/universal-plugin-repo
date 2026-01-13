@@ -7,7 +7,7 @@
     "owner": "LizardByte",
     "category": "Metadata",
     "image": "themerr-jellyfin.png",
-    "imageUrl": "https://lizardbyte.github.io/jellyfin-plugin-repo/themerr/themerr-jellyfin.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Themerr.png",
     "versions": [
       {
         "version": "2024.523.2124.32",
