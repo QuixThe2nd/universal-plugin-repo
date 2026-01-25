@@ -11823,6 +11823,24 @@
     ]
   },
   {
+    "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
+    "name": "Google Books",
+    "description": "Pulls book metadata and cover images from Google Books.\n",
+    "overview": "Google Books Metadata Provider",
+    "owner": "jellyfin",
+    "category": "Books",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/google-books/google-books_1.0.0.0.zip",
+        "checksum": "3ab915e6a4ceef9020717c253b1db5d7",
+        "timestamp": "2026-01-25T15:06:31Z"
+      }
+    ]
+  },
+  {
     "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
     "name": "AniDB",
     "description": "AniDB metadata provider\n",
