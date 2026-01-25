@@ -1645,6 +1645,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
     "versions": [
       {
+        "version": "1.10.11.14",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.14)\n",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.14/intro-skipper-v1.10.11.14.zip",
+        "checksum": "dc5104987d5978008bd86f63934bea4a",
+        "timestamp": "2026-01-25T20:31:56Z"
+      },
+      {
         "version": "1.10.11.13",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.13)\n",
         "targetAbi": "10.11.5.0",
