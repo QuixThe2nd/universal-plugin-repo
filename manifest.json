@@ -11857,6 +11857,24 @@
     ]
   },
   {
+    "guid": "309ec7e5-4981-4e8c-992f-8e4dde9591e0",
+    "name": "Comic Vine",
+    "description": "Pulls comic metadata and cover images from Comic Vine.\n",
+    "overview": "Comic Vine Metadata Provider",
+    "owner": "jellyfin",
+    "category": "Books",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/comic-vine/comic-vine_1.0.0.0.zip",
+        "checksum": "d84b4958da5325fd35b2298c11264bdf",
+        "timestamp": "2026-01-26T01:27:36Z"
+      }
+    ]
+  },
+  {
     "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
     "name": "AniDB",
     "description": "AniDB metadata provider\n",
@@ -13332,6 +13350,24 @@
         "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_1.2512.1.0.zip",
         "checksum": "c9ca715f0e4f3a691ee8503a45df9b1b",
         "timestamp": "2025-12-12T05:06:16Z"
+      }
+    ]
+  },
+  {
+    "guid": "309ec7e5-4981-4e8c-992f-8e4dde9591e0",
+    "name": "Comic Vine",
+    "description": "Pulls comic metadata and cover images from Comic Vine.\n",
+    "overview": "Comic Vine Metadata Provider",
+    "owner": "jellyfin",
+    "category": "Books",
+    "versions": [
+      {
+        "version": "1.2601.4.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/comic-vine/comic-vine_1.2601.4.0.zip",
+        "checksum": "700d9dfa42e867cb4e05b80662a037a8",
+        "timestamp": "2026-01-26T01:25:09Z"
       }
     ]
   },
