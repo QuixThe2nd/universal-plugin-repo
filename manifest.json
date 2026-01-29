@@ -1205,6 +1205,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.3.1.0",
+        "changelog": "修复豆瓣",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.1/metashark_2.3.1.0.zip",
+        "checksum": "cb0bb26b7561f3d19490ac8d8b0ba97d",
+        "timestamp": "2026-01-29T13:34:40"
+      },
+      {
         "version": "2.3.0.0",
         "changelog": "支持tmdb剧集组，优化刮削",
         "targetAbi": "10.11.0.0",
