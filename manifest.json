@@ -1667,54 +1667,6 @@
         "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.13/intro-skipper-v1.10.11.13.zip",
         "checksum": "22dfe07e8be11dc58b0257eefa0f5980",
         "timestamp": "2026-01-16T21:38:26Z"
-      },
-      {
-        "version": "1.10.11.12",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.12)\n",
-        "targetAbi": "10.11.5.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.12/intro-skipper-v1.10.11.12.zip",
-        "checksum": "fccdb2d5e53850bf91110ee1bbc80120",
-        "timestamp": "2026-01-14T19:28:02Z"
-      },
-      {
-        "version": "1.10.11.11",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.11)\n",
-        "targetAbi": "10.11.5.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.11/intro-skipper-v1.10.11.11.zip",
-        "checksum": "ebe30de151b04834813eaaa1d0b5f205",
-        "timestamp": "2025-12-26T19:42:49Z"
-      },
-      {
-        "version": "1.10.11.10",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.10)\n",
-        "targetAbi": "10.11.5.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.10/intro-skipper-v1.10.11.10.zip",
-        "checksum": "83d35c6d3a24397244bbefee2d7e1d78",
-        "timestamp": "2025-12-26T16:53:22Z"
-      },
-      {
-        "version": "1.10.11.9",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.9)\n",
-        "targetAbi": "10.11.4.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.9/intro-skipper-v1.10.11.9.zip",
-        "checksum": "3d1ed787003e76afe2f97c1bc45fb086",
-        "timestamp": "2025-12-02T19:35:15Z"
-      },
-      {
-        "version": "1.10.11.7",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.7)\n",
-        "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.7/intro-skipper-v1.10.11.7.zip",
-        "checksum": "a96f17dddc3d5a2d50f3b4e65ca6a113",
-        "timestamp": "2025-10-24T18:55:22Z"
-      },
-      {
-        "version": "1.10.11.8",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.8)\n",
-        "targetAbi": "10.11.3.0",
-        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.8/intro-skipper-v1.10.11.8.zip",
-        "checksum": "5d1b4198e2bd8d8818cdc18d3595fa7d",
-        "timestamp": "2025-11-23T19:04:22Z"
       }
     ]
   },
@@ -2594,6 +2546,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Meilisearch.svg",
     "versions": [
+      {
+        "version": "1.11.1.10",
+        "changelog": "- [2fad775] docs: Setup/usage instructions, clarify, provide examples (#92)\n- [a3c4ca9] ci(deps): bump actions/checkout from 6.0.1 to 6.0.2 (#90)\n- [b3cafe1] feat: add default search types when none specified (#73)\n- [66dc487] ci(deps): Bump actions/setup-dotnet from 5.0.1 to 5.1.0 (#87)\n- [79de4f9] chore: add VSCode configuration files for extensions and settings\n- [907251d] refactor: remove workaround for URL constructor in Meilisearch plugin\n- [a8b531e] chore: update .gitignore to include .vs/ directory",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/arnesacnussem/jellyfin-plugin-meilisearch/releases/download/1.11.1.10/meilisearch_1.11.1.10.zip",
+        "checksum": "b1b95aabd8607bff3a50ef20c26ef3fd",
+        "timestamp": "2026-01-30T18:39:21Z"
+      },
       {
         "version": "1.11.1.9",
         "changelog": "- [438b910] feat: enhance Meilisearch client with reconnect logic and health checks\n- [0a0ce10] chore: Bump MeiliSearch from 0.17.1 to 0.18.0 (#82)\n- [ad6a7e1] ci(deps): bump actions/download-artifact from 6.0.0 to 7.0.0 (#80)\n- [c90ce69] ci(deps): bump actions/upload-artifact from 5.0.0 to 6.0.0 (#81)\n- [6083528] ci(deps): bump actions/checkout from 6.0.0 to 6.0.1 (#78)\n- [8acd7de] ci(deps): bump actions/checkout from 5.0.1 to 6.0.0 (#75)\n- [e446305] ci(deps): bump actions/setup-dotnet from 5.0.0 to 5.0.1 (#76)\n- [d7ac2ea] ci(deps): bump actions/checkout from 5.0.0 to 5.0.1 (#74)\n- [e5a30dc] Update Jellyfin version in README",
