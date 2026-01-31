@@ -13457,6 +13457,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
       {
+        "version": "6.0.3.7",
+        "changelog": "Maintenance release:\n  - Plugin maintenance / code cleanup\n  - Fix duplication of items in plugin config\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.0.3.7.zip",
+        "checksum": "2a59ace2dac31498f0eb8ba93f336e33",
+        "timestamp": "2026-01-31T11:01:30Z"
+      },
+      {
         "version": "6.0.1.1",
         "changelog": "Maintenance\n  - Compatibility for Jellyfin 10.11.0\n  - Use local recording MBIDs when available (fallback to MusicBrainz lookup if not)\n",
         "targetAbi": "10.11.0.0",
