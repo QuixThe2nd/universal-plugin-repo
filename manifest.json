@@ -13473,6 +13473,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
       {
+        "version": "6.0.4.0",
+        "changelog": "- Fix plugin settings error for mixed type libraries\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.0.4.0.zip",
+        "checksum": "656c7e1a7aac886c7ce25302f4e05f15",
+        "timestamp": "2026-02-01T09:52:09Z"
+      },
+      {
         "version": "6.0.3.7",
         "changelog": "Maintenance release:\n  - Plugin maintenance / code cleanup\n  - Fix duplication of items in plugin config\n",
         "targetAbi": "10.11.0.0",
