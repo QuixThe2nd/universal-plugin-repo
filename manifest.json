@@ -1644,6 +1644,71 @@
     ]
   },
   {
+    "guid": "c83d86bb-a1e0-4c35-a113-e2101cf4ee6b",
+    "name": "Intro Skipper",
+    "overview": "Automatically detect and skip intros in television episodes",
+    "description": "Analyzes the audio of television episodes and detects introduction sequences.\n\nhttps://github.com/intro-skipper/intro-skipper",
+    "owner": "AbandonedCart, rlauuzo, jumoog (forked from ConfusedPolarBear)",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Intro Skipper.png",
+    "versions": [
+      {
+        "version": "1.10.11.14",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.14)\n",
+        "targetAbi": "10.11.6.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.14/intro-skipper-v1.10.11.14.zip",
+        "checksum": "dc5104987d5978008bd86f63934bea4a",
+        "timestamp": "2026-01-25T20:31:56Z"
+      },
+      {
+        "version": "1.10.11.13",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/intro-skipper/releases/tag/10.11/v1.10.11.13)\n",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/intro-skipper/intro-skipper/releases/download/10.11/v1.10.11.13/intro-skipper-v1.10.11.13.zip",
+        "checksum": "22dfe07e8be11dc58b0257eefa0f5980",
+        "timestamp": "2026-01-16T21:38:26Z"
+      }
+    ]
+  },
+  {
+    "guid": "6B0E323A-4AEE-4B10-813F-1E060488AE90",
+    "name": "EDL Creator",
+    "overview": "Create .edl files from Media Segments",
+    "description": "These files can be used by Kodi and other players to skip content like commercials and are stored next to your media. Therefore you need write access.\n\nhttps://github.com/intro-skipper/jellyfin-plugin-edl",
+    "owner": "Intro Skipper (forked from Endrl)",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/EDL Creator.png",
+    "versions": [
+      {
+        "version": "0.5.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-edl/blob/10.10.2/CHANGELOG.md)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-edl/releases/download/0.5.0-c0fdd22/Jellyfin.Plugin.Edl-0.5.0.zip",
+        "checksum": "de00b28cbfe51e1d6665083b3e76d6ec",
+        "timestamp": "2025-10-21T21:05:45Z"
+      }
+    ]
+  },
+  {
+    "guid": "e22fb8f5-bc98-4f76-9be4-87de302a97ea",
+    "name": "Chapter Creator",
+    "overview": "Automatically convert Jellyfin media segments into Matroska chapter XML files for enhanced media navigation",
+    "description": "This plugin converts existing media segments (like Intros and Outros) into standardized Matroska chapter XML files\n\nhttps://github.com/intro-skipper/jellyfin-plugin-ms-chapter",
+    "owner": "Intro Skipper",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Chapter Creator.png",
+    "versions": [
+      {
+        "version": "0.5.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/blob/master/CHANGELOG.md)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-ms-chapter/releases/download/0.5.0-33f16aa/ChapterCreator-0.5.0.zip",
+        "checksum": "ac861165af2a9bdc92109a6d73e34125",
+        "timestamp": "2025-10-21T15:32:37Z"
+      }
+    ]
+  },
+  {
     "guid": "5e7fe7f0-b048-429e-a431-b1a7e69c930d",
     "name": "LastFM",
     "description": "Scrobble LastFM plays with Jellyfin\n\nhttps://github.com/jesseward/jellyfin-plugin-lastfm",
