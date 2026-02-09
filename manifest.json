@@ -3837,11 +3837,27 @@
       },
       {
         "checksum": "e5b47c4275b6c1da7d289190ab9ac538",
-        "changelog": "* fix: do not send a user-agent header to prevent the animethemes api from blocking us (#36) @EusthEnoptEron\n",
+        "changelog": "* fix: do not send a user-agent header to prevent the animethemes api from blocking us (#36) @EusthEnoptEron",
         "targetAbi": "10.11.3.0",
         "sourceUrl": "https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes/releases/download/4/animethemes_4.0.0.0.zip",
         "timestamp": "2026-02-07T22:38:17Z",
         "version": "4.0.0.0"
+      },
+      {
+        "checksum": "eb5bfbb1ec1d301b80874d2d9e3d5dac",
+        "changelog": "* Batch requests to AnimeThemes API (#40) @EusthEnoptEron",
+        "targetAbi": "10.11.3.0",
+        "sourceUrl": "https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes/releases/download/5/animethemes_5.0.0.0.zip",
+        "timestamp": "2026-02-09T17:52:00Z",
+        "version": "5.0.0.0"
+      },
+      {
+        "checksum": "ba6f40b1d8c007980bab3e6931b48d7e",
+        "changelog": "fix: actually fill chunks (#43) @EusthEnoptEron",
+        "targetAbi": "10.11.3.0",
+        "sourceUrl": "https://github.com/EusthEnoptEron/jellyfin-plugin-animethemes/releases/download/5/animethemes_5.0.0.0.zip",
+        "timestamp": "2026-02-09T18:08:32Z",
+        "version": "7.0.0.0"
       }
     ]
   },
@@ -13759,48 +13775,6 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_2.3.0.0.zip",
         "checksum": "27ff3ac6cfbb6f6a5877c241bbdf96a2",
         "timestamp": "2023-05-12T09:31:30Z"
-      }
-    ]
-  },
-  {
-    "guid": "69384327-d223-447a-ae23-47767eed1749",
-    "name": "M3U Editor",
-    "description": "Edit Live TV M3U channel lists",
-    "overview": "Edit Live TV M3U channel lists",
-    "owner": "Mr. Chip53",
-    "category": "Live TV",
-    "versions": [
-      {
-        "version": "0.1.0.0",
-        "changelog": "Initial Release",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.01/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "1f7e24908bfc1a68374890706c9fd1d4",
-        "timestamp": "2021-01-16T06:18:27Z"
-      },
-      {
-        "version": "0.2.0.0",
-        "changelog": "-Add API key to M3U urls, add 'tvg-chno' attribute to channels that don't already have it",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.02/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "2e1d1aa0648eb2643bb440dbf2b5927c",
-        "timestamp": "2021-01-17T06:18:27Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "- Add tabs to UI<br />- Filter by hidden value<br />- Search by channel name<br />- Delete playlists<br />- Refresh channels from source<br />- Custom user agents when fetching m3u<br />- Minor improvements<br />",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.0.0.0/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "3c692f2b5d6327986e2faefb0b575868",
-        "timestamp": "2021-01-22T06:18:27Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "- Improve mass hiding functions",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.1.0.0/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "0f39094bc7225672d040fc5f469c8ab6",
-        "timestamp": "2021-01-22T06:18:27Z"
       }
     ]
   },
