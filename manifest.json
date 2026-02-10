@@ -927,7 +927,7 @@
     "overview": "jellyfin弹幕下载插件",
     "owner": "cxfksword",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
+    "imageUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/raw/main/doc/logo.png",
     "versions": [
       {
         "version": "2.5.2.0",
