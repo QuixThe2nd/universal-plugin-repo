@@ -13472,7 +13472,7 @@
     "versions": [
       {
         "version": "6.2.0.3",
-        "changelog": "",
+        "changelog": "New features:\n - Strict mode option for ListenBrainz submissions\n - Sync playlists from ListenBrainz\n",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.2.0.3.zip",
         "checksum": "ea5fd1f48cc0c513c93f13da8030858d",
