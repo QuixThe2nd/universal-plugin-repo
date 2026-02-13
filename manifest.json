@@ -13471,6 +13471,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
       {
+        "version": "6.2.0.3",
+        "changelog": "",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.2.0.3.zip",
+        "checksum": "ea5fd1f48cc0c513c93f13da8030858d",
+        "timestamp": "2026-02-13T19:59:29Z"
+      },
+      {
         "version": "6.0.4.0",
         "changelog": "- Fix plugin settings error for mixed type libraries\n",
         "targetAbi": "10.11.0.0",
