@@ -13503,6 +13503,14 @@
         "timestamp": "2025-10-20T16:50:32Z"
       },
       {
+        "version": "5.4.0.1",
+        "changelog": "Fix:\n  - Fetch metadata before evaluating strict mode in resubmit listens task\nNew:\n  - Sync playlists from ListenBrainz\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_5.4.0.1.zip",
+        "checksum": "7fa6031e028dee7a167d47a3fa1e02cf",
+        "timestamp": "2026-02-13T21:35:13Z"
+      },
+      {
         "version": "5.2.0.4",
         "changelog": "Maintenance/fix\n  - Reimplementation of loved sync task (#124 @lyarenei)\n",
         "targetAbi": "10.10.0.0",
