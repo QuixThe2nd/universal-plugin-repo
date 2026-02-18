@@ -4943,6 +4943,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/КиноПоиск.png",
     "versions": [
       {
+        "version": "10.10.3.0",
+        "checksum": "de4cf02e03339d61933a6869bf6be6f4",
+        "changelog": "Исправлена совместимость с 10.10.*",
+        "targetAbi": "10.10.0",
+        "sourceUrl": "https://github.com/LinFor/jellyfin-plugin-kinopoisk/releases/download/v10.10.3.0/jellyfin-plugin-kinopoisk_10.10.3.0.zip",
+        "timestamp": "2026-02-18T07:38:15Z"
+      },
+      {
         "version": "10.10.2.0",
         "checksum": "4cd0b8b5fe5db078b74eb472146773ac",
         "changelog": "Исправлена совместимость с 10.11.(0-4)",
