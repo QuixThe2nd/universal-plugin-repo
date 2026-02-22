@@ -1687,6 +1687,25 @@
     ]
   },
   {
+    "guid": "ace21d44-a4e5-4a85-ae75-acd2e24a9574",
+    "name": "Segment Editor",
+    "overview": "Segment editing UI embedded as a plugin page",
+    "description": "Packages the Segment Editor web app (built from intro-skipper/segment-editor) as a Jellyfin server plugin\n\nhttps://github.com/intro-skipper/segment-editor-plugin",
+    "owner": "Intro Skipper",
+    "category": "MoviesAndShows",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Segment Editor.png",
+    "versions": [
+      {
+        "version": "0.1.4.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/segment-editor-plugin/blob/master/CHANGELOG.md)",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://github.com/intro-skipper/segment-editor-plugin/releases/download/v0.1.4.0/segment-editor-plugin-v0.1.4.0.zip",
+        "checksum": "4bcf70b69603dc0d527c66d125fe692f",
+        "timestamp": "2026-02-22T11:25:45Z"
+      }
+    ]
+  },
+  {
     "guid": "6B0E323A-4AEE-4B10-813F-1E060488AE90",
     "name": "EDL Creator",
     "overview": "Create .edl files from Media Segments",
@@ -1697,7 +1716,7 @@
     "versions": [
       {
         "version": "0.5.0.0",
-        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-edl/blob/10.10.2/CHANGELOG.md)",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/jellyfin-plugin-edl/blob/main/CHANGELOG.md)",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/intro-skipper/jellyfin-plugin-edl/releases/download/0.5.0-c0fdd22/Jellyfin.Plugin.Edl-0.5.0.zip",
         "checksum": "de00b28cbfe51e1d6665083b3e76d6ec",
