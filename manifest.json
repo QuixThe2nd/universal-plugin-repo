@@ -13594,6 +13594,14 @@
         "timestamp": "2025-10-20T16:50:32Z"
       },
       {
+        "version": "5.5.1.6",
+        "changelog": "Maintenance:\n  - Typescript integration for config page\nFix:\n  - Strict mode not working with fetched metadata -- @Maxr1998\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_5.5.1.6.zip",
+        "checksum": "72dfac1d69ff0c4a2e29fe274eb349f4",
+        "timestamp": "2026-02-25T20:36:32Z"
+      },
+      {
         "version": "5.4.0.1",
         "changelog": "Fix:\n  - Fetch metadata before evaluating strict mode in resubmit listens task\nNew:\n  - Sync playlists from ListenBrainz\n",
         "targetAbi": "10.10.0.0",
