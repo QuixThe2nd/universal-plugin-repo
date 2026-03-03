@@ -722,7 +722,7 @@
     "description": "Scrape media's metadata from Douban\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
     "owner": "caryyu",
     "overview": "Get your Movie/TV metadata from Douban",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Douban.png",
+    "imageUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/image.png",
     "versions": [
       {
         "checksum": "ffef0798b8285b9ac7610f38ab1bff16",
