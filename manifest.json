@@ -1809,12 +1809,12 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/SkipMe.db.png",
     "versions": [
       {
-        "version": "0.1.5.0",
+        "version": "0.1.7.0",
         "changelog": "- See the full changelog at [GitHub](https://github.com/intro-skipper/skipme.db-plugin/blob/main/CHANGELOG.md)",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/intro-skipper/skipme.db-plugin/releases/download//v0.1.5.0/SkipMe.db-plugin-v0.1.5.0.zip",
-        "checksum": "2a96f167f88bc8e36604ed59e5ff0e2e",
-        "timestamp": "2026-04-04T21:05:45Z"
+        "sourceUrl": "https://github.com/intro-skipper/skipme.db-plugin/releases/download//v0.1.7.0/SkipMe.db-plugin-v0.1.7.0.zip",
+        "checksum": "5B39451E1696045167965D64E05AC660",
+        "timestamp": "2026-04-04T23:00:45Z"
       }
     ]
   },
@@ -11824,11 +11824,19 @@
   {
     "guid": "07caef58-a94b-4211-a62c-f9774e04ebdb",
     "name": "Simkl",
-    "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!\n",
+    "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!\n\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#49) @[renovate[bot]](https:",
     "overview": "Scrobble to Simkl",
     "owner": "crobibero",
     "category": "General",
     "versions": [
+      {
+        "version": "8.0.0.0",
+        "changelog": "- Fix invalid operation exception (#59) @balciseri\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#54) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to v10 (#52) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#49) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/simkl/simkl_8.0.0.0.zip",
+        "checksum": "0cef8908b50ad5b2642792de1f233dfe",
+        "timestamp": "2026-04-05T00:17:08Z"
+      },
       {
         "version": "7.0.0.0",
         "changelog": "- Jellyfin 10.11 support (#47) @crobibero\n- Change Error Logging (#37) @JamsRepos",
