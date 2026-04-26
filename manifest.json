@@ -4505,6 +4505,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/subbuzz.png",
     "versions": [
       {
+        "version": "1.4.1.0",
+        "changelog": "- Fix Json exception triggered on all subsource.net results #41\n",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.4.1.0/subbuzz_1.4.1.0_jellyfin_10.10.zip",
+        "checksum": "e3e4e57a75b32bbbae026030e41cce28",
+        "timestamp": "2026-04-26T07:21:31Z"
+      },
+      {
         "version": "1.4.0.0",
         "changelog": "- Add new provider: Subsource.net\n- Remove Yavka.net\n",
         "targetAbi": "10.10.0.0",
