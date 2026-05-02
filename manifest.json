@@ -1213,6 +1213,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.3.2.0",
+        "changelog": "兼容 10.11.8",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.2/metashark_2.3.2.0.zip",
+        "checksum": "4ac5fa8ceb5695084c0ca5123e77c7dd",
+        "timestamp": "2026-05-02T06:00:24"
+      },
+      {
         "version": "2.1.5.0",
         "changelog": "修复10.10.x豆瓣",
         "targetAbi": "10.9.0.0",
