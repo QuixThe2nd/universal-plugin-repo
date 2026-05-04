@@ -11277,12 +11277,20 @@
   {
     "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
     "name": "AniList",
-    "description": "AniList metadata provider\n",
+    "description": "AniList metadata provider\n\n\nhttps://github.com/apps/renovate)",
     "overview": "AniList metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniList.png",
     "versions": [
+      {
+        "version": "13.0.0.0",
+        "changelog": "- Implement rate limit and HTTP 429 handling (#112) @ivanjx\n- Add option for including/excluding series description (synopsis) (#103) @jack-mil\n- Filter tags by Anilist rank and Add maximum tags setting (#102) @jack-mil\n\n### Dependency updates ###\n- Update dotnet monorepo to 9.0.11 (#105) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/anilist/anilist_13.0.0.0.zip",
+        "checksum": "0b7b57fe4885d81755a2798fc992e24f",
+        "timestamp": "2026-05-04T17:22:10Z"
+      },
       {
         "version": "12.0.0.0",
         "changelog": "- Jellyfin 10.11 support (#92) @crobibero",
