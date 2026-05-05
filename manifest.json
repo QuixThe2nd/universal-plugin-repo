@@ -12541,6 +12541,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cover Art Archive.png",
     "versions": [
       {
+        "version": "9.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#39) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/cover-art-archive/cover-art-archive_9.2605.8.0.zip",
+        "checksum": "c969720c0f2af0d6dfd077f8c10a6a2f",
+        "timestamp": "2026-05-05T22:53:30Z"
+      },
+      {
         "version": "8.2505.7.0",
         "changelog": "- 10.9 (#35) @crobibero\n\n### Bug Fixes ###\n- Check if the Types is flagged as 'Front' (#33) @GaaH\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#34) @methbkts\n- Use meta ci (#27) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency metabrainz.common.json to v5.1.0 (#30) @renovate\n\n### CI & build changes ###\n- fix: ci bumps (#29) @h1dden-da3m0n\n- Use meta ci (#27) @crobibero",
         "targetAbi": "10.11.0.0",
@@ -12719,6 +12727,14 @@
     "category": "Books",
     "versions": [
       {
+        "version": "13.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_13.2605.8.0.zip",
+        "checksum": "631f9d9848b7a6df1f31bed6a11379db",
+        "timestamp": "2026-05-05T22:51:52Z"
+      },
+      {
         "version": "12.2511.7.0",
         "changelog": "- Fix nullability for 10.10 (#116) @crobibero\n- Update opf and add ISBN (#108) @AshleyDeo\n- Add Comic Vine Person provider (#85) @Pithaya\n\n### New features and improvements ###\n- Add support for covers from .cbt, .cb7 and .cbr (#112) @oddstr13\n\n### Dependency updates ###\n- Update dependency Microsoft.NET.Test.Sdk to 17.11.1 (#106) @renovate\n- Update xunit-dotnet monorepo (#84) @renovate\n- Update dependency Microsoft.Extensions.Http to 8.0.1 - autoclosed (#115) @renovate",
         "targetAbi": "10.11.0.0",
@@ -12881,6 +12897,14 @@
     "category": "Music",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Discogs.png",
     "versions": [
+      {
+        "version": "2.2605.14.0",
+        "changelog": "- Jellyfin 10.11 support (#15) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/discogs/discogs_2.2605.14.0.zip",
+        "checksum": "9f8210764c45e5a62a9c4bde48ad809d",
+        "timestamp": "2026-05-05T22:53:54Z"
+      },
       {
         "version": "1.2505.13.0",
         "changelog": "- 10.9 (#7) @crobibero\n- Update dependency StyleCop.Analyzers to v1.2.0-beta.556 (#1) @renovate\n- Update workflows (#3) @crobibero",
@@ -13718,6 +13742,14 @@
     "owner": "jellyfin",
     "category": "General",
     "versions": [
+      {
+        "version": "4.2605.4.0",
+        "changelog": "- Jellyfin 10.11 support (#9) @crobibero\n- Added additional commercial terms (#8) @JPVenson\n- Fix wrong order of RegEx comments (#13) @mihawk90\n- Add \"credits\" to outro segment RegEx (#4) @mihawk90",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/chapter-segments-provider/chapter-segments-provider_4.2605.4.0.zip",
+        "checksum": "5094b41fb7dccf0815dee3663606ef0e",
+        "timestamp": "2026-05-05T22:52:32Z"
+      },
       {
         "version": "3.2505.3.0",
         "changelog": "",
