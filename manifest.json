@@ -12388,6 +12388,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniDB.png",
     "versions": [
       {
+        "version": "11.2605.10.0",
+        "changelog": "- Jellyfin 10.11 support (#78) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_11.2605.10.0.zip",
+        "checksum": "5c68f9e5117ccadc3823113ac2a04682",
+        "timestamp": "2026-05-05T22:59:08Z"
+      },
+      {
         "version": "10.2505.9.0",
         "changelog": "- Fallback on empty ParentIndexNumber (#75) @Shadowghost",
         "targetAbi": "10.11.0.0",
@@ -12541,6 +12549,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cover Art Archive.png",
     "versions": [
       {
+        "version": "9.2605.9.0",
+        "changelog": "- Jellyfin 10.11 support (#39) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/cover-art-archive/cover-art-archive_9.2605.9.0.zip",
+        "checksum": "71244097d6443c393af598f7e5ad1772",
+        "timestamp": "2026-05-05T23:31:07Z"
+      },
+      {
         "version": "9.2605.8.0",
         "changelog": "- Jellyfin 10.11 support (#39) @crobibero",
         "targetAbi": "10.11.0.0",
@@ -12618,6 +12634,22 @@
     "imageUrl": "",
     "versions": [
       {
+        "version": "10.2605.17.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_10.2605.17.0.zip",
+        "checksum": "939becf4a19ba9bce54cb16516f01b78",
+        "timestamp": "2026-05-05T23:31:39Z"
+      },
+      {
+        "version": "10.2605.16.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_10.2605.16.0.zip",
+        "checksum": "446fe9b9c6e5077e8eb7cba9a1031018",
+        "timestamp": "2026-05-05T22:58:04Z"
+      },
+      {
         "version": "8.2510.15.0",
         "changelog": "- Revert collection expression (#132) @crobibero",
         "targetAbi": "10.11.0.0",
@@ -12686,12 +12718,20 @@
   {
     "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
     "name": "Fanart",
-    "description": "Scrape poster images for movies, shows, and artists in your library.",
+    "description": "Scrape poster images for movies, shows, and artists in your library.\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https:",
     "overview": "Scrape poster images from Fanart",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Fanart.png",
     "versions": [
+      {
+        "version": "14.2605.8.0",
+        "changelog": "- Use file scoped namespaces and add analyzers (#72) @Shadowghost\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#73) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#68) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.11.5.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/fanart/fanart_14.2605.8.0.zip",
+        "checksum": "6ae9b86f446199ecf54d8682f7e2dfd3",
+        "timestamp": "2026-05-05T22:58:21Z"
+      },
       {
         "version": "12.2505.7.0",
         "changelog": "- Use latest API 3.2 (#49) @enter-a-random-username",
@@ -12726,6 +12766,30 @@
     "owner": "jellyfin",
     "category": "Books",
     "versions": [
+      {
+        "version": "13.2605.11.0",
+        "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_13.2605.11.0.zip",
+        "checksum": "8a0f8beb76d5e2643fa15f2c02c6da74",
+        "timestamp": "2026-05-05T23:49:19Z"
+      },
+      {
+        "version": "13.2605.10.0",
+        "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_13.2605.10.0.zip",
+        "checksum": "c9a3f0cadceb956956f95c1945e27cee",
+        "timestamp": "2026-05-05T23:47:36Z"
+      },
+      {
+        "version": "13.2605.9.0",
+        "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_13.2605.9.0.zip",
+        "checksum": "ca22beb96215e52d5ff36b196ee21220",
+        "timestamp": "2026-05-05T23:31:08Z"
+      },
       {
         "version": "13.2605.8.0",
         "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
@@ -12785,6 +12849,22 @@
     "category": "Music",
     "versions": [
       {
+        "version": "5.2605.9.0",
+        "changelog": "- Jellyfin 10.11 support (#29) @crobibero\n- Update settings page (#30) @thornbill\n\n### Bug Fixes ###\n- Restore manual search for new items (#27) @abrain",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/imvdb/imvdb_5.2605.9.0.zip",
+        "checksum": "de280ee7273c8f23dbe215ac054ec3e4",
+        "timestamp": "2026-05-05T23:31:20Z"
+      },
+      {
+        "version": "5.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#29) @crobibero\n- Update settings page (#30) @thornbill\n\n### Bug Fixes ###\n- Restore manual search for new items (#27) @abrain",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/imvdb/imvdb_5.2605.8.0.zip",
+        "checksum": "1ed39f10e4bfce72498e3d34c228c784",
+        "timestamp": "2026-05-05T23:00:57Z"
+      },
+      {
         "version": "4.2505.7.0",
         "changelog": "- 10.9 (#21) @crobibero\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#20) @methbkts\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#16) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#14) @h1dden-da3m0n",
         "targetAbi": "10.11.0.0",
@@ -12820,6 +12900,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Kitsu.png",
     "versions": [
       {
+        "version": "7.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#37) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kitsu/kitsu_7.2605.8.0.zip",
+        "checksum": "8def7b2588a3a233f302268e123a35c3",
+        "timestamp": "2026-05-05T23:01:41Z"
+      },
+      {
         "version": "6.2505.7.0",
         "changelog": "- Fallback on empty ParentIndexNumber (#36) @Shadowghost\n- Update kitsu domain (#34) @pikami",
         "targetAbi": "10.11.0.0",
@@ -12854,6 +12942,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Kodi Sync Queue.png",
     "versions": [
+      {
+        "version": "15.2605.10.0",
+        "changelog": "- Jellyfin 10.11 support (#111) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kodi-sync-queue/kodi-sync-queue_15.2605.10.0.zip",
+        "checksum": "81b9307aa005d5a2fa55e436c408df02",
+        "timestamp": "2026-05-05T23:03:09Z"
+      },
       {
         "version": "14.2505.9.0",
         "changelog": "### Bug Fixes ###\n- Implement a database upgrade system, properly migrate ItemId to Guid (#107) @Insprill",
@@ -12949,6 +13045,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LDAP Authentication.png",
     "versions": [
       {
+        "version": "22.2605.11.0",
+        "changelog": "- Fix 10.11.2 support (#195) @crobibero",
+        "targetAbi": "10.11.2.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_22.2605.11.0.zip",
+        "checksum": "557f891fa49d1e0f3dd6be5c2a787792",
+        "timestamp": "2026-05-05T23:04:03Z"
+      },
+      {
         "version": "20.2506.10.0",
         "changelog": "- Added ProfileImageFormat support (#174) @CEbbinghaus\n- Removed jpegphoto attribute when photo sync isn't enabled (#168) @CEbbinghaus\n\n### New features and improvements ###\n- Implement Password Modify Extended Operation (#172) @Zeault",
         "targetAbi": "10.11.0.0",
@@ -13008,6 +13112,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playback Reporting.png",
     "versions": [
       {
+        "version": "17.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#108) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/playback-reporting/playback-reporting_17.2605.8.0.zip",
+        "checksum": "914cc871f7865edff147a5777ac86991",
+        "timestamp": "2026-05-05T23:07:39Z"
+      },
+      {
         "version": "16.2505.7.0",
         "changelog": "- fix: require admin privileges to access API (#104) @Theta-Dev\n- Fix GetLastSeenString method (#103) @Nathan5471\n- Fix database connection disposal on server shutdown (#98) @a-mnich\n- fix nullable warnings (#99) @a-mnich\n\n### Bug Fixes ###\n- Improve Timezone Handling and Fix End Date Picker (#101) @a-mnich",
         "targetAbi": "10.11.0.0",
@@ -13050,6 +13162,14 @@
     "category": "Books",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/OPDS.png",
     "versions": [
+      {
+        "version": "7.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#48) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/opds/opds_7.2605.8.0.zip",
+        "checksum": "2f768537b8c6abb6add1b0738a9fc570",
+        "timestamp": "2026-05-05T23:06:21Z"
+      },
       {
         "version": "6.2505.7.0",
         "changelog": "- 10.10 fixes (#44) @crobibero\n\n### New features and improvements ###\n- Add more descriptive feed name (#25) @crobibero\n\n### Bug Fixes ###\n- fix: Support different query parameter names in search (#41) @rluetzner\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.556 - autoclosed (#34) @renovate",
@@ -13130,11 +13250,19 @@
   {
     "guid": "07caef58-a94b-4211-a62c-f9774e04ebdb",
     "name": "Simkl",
-    "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!\n",
+    "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!\n\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#49) @[renovate[bot]](https:",
     "overview": "Scrobble to Simkl",
     "owner": "crobibero",
     "category": "General",
     "versions": [
+      {
+        "version": "8.2605.9.0",
+        "changelog": "- Fix invalid operation exception (#59) @balciseri\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#54) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to v10 (#52) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#49) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.11.7.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/simkl/simkl_8.2605.9.0.zip",
+        "checksum": "de9f6084644b7ff990806c799b4007ff",
+        "timestamp": "2026-05-05T23:09:05Z"
+      },
       {
         "version": "6.2505.8.0",
         "changelog": "- Fix 10.9 support (#34) @crobibero",
@@ -13172,12 +13300,28 @@
   {
     "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
     "name": "Open Subtitles",
-    "description": "Download subtitles from the internet to use with your media files. (Requires configuration)",
+    "description": "Download subtitles from the internet to use with your media files. (Requires configuration)\n\nhttps://github.com/apps/renovate)\n- Update dependency coverlet.collector to v6 (#125) @[renovate[bot]](https:",
     "overview": "Download subtitles for your media",
     "owner": "jellyfin",
     "category": "Subtitles",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
     "versions": [
+      {
+        "version": "24.2605.15.0",
+        "changelog": "- Fix 429 handling (#189) @MBR-0001\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#184) @Shadowghost\n- imdbId fixes (#182) @MBR-0001\n\n### Dependency updates ###\n- Update dependency xunit to 2.9.3 (#137) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v6 (#125) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency xunit.runner.visualstudio to v3 (#158) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.NET.Test.Sdk to v18 - autoclosed (#170) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#178) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_24.2605.15.0.zip",
+        "checksum": "703939ea51cd42b3fd72e28b04915586",
+        "timestamp": "2026-05-05T23:31:51Z"
+      },
+      {
+        "version": "24.2605.14.0",
+        "changelog": "- Fix 429 handling (#189) @MBR-0001\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#184) @Shadowghost\n- imdbId fixes (#182) @MBR-0001\n\n### Dependency updates ###\n- Update dependency xunit to 2.9.3 (#137) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v6 (#125) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency xunit.runner.visualstudio to v3 (#158) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.NET.Test.Sdk to v18 - autoclosed (#170) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#178) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_24.2605.14.0.zip",
+        "checksum": "1d9ef00a3e0c161f478a8cea8d119892",
+        "timestamp": "2026-05-05T23:06:26Z"
+      },
       {
         "version": "20.2510.13.0",
         "changelog": "- 10.9 (#145) @crobibero\n\n### Dependency updates ###\n- chore(deps): update xunit-dotnet monorepo (#117) @renovate",
@@ -13262,6 +13406,22 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Subtitle Extract.png",
     "versions": [
       {
+        "version": "7.2605.11.0",
+        "changelog": "- Fix HasChanged checks (#57) @Shadowghost",
+        "targetAbi": "10.11.2.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_7.2605.11.0.zip",
+        "checksum": "726efec9adaf5f1d5aeb3c13dcfc6d45",
+        "timestamp": "2026-05-05T23:32:24Z"
+      },
+      {
+        "version": "7.2605.10.0",
+        "changelog": "- Fix HasChanged checks (#57) @Shadowghost",
+        "targetAbi": "10.11.2.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_7.2605.10.0.zip",
+        "checksum": "3522f47bf44d8290cacfdeb2851fd91e",
+        "timestamp": "2026-05-05T23:09:01Z"
+      },
+      {
         "version": "4.2510.9.0",
         "changelog": "### Code or Repo Maintenance ###\n- Downgrade log level to reduce spam (#27) @crobibero\n- Fix extracting subtitles, fix memory leak @crobibero",
         "targetAbi": "10.11.0.0",
@@ -13312,6 +13472,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "5.2605.7.0",
+        "changelog": "- Jellyfin 10.11 support (#25) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/session-cleaner/session-cleaner_5.2605.7.0.zip",
+        "checksum": "3db9fa62f03635977637711223fef885",
+        "timestamp": "2026-05-05T23:07:51Z"
+      },
+      {
         "version": "4.2505.6.0",
         "changelog": "- Fixes for Jellyfin 10.9.9 (#21) @crobibero",
         "targetAbi": "10.11.0.0",
@@ -13346,6 +13514,22 @@
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TheTVDB.png",
     "versions": [
+      {
+        "version": "22.2605.15.0",
+        "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#228) @Shadowghost",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_22.2605.15.0.zip",
+        "checksum": "2b608935089b42b2f00905f963649a1a",
+        "timestamp": "2026-05-05T23:32:33Z"
+      },
+      {
+        "version": "22.2605.14.0",
+        "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#228) @Shadowghost",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_22.2605.14.0.zip",
+        "checksum": "91133044895d06539e66b8c26d343564",
+        "timestamp": "2026-05-05T23:16:17Z"
+      },
       {
         "version": "19.2505.13.0",
         "changelog": "- Improved null handling for tvdb provider (#207) @systemcrash\n\n### New features and improvements ###\n- Added missing season type 'alttwo' (#200) @Kianda\n\n### Bug Fixes ###\n- Handle empty ParentIndexNumber (#209) @Shadowghost",
@@ -13456,6 +13640,22 @@
     "category": "Music",
     "versions": [
       {
+        "version": "5.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#27) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/vgmdb/vgmdb_5.2605.8.0.zip",
+        "checksum": "f10b28c3feaceaef8557154132f80329",
+        "timestamp": "2026-05-05T23:18:02Z"
+      },
+      {
+        "version": "5.2605.7.0",
+        "changelog": "- Jellyfin 10.11 support (#27) @crobibero",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/vgmdb/vgmdb_5.2605.7.0.zip",
+        "checksum": "b6d0e334b66e7e611004364e98facc41",
+        "timestamp": "2026-05-05T23:17:34Z"
+      },
+      {
         "version": "4.2505.6.0",
         "changelog": "- 10.9 (#23) @crobibero",
         "targetAbi": "10.11.0.0",
@@ -13549,6 +13749,22 @@
     "category": "MoviesAndShows",
     "versions": [
       {
+        "version": "13.2605.10.0",
+        "changelog": "- Fix: Honor minimum movies setting and exclude disabled libraries (#94) (#113) @elio42",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tmdb-box-sets/tmdb-box-sets_13.2605.10.0.zip",
+        "checksum": "ae8a264c38fa18126f7a78ad42c67802",
+        "timestamp": "2026-05-05T23:32:30Z"
+      },
+      {
+        "version": "13.2605.9.0",
+        "changelog": "- Fix: Honor minimum movies setting and exclude disabled libraries (#94) (#113) @elio42",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tmdb-box-sets/tmdb-box-sets_13.2605.9.0.zip",
+        "checksum": "482d11eea5b462d1b93a188bb1444084",
+        "timestamp": "2026-05-05T23:11:23Z"
+      },
+      {
         "version": "11.2505.8.0",
         "changelog": "- 10.9 (#79) @crobibero\n\n### Bug Fixes ###\n- Only add primary versions to collections (#69) @lordwelch\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#77) @methbkts\n\n### CI & build changes ###\n- fix: meta ci workflows (#70) @h1dden-da3m0n",
         "targetAbi": "10.11.0.0",
@@ -13591,6 +13807,22 @@
     "category": "Administration",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Webhook.png",
     "versions": [
+      {
+        "version": "21.2605.14.0",
+        "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#364) @Shadowghost",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_21.2605.14.0.zip",
+        "checksum": "695237e72686375c2aaaa37b78f1a919",
+        "timestamp": "2026-05-05T23:32:37Z"
+      },
+      {
+        "version": "21.2605.13.0",
+        "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#364) @Shadowghost",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_21.2605.13.0.zip",
+        "checksum": "f08d64cb8a7d981eaa6cf8bc3644f6a4",
+        "timestamp": "2026-05-05T23:17:35Z"
+      },
       {
         "version": "17.2505.11.0",
         "changelog": "- Update Ntfy.handlebars (#298) @Sk4lli\n- ntfy.sh: Template Optimizations Pt. 3 (#297) @v3DJG6GL\n\n### New features and improvements ###\n- feat: add url_encode helper (#314) @armanckeser",
@@ -13650,6 +13882,14 @@
     "category": "MoviesAndShows",
     "versions": [
       {
+        "version": "4.2605.10.0",
+        "changelog": "- Jellyfin 10.11 support (#51) @crobibero\n- Update README.md (#41) @lukasitaly",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/local-intros/local-intros_4.2605.10.0.zip",
+        "checksum": "d295d64d255bc488b9d5cfb91de05855",
+        "timestamp": "2026-05-05T23:01:13Z"
+      },
+      {
         "version": "3.2505.9.0",
         "changelog": "- 10.9 (#38) @crobibero\n- Add org workflows (#29) @crobibero\n- Added code to order detected videos by name. (#16) @BrianCArnold\n\n### New features and improvements ###\n- added ability to only show intros for movies (#32) @Terence-D\n- Added code to handle repeating date ranges in backend.  (#15) @BrianCArnold\n\n### Documentation updates ###\n- Update config Discord link (#31) @anthonylavado",
         "targetAbi": "10.11.0.0",
@@ -13692,6 +13932,14 @@
     "category": "LiveTV",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TVHeadend.png",
     "versions": [
+      {
+        "version": "13.2605.8.0",
+        "changelog": "- Jellyfin 10.11 support (#100) @crobibero\n- Restore subtitles and multiple audio that got destroyed in commit db8cd9af238813a7b141ba826168fdaa22f1509e on Feb 18, 2018 (#68) @roman-vanicek\n- Further Release 10.9.x improvements (#92) @lomion0815\n- Readme: update build requirements (#93) @citronalco\n- Fixed link to TVHeadend image (#83) @lomion0815\n- Set correct dates for recordings (#84) @lomion0815\n- Changed HTSP field \"summary\" to correct name \"subtitle\". (#85) @lomion0815",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvheadend/tvheadend_13.2605.8.0.zip",
+        "checksum": "cae9946e9ee267f02c461484aea6d270",
+        "timestamp": "2026-05-05T23:16:42Z"
+      },
       {
         "version": "12.2505.7.0",
         "changelog": "- Fixed TV Recording channel for 10.9  (#81) @lomion0815\n- Fix live stream not working with 10.9 (#80) @lomion0815\n- Update for 10.9 - Step 1 (#78) @lomion0815\n- Stop Async connection handler threads if remote host has closed the connection. (#74) @Charlese2",
@@ -13777,6 +14025,22 @@
     "category": "Music",
     "versions": [
       {
+        "version": "3.2605.3.0",
+        "changelog": "- Jellyfin 10.11 support (#25) @crobibero\n- Update plugin name (#12) @thornbill\n- Update PluginConfiguration comment (#10) @scampower3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/lrclib-lyrics/lrclib-lyrics_3.2605.3.0.zip",
+        "checksum": "2a8063f16061b8455161bf69095c32fd",
+        "timestamp": "2026-05-05T23:31:20Z"
+      },
+      {
+        "version": "3.2605.2.0",
+        "changelog": "- Jellyfin 10.11 support (#25) @crobibero\n- Update plugin name (#12) @thornbill\n- Update PluginConfiguration comment (#10) @scampower3",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/lrclib-lyrics/lrclib-lyrics_3.2605.2.0.zip",
+        "checksum": "f9c9ee30473854248122aa634a6da295",
+        "timestamp": "2026-05-05T23:04:14Z"
+      },
+      {
         "version": "2.2505.1.0",
         "changelog": "### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 8.0.1 (#8) @renovate",
         "targetAbi": "10.11.0.0",
@@ -13793,7 +14057,24 @@
     "overview": "Live TV plugin for NextPVR",
     "owner": "jellyfin",
     "category": "LiveTV",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NextPVR.png",
     "versions": [
+      {
+        "version": "13.2605.4.0",
+        "changelog": "- UTC fixes (#70) @emveepee\n- Use 7.0.3 deferred art (#71) @emveepee",
+        "targetAbi": "10.11.1.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/nextpvr/nextpvr_13.2605.4.0.zip",
+        "checksum": "1b141385176ad31b32ff2d973ca6ede6",
+        "timestamp": "2026-05-05T23:31:33Z"
+      },
+      {
+        "version": "13.2605.3.0",
+        "changelog": "- UTC fixes (#70) @emveepee\n- Use 7.0.3 deferred art (#71) @emveepee",
+        "targetAbi": "10.11.1.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/nextpvr/nextpvr_13.2605.3.0.zip",
+        "checksum": "d9cf53555b3487f3580e801169e53aac",
+        "timestamp": "2026-05-05T23:06:44Z"
+      },
       {
         "version": "11.2505.2.0",
         "changelog": "- Recording enhancements (#53) @emveepee",
@@ -13802,8 +14083,7 @@
         "checksum": "9325976434d6ec7c3f28f24c3c019d8c",
         "timestamp": "2025-05-10T17:08:43Z"
       }
-    ],
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NextPVR.png"
+    ]
   },
   {
     "guid": "a0444c3b-fe1c-4258-9e0f-a139fc093949",
@@ -13813,6 +14093,14 @@
     "owner": "jellyfin",
     "category": "Administration",
     "versions": [
+      {
+        "version": "4.2605.3.0",
+        "changelog": "- Jellyfin 10.11 support (#7) @crobibero\n- Improve plugin description (#9) @dhlavaty",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/transcode-killer/transcode-killer_4.2605.3.0.zip",
+        "checksum": "9a9e514f7bdae2f83d0fc66dd1242948",
+        "timestamp": "2026-05-05T23:13:08Z"
+      },
       {
         "version": "3.2510.2.0",
         "changelog": "",
