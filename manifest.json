@@ -938,6 +938,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.6.0.0",
+        "changelog": "重构合并弹幕元数据，避免nfo文件残留旧的弹幕元数据没法删除",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.0/danmu_2.6.0.0.zip",
+        "checksum": "feb1227df5bd96f97a797c5cd2e360bc",
+        "timestamp": "2026-05-08T13:58:54"
+      },
+      {
         "version": "2.5.2.0",
         "changelog": "限制bilibili弹幕下载频率，避免风控",
         "targetAbi": "10.11.0.0",
@@ -1212,6 +1220,14 @@
     "category": "Metadata",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
+      {
+        "version": "2.3.3.0",
+        "changelog": "修正无法获取特典剧集图片",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.3/metashark_2.3.3.0.zip",
+        "checksum": "996c13d9f97ecb32c6d97739af776fa5",
+        "timestamp": "2026-05-08T14:16:47"
+      },
       {
         "version": "2.3.2.0",
         "changelog": "兼容 10.11.8",
