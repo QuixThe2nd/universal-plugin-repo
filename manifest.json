@@ -12661,6 +12661,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cover Art Archive.png",
     "versions": [
       {
+        "version": "9.2605.11.0",
+        "changelog": "- Jellyfin 10.11 support (#39) @crobibero",
+        "targetAbi": "10.12.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/cover-art-archive/cover-art-archive_9.2605.11.0.zip",
+        "checksum": "54104343edf1b28805102a6d68459786",
+        "timestamp": "2026-05-08T01:28:35Z"
+      },
+      {
         "version": "9.2605.10.0",
         "changelog": "- Jellyfin 10.11 support (#39) @crobibero",
         "targetAbi": "10.12.0.0",
@@ -12769,6 +12777,14 @@
     "category": "General",
     "imageUrl": "",
     "versions": [
+      {
+        "version": "10.2605.19.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "10.12.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_10.2605.19.0.zip",
+        "checksum": "4fc3f4672ed25636a0fa9246c033ed4f",
+        "timestamp": "2026-05-08T01:29:23Z"
+      },
       {
         "version": "10.2605.18.0",
         "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
@@ -13547,6 +13563,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
     "versions": [
       {
+        "version": "24.2605.17.0",
+        "changelog": "- Fix 429 handling (#189) @MBR-0001\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#184) @Shadowghost\n- imdbId fixes (#182) @MBR-0001\n\n### Dependency updates ###\n- Update dependency xunit to 2.9.3 (#137) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v6 (#125) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency xunit.runner.visualstudio to v3 (#158) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.NET.Test.Sdk to v18 - autoclosed (#170) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#178) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "10.12.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_24.2605.17.0.zip",
+        "checksum": "8b7b5a9a1531dea8396ff49b019540e3",
+        "timestamp": "2026-05-08T01:29:52Z"
+      },
+      {
         "version": "24.2605.16.0",
         "changelog": "- Fix 429 handling (#189) @MBR-0001\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#184) @Shadowghost\n- imdbId fixes (#182) @MBR-0001\n\n### Dependency updates ###\n- Update dependency xunit to 2.9.3 (#137) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v6 (#125) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency xunit.runner.visualstudio to v3 (#158) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.NET.Test.Sdk to v18 - autoclosed (#170) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#178) @[renovate[bot]](https://github.com/apps/renovate)",
         "targetAbi": "10.12.0.0",
@@ -13877,6 +13901,14 @@
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TVmaze.png",
     "versions": [
+      {
+        "version": "13.2605.11.0",
+        "changelog": "- Jellyfin 10.11 support (#55) @crobibero",
+        "targetAbi": "10.12.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvmaze/tvmaze_13.2605.11.0.zip",
+        "checksum": "45f815bad1759c31dd30dda2263e3597",
+        "timestamp": "2026-05-08T01:30:40Z"
+      },
       {
         "version": "13.2605.10.0",
         "changelog": "- Jellyfin 10.11 support (#55) @crobibero",
@@ -14435,6 +14467,14 @@
     "category": "LiveTV",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NextPVR.png",
     "versions": [
+      {
+        "version": "13.2605.6.0",
+        "changelog": "- UTC fixes (#70) @emveepee\n- Use 7.0.3 deferred art (#71) @emveepee",
+        "targetAbi": "10.12.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/nextpvr/nextpvr_13.2605.6.0.zip",
+        "checksum": "865ed700712df3192ae7f77d58077503",
+        "timestamp": "2026-05-08T01:29:24Z"
+      },
       {
         "version": "13.2605.5.0",
         "changelog": "- UTC fixes (#70) @emveepee\n- Use 7.0.3 deferred art (#71) @emveepee",
