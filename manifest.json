@@ -12583,6 +12583,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniList.png",
     "versions": [
       {
+        "version": "13.2605.17.0",
+        "changelog": "- Implement rate limit and HTTP 429 handling (#112) @ivanjx\n- Add option for including/excluding series description (synopsis) (#103) @jack-mil\n- Filter tags by Anilist rank and Add maximum tags setting (#102) @jack-mil\n\n### Dependency updates ###\n- Update dotnet monorepo to 9.0.11 (#105) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_13.2605.17.0.zip",
+        "checksum": "3b9fc8e8c2dc4f6e5fb20784b09e50ee",
+        "timestamp": "2026-05-11T13:20:00Z"
+      },
+      {
         "version": "13.2605.15.0",
         "changelog": "- Implement rate limit and HTTP 429 handling (#112) @ivanjx\n- Add option for including/excluding series description (synopsis) (#103) @jack-mil\n- Filter tags by Anilist rank and Add maximum tags setting (#102) @jack-mil\n\n### Dependency updates ###\n- Update dotnet monorepo to 9.0.11 (#105) @[renovate[bot]](https://github.com/apps/renovate)",
         "targetAbi": "10.12.0.0",
@@ -12857,6 +12865,14 @@
     "category": "General",
     "imageUrl": "",
     "versions": [
+      {
+        "version": "10.2605.21.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_10.2605.21.0.zip",
+        "checksum": "3caa5800e079ce1edaa7eac06e5e52d6",
+        "timestamp": "2026-05-11T13:19:20Z"
+      },
       {
         "version": "10.2605.19.0",
         "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
@@ -13373,6 +13389,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LDAP Authentication.png",
     "versions": [
       {
+        "version": "22.2605.14.0",
+        "changelog": "- Fix 10.11.2 support (#195) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_22.2605.14.0.zip",
+        "checksum": "a22fb10b47e54480a56baca2b1e8fad7",
+        "timestamp": "2026-05-11T13:18:35Z"
+      },
+      {
         "version": "22.2605.12.0",
         "changelog": "- Fix 10.11.2 support (#195) @crobibero",
         "targetAbi": "10.12.0.0",
@@ -13447,6 +13471,14 @@
     "category": "Administration",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playback Reporting.png",
     "versions": [
+      {
+        "version": "17.2605.11.0",
+        "changelog": "- Jellyfin 10.11 support (#108) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/playback-reporting/playback-reporting_17.2605.11.0.zip",
+        "checksum": "07d3fa0a19a0528134ecd5a5a01ef658",
+        "timestamp": "2026-05-11T13:18:14Z"
+      },
       {
         "version": "17.2605.9.0",
         "changelog": "- Jellyfin 10.11 support (#108) @crobibero",
@@ -14219,6 +14251,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Trakt.png",
     "versions": [
       {
+        "version": "29.2605.16.0",
+        "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#268) @Shadowghost",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_29.2605.16.0.zip",
+        "checksum": "7d3ab3973635a8d670790536b95f64be",
+        "timestamp": "2026-05-11T13:17:31Z"
+      },
+      {
         "version": "29.2605.14.0",
         "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#268) @Shadowghost",
         "targetAbi": "10.12.0.0",
@@ -14816,6 +14856,14 @@
     "category": "Books",
     "versions": [
       {
+        "version": "1.2605.10.0",
+        "changelog": "Initial Release",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_1.2605.10.0.zip",
+        "checksum": "082f4f83ad545df0414047e604aebed7",
+        "timestamp": "2026-05-11T13:19:28Z"
+      },
+      {
         "version": "1.2605.8.0",
         "changelog": "Initial Release",
         "targetAbi": "10.12.0.0",
@@ -14889,6 +14937,14 @@
     "owner": "jellyfin",
     "category": "Books",
     "versions": [
+      {
+        "version": "1.2605.9.0",
+        "changelog": "Initial Release",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/comic-vine/comic-vine_1.2605.9.0.zip",
+        "checksum": "e0b0dab565fa7daba96cbd7d504f3b18",
+        "timestamp": "2026-05-11T13:19:27Z"
+      },
       {
         "version": "1.2605.7.0",
         "changelog": "Initial Release",
