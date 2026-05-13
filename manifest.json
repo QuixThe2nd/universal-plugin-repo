@@ -938,6 +938,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.6.1.0",
+        "changelog": "修复腾讯搜索",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.1/danmu_2.6.1.0.zip",
+        "checksum": "1fa62d5ebe9a308e190aef8668944823",
+        "timestamp": "2026-05-13T13:57:16"
+      },
+      {
         "version": "2.6.0.0",
         "changelog": "重构合并弹幕元数据，避免nfo文件残留旧的弹幕元数据没法删除",
         "targetAbi": "10.11.0.0",
