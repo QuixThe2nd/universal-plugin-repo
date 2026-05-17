@@ -938,6 +938,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.6.2.0",
+        "changelog": "修正b站bv/av号剧集元数据没保存",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.2/danmu_2.6.2.0.zip",
+        "checksum": "809e38913fd779b96213148430ecb035",
+        "timestamp": "2026-05-17T09:23:34"
+      },
+      {
         "version": "2.6.1.0",
         "changelog": "修复腾讯搜索",
         "targetAbi": "10.11.0.0",
