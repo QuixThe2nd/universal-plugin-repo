@@ -1237,6 +1237,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.3.4.0",
+        "changelog": "修正以数字结尾电影名称刮削异常",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.4/metashark_2.3.4.0.zip",
+        "checksum": "eaac8249eba9cf9f8cabd66ca440bbcf",
+        "timestamp": "2026-05-19T14:59:48"
+      },
+      {
         "version": "2.3.3.0",
         "changelog": "修正无法获取特典剧集图片",
         "targetAbi": "10.11.0.0",
