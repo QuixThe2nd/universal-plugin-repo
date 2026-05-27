@@ -9483,6 +9483,14 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "1.17.1.0",
+        "changelog": "# Changelog\n\n## [1.17.1.0] - 2026-05-27\n\n### Fixed\n\n- Update Jellyfin SDK to work with version 10.11.10",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.17.1.0/spotify-import_1.17.1.0.zip",
+        "checksum": "489e952166fe5da44835a4b8347ce481",
+        "timestamp": "2026-05-27T20:53:58Z"
+      },
+      {
         "version": "1.17.0.0",
         "changelog": "# Changelog\n\n## [1.17.0.0] - 2026-02-24\n\n### Changed\n\n- Rework API interactions to work with the latest Spotify API changes (see #79)",
         "targetAbi": "10.11.0.0",
