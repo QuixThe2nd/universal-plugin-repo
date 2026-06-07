@@ -4400,18 +4400,26 @@
   {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync",
-    "description": "Jellyfin plugin to synchronize anime watch status on myanimelist.net\n\n\nhttps://github.com/iankiller77/MyAnimeSync",
-    "overview": "Update user watch status on myanimelist.net",
+    "description": "This is a longer description that can span more than one line and include details about your plugin.\n\n\nhttps://github.com/iankiller77/MyAnimeSync",
+    "overview": "Synchronise watch status on myanimelist.",
     "owner": "iankiller77",
     "category": "General",
     "versions": [
+      {
+        "version": "1.6.0.0",
+        "changelog": "### Major features and improvements\n- Refactor/improvement to the UI using theme (#41) @iankiller77\n### New features and improvements\n- Feature/add option to use library name if original serie title failed (#42) @iankiller77\n- Feature/improve failed update list useability (#39) @iankiller77\n### Bug Fixes\n- bug/properly_cleanup_series_title_name (#43) @iankiller77",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.6.0.0/myanimesync_1.6.0.0.zip",
+        "checksum": "d1ff8c305bf3985f2bcd8f7b8cde350b",
+        "timestamp": "2026-06-07T02:57:26Z"
+      },
       {
         "version": "1.5.1.1",
         "changelog": "Improved logs, UI and better handling of authentication parameters to better support futur issues.\n1. refactor/fixed_warnings_for_TVDB_token_update\n2. refactor/add_more_logs_for_authentication_process\n3. refactor/correct_user_config_client_id_and_secret_before_generating_auth_code_url",
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.1.1/myanimesync_1.5.1.1.zip",
         "checksum": "98a889d26341268caeb0df01c29d2870",
-        "timestamp": "2025-11-27T18:54:00Z"
+        "timestamp": "2026-04-09T18:54:00Z"
       },
       {
         "version": "1.5.1.0",
@@ -4419,7 +4427,7 @@
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.1.0/myanimesync_1.5.1.0.zip",
         "checksum": "d5df25c7c7f5ae87f776d96e6eb1b4e8",
-        "timestamp": "2025-11-27T18:54:00Z"
+        "timestamp": "2026-03-26T18:54:00Z"
       },
       {
         "version": "1.5.0.1",
@@ -4427,7 +4435,7 @@
         "targetAbi": "10.11.0",
         "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.5.0.1/myanimesync_1.5.0.1.zip",
         "checksum": "3d4551e5bfbbc33dc5e416d1961f7c99",
-        "timestamp": "2025-11-27T18:54:00Z"
+        "timestamp": "2025-12-07T18:54:00Z"
       },
       {
         "version": "1.5.0.0",
@@ -15579,48 +15587,6 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/log-settings/log-settings_1.0.0.0.zip",
         "checksum": "e95a9d6a4eb20163e2237185e058a50a",
         "timestamp": "2026-02-13T12:39:04Z"
-      }
-    ]
-  },
-  {
-    "guid": "69384327-d223-447a-ae23-47767eed1749",
-    "name": "M3U Editor",
-    "description": "Edit Live TV M3U channel lists",
-    "overview": "Edit Live TV M3U channel lists",
-    "owner": "Mr. Chip53",
-    "category": "Live TV",
-    "versions": [
-      {
-        "version": "0.1.0.0",
-        "changelog": "Initial Release",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.01/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "1f7e24908bfc1a68374890706c9fd1d4",
-        "timestamp": "2021-01-16T06:18:27Z"
-      },
-      {
-        "version": "0.2.0.0",
-        "changelog": "-Add API key to M3U urls, add 'tvg-chno' attribute to channels that don't already have it",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.02/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "2e1d1aa0648eb2643bb440dbf2b5927c",
-        "timestamp": "2021-01-17T06:18:27Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "- Add tabs to UI<br />- Filter by hidden value<br />- Search by channel name<br />- Delete playlists<br />- Refresh channels from source<br />- Custom user agents when fetching m3u<br />- Minor improvements<br />",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.0.0.0/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "3c692f2b5d6327986e2faefb0b575868",
-        "timestamp": "2021-01-22T06:18:27Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "- Improve mass hiding functions",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.1.0.0/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "0f39094bc7225672d040fc5f469c8ab6",
-        "timestamp": "2021-01-22T06:18:27Z"
       }
     ]
   },
