@@ -9571,6 +9571,14 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "1.17.3.0",
+        "changelog": "# Changelog\n\n## [1.17.3.0] - 2026-06-08\n\n### Fixed\n\n- Fix skipped import run if only Spotify-owned playlists are configured (see #86)",
+        "targetAbi": "10.11.10.0",
+        "sourceUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/releases/download/1.17.3.0/spotify-import_1.17.3.0.zip",
+        "checksum": "ce821583a4b73433765dd463adbe52a8",
+        "timestamp": "2026-06-08T19:13:55Z"
+      },
+      {
         "version": "1.17.2.0",
         "changelog": "# Changelog\n\n## [1.17.2.0] - 2026-06-02\n\n### Changed\n\n- use item field of a playlist track if the track field is not set (API parsing)",
         "targetAbi": "10.11.10.0",
