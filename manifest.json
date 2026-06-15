@@ -12847,6 +12847,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniList.png",
     "versions": [
       {
+        "version": "13.2606.19.0",
+        "changelog": "- Implement rate limit and HTTP 429 handling (#112) @ivanjx\n- Add option for including/excluding series description (synopsis) (#103) @jack-mil\n- Filter tags by Anilist rank and Add maximum tags setting (#102) @jack-mil\n\n### Dependency updates ###\n- Update dotnet monorepo to 9.0.11 (#105) @[renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_13.2606.19.0.zip",
+        "checksum": "ebe3dd29b87c63c375dc6212011568a5",
+        "timestamp": "2026-06-15T10:06:44Z"
+      },
+      {
         "version": "13.2605.18.0",
         "changelog": "- Implement rate limit and HTTP 429 handling (#112) @ivanjx\n- Add option for including/excluding series description (synopsis) (#103) @jack-mil\n- Filter tags by Anilist rank and Add maximum tags setting (#102) @jack-mil\n\n### Dependency updates ###\n- Update dotnet monorepo to 9.0.11 (#105) @[renovate[bot]](https://github.com/apps/renovate)",
         "targetAbi": "12.0.0.0",
