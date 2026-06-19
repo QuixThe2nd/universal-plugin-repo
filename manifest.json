@@ -4411,6 +4411,7 @@
     "description": "This is a longer description that can span more than one line and include details about your plugin.\n\n\nhttps://github.com/iankiller77/MyAnimeSync",
     "overview": "Synchronise watch status on myanimelist.",
     "owner": "iankiller77",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MyAnimeSync.png",
     "category": "General",
     "versions": [
       {
