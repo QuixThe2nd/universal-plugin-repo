@@ -946,6 +946,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.6.4.0",
+        "changelog": "修正优酷弹幕解析，修正腾讯搜索结果过滤",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.6.4/danmu_2.6.4.0.zip",
+        "checksum": "64963a61e98ee94966def3a010ab7193",
+        "timestamp": "2026-06-19T07:13:57"
+      },
+      {
         "version": "2.6.3.0",
         "changelog": "修复腾讯电视剧搜索",
         "targetAbi": "10.11.0.0",
