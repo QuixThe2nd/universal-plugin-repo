@@ -8001,6 +8001,54 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Cleaner.png",
     "versions": [
       {
+        "version": "2.27.0.101109",
+        "changelog": "- Fix ci versioning\n",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.27.0.0/MediaCleaner-10.11.9.zip",
+        "checksum": "c59df61670022c018d2d7e0e3486dc3b",
+        "timestamp": "2026-06-21T18:59:18Z"
+      },
+      {
+        "version": "2.27.0.101100",
+        "changelog": "- Fix ci versioning\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.27.0.0/MediaCleaner-10.11.0.zip",
+        "checksum": "f34b5f76e98ad7e319c3228ade53a10b",
+        "timestamp": "2026-06-21T18:59:11Z"
+      },
+      {
+        "version": "2.27.0.101007",
+        "changelog": "- Fix ci versioning\n",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.27.0.0/MediaCleaner-10.10.7.zip",
+        "checksum": "62adf4eb14b5c5b6a495b0bb06812841",
+        "timestamp": "2026-06-21T18:59:25Z"
+      },
+      {
+        "version": "2.24.0.101109",
+        "changelog": "- Add jellyfin compatibility layer\n",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.25.0.0/MediaCleaner-10.11.9.zip",
+        "checksum": "f8e27dbb1bcb9b93f4489c9bf6d0d91c",
+        "timestamp": "2026-06-21T18:27:16Z"
+      },
+      {
+        "version": "2.24.0.101100",
+        "changelog": "- Add jellyfin compatibility layer\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.25.0.0/MediaCleaner-10.11.0.zip",
+        "checksum": "4be53296e30420e307301e412f9b4131",
+        "timestamp": "2026-06-21T18:27:23Z"
+      },
+      {
+        "version": "2.24.0.101007",
+        "changelog": "- Add jellyfin compatibility layer\n",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v2.25.0.0/MediaCleaner-10.10.7.zip",
+        "checksum": "26d425dedae9bf00f4026b680f6d06b4",
+        "timestamp": "2026-06-21T18:27:09Z"
+      },
+      {
         "version": "2.24.0.0",
         "changelog": "Add the ability to keep the first/last episode/season of the show\n",
         "targetAbi": "10.11.3.0",
@@ -15668,48 +15716,6 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/log-settings/log-settings_1.0.0.0.zip",
         "checksum": "e95a9d6a4eb20163e2237185e058a50a",
         "timestamp": "2026-02-13T12:39:04Z"
-      }
-    ]
-  },
-  {
-    "guid": "69384327-d223-447a-ae23-47767eed1749",
-    "name": "M3U Editor",
-    "description": "Edit Live TV M3U channel lists",
-    "overview": "Edit Live TV M3U channel lists",
-    "owner": "Mr. Chip53",
-    "category": "Live TV",
-    "versions": [
-      {
-        "version": "0.1.0.0",
-        "changelog": "Initial Release",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.01/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "1f7e24908bfc1a68374890706c9fd1d4",
-        "timestamp": "2021-01-16T06:18:27Z"
-      },
-      {
-        "version": "0.2.0.0",
-        "changelog": "-Add API key to M3U urls, add 'tvg-chno' attribute to channels that don't already have it",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/10.7.0.02/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "2e1d1aa0648eb2643bb440dbf2b5927c",
-        "timestamp": "2021-01-17T06:18:27Z"
-      },
-      {
-        "version": "1.0.0.0",
-        "changelog": "- Add tabs to UI<br />- Filter by hidden value<br />- Search by channel name<br />- Delete playlists<br />- Refresh channels from source<br />- Custom user agents when fetching m3u<br />- Minor improvements<br />",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.0.0.0/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "3c692f2b5d6327986e2faefb0b575868",
-        "timestamp": "2021-01-22T06:18:27Z"
-      },
-      {
-        "version": "1.1.0.0",
-        "changelog": "- Improve mass hiding functions",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://simoni.dev/jellyfin/M3UEditor/1.1.0.0/Jellyfin.Plugin.M3UEditor.zip",
-        "checksum": "0f39094bc7225672d040fc5f469c8ab6",
-        "timestamp": "2021-01-22T06:18:27Z"
       }
     ]
   },
