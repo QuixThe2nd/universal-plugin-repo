@@ -13416,6 +13416,14 @@
     "category": "Books",
     "versions": [
       {
+        "version": "13.2606.16.0",
+        "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/bookshelf/bookshelf_13.2606.16.0.zip",
+        "checksum": "d6c9855b20d42978060cd40d81539c7d",
+        "timestamp": "2026-06-24T21:53:51Z"
+      },
+      {
         "version": "13.2605.12.0",
         "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
         "targetAbi": "10.12.0.0",
@@ -13766,6 +13774,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LDAP Authentication.png",
     "versions": [
       {
+        "version": "23.2606.15.0",
+        "changelog": "- Backport \"Fix IUserManager.RenameUser signature for Jellyfin 12.x\" for Jellyfin 10.11.9 (#215) @tam1m",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_23.2606.15.0.zip",
+        "checksum": "c3cbd4e06d5324a7201216f7a264e5f7",
+        "timestamp": "2026-06-24T21:38:38Z"
+      },
+      {
         "version": "22.2605.14.0",
         "changelog": "- Fix 10.11.2 support (#195) @crobibero",
         "targetAbi": "12.0.0.0",
@@ -13915,6 +13931,14 @@
     "category": "Books",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/OPDS.png",
     "versions": [
+      {
+        "version": "7.2606.14.0",
+        "changelog": "- Jellyfin 10.11 support (#48) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/opds/opds_7.2606.14.0.zip",
+        "checksum": "cd2576a8694527ce32321a3dc4f7a1b1",
+        "timestamp": "2026-06-24T21:49:10Z"
+      },
       {
         "version": "7.2605.10.0",
         "changelog": "- Jellyfin 10.11 support (#48) @crobibero",
@@ -14380,6 +14404,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TheTVDB.png",
     "versions": [
       {
+        "version": "22.2606.21.0",
+        "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#228) @Shadowghost",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/thetvdb/thetvdb_22.2606.21.0.zip",
+        "checksum": "30effed82e92f0ca6fa05b19b73fe7c9",
+        "timestamp": "2026-06-24T21:50:36Z"
+      },
+      {
         "version": "22.2605.17.0",
         "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#228) @Shadowghost",
         "targetAbi": "12.0.0.0",
@@ -14627,6 +14659,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Trakt.png",
     "versions": [
+      {
+        "version": "30.2606.17.0",
+        "changelog": "-  Fix MissingMethodException on Jellyfin 10.11 (use GetUsers() instead Users) (#292) @lowbit",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_30.2606.17.0.zip",
+        "checksum": "3272f3877b5035a9436bf3540ec959da",
+        "timestamp": "2026-06-24T21:39:00Z"
+      },
       {
         "version": "29.2605.16.0",
         "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#268) @Shadowghost",
