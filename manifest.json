@@ -946,6 +946,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.7.0.0",
+        "changelog": "增加人人视频弹幕源",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.0/danmu_2.7.0.0.zip",
+        "checksum": "11c8d632f12e306f7f6659f35cbe7168",
+        "timestamp": "2026-06-27T06:44:57"
+      },
+      {
         "version": "2.6.4.0",
         "changelog": "修正优酷弹幕解析，修正腾讯搜索结果过滤",
         "targetAbi": "10.11.0.0",
