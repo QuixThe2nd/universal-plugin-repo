@@ -15541,7 +15541,7 @@
     "versions": [
       {
         "version": "6.3.1.2",
-        "changelog": "Maintenance:\n  - Config page redesign\n  - Code cleanup\n",
+        "changelog": "This version contains the following changes:\n  - Config page redesign\n  - General maintenance - code cleanup\n",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.3.1.2.zip",
         "checksum": "b1eaf19fc170aebea4aea49861c797a3",
