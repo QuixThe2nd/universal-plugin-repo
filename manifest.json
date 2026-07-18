@@ -9612,7 +9612,7 @@
     "description": "TubeArchivistMetadata is a plugin that automatically manages metadata for videos downloaded with TubeArchivist from YouTube.\n\n\nhttps://github.com/tubearchivist/tubearchivist-jf-plugin",
     "owner": "DarkFighterLuke",
     "overview": "Metadata for your TubeArchivist library on Jellyfin",
-    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TubeArchivistMetadata.png",
+    "imageUrl": "https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/images/logo.png",
     "versions": [
       {
         "version": "1.4.4.0",
