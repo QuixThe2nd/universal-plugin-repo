@@ -1277,6 +1277,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.3.5.0",
+        "changelog": "修复剧集TMDB标识获取",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.5/metashark_2.3.5.0.zip",
+        "checksum": "95e31fdb376d2d01a313a684d6b73a4e",
+        "timestamp": "2026-08-01T06:32:37"
+      },
+      {
         "version": "2.3.4.0",
         "changelog": "修正以数字结尾电影名称刮削异常",
         "targetAbi": "10.11.0.0",
