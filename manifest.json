@@ -1277,6 +1277,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
+        "version": "2.3.6.0",
+        "changelog": "修复电影IMDb标识为空时误保存",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v2.3.6/metashark_2.3.6.0.zip",
+        "checksum": "1d19a03e5a4debbc65cef4f2639ececb",
+        "timestamp": "2026-08-06T03:42:54"
+      },
+      {
         "version": "2.3.5.0",
         "changelog": "修复剧集TMDB标识获取",
         "targetAbi": "10.11.0.0",
