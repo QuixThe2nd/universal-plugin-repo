@@ -732,13 +732,218 @@
     ]
   },
   {
+    "category": "Metadata",
+    "guid": "7834517B-1A9A-4758-9DD3-73FE02C98AA3",
+    "name": "Open Douban",
+    "description": "Scrape media's metadata from Douban\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV metadata from Douban",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Douban.png",
+    "versions": [
+      {
+        "checksum": "ffef0798b8285b9ac7610f38ab1bff16",
+        "changelog": "the init release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.1.zip",
+        "timestamp": "2021-05-08T23:11:00Z",
+        "version": "1.0.1"
+      },
+      {
+        "checksum": "7587b9e7cd1665877032d74c9bf8bfed",
+        "changelog": "fix image and support backdrop",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.2.zip",
+        "timestamp": "2021-05-10T20:14:00Z",
+        "version": "1.0.2"
+      },
+      {
+        "checksum": "293d281e89d65dc1830b090f53d74dd4",
+        "changelog": "fix checksum",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.3.zip",
+        "timestamp": "2021-05-15T02:49:41Z",
+        "version": "1.0.3"
+      },
+      {
+        "checksum": "95fce615cea9bff07694d96f24901dc0",
+        "changelog": "fix celebrities",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.4.zip",
+        "timestamp": "2021-05-15T14:03:08Z",
+        "version": "1.0.4"
+      },
+      {
+        "checksum": "7c0811b654dffe0dddf33a99f8c7b69f",
+        "changelog": "load more celebrities and stick imdb on it (#2)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.5.zip",
+        "timestamp": "2021-06-06T04:01:31Z",
+        "version": "1.0.5"
+      },
+      {
+        "checksum": "37b5243a1847379b6d00fca9960102a3",
+        "changelog": "filter media name by regex (#4)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.6.zip",
+        "timestamp": "2021-06-25T13:50:54Z",
+        "version": "1.0.6"
+      },
+      {
+        "checksum": "d55b322112895f548f38bf5163b4a985",
+        "changelog": "restructure the whole project (#5)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.7.zip",
+        "timestamp": "2021-07-02T14:14:46Z",
+        "version": "1.0.7"
+      },
+      {
+        "checksum": "c6653fbc39e68e313643551a213606d2",
+        "changelog": "Re-adapt backdrop image (#8)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.8.zip",
+        "timestamp": "2021-08-19T13:55:34Z",
+        "version": "1.0.8"
+      },
+      {
+        "checksum": "c9da1db799089236ccd153ee7efb1dc4",
+        "changelog": "Fix version compatibility (#9)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.9.zip",
+        "timestamp": "2021-08-21T09:32:08Z",
+        "version": "1.0.9"
+      },
+      {
+        "checksum": "900c6d54161c208c3a35845a0f4232c6",
+        "changelog": "Fix metadata of Shows (#13)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.10.zip",
+        "timestamp": "2021-10-01T15:16:18Z",
+        "version": "1.0.10"
+      },
+      {
+        "checksum": "bfb577367e94fe1184b55c3fdbe16d93",
+        "changelog": "Bugfixes: OriginalTitle & PremiereDate",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.11.zip",
+        "timestamp": "2021-10-16T07:01:57Z",
+        "version": "1.0.11"
+      },
+      {
+        "checksum": "dae635e863ad9493dceda0eadd3978d1",
+        "changelog": "Bugfixes: Name and OriginalName (#18)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.12.zip",
+        "timestamp": "2021-10-31T10:53:05Z",
+        "version": "1.0.12"
+      },
+      {
+        "checksum": "62d5bd0618fb779f0eb1ed444345c8eb",
+        "changelog": "fix 10.8.0 compatibility",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.1.zip",
+        "timestamp": "2022-01-07T13:31:32Z",
+        "version": "2.0.1"
+      },
+      {
+        "checksum": "0687f16ab2bca7b3ed1364e0df669f77",
+        "changelog": "Fix CancellationToken bypass (#21)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.13.zip",
+        "timestamp": "2022-01-21T12:55:38Z",
+        "version": "1.0.13"
+      },
+      {
+        "checksum": "3da636e31c57801be3b0fea0fe6f69ed",
+        "changelog": "Fix CancellationToken bypass (#23)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.2.zip",
+        "timestamp": "2022-01-21T12:59:03Z",
+        "version": "2.0.2"
+      },
+      {
+        "checksum": "1a573c6afdf6cfcc76eaf2532b4351ba",
+        "changelog": "Fix unsupported-roles (#36)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.0.15.zip",
+        "timestamp": "2022-05-29T06:55:02Z",
+        "version": "1.0.15"
+      },
+      {
+        "checksum": "c5f7a048dc8c1b7badbee1883c615e2b",
+        "changelog": "Fix unsupported-roles (#37)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.3.zip",
+        "timestamp": "2022-05-29T06:56:06Z",
+        "version": "2.0.3"
+      },
+      {
+        "checksum": "dff3ba0a48ed662ee2557b3e4436db58",
+        "changelog": "Support custom poster size (#42)",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.1.1.0.zip",
+        "timestamp": "2022-06-16T04:45:22Z",
+        "version": "1.1.0"
+      },
+      {
+        "checksum": "03a2da219b5a25a78dda3073cabfa510",
+        "changelog": "Add poster quality config (#44)",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.OpenDouban.2.0.4.zip",
+        "timestamp": "2022-07-25T11:03:28Z",
+        "version": "2.0.4"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "4EAEDA51-B4CF-45F8-99B3-EB2B1F6D3A53",
+    "name": "MaxSubtitle",
+    "description": "Download subtitles from Internet\n\nhttps://github.com/caryyu/jellyfin-plugin-repo",
+    "owner": "caryyu",
+    "overview": "Get your Movie/TV subtitles from Internet",
+    "versions": [
+      {
+        "checksum": "af05043cdfddb8b0ebcf43a3fe2324d2",
+        "changelog": "the first release",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.1.zip",
+        "timestamp": "2021-11-18T23:11:00Z",
+        "version": "0.0.1"
+      },
+      {
+        "checksum": "84633418ccebd73a2604d53de6fa9bce",
+        "changelog": "fix language type",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.2.zip",
+        "timestamp": "2021-12-08T23:11:00Z",
+        "version": "0.0.2"
+      },
+      {
+        "checksum": "70c414e67578c129c71f91fc3980642e",
+        "changelog": "Add CancellationToken & CICD",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.0.0.3.zip",
+        "timestamp": "2022-01-23T12:17:02Z",
+        "version": "0.0.3"
+      },
+      {
+        "checksum": "fd76c508fa0cbcb54a1adb0c78086015",
+        "changelog": "Fix 10.8.0 compatibility",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/caryyu/jellyfin-plugin-repo/raw/master/Jellyfin.Plugin.MaxSubtitle.2.0.0.zip",
+        "timestamp": "2022-01-23T13:35:50Z",
+        "version": "2.0.0"
+      }
+    ]
+  },
+  {
     "guid": "5B39DA44-5314-4940-8E26-54C821C17F86",
     "name": "Danmu",
     "description": "jellyfin的b站弹幕自动下载插件，会匹配b站番剧/电影视频，自动下载对应弹幕，并定时更新。\n\nhttps://github.com/cxfksword/jellyfin-plugin-danmu",
     "overview": "jellyfin弹幕下载插件",
     "owner": "cxfksword",
     "category": "Metadata",
-    "imageUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/raw/main/doc/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
         "version": "2.7.1.0",
@@ -1069,7 +1274,7 @@
     "overview": "jellyfin电影元数据插件",
     "owner": "cxfksword",
     "category": "Metadata",
-    "imageUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/raw/main/doc/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaShark.png",
     "versions": [
       {
         "version": "2.3.6.0",
@@ -1326,6 +1531,233 @@
         "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-metashark/releases/download/v1.7.6/metashark_1.7.6.0.zip",
         "checksum": "59a0eceae6022cb032667fc9ca013804",
         "timestamp": "2023-12-16T07:22:10"
+      }
+    ]
+  },
+  {
+    "guid": "70bb2ec1-f19e-46b5-b49a-942e6b96ebae",
+    "name": "Editor's Choice",
+    "overview": "Create a Netflix-style featured content slider on the main page.",
+    "description": "Create a Netflix-style featured content slider on the main page.\n\nhttps://github.com/lachlandcp/jellyfin-editors-choice-plugin",
+    "owner": "lachlandcp",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Editor's Choice.png",
+    "versions": [
+      {
+        "version": "1.5.2.0",
+        "changelog": "Restores intended 'new' mode behaviour to filter recent movies and series with episodes released within a selected time period..",
+        "targetAbi": "10.11.8.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.5.2/EditorsChoicePlugin.v1.5.2.zip",
+        "checksum": "65a7ff92fadf18ef8c336af8b2426ffc",
+        "timestamp": "2026-04-10 20:43:00"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "Adds hero mode, improved consistency and predictability of new mode, and added gentle animation to banner images.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.5.0/EditorsChoicePlugin.v1.5.0.zip",
+        "checksum": "974f78464bdd79823a44fbb748f424b5",
+        "timestamp": "2026-03-11 17:33:00"
+      },
+      {
+        "version": "1.4.2.0",
+        "changelog": "Fix version mismatch",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.4.2/EditorsChoicePlugin.v1.4.2.zip",
+        "checksum": "8351fbf0302bac1a23e94c6d7cec6c74",
+        "timestamp": "2025-12-05 18:06:00"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Compatible with Jellyfin 10.11.0.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.4.0/EditorsChoicePlugin.v1.4.0.zip",
+        "checksum": "4c897eebe1c439a0d7c2e052d277a7c8",
+        "timestamp": "2025-10-23 21:35:00"
+      },
+      {
+        "version": "1.3.3.0",
+        "changelog": "Updates compatability with FileTransformation. Fixes bug where un-rated items don't show despite minimum rating filter set to zero. Fixes bug loading on some TVs, adds option to hide slider on TV mode.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.3.3.0/EditorsChoicePlugin-v1.3.3.0.zip",
+        "checksum": "84b3f11f5799af0b483b8f2c638502bd",
+        "timestamp": "2025-09-20 13:02:00"
+      },
+      {
+        "version": "1.3.2.0",
+        "changelog": "Improves function of 'new mode'. TV shows with an end date within the selected time period will be included. Restores 'open in new tab' ability to slider. Replaces 1.3.1.0 release which also: Improves FileTransformation mode reliability, adds heading option, and adds more options to 'New' mode",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.3.2.0/EditorsChoicePlugin-v1.3.2.0.zip",
+        "checksum": "2b3c3e5c06585b5ef3bab9091d536403",
+        "timestamp": "2025-07-25 19:38:00"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Adds integration with the FileTransformation plugin for easier installation.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.3.0.0/EditorsChoicePlugin-v1.3.0.0.zip",
+        "checksum": "afb03b144b2fa9e3467118964811137f",
+        "timestamp": "2025-07-13 21:23:11"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Adds options to exclude played items, and configure the height of the slider.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.2.0.0/EditorsChoicePlugin-v1.2.0.0.zip",
+        "checksum": "ec0b23fc7ebe19a08836e4b1516dda01",
+        "timestamp": "2025-06-29 12:34:45"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "Stylistic corrections and compatability with ElegantFin.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.1.1.0/EditorsChoicePlugin-v1.1.1.0.zip",
+        "checksum": "25e915de71afc48813b7363c8cbc0075",
+        "timestamp": "2025-05-31 20:06:15"
+      },
+      {
+        "version": "1.1.0.2",
+        "changelog": "Re-release of 1.1.0.1 to fix versioning. Removes image resizing as default to improve plugin performance.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.1.0.2/EditorsChoicePlugin-v1.1.0.2.zip",
+        "checksum": "f8a111d2b52b470b61a73370ecefc8c5",
+        "timestamp": "2025-05-20 18:25:21"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Adds new 'recent releases' mode, localisation for 'Watch' button, option to change autoplay interval, and options to show description and rating or not.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.1.0.0/EditorsChoicePlugin-v1.1.0.0.zip",
+        "checksum": "f2813373052dba633473c5ec4f1cd0c3",
+        "timestamp": "2025-04-30 19:20:46"
+      },
+      {
+        "version": "1.0.8.0",
+        "changelog": "Adds parental rating filtering.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.8.0/EditorsChoicePlugin-v1.0.8.0.zip",
+        "checksum": "9716bbcfdc39c04671dea43001e4485f",
+        "timestamp": "2025-04-05 12:03:29"
+      },
+      {
+        "version": "1.0.7.1",
+        "changelog": "Fixes issues on TV mode.",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.7.1/EditorsChoicePlugin-v1.0.7.1.zip",
+        "checksum": "0e5e25d83517ece9955af789bcbff3fa",
+        "timestamp": "2025-03-14 18:25:00"
+      },
+      {
+        "version": "1.0.7.0",
+        "changelog": "New and improved slider! Including autoplay, looping, and improved loading reliability",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.7.0/EditorsChoicePlugin-v1.0.7.0.zip",
+        "checksum": "011ae72355f00a1cd5ea2a939f1dbeb0",
+        "timestamp": "2025-03-12 20:38:38"
+      },
+      {
+        "version": "1.0.6.1",
+        "changelog": "Compatability with Jellygin 10.10.6",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.6.1/EditorsChoicePlugin-v1.0.6.1.zip",
+        "checksum": "09ccc0326c17140d6a5373155aa7a737",
+        "timestamp": "2025-03-08 13:20:38"
+      },
+      {
+        "version": "1.0.6.0",
+        "changelog": "Allows filtering by library, adds 'Collections' mode, speeds up load times, and improves config UI",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.6.0/EditorsChoicePlugin-v1.0.6.0.zip",
+        "checksum": "fc7041f859a883bf8dfeb055f92b8f66",
+        "timestamp": "2025-01-06 15:43:00"
+      },
+      {
+        "version": "1.0.5.0",
+        "changelog": "Allows filtering by minimum community or critic rating! And fixes slider on Jellyfin Android app",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.5.0/EditorsChoicePlugin-v1.0.5.0.zip",
+        "checksum": "0054586015bed521b556ed7e3b9b21af",
+        "timestamp": "2024-12-30 10:48:00"
+      },
+      {
+        "version": "1.0.4.0",
+        "changelog": "This version greatly improves the mechanism to load the slider, so that it is faster and more reliable.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.4.0/EditorsChoicePlugin-v1.0.4.0.zip",
+        "checksum": "184a35514a3a1901401aa710a18c4b21",
+        "timestamp": "2024-12-29 13:48:00"
+      },
+      {
+        "version": "1.0.3.0",
+        "changelog": "Now works with Jellyfin 10.10.x. Other changes in this version include: Users can now only see items from libraries that they have permission to access. The option to show a particular number of items applies to 'favourites' mode as well as random mode. Slider will not show IMDB ratings if unavailable. Scroller buttons adjusted to stand out more on light background.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.3.0/EditorsChoicePlugin-v1.0.3.0.zip",
+        "checksum": "0599d79e62f26815e94323f2c5d2b917",
+        "timestamp": "2024-12-20 16:00:00"
+      },
+      {
+        "version": "1.0.2.2",
+        "changelog": "Fix bug where only admins can load the editors choice slider.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.2.2/EditorsChoicePlugin-v1.0.2.2.zip",
+        "checksum": "eba01c3237a9c13f4e2f4795e93ee887",
+        "timestamp": "2024-09-07 13:19:00"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "Add new 'random' banner option",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.2.0/EditorsChoicePlugin-v1.0.2.0.zip",
+        "checksum": "5cc6dc035617c3e410f45560d2882a2a",
+        "timestamp": "2024-08-31 19:31:00"
+      },
+      {
+        "version": "1.0.1.4",
+        "changelog": "Fix hyperlinks occassionally not working",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.4/EditorsChoicePlugin-v1.0.1.4.zip",
+        "checksum": "ed79e024493118e3738cc693da45acaa",
+        "timestamp": "2024-08-31 18:13:00"
+      },
+      {
+        "version": "1.0.1.3",
+        "changelog": "Fix loading process",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.3/EditorsChoicePlugin-v.1.0.1.3.zip",
+        "checksum": "d03f8d71d69d1b59a8ccb590d665736d",
+        "timestamp": "2024-08-23 15:41:00"
+      },
+      {
+        "version": "1.0.1.2",
+        "changelog": "Fix links on banner items",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.2/EditorsChoicePlugin-v.1.0.1.2.zip",
+        "checksum": "1a8cda7e7f7652011e1e5c0481aa5afe",
+        "timestamp": "2024-07-12 20:25:00"
+      },
+      {
+        "version": "1.0.1.1",
+        "changelog": "Update for Jellyfin 10.9 and fix package versions for 10.9.1 to 10.9.3",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.1.1/EditorsChoicePlugin-v1.0.1.1.zip",
+        "checksum": "b8aba4fe8f069e0a3ed9a69768fea61e",
+        "timestamp": "2024-06-09 16:05:00"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelog": "Fix issues with favourited seasons/episodes and exclude other unsupported favouritable items",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.0.1/EditorsChoicePlugin-v.1.0.0.1.zip",
+        "checksum": "25a4a68e2c447d246963909ac14e6874",
+        "timestamp": "2024-04-25 16:49:00"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.0.0.0/EditorsChoicePlugin-v1.0.0.0.zip",
+        "checksum": "b8da53d22f379d01c8c696e4fc11d75f",
+        "timestamp": "2024-04-25 14:06:00"
       }
     ]
   },
@@ -2026,6 +2458,174 @@
     ]
   },
   {
+    "category": "Authentication",
+    "description": "This plugin allows users to sign in through an SSO provider (such as Google, Facebook, or your own provider). This enables one-click signin.\nReview documentation at https://github.com/9p4/jellyfin-plugin-sso\n",
+    "guid": "505ce9d1-d916-42fa-86ca-673ef241d7df",
+    "name": "SSO Authentication",
+    "overview": "Authenticate users against an SSO provider.",
+    "owner": "9p4",
+    "versions": [
+      {
+        "changelog": "There is a critical security fix for SAML. Please update as soon as possible. Thanks to N.P. for finding the issue.\r\n\r\nAdditional bugfixes are also included.\r\n\r\n## What's Changed\r\n* Add Pocket ID config steps by @mhlas7 in https://github.com/9p4/jellyfin-plugin-sso/pull/312\r\n* fix: invalidate state immediately after auth by @jon4hz in https://github.com/9p4/jellyfin-plugin-sso/pull/343\r\n* Add kanidm config steps by @Joker9944 in https://github.com/9p4/jellyfin-plugin-sso/pull/347\r\n* Update README dead link, add warning for permission overwritten by @ForsakenRei in https://github.com/9p4/jellyfin-plugin-sso/pull/318\r\n* Bugfix: Prevent KeyNotFoundExceptions in OidPost by @mandos21 in https://github.com/9p4/jellyfin-plugin-sso/pull/349\r\n\r\n## New Contributors\r\n* @mhlas7 made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/312\r\n* @jon4hz made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/343\r\n* @Joker9944 made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/347\r\n* @ForsakenRei made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/318\r\n* @mandos21 made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/349\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v4.0.0.3...v4.0.0.4",
+        "checksum": "1e7908585ebee256203a0869dcdfbaf8",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v4.0.0.4/sso-authentication_4.0.0.4.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2026-03-20T03:13:34Z",
+        "version": "4.0.0.4"
+      },
+      {
+        "changelog": "More CI fixes\r\n\r\n## What's Changed\r\n* fix: consistently use OpenID instead of OID on the config page by @CFenner in https://github.com/9p4/jellyfin-plugin-sso/pull/193\r\n* Support DisableHttps/DoNotValidateIssuerName in SSOController.OidChallenge by @andreblanke in https://github.com/9p4/jellyfin-plugin-sso/pull/239\r\n* Allow to disable pushed authorization by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/244\r\n* Update oddstr13/jellyfin-plugin-repository-manager by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/247\r\n* Avatar via OIDC Provider by @Estyms in https://github.com/9p4/jellyfin-plugin-sso/pull/202\r\n* Allow port override by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/246\r\n* Fix artifact names by @bdovaz in https://github.com/9p4/jellyfin-plugin-sso/pull/248\r\n* Prevent force updating username by @FeikoJoosten in https://github.com/9p4/jellyfin-plugin-sso/pull/251\r\n* remove deprecated redirect uri from readme by @hendrik1120 in https://github.com/9p4/jellyfin-plugin-sso/pull/280\r\n* Match the styling of the redirection page with Jellyfin colors and font by @kernelb00t in https://github.com/9p4/jellyfin-plugin-sso/pull/269\r\n* Use punycode URL for redirect page - OIDC by @babbitt in https://github.com/9p4/jellyfin-plugin-sso/pull/265\r\n\r\n## New Contributors\r\n* @CFenner made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/193\r\n* @andreblanke made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/239\r\n* @bdovaz made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/244\r\n* @Estyms made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/202\r\n* @FeikoJoosten made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/251\r\n* @kernelb00t made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/269\r\n* @babbitt made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/265\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.2.4...v4.0.0.3",
+        "checksum": "ea6673c5c9aeddcf01a38604046e7ffc",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v4.0.0.3/sso-authentication_4.0.0.3.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2025-10-21T14:39:25Z",
+        "version": "4.0.0.3"
+      },
+      {
+        "changelog": "## What's Changed\r\n* Update version in SSO-Auth.csproj by @lf- in https://github.com/9p4/jellyfin-plugin-sso/pull/169\r\n* update authelia example to authelia v4.38 by @hendrik1120 in https://github.com/9p4/jellyfin-plugin-sso/pull/170\r\n* Update providers.md to include android app keycloak OIDC redirect URI by @tbelway in https://github.com/9p4/jellyfin-plugin-sso/pull/190\r\n* Update plugin to function with Jellyfin 10.9\r\n\r\n## New Contributors\r\n* @lf- made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/169\r\n* @hendrik1120 made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/170\r\n* @tbelway made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/190\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.2.3...v3.5.2.4",
+        "checksum": "e325bcf4c60c5cae3e0cd4614faae07a",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.2.4/sso-authentication_3.5.2.4.zip",
+        "targetAbi": "10.9.0.0",
+        "timestamp": "2024-05-13T13:34:38Z",
+        "version": "3.5.2.4"
+      },
+      {
+        "changelog": "## What's Changed\r\n* Remove jellyfin_credentials before loading iframe by @sbogomolov in https://github.com/9p4/jellyfin-plugin-sso/pull/163\r\n* [allow for better endpoint validation](https://github.com/9p4/jellyfin-plugin-sso/commit/d51e5069d6584953e93f93ec161b909388cd7ebe)\r\n\r\n## New Contributors\r\n* @sbogomolov made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/163\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.2.2...v3.5.2.3",
+        "checksum": "ba6ce744fd21c0b9452b23eeeb99e0e1",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.2.3/sso-authentication_3.5.2.3.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2024-02-21T22:11:24Z",
+        "version": "3.5.2.3"
+      },
+      {
+        "changelog": "[allow linking to work with new paths](https://github.com/9p4/jellyfin-plugin-sso/commit/9321c25f2028101cee19f4bf90083aecb60bdba5)\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.2.1...v3.5.2.2",
+        "checksum": "94d0f6acf8eaead11c25680ee13cde7f",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.2.2/sso-authentication_3.5.2.2.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2024-01-22T21:39:33Z",
+        "version": "3.5.2.2"
+      },
+      {
+        "changelog": "Hotfix for https://github.com/9p4/jellyfin-plugin-sso/issues/150",
+        "checksum": "a2c47db686895bc7cd4594bdda25286e",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.2.1/sso-authentication_3.5.2.1.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2023-10-18T05:12:18Z",
+        "version": "3.5.2.1"
+      },
+      {
+        "changelog": "feat: allow overriding redirect scheme\r\n\r\nWow, I'm putting out a lot of releases lately. Sorry about that.\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.1.1...v3.5.2.0",
+        "checksum": "83b29edbc0c6722606bae9f2de095d88",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.2.0/sso-authentication_3.5.2.0.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2023-08-07T17:17:13Z",
+        "version": "3.5.2.0"
+      },
+      {
+        "changelog": "fix: change iframe URL to point to the web UI instead of the root\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.1.0...v3.5.1.1",
+        "checksum": "c5e6dd973ebef1ef80d7d59ef7ad0815",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.1.1/sso-authentication_3.5.1.1.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2023-08-07T12:44:02Z",
+        "version": "3.5.1.1"
+      },
+      {
+        "changelog": "* fix: improve final redirect (#109)\r\n* style: fix configPage style (prettier)\r\n* docs: detail Google requiring disabling of OpenID endpoint validation\r\n* fix: make SAML paths better; improve and add OID discovery defaults\r\n* docs: clarify plugin resetting permissions\r\n* style: fix README.md style\r\n* docs: document how to set login disclaimer (#16)\r\n* feat: clarify redirect paths (#84)\r\n* fix: Remove funding\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.5.0.0...v3.5.1.0",
+        "checksum": "574ab1a090ba1726a01b0861e990eeb8",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.1.0/sso-authentication_3.5.1.0.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2023-08-06T20:38:07Z",
+        "version": "3.5.1.0"
+      },
+      {
+        "changelog": "## What's Changed\r\n* feat: add Live TV management\r\n* fix: make user creation more robust by @fredriklindberg in https://github.com/9p4/jellyfin-plugin-sso/pull/72\r\n* fix: don't include port in redirect URL for 80 and 443 by @fredriklindberg in https://github.com/9p4/jellyfin-plugin-sso/pull/71\r\n* feat: allow configuration of preferred username claim by @9p4 in https://github.com/9p4/jellyfin-plugin-sso/pull/74\r\n* feat: allow for HTTPS to be disabled in OpenID discovery by @9p4 in https://github.com/9p4/jellyfin-plugin-sso/pull/77\r\n* fix: #83 Trim whitespace in user provided strings by @9p4 in https://github.com/9p4/jellyfin-plugin-sso/pull/89\r\n* null check before trim() by @esmondmissen in https://github.com/9p4/jellyfin-plugin-sso/pull/99\r\n* fix: error in logs for #81 by @esmondmissen in https://github.com/9p4/jellyfin-plugin-sso/pull/100\r\n* docs: 📝 add authentik redirect uri step by @adamzvolanek in https://github.com/9p4/jellyfin-plugin-sso/pull/127\r\n* fix: fix null pointer errors in various places\r\n\r\n## New Contributors\r\n* @fredriklindberg made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/72\r\n* @esmondmissen made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/99\r\n* @adamzvolanek made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/127\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.4.0.2...v3.5.0.0",
+        "checksum": "5621a407cce8907bfa5cad9d3ce52924",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.0.0/sso-authentication_3.5.0.0.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2023-08-05T22:55:07Z",
+        "version": "3.5.0.0"
+      },
+      {
+        "changelog": "# Self Service: \r\n\r\n* Users can link existing jellyfin accounts to SSO provider accounts\r\n* Users can remove existing links\r\n* Users can configure multiple SSO provider accounts\r\n* Account names no longer have to match across Jellyfin -> SSO provider\r\n  * Eg, can link google OIDC, with a `sub` of `asfbeausfahgajsfjasd-ugly-sub` to jellyfin username `matthew`\r\n\r\n## What's Changed\r\n\r\n### Features\r\n\r\n* Implement Canonical Linking + Self Service by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/34\r\n   * Account names no longer have to match to be linked\r\n\r\n### Fixes\r\n\r\n* Fix ID Provider incorrectly resetting on login by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/33\r\n\r\n### Documentation\r\n\r\n* Document Provider Specific Configuration, Small Readme Update by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/31\r\n* docs: move build-from-source to contributing section, link vscode config by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/63\r\n* docs: :memo: document new plugin install mechanism by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/56\r\n\r\n### CI / Build\r\n\r\n* Add github action for publishing releases by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/39\r\n* Revert \"Add github action for publishing releases\" by @9p4 in https://github.com/9p4/jellyfin-plugin-sso/pull/40\r\n* Revert \"Revert \"Add github action for publishing releases\"\" by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/46\r\n* pin version of oddstr13/jprm to specific commit by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/48\r\n* ci: pin kevinjil/jprm-action to specific sha by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/50\r\n* ci: ignore prereleases when publishing manifest by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/52\r\n* ci: add checksum to nightly builds by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/53\r\n* ci: only run checksum agaisnt zip files by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/54\r\n* build: ignore .vscode entirely in gitignore by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/62\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.3.0.0...v3.4.0.2",
+        "checksum": "485d67094e39cc5b11470abea6b46427",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.4.0.2/sso-authentication_3.4.0.0.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2022-08-18T09:10:59Z",
+        "version": "3.4.0.0"
+      },
+      {
+        "changelog": "## What's Changed\r\n* Clean up controller by @crobibero in https://github.com/9p4/jellyfin-plugin-sso/pull/12\r\n* Fallback Authentication Provider by @Pfuenzle in https://github.com/9p4/jellyfin-plugin-sso/pull/9\r\n* Add UI Page for OIDC Configuration by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/18\r\n* Add prettier workflow to CI by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/22\r\n* Allow requesting additional scopes in OIDC flows by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/24\r\n* CI: Prettier Workflow: Remove explicit branch ref from checkout by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/25\r\n* CI: lint css files in prettier workflow by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/30\r\n* Improve UX on config page by @matthewstrasiotto in https://github.com/9p4/jellyfin-plugin-sso/pull/27\r\n\r\n## New Contributors\r\n* @matthewstrasiotto made their first contribution in https://github.com/9p4/jellyfin-plugin-sso/pull/18\r\n\r\n**Full Changelog**: https://github.com/9p4/jellyfin-plugin-sso/compare/v3.2.0.0...v3.3.0.0",
+        "checksum": "79357968612a992e6494167fd065dafb",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.3.0.0/sso-authentication_3.3.0.0.zip",
+        "targetAbi": "10.8.0.0",
+        "timestamp": "2022-05-22T16:17:07Z",
+        "version": "3.3.0.0"
+      },
+      {
+        "changelog": "Nightly build\n",
+        "checksum": "517d0ece631d5d1ae35dabc8f90b6636",
+        "sourceUrl": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/nightly/sso-authentication_0.0.0.9000.zip",
+        "targetAbi": "10.11.0.0",
+        "timestamp": "2022-07-01T01:20:33Z",
+        "version": "0.0.0.9000"
+      }
+    ]
+  },
+  {
+    "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
+    "name": "FinTube",
+    "overview": "Import Videos/Music from YouTube",
+    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.\n\nhttps://github.com/AECX/FinTube",
+    "owner": "Maurice 'AECX' Henke",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/FinTube.png",
+    "versions": [
+      {
+        "version": "1.1.0.0",
+        "changelog": "Added possibility to provide a custom filename",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/AECX/FinTube/releases/download/v1.1.0.0/FinTube-1.1.0.0.zip",
+        "checksum": "61a936d047cbaf23935a8686a1626834",
+        "timestamp": "2025-09-23T07:13:30Z"
+      },
+      {
+        "version": "1.0.1.1",
+        "changelog": "Fixed Version mismatch and libraries showing on DL page",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/AECX/FinTube/releases/download/v1.0.1.1/FinTube-1.0.1.1.zip",
+        "checksum": "8d109651a763267083323c8e6390549f",
+        "timestamp": "2025-09-10T07:00:00Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/AECX/FinTube/releases/download/v1.0.1/FinTube-1.0.1.zip",
+        "checksum": "20d1786dedf3213ad371edcbafea934d",
+        "timestamp": "2024-05-12T11:40:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "d20aa9ed-eafc-4578-b320-4e3b7093129c",
+    "name": "FinTube",
+    "overview": "Import Videos/Music from YouTube",
+    "description": "Lets you download YT videos as mp4 or mp3 with support for id3v2 tags. Requires yt-dlp/youtube-dl and (optionally) id3v2.\n\nhttps://github.com/AECX/FinTube",
+    "owner": "Maurice 'AECX' Henke",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/FinTube.png",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/AECX/FinTube/releases/download/v1.0/FinTube-1.0.zip",
+        "checksum": "02eeb5390d5e2a93a241c986bbde6d60",
+        "timestamp": "2023-08-23T22:36:00Z"
+      }
+    ]
+  },
+  {
     "guid": "3C96F5BC-4182-4B86-B05D-F730F2611E45",
     "name": "Smart Playlist",
     "description": "Create automatically updating playlists based on rules.\n\n\nhttps://github.com/ankenyr/jellyfin-smartplaylist-plugin",
@@ -2443,6 +3043,81 @@
     ]
   },
   {
+    "category": "General",
+    "guid": "5fcefe1b-df1f-4596-ac57-f2f939c294c5",
+    "name": "Cinema Mode",
+    "description": "Enable Cinema Mode with local trailers and pre-rolls.\n\nhttps://github.com/CherryFloors/jellyfin-plugin-cinemamode",
+    "owner": "CherryFloors",
+    "overview": "Enable Jellyfin's Cinema Mode",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cinema Mode.jpg",
+    "versions": [
+      {
+        "checksum": "9dd5610f5216745d9b57c2abae13441b",
+        "changelog": "- Target Jellyfin 10.11 ABI and fix broken API.\n- Update \"More Like This\" trailer selection.\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.6.0.0/cinemamode_0.6.0.0.zip",
+        "timestamp": "2025-10-25T00:04:04.332083",
+        "version": "0.6.0.0"
+      },
+      {
+        "checksum": "4df3efb4098438472ff1373f78ace427",
+        "changelog": "- New exclude out of season tags for pre-rolls logic that supports multiple out of season tags.\\n - Fix trailer rating enforcement to ignore \"Unrated\" and blank ratings.\\n - Target Jellyfin 10.10 ABI.\\n\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.5.1.0/cinemamode_0.5.1.0.zip",
+        "timestamp": "2025-04-26T16:51:15.224959",
+        "version": "0.5.1.0"
+      },
+      {
+        "checksum": "e65a5c7471acb68b0d32e98c7b53cf89",
+        "changelog": "- New exclude out of season tags for pre-rolls logic that supports multiple out of season tags. - Fix trailer rating enforcement to ignore \"Unrated\" and blank ratings. - Target Jellyfin 10.10 ABI\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.5.0.0/cinemamode_0.5.0.0.zip",
+        "timestamp": "2025-04-26T16:18:40.615368",
+        "version": "0.5.0.0"
+      },
+      {
+        "checksum": "898bfa0ecfcc6ac0b1c5ffc10938c2d7",
+        "changelog": "Stable Pre-Roll support and exapanded configuration\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.4.0.0/cinemamode_0.4.0.0.zip",
+        "timestamp": "2024-08-01T21:42:16.152778",
+        "version": "0.4.0.0"
+      },
+      {
+        "checksum": "c4192aa5f6d8434d318d5a80be35a72b",
+        "changelog": "Initial Release\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.3.0.0/cinemamode_0.3.0.0.zip",
+        "timestamp": "2024-05-19T14:59:05.278450",
+        "version": "0.3.0.0"
+      },
+      {
+        "checksum": "3459c28435f14a61661754c4ad37d049",
+        "changelog": "Initial Release\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.2.0.0/cinemamode_0.2.0.0.zip",
+        "timestamp": "2023-07-30T11:08:21.449187",
+        "version": "0.2.0.0"
+      },
+      {
+        "checksum": "2008597b8f0d5fa03a9bfec09309bda1",
+        "changelog": "Fix trailer count\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.1.1.0/cinemamode_0.1.1.0.zip",
+        "timestamp": "2023-02-19T12:00:01.266521",
+        "version": "0.1.1.0"
+      },
+      {
+        "checksum": "168963b809bde54f1401aa617105118e",
+        "changelog": "Initial Release\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/CherryFloors/jellyfin-plugin-cinemamode/releases/download/v0.1.0.0/cinemamode_0.1.0.0.zip",
+        "timestamp": "2023-02-14T22:03:04.894088",
+        "version": "0.1.0.0"
+      }
+    ]
+  },
+  {
     "guid": "60f478ab-2dd6-4ea0-af10-04d033f75979",
     "name": "Newsletters",
     "description": "This plugin automacially scans a users library (default every 4 hours), populates a list of recently added (not previously scanned) media, converts that data into HTML format, and sends out emails to a provided list of recipients.\n\nhttps://github.com/Cloud9Developer/Jellyfin-Newsletter-Plugin",
@@ -2596,7 +3271,7 @@
     "overview": "Watch trailers from TMDb",
     "owner": "crobibero",
     "category": "Channels",
-    "imageUrl": "https://raw.githubusercontent.com/crobibero/jellyfin-plugin-tmdb-trailers/master/Jellyfin.Plugin.Tmdb.Trailers/Images/jellyfin-plugin-tmdb.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TMDb Trailers.png",
     "versions": [
       {
         "version": "14.0.0.0",
@@ -2662,7 +3337,7 @@
     "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n\n\nhttps://github.com/danieladov/jellyfin-plugin-mergeversions",
     "overview": "Automatically merge repeated movies",
     "owner": "danieladov",
-    "imageUrl": "https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/resources/MergeVersions/thumb.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Merge Versions.png",
     "category": "General",
     "versions": [
       {
@@ -2891,7 +3566,7 @@
     "description": "Skin manager helps you to download and install most popular skins for jellyfin\n\n\nhttps://github.com/danieladov/jellyfin-plugin-skin-manager",
     "overview": "Skins for jellyfin",
     "owner": "danieladov",
-    "imageUrl": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/thumb.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Skin Manager.png",
     "category": "General",
     "versions": [
       {
@@ -2941,6 +3616,65 @@
         "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-skin-manager/releases/download/1.0.0/Jellyfin-Plugin-SkinManager.zip",
         "checksum": "15305155f67ad72dbfa4082aa6ef5c3c",
         "timestamp": "2020-11-08T18:14:58"
+      }
+    ]
+  },
+  {
+    "guid": "b1fb3d98-3336-4b87-a5c9-8a948bd87233",
+    "name": "LetterboxdSync",
+    "overview": "Syncs watched movies with Letterboxd diary",
+    "description": "A third party plugin to keep your watched movie history automatically updated to a Letterboxd account\n\nhttps://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync",
+    "owner": "danielveigasilva",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LetterboxdSync.png",
+    "versions": [
+      {
+        "version": "1.1.2.0",
+        "changelog": "- fix: check date last review correct (f9f499e)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync/releases/download/v1.1.2/jellyfin-plugin-letterboxd-sync-v1.1.2.zip",
+        "checksum": "ca795994cd1c9ac01a586e28ba9b2a8b",
+        "timestamp": "2025-06-15T00:45:35Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "- fix: log movies watched just one day before (b817d28)\n- fix: ignore readme in publish (c2d97b0)\n- fix: update release names (8ac3ba7)\n- docs: update README with count downloads (357a8cd)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync/releases/download/v1.1.1/jellyfin-plugin-letterboxd-sync-v1.1.1.zip",
+        "checksum": "fdfbf9b188fecd6cde3116a8773a729b",
+        "timestamp": "2025-06-11T17:38:14Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "- feat(publish): automate publish release (ca44bc3)\n- feat(search): find movie only by tmdbid (7cc9d9d)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync/releases/download/v1.1.0/jellyfin-plugin-letterboxd-sync-v1.1.0.zip",
+        "checksum": "d5514462054943fc4ef88e1ca7d7a206",
+        "timestamp": "2025-03-20T22:26:45Z"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "- Fix: prevent failure when review id is blank (#1)\n- Refactor: clearer logs",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync/releases/download/v1.0.2/jellyfin-plugin-letterboxd-sync-v1.0.2.0.zip",
+        "checksum": "a42d4734f41a1f45131abf142ba62fe6",
+        "timestamp": "2025-03-07T00:00:00Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "- Fix #2: All research with a TMDB id return no results",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync/releases/download/v1.0.1/jellyfin-plugin-letterboxd-sync-v1.0.1.0.zip",
+        "checksum": "c998b14487096209b505a02513a05026",
+        "timestamp": "2025-03-05T00:00:00Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "- Initial version",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/danielveigasilva/jellyfin-plugin-letterboxd-sync/releases/download/v1.0.0/jellyfin-plugin-letterboxd-sync-v1.0.0.0.zip",
+        "checksum": "89f9d6e5b02c6907c6952703f30a8c9e",
+        "timestamp": "2025-01-18T00:00:00Z"
       }
     ]
   },
@@ -3221,7 +3955,7 @@
     "description": "Uses your listening history to generate a daily playlist of songs you might like\n\nhttps://github.com/Eeeeelias/playlist-generator",
     "owner": "Eeeeelias",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/Eeeeelias/playlist-generator/refs/heads/main/images/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playlist Generator.png",
     "versions": [
       {
         "version": "1.5.1.0",
@@ -3725,6 +4459,49 @@
     ]
   },
   {
+    "guid": "4b71013d-00ba-470c-9e4d-0c451a435328",
+    "name": "TeleJelly",
+    "overview": "Log in to Jellyfin using Telegram",
+    "description": "Enables logging in to Jellyfin using the Telegram Login Widget as SSO provider. Allows for simple Group management. Having a Telegram Username is mandatory. A Telegram Bot is required to validate the Telegram login credentials. A valid, public domain SSL certificate is required for the Login Widget to work. This plug-in is free, open-source software. 'Production'-usage is NOT recommended. I do not accept any responsibility for errors. Repo: https://github.com/hexxone/TeleJelly",
+    "owner": "hexxone",
+    "category": "Authentication",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TeleJelly.jpg",
+    "versions": [
+      {
+        "targetAbi": "10.9.0.0",
+        "checksum": "634bbcfeac202721cfc07d168faebd4c",
+        "sourceUrl": "https://github.com/hexxone/TeleJelly/releases/download/1.0.8/TeleJelly_v1.0.8.zip",
+        "timestamp": "2024-10-05T16:26:29Z",
+        "version": "1.0.8",
+        "changelog": "Automatic Release by Github Actions:  https://github.com/hexxone/TeleJelly/releases/tag/1.0.8"
+      },
+      {
+        "targetAbi": "10.10.0.0",
+        "checksum": "6adc7d57c9b6d3c63801b758192e7de2",
+        "sourceUrl": "https://github.com/hexxone/TeleJelly/releases/download/1.0.9/TeleJelly_v1.0.9.zip",
+        "timestamp": "2025-11-22T16:22:27Z",
+        "version": "1.0.9",
+        "changelog": "Automatic Release by Github Actions:  https://github.com/hexxone/TeleJelly/releases/tag/1.0.9"
+      },
+      {
+        "targetAbi": "10.11.0.0",
+        "checksum": "d54b2952415f580e2f0b9c42515b1e2f",
+        "sourceUrl": "https://github.com/hexxone/TeleJelly/releases/download/1.0.10/TeleJelly_v1.0.10.zip",
+        "timestamp": "2025-11-28T16:35:33Z",
+        "version": "1.0.10",
+        "changelog": "Automatic Release by Github Actions:  https://github.com/hexxone/TeleJelly/releases/tag/1.0.10"
+      },
+      {
+        "targetAbi": "10.11.0.0",
+        "checksum": "76eef056e8ea464ee462c600d2e6ce57",
+        "sourceUrl": "https://github.com/hexxone/TeleJelly/releases/download/1.0.11/TeleJelly_v1.0.11.zip",
+        "timestamp": "2026-01-02T18:00:19Z",
+        "version": "1.0.11",
+        "changelog": "Automatic Release by Github Actions:  https://github.com/hexxone/TeleJelly/releases/tag/1.0.11"
+      }
+    ]
+  },
+  {
     "guid": "28612bb6-e3ab-4099-a682-f413d4ca19d3",
     "name": "MyAnimeSync",
     "description": "This is a longer description that can span more than one line and include details about your plugin.\n\n\nhttps://github.com/iankiller77/MyAnimeSync",
@@ -3904,6 +4681,56 @@
     ]
   },
   {
+    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+    "name": "CustomLogo",
+    "description": "Add the abiliy to replace the Jellyfin logo\n\nhttps://github.com/ImLacy/Jellyfin-CustomLogo",
+    "owner": "Lacy",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/CustomLogo.png",
+    "versions": [
+      {
+        "version": "1.0.0.4",
+        "changelist": "Patched image and version after installation",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.4/CustomLogo.zip",
+        "checksum": "42F764E2A6723915C198272F257C9E01",
+        "timestamp": "2025-10-15T03:00:00"
+      },
+      {
+        "version": "1.0.0.3",
+        "changelist": "Pathched image and version after installation",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.3/CustomLogo.zip",
+        "checksum": "00FA95E97B89190A486769B3AF128A84",
+        "timestamp": "2025-10-12T21:00:00"
+      },
+      {
+        "version": "1.0.0.2",
+        "changelist": "Verification for missing permisions",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.2/CustomLogo.zip",
+        "checksum": "7FD69B8DA3A4D3FFFFD3DB44152DE3DE",
+        "timestamp": "2025-09-06T13:50:00"
+      },
+      {
+        "version": "1.0.0.1",
+        "changelist": "Better redirection after configuration",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.1/CustomLogo.zip",
+        "checksum": "9006EAAE7A17993A38C5AE5EBD7C57EF",
+        "timestamp": "2025-06-16T13:50:00"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelist": "TODO",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/ImLacy/Jellyfin-CustomLogo/releases/download/1.0.0.0/CustomLogo.zip",
+        "checksum": "6966DCC632D634959C37465445002AB7",
+        "timestamp": "2025-06-05T13:58:00"
+      }
+    ]
+  },
+  {
     "category": "General",
     "guid": "c5df7de0-8777-4b3c-a70d-5c3dae359c9e",
     "name": "AlexaSkill",
@@ -3911,6 +4738,272 @@
     "owner": "infinityofspace",
     "overview": "Alexa skill plugin for Jellyfin",
     "versions": []
+  },
+  {
+    "guid": "09612e52-0f93-41ab-a6ab-5a19479f5315",
+    "name": "Smart Collections",
+    "overview": "Enables creation of Smart Collections based on Tag",
+    "description": "Enables creation of Smart Collections based on Tag\n\nhttps://github.com/johnpc/jellyfin-plugin-smart-collections",
+    "owner": "johnpc",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.0.0.23",
+        "changelog": "See the full changelog at [GitHub](https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/tag/0.0.0.23)",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/johnpc/jellyfin-plugin-smart-collections/releases/download/0.0.0.23/jellyfin-plugin-smart-collections-0.0.0.23.zip",
+        "checksum": "3024078f9ca7db65c54c03821d7ca07a",
+        "timestamp": "2026-05-26T12:50:39Z"
+      }
+    ]
+  },
+  {
+    "guid": "a760bbb5-7b7b-4fda-951c-f3c39d689a8f",
+    "name": "Jellysleep",
+    "overview": "Sleep timer plugin that automatically stops playback after a specified time or episodes",
+    "description": "Jellysleep adds sleep timer functionality to Jellyfin. Set timers by duration (15min, 30min, 1h, 2h) or episodes.\n\nhttps://github.com/jon4hz/jellyfin-plugin-jellysleep",
+    "owner": "jon4hz",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellysleep.png",
+    "versions": [
+      {
+        "version": "0.8.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.8.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.8.0/jellyfin-plugin-jellysleep-0.8.0.zip",
+        "checksum": "dbb0d13fcfd72db1fee9df56c8960936",
+        "timestamp": "2025-11-23T21:04:31Z"
+      },
+      {
+        "version": "0.7.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.7.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.7.0/jellyfin-plugin-jellysleep-0.7.0.zip",
+        "checksum": "6436713a3406e121efb24bb2b7e24faa",
+        "timestamp": "2025-11-23T19:58:57Z"
+      },
+      {
+        "version": "0.6.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.6.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.6.0/jellyfin-plugin-jellysleep-0.6.0.zip",
+        "checksum": "7489dda1c1ea5f14289a0fd5404e952c",
+        "timestamp": "2025-11-23T18:39:35Z"
+      },
+      {
+        "version": "0.5.1.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.5.1)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.5.1/jellyfin-plugin-jellysleep-0.5.1.zip",
+        "checksum": "950c0cd96dc4d1191b394eda0c48c9c3",
+        "timestamp": "2025-10-21T17:12:13Z"
+      },
+      {
+        "version": "0.5.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.5.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.5.0/jellyfin-plugin-jellysleep-0.5.0.zip",
+        "checksum": "be831d3afc2726b34ca5f3fbf1105093",
+        "timestamp": "2025-10-20T21:40:38Z"
+      },
+      {
+        "version": "0.4.1.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.4.1)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.4.1/jellyfin-plugin-jellysleep-0.4.1.zip",
+        "checksum": "3b0b5c5a5061cf97ee1d45646dc1e3b0",
+        "timestamp": "2025-10-20T21:17:36Z"
+      },
+      {
+        "version": "0.4.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.4.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.4.0/jellyfin-plugin-jellysleep-0.4.0.zip",
+        "checksum": "4960282d2320de6658350cd37cac9bf6",
+        "timestamp": "2025-10-20T20:49:09Z"
+      },
+      {
+        "version": "0.3.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.3.0)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.3.0/jellyfin-plugin-jellysleep-0.3.0.zip",
+        "checksum": "8279189c5b4fc7d4597d1a4ae0f8ce3d",
+        "timestamp": "2025-08-19T18:35:57Z"
+      },
+      {
+        "version": "0.2.1.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.2.1)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.2.1/jellyfin-plugin-jellysleep-0.2.1.zip",
+        "checksum": "dbb140468b74aa7a525045ca8377f90a",
+        "timestamp": "2025-08-10T22:36:44Z"
+      },
+      {
+        "version": "0.2.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.2.0)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.2.0/jellyfin-plugin-jellysleep-0.2.0.zip",
+        "checksum": "0054ccf959612f6db75b2231947048af",
+        "timestamp": "2025-08-10T21:43:53Z"
+      },
+      {
+        "version": "0.1.1",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/tag/v0.1.1)\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/jon4hz/jellyfin-plugin-jellysleep/releases/download/v0.1.1/jellyfin-plugin-jellysleep-0.1.1.zip",
+        "checksum": "00582d01decb9ce2b310ee0554f76403",
+        "timestamp": "2025-08-09T00:20:36Z"
+      }
+    ]
+  },
+  {
+    "guid": "5aeab01b-2ef8-45c6-bb6b-16ce9cb268d4",
+    "name": "subbuzz",
+    "description": "Download subtitles from various sites.\n\nhttps://github.com/josdion/subbuzz",
+    "overview": "Download subtitles for your media",
+    "owner": "josdion",
+    "category": "Metadata",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/subbuzz.png",
+    "versions": [
+      {
+        "version": "1.4.1.0",
+        "changelog": "- Fix Json exception triggered on all subsource.net results #41\n",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.4.1.0/subbuzz_1.4.1.0_jellyfin_10.10.zip",
+        "checksum": "e3e4e57a75b32bbbae026030e41cce28",
+        "timestamp": "2026-04-26T07:21:31Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "- Add new provider: Subsource.net\n- Remove Yavka.net\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.4.0.0/subbuzz_1.4.0.0_jellyfin_10.10.zip",
+        "checksum": "61fac098326a40f06865de9e47d43cf8",
+        "timestamp": "2026-02-08T11:41:00Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "- Added new provider: SubDL.com\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/josdion/subbuzz/releases/download/v1.2.1.0/subbuzz_1.2.1.0_jellyfin_10.10.zip",
+        "checksum": "4b468fbc8b0756311f194f746fe56887",
+        "timestamp": "2024-10-27T10:01:24Z"
+      }
+    ]
+  },
+  {
+    "guid": "1c0bf35e-3df4-47cc-8a4e-e3865de60d2f",
+    "name": "One Pace",
+    "description": "Please report bugs at https://github.com/jwueller/jellyfin-plugin-onepace",
+    "overview": "Metadata and cover art integration for the One Pace project",
+    "owner": "jwueller",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "10.9.6.13",
+        "changelog": "Follow Jellyfin versioning to make compatibility obvious",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_10.9.6.13.zip",
+        "checksum": "65eecaca170a4116a3c4b69f5348adea",
+        "timestamp": "2024-06-07T12:53:38Z"
+      },
+      {
+        "version": "1.5.1.0",
+        "changelog": "Adapt to breaking changes by Jellyfin 10.9.x",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.5.1.0.zip",
+        "checksum": "9a72215b46879c925f5779b58c42e9f4",
+        "timestamp": "2024-05-13T19:46:28Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Fix some arcs getting incorrectly matched when the title is part of another arc title",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.4.0.0.zip",
+        "checksum": "97d2b2f3dc5ffddbf213dab350d4871f",
+        "timestamp": "2024-01-04T19:58:51Z"
+      },
+      {
+        "version": "1.3.2.0",
+        "changelog": "Upgrade to API 2.6.3 and add CRC-32 filename matching",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.3.2.0.zip",
+        "checksum": "d00f561d618042c0582b7ecf3a22ce2b",
+        "timestamp": "2023-08-02T18:26:02Z"
+      },
+      {
+        "version": "1.3.1.0",
+        "changelog": "Add more logging to identify issues more easily",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.3.1.0.zip",
+        "checksum": "4ebe3186f11bb43e6e206d55462438c5",
+        "timestamp": "2023-07-16T17:12:02Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Upgrade to API 2.6.0",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.3.0.0.zip",
+        "checksum": "747364dc0dcebbd54ecabff443a18f3b",
+        "timestamp": "2023-07-02T16:21:20Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "Fix arc identification",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.2.1.0.zip",
+        "checksum": "939f07912c2608ff76ae7ba8f6880ca2",
+        "timestamp": "2023-07-01T14:25:42Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Incorporate API changes",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.2.0.0.zip",
+        "checksum": "0b0049c814449666cdc74cfe7dc1f51e",
+        "timestamp": "2023-06-29T23:08:59Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "Fix matching inefficiencies",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.1.1.0.zip",
+        "checksum": "13b430539d7759d0cafacccfbaebbd2a",
+        "timestamp": "2023-05-07T16:07:51Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Migrate to GraphQL data source",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.1.0.0.zip",
+        "checksum": "7e7fac0901ccf3358d84fc7782341578",
+        "timestamp": "2023-05-06T19:18:06Z"
+      },
+      {
+        "version": "1.0.2.0",
+        "changelog": "Refine arc matching to include chapter ranges",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.2.0.zip",
+        "checksum": "4a3f6c69f5d508d497283186db798188",
+        "timestamp": "2023-03-05T01:52:52Z"
+      },
+      {
+        "version": "1.0.1.0",
+        "changelog": "Make URL detection more sophisticated",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.1.0.zip",
+        "checksum": "a31b6063c9104d591de78e5bed2bd2ae",
+        "timestamp": "2023-02-21T22:54:24Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/jwueller/jellyfin-repository/master/one-pace/one-pace_1.0.0.0.zip",
+        "checksum": "b98601d9ac3ee8bfe7daa113b5b1cc2f",
+        "timestamp": "2023-02-05T22:10:26Z"
+      }
+    ]
   },
   {
     "guid": "06ebf4a9-1326-4327-968d-8da00e1ea2eb",
@@ -4489,13 +5582,343 @@
     ]
   },
   {
+    "guid": "a708187e-5f82-4610-9c84-ec1f2837d5fe",
+    "name": "Collection Import",
+    "overview": "Import collections from external sources like tmdblist",
+    "description": "Import collections from external sources like tmdblist\n\nhttps://github.com/lostb1t/jellyfin-plugin-collection-import",
+    "owner": "lostb1t",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.48.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.48.0.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.48.0.0/collection-import-0.48.0.0.zip",
+        "checksum": "afc234f3fef19554aab597cba59b0019",
+        "timestamp": "2026-06-03T11:32:57Z"
+      },
+      {
+        "version": "0.47.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.47.0.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.47.0.0/collection-import-0.47.0.0.zip",
+        "checksum": "a9dce690b5530943d1f18179ca3e3a60",
+        "timestamp": "2026-06-03T07:17:26Z"
+      },
+      {
+        "version": "0.46.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.46.0.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.46.0.0/collection-import-0.46.0.0.zip",
+        "checksum": "deba0b8add368702d29d6b0a9a140bb9",
+        "timestamp": "2025-10-22T12:12:10Z"
+      },
+      {
+        "version": "0.45.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.45.0.0)\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.45.0.0/collection-import-0.45.0.0.zip",
+        "checksum": "a6352e617a89863e05b3f6826269e86d",
+        "timestamp": "2025-10-21T13:00:20Z"
+      },
+      {
+        "version": "0.44.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.44.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.44.0.0/collection-import-0.44.0.0.zip",
+        "checksum": "537c58b1d23765e8b9be7e5055d56671",
+        "timestamp": "2025-10-17T04:33:25Z"
+      },
+      {
+        "version": "0.43.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.43.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.43.0.0/collection-import-0.43.0.0.zip",
+        "checksum": "281cbeaa17abaa3143a60914154def88",
+        "timestamp": "2025-06-09T16:19:18Z"
+      },
+      {
+        "version": "0.42.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.42.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.42.0.0/collection-import-0.42.0.0.zip",
+        "checksum": "cdc0a0431d25257973e6600fe0b8bcf1",
+        "timestamp": "2025-04-22T20:11:40Z"
+      },
+      {
+        "version": "0.41.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.41.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.41.0.0/collection-import-0.41.0.0.zip",
+        "checksum": "14b44fb4b53f7adb4e1600d81ec5c1fa",
+        "timestamp": "2025-04-22T20:09:54Z"
+      },
+      {
+        "version": "0.40.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.40.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.40.0.0/collection-import-0.40.0.0.zip",
+        "checksum": "3531f683edbf02fed91ca726a01e1e11",
+        "timestamp": "2025-04-22T11:09:39Z"
+      },
+      {
+        "version": "0.39.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.39.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.39.0.0/collection-import-0.39.0.0.zip",
+        "checksum": "5edddb34f57eb70acccb405cf3da1675",
+        "timestamp": "2025-03-15T17:27:03Z"
+      },
+      {
+        "version": "0.38.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.38.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.38.0.0/collection-import-0.38.0.0.zip",
+        "checksum": "f3d4c83aa69d2afa1a9a0dddbea71476",
+        "timestamp": "2025-01-31T07:05:03Z"
+      },
+      {
+        "version": "0.37.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.37.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.37.0.0/collection-import-0.37.0.0.zip",
+        "checksum": "a225af7363483e8d32ba4d98246df578",
+        "timestamp": "2025-01-09T12:56:44Z"
+      },
+      {
+        "version": "0.36.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.36.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.36.0.0/collection-import-0.36.0.0.zip",
+        "checksum": "55d16645fbe714c786c3204d16ddcbeb",
+        "timestamp": "2024-12-11T06:56:28Z"
+      },
+      {
+        "version": "0.35.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.35.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.35.0.0/collection-import-0.35.0.0.zip",
+        "checksum": "2406331e7bc90e43eba87075ced6a45c",
+        "timestamp": "2024-12-11T06:55:26Z"
+      },
+      {
+        "version": "0.34.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.34.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.34.0.0/collection-import-0.34.0.0.zip",
+        "checksum": "b3a0557f623b34640d35a2bc54330a6e",
+        "timestamp": "2024-12-10T22:27:33Z"
+      },
+      {
+        "version": "0.33.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.33.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.33.0.0/collection-import-0.33.0.0.zip",
+        "checksum": "77dfe14220743a86d3651bc16d240814",
+        "timestamp": "2024-12-10T22:21:48Z"
+      },
+      {
+        "version": "0.32.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.32.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.32.0.0/collection-import-0.32.0.0.zip",
+        "checksum": "75af75a80996a549e455512af8a672ec",
+        "timestamp": "2024-12-10T22:18:39Z"
+      },
+      {
+        "version": "0.31.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.31.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.31.0.0/collection-import-0.31.0.0.zip",
+        "checksum": "e2558e1656e4a41091edad21175bc093",
+        "timestamp": "2024-12-10T22:10:56Z"
+      },
+      {
+        "version": "0.30.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.30.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.30.0.0/collection-import-0.30.0.0.zip",
+        "checksum": "f5cd703bee6fccb0e4934f99f717af5c",
+        "timestamp": "2024-12-10T21:47:26Z"
+      },
+      {
+        "version": "0.29.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.29.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.29.0.0/collection-import-0.29.0.0.zip",
+        "checksum": "22175b7e4787fc0bccb241ea4505dffd",
+        "timestamp": "2024-12-10T21:37:47Z"
+      },
+      {
+        "version": "0.28.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.28.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.28.0.0/collection-import-0.28.0.0.zip",
+        "checksum": "0e6841e10adcb020fd11b7608660072f",
+        "timestamp": "2024-11-30T06:24:20Z"
+      },
+      {
+        "version": "0.27.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.27.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.27.0.0/collection-import-0.27.0.0.zip",
+        "checksum": "f397074e3e2fae8a0b085c1ffb605800",
+        "timestamp": "2024-10-29T15:03:35Z"
+      },
+      {
+        "version": "0.26.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.26.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.26.0.0/collection-import-0.26.0.0.zip",
+        "checksum": "c4119a7832eff9b0e091112e6bf38c56",
+        "timestamp": "2024-10-29T15:02:04Z"
+      },
+      {
+        "version": "0.25.0.0",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.25.0.0)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.25.0.0/collection-import-0.25.0.0.zip",
+        "checksum": "e4a693077579e6532ea02bf4556bc9e1",
+        "timestamp": "2024-09-07T08:28:44Z"
+      },
+      {
+        "version": "0.24",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.24)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.24/collection-import-0.24.zip",
+        "checksum": "cd5cbe0409c4de21f2f6fc3f0bb94338",
+        "timestamp": "2024-08-30T13:00:36Z"
+      },
+      {
+        "version": "0.23",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.23)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.23/collection-import-0.23.zip",
+        "checksum": "84c9b97ad190d25b22fac75e6c62f621",
+        "timestamp": "2024-08-30T10:20:42Z"
+      },
+      {
+        "version": "0.21",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.21)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.21/collection-import-0.21.zip",
+        "checksum": "3135a77149bf55e92acfcd141753d9ed",
+        "timestamp": "2024-08-29T17:58:17Z"
+      },
+      {
+        "version": "0.20",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.20)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.20/collection-import-0.20.zip",
+        "checksum": "3b08d963dc7f92cc8a855cf56bb48b7b",
+        "timestamp": "2024-08-29T17:53:40Z"
+      },
+      {
+        "version": "0.18",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.18)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.18/collection-import-0.18.zip",
+        "checksum": "8054a2c9fd46a3570d8e195373f4d602",
+        "timestamp": "2024-08-22T14:43:36Z"
+      },
+      {
+        "version": "0.17",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.17)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.17/collection-import-0.17.zip",
+        "checksum": "1a495a50af5921990ba141aa93509ad8",
+        "timestamp": "2024-08-20T18:26:17Z"
+      },
+      {
+        "version": "0.16",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.16)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.16/collection-import-0.16.zip",
+        "checksum": "e51669745118a99c5b4193d355eeb960",
+        "timestamp": "2024-08-18T13:47:00Z"
+      },
+      {
+        "version": "0.15",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.15)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.15/collection-import-0.15.zip",
+        "checksum": "458ad382aa891ae65c63610a1e825d5a",
+        "timestamp": "2024-08-18T13:12:55Z"
+      },
+      {
+        "version": "0.14",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.14)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.14/collection-import-0.14.zip",
+        "checksum": "2bdef8b37d7c893fc8e759591faded09",
+        "timestamp": "2024-08-18T13:02:11Z"
+      },
+      {
+        "version": "0.9",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.9)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.9/collection-import-0.9.zip",
+        "checksum": "13f00a07fb4081aa8e63d4ed2f4f1e8d",
+        "timestamp": "2024-08-18T12:30:04Z"
+      },
+      {
+        "version": "0.8",
+        "changelog": "- See the full changelog at [GitHub](https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/tag/0.8)\n",
+        "targetAbi": "10.9.9.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.8/collection-import-0.8.zip",
+        "checksum": "f9fd85c8e29824af4894223d36c031ff",
+        "timestamp": "2024-08-18T12:27:51Z"
+      },
+      {
+        "version": "0.5",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.5/collectionimport.zip",
+        "checksum": "0ea490e4b83684ac2423dae4bb14ce12",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.4",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.4/collectionimport.zip",
+        "checksum": "b899d89641ceb39793e0fa255195f291",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.3",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.3/collectionimport.zip",
+        "checksum": "b27fc3d075ca8ec578b8cbbd307a9ada",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.2",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.2/collectionimport.zip",
+        "checksum": "40818413b93dbae366520f5c1daa9d2e",
+        "timestamp": "2024-05-12T11:40:00Z"
+      },
+      {
+        "version": "0.1",
+        "changelog": "Initial Release",
+        "targetAbi": "10.8.10.0",
+        "sourceUrl": "https://github.com/lostb1t/jellyfin-plugin-collection-import/releases/download/0.1/collectionimport-0.1.zip",
+        "checksum": "f82d574397c3c64ae163b38f7aa0d229",
+        "timestamp": "2024-05-12T11:40:00Z"
+      }
+    ]
+  },
+  {
     "guid": "01cc53ec-c415-4108-bbd4-a684a9801a32",
     "name": "MetaTube",
     "description": "MetaTube Plugin for Jellyfin/Emby.\n\nhttps://github.com/metatube-community/jellyfin-plugin-metatube",
     "overview": "MetaTube Plugin for Jellyfin/Emby.",
     "owner": "MetaTube",
     "category": "Metadata",
-    "imageUrl": "https://raw.githubusercontent.com/metatube-community/jellyfin-plugin-metatube/main/Jellyfin.Plugin.MetaTube/thumb.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MetaTube.png",
     "versions": [
       {
         "checksum": "3ca56b00fa6e52106a0db7848ec0f20c",
@@ -4578,7 +6001,7 @@
     "overview": "Jellyfin Enhanced and Jellyfin Elsewhere for a better Jellyfin experience.",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/n00bcodr/Jellyfin-Enhanced/master/docs/images/icon.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Enhanced.png",
     "versions": [
       {
         "changelog": "- Translations update from Hosted Weblate ([#737](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/737))\n - Update translation_validation.yml\n - fix(player): harden OSD track cycling (waits for the menu, stops matching English UI text) ([#738](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/738))\n - Update translation_validation.yml\n - Update translation_validation.yml\n - fix(tags): preserve explicit language regions in flag resolution (pt-BR, es-419, zh-Hant…) ([#739](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/739))\n - fix: re-scope all per-user state when switching users without a page reload ([#740](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/740))\n - Translations update from Hosted Weblate ([#743](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/743))\n - Player shortcuts without opening panels (API-driven track cycling, aspect ratio, playback info, segment skip) ([#742](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/742))\n - feat(player): auto-skip intros/outros from Jellyfin's media segments ([#744](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/744))\n - fix(pausescreen): apply delay setting live and stop digit keys from leaking to OSD seek\n - feat(jellyseerr): default Seerr results to open in the More Info modal\n - Add official German FSK colors and normalization ([#748](https://github.com/n00bcodr/Jellyfin-Enhanced/issues/748))\n - fix(elsewhere): make Default Region a dropdown and honor per-user override",
@@ -5360,7 +6783,7 @@
     "overview": "Tweaks for Jellyfin",
     "owner": "n00bcodr",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/n00bcodr/JellyfinTweaks/master/Jellyfin.Plugin.JellyTweaks/images/thumb.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Jellyfin Tweaks.png",
     "versions": [
       {
         "changelog": "- Update README with new badges and links\n - Update README.md\n - Update funding.yml\n - Add GNU General Public License v3\n - Jellyfin v12 Support and drop support for Jellyfin 10.10",
@@ -5499,7 +6922,7 @@
     "description": "Adds an overview of episode data inside the video player.\n\nhttps://github.com/Namo2/InPlayerEpisodePreview",
     "owner": "Namo",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/refs/heads/master/Images/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/InPlayerEpisodePreview.png",
     "versions": [
       {
         "version": "1.6.1.2",
@@ -5676,6 +7099,73 @@
         "sourceUrl": "https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.0.0.0/InPlayerEpisodePreview-v1.0.0.0-server.zip",
         "checksum": "8679e9d1c3e4c3bd5039c81a1ad07c6e",
         "timestamp": "2023-12-17T10:33:00Z"
+      }
+    ]
+  },
+  {
+    "guid": "6bb8dbba-2aaa-4b19-9da4-f3bbb6c44091",
+    "name": "Authelia Authentication",
+    "description": "Authenticate your Jellyfin with Authelia, and optionally create users who do not yet exist automatically.\n\nThis plugin uses Authelia HTTP API for authentication. Unlike with an SSO plugin, this allows using the existing Jellyfin login UI and API, which is compatible with all existing Jellyfin clients.\nThe main drawback of this approach is that 2FA is not supported.\n\n\nhttps://github.com/nikarh/jellyfin-plugin-authelia",
+    "overview": "Authenticate users via Authelia",
+    "owner": "nikarh",
+    "category": "Administration",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Authelia Authentication.png",
+    "versions": [
+      {
+        "version": "1.0.16.0",
+        "changelog": "### Changed\n- Updated for Jellyfin 10.11",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.16/authelia-authentication_1.0.16.0.zip",
+        "checksum": "d834566c8218a53b401f21448ca01dff",
+        "timestamp": "2025-10-21T10:45:20Z"
+      },
+      {
+        "version": "1.0.15.0",
+        "changelog": "### Changed\n- Updated for Jellyfin 10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.15/authelia-authentication_1.0.15.0.zip",
+        "checksum": "dfd91a1cbbd2acdc466c51c3fdcd784a",
+        "timestamp": "2024-08-09T13:35:53Z"
+      },
+      {
+        "version": "1.0.14.0",
+        "changelog": "### Changed\n- Updated for Jellyfin 10.9",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.14/authelia-authentication_1.0.14.0.zip",
+        "checksum": "28d556049d578d8e3484bbb98fd517b4",
+        "timestamp": "2024-05-20T12:46:51Z"
+      },
+      {
+        "version": "1.0.13.0",
+        "changelog": "### Added\n- Added a new field to manage Jellyfin administrator privilege for users authorized with this plugin\n\n### Changed\n- Simplified authentication by 1 HTTP call, extracting full name from `Remote-Name` header instead of an additional call to `/api/user/info`",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.13/authelia-authentication_1.0.13.0.zip",
+        "checksum": "f996b7294c36b5e9f947537c22f2c52e",
+        "timestamp": "2023-11-14T10:56:12Z"
+      },
+      {
+        "version": "1.0.12.0",
+        "changelog": "### Fixed\n- Latest version didn't work with Jellyfin 10.8.0 \n\n### Added\n- A new configuration param for a custom root CA certificate\n- A new configuration param to enable/disable user creation on login\n\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.12/authelia-authentication_1.0.12.0.zip",
+        "checksum": "359bc1e7ccd4a466b5cee2fea0fdd134",
+        "timestamp": "2023-11-11T12:15:19Z"
+      },
+      {
+        "version": "1.0.11.0",
+        "changelog": "### Changed\n- Upgraded dependencies",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.11/authelia-authentication_1.0.11.0.zip",
+        "checksum": "6c8add9f44d1619228e71e0d69892b00",
+        "timestamp": "2023-10-05T06:52:49Z"
+      },
+      {
+        "version": "1.0.10.0",
+        "changelog": "### Added\n- Initial release",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/nikarh/jellyfin-plugin-authelia/releases/download/1.0.10/authelia-authentication_1.0.10.0.zip",
+        "checksum": "509ac4b4c9c21cd6555ecc4d5b9cbee1",
+        "timestamp": "2022-05-12T12:50:17Z"
       }
     ]
   },
@@ -5883,13 +7373,714 @@
     ]
   },
   {
+    "guid": "ed04e975-f906-4b58-a250-705550810623",
+    "name": "MyAnimeList",
+    "description": "MyAnimeList metadata provider\n\nhttps://github.com/ryandash/jellyfin-plugin-myanimelist",
+    "overview": "MyAnimeList metadata provider",
+    "owner": "Ryan Dash",
+    "category": "Anime",
+    "imageUrl": "",
+    "versions": [
+      {
+        "version": "11.11.6.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.6.2",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.6.2/myanimelist_11.11.6.2.zip",
+        "checksum": "818cd2b15a542007c520bca907cae66b",
+        "timestamp": "2026-08-14T22:38:22Z"
+      },
+      {
+        "version": "11.11.6.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.6.1",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.6.1/myanimelist_11.11.6.1.zip",
+        "checksum": "f06239fcc74f30ed0aa53d9cd2cc963a",
+        "timestamp": "2026-08-14T20:47:31Z"
+      },
+      {
+        "version": "11.11.5.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.5.1",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.5.1/myanimelist_11.11.5.1.zip",
+        "checksum": "06b97ca81b63bb8d136bb8f0de1b0229",
+        "timestamp": "2026-08-14T15:21:24Z"
+      },
+      {
+        "version": "11.11.4.5",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.4.5",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.4.5/myanimelist_11.11.4.5.zip",
+        "checksum": "a73b812d0f2a07df94932cde46fc0789",
+        "timestamp": "2026-08-12T20:53:24Z"
+      },
+      {
+        "version": "11.11.4.4",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.4.4",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.4.4/myanimelist_11.11.4.4.zip",
+        "checksum": "4905df305b3de8cc1a66e4ac593749aa",
+        "timestamp": "2026-08-11T04:55:59Z"
+      },
+      {
+        "version": "11.11.4.3",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.4.3",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.4.3/myanimelist_11.11.4.3.zip",
+        "checksum": "a785d5d6da023b5ad1e5e7292d259b77",
+        "timestamp": "2026-08-11T03:51:10Z"
+      },
+      {
+        "version": "11.11.4.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.4.2",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.4.2/myanimelist_11.11.4.2.zip",
+        "checksum": "78e69f8c86e4d9f22e4e3df85585dd2b",
+        "timestamp": "2026-08-11T03:32:41Z"
+      },
+      {
+        "version": "11.11.4.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.4.1",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.4.1/myanimelist_11.11.4.1.zip",
+        "checksum": "ba979f7de475d8e1e294efe903b87463",
+        "timestamp": "2026-08-11T01:59:10Z"
+      },
+      {
+        "version": "11.11.3.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.3.1",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.3.1/myanimelist_11.11.3.1.zip",
+        "checksum": "98b4876738936d4f8459fa3a2349c11f",
+        "timestamp": "2026-08-10T23:37:16Z"
+      },
+      {
+        "version": "11.11.2.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.2.2",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.2.2/myanimelist_11.11.2.2.zip",
+        "checksum": "b4739a80d23c0219d97695eb24498b1d",
+        "timestamp": "2026-08-10T01:17:09Z"
+      },
+      {
+        "version": "11.11.2.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.2.1",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.2.1/myanimelist_11.11.2.1.zip",
+        "checksum": "7fe810ca2f694f37b78e700918964ff7",
+        "timestamp": "2026-08-09T21:13:58Z"
+      },
+      {
+        "version": "11.11.1.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.1.1",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.1.1/myanimelist_11.11.1.1.zip",
+        "checksum": "177ed69fac0d40b5bf22f81a76bc9014",
+        "timestamp": "2026-07-28T18:24:34Z"
+      },
+      {
+        "version": "6.6.6.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.6.0",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.6.0/myanimelist_6.6.6.0.zip",
+        "checksum": "b794a9f38849c6b66638403842c821d7",
+        "timestamp": "2026-07-06T22:55:38Z"
+      },
+      {
+        "version": "6.6.5.8",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.8",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.8/myanimelist_6.6.5.8.zip",
+        "checksum": "ef8b9797fe6985a8c3661f19ae0f4a5c",
+        "timestamp": "2026-06-25T22:49:13Z"
+      },
+      {
+        "version": "6.6.5.7",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.7",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.7/myanimelist_6.6.5.7.zip",
+        "checksum": "4ae4c25455210e5835871176001d71e0",
+        "timestamp": "2026-06-24T04:41:27Z"
+      },
+      {
+        "version": "6.6.5.6",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.6",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.6/myanimelist_6.6.5.6.zip",
+        "checksum": "f9f5c8d26f7bb8df96a4ff41e925db96",
+        "timestamp": "2026-06-23T16:12:53Z"
+      },
+      {
+        "version": "6.6.5.5",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.5",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.5/myanimelist_6.6.5.5.zip",
+        "checksum": "c20b8e7296a8e34964747b787e96490b",
+        "timestamp": "2026-06-09T00:21:48Z"
+      },
+      {
+        "version": "6.6.5.4",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.4",
+        "targetAbi": "10.11.10",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.4/myanimelist_6.6.5.4.zip",
+        "checksum": "dc6468b8a378826ef1c1882feda32811",
+        "timestamp": "2026-06-03T22:30:09Z"
+      },
+      {
+        "version": "6.6.5.3",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.3",
+        "targetAbi": "10.11.10",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.3/myanimelist_6.6.5.3.zip",
+        "checksum": "16b597a7b90614c26f0de1a389c29a75",
+        "timestamp": "2026-06-01T14:42:37Z"
+      },
+      {
+        "version": "6.6.5.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.2",
+        "targetAbi": "10.11.10",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.2/myanimelist_6.6.5.2.zip",
+        "checksum": "5f9a8a713c6de0148c6dcdbf26867bb0",
+        "timestamp": "2026-05-30T18:08:13Z"
+      },
+      {
+        "version": "6.6.5.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.1",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.1/myanimelist_6.6.5.1.zip",
+        "checksum": "8840e8f2205de59554345382dbcf8ab9",
+        "timestamp": "2026-05-25T15:33:48Z"
+      },
+      {
+        "version": "6.6.5.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.5.0",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.5.0/myanimelist_6.6.5.0.zip",
+        "checksum": "74b697f8e036323beff4bf72aa74e4bb",
+        "timestamp": "2026-05-20T18:07:52Z"
+      },
+      {
+        "version": "6.6.4.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.4.2",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.4.2/myanimelist_6.6.4.2.zip",
+        "checksum": "d6bc6a9d83dadb947549e89fd0b1712c",
+        "timestamp": "2026-05-19T00:13:07Z"
+      },
+      {
+        "version": "6.6.4.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.4.1",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.4.1/myanimelist_6.6.4.1.zip",
+        "checksum": "ad9e8ad3e2fbc3b887df3bca6ee94969",
+        "timestamp": "2026-05-17T20:17:46Z"
+      },
+      {
+        "version": "6.6.3.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.3.0",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.3.0/myanimelist_6.6.3.0.zip",
+        "checksum": "2327e8de2d31cb7b74f01f18799a95e4",
+        "timestamp": "2026-05-15T03:35:00Z"
+      },
+      {
+        "version": "6.6.2.3",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.2.3",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.2.3/myanimelist_6.6.2.3.zip",
+        "checksum": "50f64b1df76755b08c654be871cfaa6c",
+        "timestamp": "2026-05-11T19:15:51Z"
+      },
+      {
+        "version": "6.6.2.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.2.2",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.2.2/myanimelist_6.6.2.2.zip",
+        "checksum": "3c35b4bc2f16107796b7692d3afbf27e",
+        "timestamp": "2026-05-10T20:10:15Z"
+      },
+      {
+        "version": "6.6.2.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.2.1",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.2.1/myanimelist_6.6.2.1.zip",
+        "checksum": "1a61002e0a633b7aae7fd158ba9e9e53",
+        "timestamp": "2026-05-10T18:44:57Z"
+      },
+      {
+        "version": "6.6.1.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.1.0",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.1.0/myanimelist_6.6.1.0.zip",
+        "checksum": "de144d0368dd72ab06316a09d8ee2d95",
+        "timestamp": "2026-04-30T01:19:53Z"
+      },
+      {
+        "version": "6.6.0.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.0.2",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.0.2/myanimelist_6.6.0.2.zip",
+        "checksum": "aaa986d5b9588dcdf0b2572c874dda87",
+        "timestamp": "2026-04-17T17:11:29Z"
+      },
+      {
+        "version": "6.6.0.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.0.1",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.0.1/myanimelist_6.6.0.1.zip",
+        "checksum": "a15e80184776b9f76e3149e2a0e7d764",
+        "timestamp": "2026-04-16T06:02:43Z"
+      },
+      {
+        "version": "6.6.0.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.6.0.0",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.6.0.0/myanimelist_6.6.0.0.zip",
+        "checksum": "951a31a04284b2a0f361f6d5f0ef2beb",
+        "timestamp": "2026-04-15T23:36:21Z"
+      },
+      {
+        "version": "6.5.4.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.4.0",
+        "targetAbi": "10.11.8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.4.0/myanimelist_6.5.4.0.zip",
+        "checksum": "0ff88bfb2a2c60cc62de2ca15847f058",
+        "timestamp": "2026-04-11T18:50:41Z"
+      },
+      {
+        "version": "6.5.3.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.3.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.3.0/myanimelist_6.5.3.0.zip",
+        "checksum": "403fee530c7bedd88eacd300c47b2541",
+        "timestamp": "2026-04-10T19:08:54Z"
+      },
+      {
+        "version": "6.5.2.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.2.1",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.2.1/myanimelist_6.5.2.1.zip",
+        "checksum": "dd41673b11d939d53b5916fef6da7b73",
+        "timestamp": "2026-04-06T18:49:29Z"
+      },
+      {
+        "version": "6.5.2.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.2.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.2.0/myanimelist_6.5.2.0.zip",
+        "checksum": "607c3c206c1e09380247838a226756f2",
+        "timestamp": "2026-04-04T20:43:16Z"
+      },
+      {
+        "version": "6.5.1.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.1.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.1.0/myanimelist_6.5.1.0.zip",
+        "checksum": "5c446fdd3380a064c70c59d5644dd684",
+        "timestamp": "2026-03-14T04:34:15Z"
+      },
+      {
+        "version": "6.5.0.3",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.0.3",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.0.3/myanimelist_6.5.0.3.zip",
+        "checksum": "ae8022433a3f0e020ba61322dd9a5b48",
+        "timestamp": "2026-03-12T20:28:35Z"
+      },
+      {
+        "version": "6.5.0.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.0.2",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.0.2/myanimelist_6.5.0.2.zip",
+        "checksum": "c021e869ede843cc586932f19cf7ae0d",
+        "timestamp": "2026-03-07T04:09:37Z"
+      },
+      {
+        "version": "6.5.0.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.0.1",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.0.1/myanimelist_6.5.0.1.zip",
+        "checksum": "14aa61663d8da11a3006b6f6c2a71950",
+        "timestamp": "2026-03-05T20:56:12Z"
+      },
+      {
+        "version": "6.5.0.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.5.0.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.5.0.0/myanimelist_6.5.0.0.zip",
+        "checksum": "ebd195aad45647f3400d4165d527d675",
+        "timestamp": "2026-03-04T20:24:51Z"
+      },
+      {
+        "version": "6.4.0.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.4.0.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.4.0.0/myanimelist_6.4.0.0.zip",
+        "checksum": "b1c24106a0408822c31e3e67f5d1517e",
+        "timestamp": "2026-02-20T03:06:13Z"
+      },
+      {
+        "version": "6.3.10.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.10.2",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.10.2/myanimelist_6.3.10.2.zip",
+        "checksum": "e338025c62759c4b3e2ce1d3299fc53f",
+        "timestamp": "2026-02-12T14:55:21Z"
+      },
+      {
+        "version": "6.3.10.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.10.1",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.10.1/myanimelist_6.3.10.1.zip",
+        "checksum": "2a9069425142fbd252cda7db633b31d0",
+        "timestamp": "2026-02-08T23:21:18Z"
+      },
+      {
+        "version": "6.3.10.0",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.10.0",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.10.0/myanimelist_6.3.10.0.zip",
+        "checksum": "06f815df65e6b9de6a1ae2e337879858",
+        "timestamp": "2026-02-08T23:02:15Z"
+      },
+      {
+        "version": "6.3.9.2",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.9.2",
+        "targetAbi": "10.11.6",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.9.2/myanimelist_6.3.9.2.zip",
+        "checksum": "e25831d76ff43e6e7598526e7b3eb1e5",
+        "timestamp": "2026-01-30T16:43:21Z"
+      },
+      {
+        "version": "6.3.9.1",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.9.1",
+        "targetAbi": "10.11.5",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.9.1/myanimelist_6.3.9.1.zip",
+        "checksum": "6d8495e55013bbb950c22008498f9075",
+        "timestamp": "2026-01-11T00:41:03Z"
+      },
+      {
+        "version": "6.3.9",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.9",
+        "targetAbi": "10.11.5",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.9/myanimelist_6.3.9.zip",
+        "checksum": "2054e6989594cb61026adf20c159e8c8",
+        "timestamp": "2026-01-09T23:50:41Z"
+      },
+      {
+        "version": "6.3.8",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.8",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.8/myanimelist_6.3.8.zip",
+        "checksum": "24b77e5a6a44a11c35e0cc40caddeba6",
+        "timestamp": "2025-10-28T21:20:25Z"
+      },
+      {
+        "version": "6.3.7",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.7",
+        "targetAbi": "10.11.0",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.7/myanimelist_6.3.7.zip",
+        "checksum": "de67ee50ec0952b407e3ff9d0917768b",
+        "timestamp": "2025-10-25T16:00:30Z"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.6",
+        "checksum": "3ba704b705178b6da29a712c412ddd4b",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.6/myanimelist_6.3.6.zip",
+        "targetAbi": "10.11.0",
+        "timestamp": "2025-10-22T01:33:30Z",
+        "version": "6.3.6"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.5",
+        "checksum": "1f2078db325f6e97762e0053f8aad989",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.5/myanimelist_6.3.5.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-10-15T22:29:17Z",
+        "version": "6.3.5"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.4",
+        "checksum": "353d02c91ccecf392a0f8a4006d65885",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.4/myanimelist_6.3.4.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-28T18:01:33Z",
+        "version": "6.3.4"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.3",
+        "checksum": "cd04e986266864e3845217a0936443d8",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.3/myanimelist_6.3.3.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-19T03:00:06Z",
+        "version": "6.3.3"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.2",
+        "checksum": "da26b64d5f78ada048c1484befe1b079",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.2/myanimelist_6.3.2.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-19T02:52:35Z",
+        "version": "6.3.2"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.1",
+        "checksum": "f7a73997e544e6749ba0b38706ec8885",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.1/myanimelist_6.3.1.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-14T21:15:25Z",
+        "version": "6.3.1"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.3.0",
+        "checksum": "493387e0001553a547332800cb505336",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.3.0/myanimelist_6.3.0.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-13T19:23:17Z",
+        "version": "6.3.0"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.4",
+        "checksum": "a10a0584a25bbee1992436442dfd568f",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.2.4/myanimelist_6.2.4.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-09-03T16:43:20Z",
+        "version": "6.2.4"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.3",
+        "checksum": "3a8d25bbc64642886bbd130f45b8a43e",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.2.3/myanimelist_6.2.3.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-08-22T05:40:44Z",
+        "version": "6.2.3"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.3",
+        "checksum": "480cd5ef4acc575c6c137b3154fa24bf",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.2.3/myanimelist_6.2.3.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-08-22T05:39:24Z",
+        "version": "6.2.3"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.3",
+        "checksum": "fe159f700c825a5e3beecdd500b6e508",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.2.3/myanimelist_6.2.3.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-08-22T05:32:38Z",
+        "version": "6.2.3"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.2",
+        "checksum": "8fff6b779d6559d87c78bd34f01d69f0",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.2.2/myanimelist_6.2.2.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-07-04T15:47:15Z",
+        "version": "6.2.2"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.2.1",
+        "checksum": "afd893310c24fbccedb1438d6cac11ce",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.2.1/myanimelist_6.2.1.zip",
+        "targetAbi": "10.10.7",
+        "timestamp": "2025-04-08T00:15:15Z",
+        "version": "6.2.1"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.1.1",
+        "checksum": "d2eb14fad342150752e2b47ae6d61c0d",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.1.1/myanimelist_6.1.1.zip",
+        "targetAbi": "10.10.5",
+        "timestamp": "2025-02-01T00:47:42Z",
+        "version": "6.1.1"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.1",
+        "checksum": "47b7a4b97163c94dd3be44a2d89c672a",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.1/myanimelist_6.1.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2025-01-26T03:22:16Z",
+        "version": "6.1"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v6.0",
+        "checksum": "9b4628e75dba342ea2ad1cb06a181e5b",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v6.0/myanimelist_6.0.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2025-01-21T01:36:07Z",
+        "version": "6.0"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.9",
+        "checksum": "af5493a60d5f4dcdba7817126e6ffb1a",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.9/myanimelist_5.9.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-29T07:48:02Z",
+        "version": "5.9"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.8",
+        "checksum": "1a87ac29f0420ca338a592b293dbd992",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.8/myanimelist_5.8.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-25T22:27:41Z",
+        "version": "5.8"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.7",
+        "checksum": "60d7c1d913634e48b40a4982e57a9b13",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.7/myanimelist_5.7.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-17T07:09:42Z",
+        "version": "5.7"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.6",
+        "checksum": "eb3611ede252c6b7f7b35f7f52b64d6d",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.6/myanimelist_5.6.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-17T05:04:44Z",
+        "version": "5.6"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.5",
+        "checksum": "b2f55871f0785151841495554b94b700",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.5/myanimelist_5.5.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-12T07:03:55Z",
+        "version": "5.5"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.4",
+        "checksum": "1e4fbfab34dd16970c052493bd9d8d9e",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.4/myanimelist_5.4.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-11T02:30:37Z",
+        "version": "5.4"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.3",
+        "checksum": "2a251051bcecbd57d67364634430412d",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.3/myanimelist_5.3.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-08T19:59:17Z",
+        "version": "5.3"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.2",
+        "checksum": "f22a6948365697d5687c594814bbf00a",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.2/myanimelist_5.2.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-07T23:02:01Z",
+        "version": "5.2"
+      },
+      {
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v5.0.0.2",
+        "checksum": "5da4e99c939754c0ec8c4f92bb9160a3",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.0.0.2/myanimelist_5.0.0.2.zip",
+        "targetAbi": "10.10.3",
+        "timestamp": "2024-12-07T22:33:00Z",
+        "version": "5.0.0.2"
+      },
+      {
+        "changelog": "Make Anitomy a requirement",
+        "checksum": "EFF88D3693111B0F41254E0DD577AC32",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5.1/myanimelist_5.0.0.1.zip",
+        "targetAbi": "10.10.3.0",
+        "timestamp": "2024-12-07 00:00:00",
+        "version": "5.0.0.1"
+      },
+      {
+        "changelog": "Cleaned up a lot of log errors, Add episode provider",
+        "checksum": "F5E62D5AD537BC55CF8CA264F0D68F67",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v5/myanimelist_5.0.0.0.zip",
+        "targetAbi": "10.10.3.0",
+        "timestamp": "2024-12-07 00:00:00",
+        "version": "5.0.0.0"
+      },
+      {
+        "changelog": "Use correct images, Add season provider with hacky solution",
+        "checksum": "5EAFD6A6DC85EC8E4AF3F1D81DCC7476",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v4/myanimelist_4.0.0.0.zip",
+        "targetAbi": "10.10.3.0",
+        "timestamp": "2024-12-04 00:00:00",
+        "version": "4.0.0.0"
+      },
+      {
+        "changelog": "Code Cleanup",
+        "checksum": "4CFB160A3820B6160D7DDA797ED07D34",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v3/myanimelist_3.0.0.0.zip",
+        "targetAbi": "10.9.10.0",
+        "timestamp": "2024-08-30 00:00:00",
+        "version": "3.0.0.0"
+      },
+      {
+        "changelog": "Fix TooManyRequests bug",
+        "checksum": "468D453942126A79688F38C7FB204F38",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v2/myanimelist_2.0.0.0.zip",
+        "targetAbi": "10.9.9.0",
+        "timestamp": "2024-08-26 00:00:00",
+        "version": "2.0.0.0"
+      },
+      {
+        "changelog": "Added Basics",
+        "checksum": "FFFBE453F1360360804CE060DE1C8A4C",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v1/myanimelist_1.0.0.0.zip",
+        "targetAbi": "10.9.9.0",
+        "timestamp": "2024-08-24 00:00:00",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  {
+    "guid": "12b44f20-6cfb-4be5-9950-3d0fbe74fa35",
+    "name": "Refresh Sparse Items",
+    "description": "Refresh episodes, seasons, series that are missing data you define.\n\n\nhttps://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse",
+    "overview": "Refresh episodes, seasons, series that are missing data you define.",
+    "owner": "SenorSmartyPants",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "5.0.0.0",
+        "changelog": "Jellyfin 10.11 support\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse/releases/download/v5.0.0.0/refreshsparse_5.0.0.0.zip",
+        "checksum": "376221bb34c24ddffa38855cf57e783d",
+        "timestamp": "2026-02-04T00:00:00Z"
+      },
+      {
+        "version": "4.0.0.0",
+        "changelog": "Jellyfin 10.9 support\n",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse/releases/download/v4.0.0.0/refreshsparse_4.0.0.0.zip",
+        "checksum": "28ae3168d8cdd6df89345828f4b055fe",
+        "timestamp": "2024-06-03T00:00:00Z"
+      },
+      {
+        "version": "3.1.0.0",
+        "changelog": "Added Series and Season cooldown settings.\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse/releases/download/v3.1.0.0/refreshsparse_3.1.0.0.zip",
+        "checksum": "316163933abb1305165f6c6ba1fb7849",
+        "timestamp": "2022-12-29T00:00:00Z"
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "Added Series and Season refreshing.\nOption to check for bad names in episode overview.\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/SenorSmartyPants/jellyfin-plugin-refreshsparse/releases/download/v3.0.0.0/refreshsparse_3.0.0.0.zip",
+        "checksum": "b63877dc16d68e96992b1b6640a87832",
+        "timestamp": "2022-12-24T19:10:17Z"
+      }
+    ]
+  },
+  {
     "guid": "ef35f6b1-7fe6-44ca-a215-232089fb9bc7",
     "name": "MyShows",
     "description": "Scrobble your watched shows with MyShows.me.\n\n\nhttps://github.com/shemanaev/jellyfin-plugin-myshows",
     "overview": "Scrobble your watched shows with MyShows.me",
     "owner": "shemanaev",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/myshows.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/MyShows.png",
     "versions": [
       {
         "version": "5.1.0.0",
@@ -5948,7 +8139,7 @@
     "overview": "Webhooks. Flexible and robust",
     "owner": "shemanaev",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/shemanaev/jellyfin-plugin-repo/master/images/webhooks.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Webhooks.png",
     "versions": [
       {
         "version": "3.9.0.0",
@@ -6456,6 +8647,425 @@
         "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v1.0.0.0/MediaCleaner.zip",
         "checksum": "1943e6f07fe5ce85a4642f68f4c9cc55",
         "timestamp": "2021-07-18T09:24:02Z"
+      }
+    ]
+  },
+  {
+    "guid": "5216ccbf-d24a-4eb3-8a7e-7da4230b7052",
+    "name": "Shoko",
+    "description": "A Jellyfin plugin to integrate [Jellyfin](https://jellyfin.org/docs/) with [Shoko Server](https://shokoanime.com/downloads/shoko-server/).\n## Read this before installing\n**This plugin requires that you have already set up and are using Shoko Server**, and that the files you intend to include in Jellyfin are **indexed** (and optionally managed) by Shoko Server. **Otherwise, the plugin won't be able to provide metadata for your files**, since there is no metadata to find for them.\n\n\nhttps://github.com/ShokoAnime/Shokofin",
+    "overview": "Manage your anime from Jellyfin using metadata from Shoko",
+    "owner": "ShokoAnime",
+    "category": "Anime",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Shoko.png",
+    "versions": [
+      {
+        "version": "6.0.5.11",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.5) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.5/shoko_6.0.5.0_for_10.11.zip",
+        "checksum": "42eeab4935b923a6ba7d2709b5a739f3",
+        "timestamp": "2026-03-22T19:56:40Z"
+      },
+      {
+        "version": "6.0.5.10",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.5) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.5/shoko_6.0.5.0_for_10.10.zip",
+        "checksum": "afcf5113559a9815463d187938600f2e",
+        "timestamp": "2026-03-22T19:56:50Z"
+      },
+      {
+        "version": "6.0.4.11",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.4) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.4/shoko_6.0.4.0_for_10.11.zip",
+        "checksum": "7846d654a3112439e343bc04c6f0e19b",
+        "timestamp": "2026-02-14T00:39:25Z"
+      },
+      {
+        "version": "6.0.4.10",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.4) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.4/shoko_6.0.4.0_for_10.10.zip",
+        "checksum": "f938a56f4433ac725f88a8ffdff8b4e3",
+        "timestamp": "2026-02-14T00:39:35Z"
+      },
+      {
+        "version": "6.0.3.11",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.3) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.3/shoko_6.0.3.0_for_10.11.zip",
+        "checksum": "0e4b58e09613f43854459a41f172c7ca",
+        "timestamp": "2026-01-31T19:12:40Z"
+      },
+      {
+        "version": "6.0.3.10",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.3) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.3/shoko_6.0.3.0_for_10.10.zip",
+        "checksum": "e192c9dce7740f702bdad9a64219ed3f",
+        "timestamp": "2026-01-31T19:12:51Z"
+      },
+      {
+        "version": "6.0.2.0",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.2) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.2/shoko_6.0.2.0_for_10.11.0.zip",
+        "checksum": "2867c5a91361ab0641faf728e1e51678",
+        "timestamp": "2026-01-17T23:26:21Z"
+      },
+      {
+        "version": "6.0.2.0",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.2) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.2/shoko_6.0.2.0_for_10.10.0.zip",
+        "checksum": "00c676ec3611a8489019a80b595f70c2",
+        "timestamp": "2026-01-17T23:26:30Z"
+      },
+      {
+        "version": "6.0.1.0",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.1) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.1/shoko_6.0.1.0_for_10.11.0.zip",
+        "checksum": "73d691b05b8d901164fc8404a394a367",
+        "timestamp": "2026-01-17T02:27:45Z"
+      },
+      {
+        "version": "6.0.1.0",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.1) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.1/shoko_6.0.1.0_for_10.10.0.zip",
+        "checksum": "1dd6ad6becbcf9a59c08cfb66c3a029d",
+        "timestamp": "2026-01-17T02:27:55Z"
+      },
+      {
+        "version": "6.0.0.0",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v6.0.0) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v6.0.0/shoko_6.0.0.0.zip",
+        "checksum": "48e0a6000f548dcae0ec2efc61630899",
+        "timestamp": "2026-01-13T22:39:51Z"
+      },
+      {
+        "version": "5.0.6.0",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.6) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.6/shoko_5.0.6.0.zip",
+        "checksum": "e14dc96e9f27173327b64ccbbe5916d7",
+        "timestamp": "2025-10-28T22:03:29Z"
+      },
+      {
+        "version": "5.0.5.0",
+        "changelog": "Only compatible with **10.11.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.5) for more info.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.5/shoko_5.0.5.0.zip",
+        "checksum": "19db5af8b9f4ab4710aecb9d5ee80043",
+        "timestamp": "2025-10-20T02:25:34Z"
+      },
+      {
+        "version": "5.0.4.0",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.4) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.4/shoko_5.0.4.0.zip",
+        "checksum": "ffcd89bd992db5c32cee4fd107af4587",
+        "timestamp": "2025-07-24T15:06:10Z"
+      },
+      {
+        "version": "5.0.3.0",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.3) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.3/shoko_5.0.3.0.zip",
+        "checksum": "8539c95c06e3fc72b980437c30635493",
+        "timestamp": "2025-05-03T21:49:53Z"
+      },
+      {
+        "version": "5.0.2.0",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.2) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.2/shoko_5.0.2.0.zip",
+        "checksum": "c133a233327ec07b7ff1a1485925ef3e",
+        "timestamp": "2025-01-21T07:02:31Z"
+      },
+      {
+        "version": "5.0.1.0",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.1) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.1/shoko_5.0.1.0.zip",
+        "checksum": "85774b7b451cd4f8e2aaf1aa9f9def5b",
+        "timestamp": "2025-01-21T02:42:21Z"
+      },
+      {
+        "version": "5.0.0.0",
+        "changelog": "Only compatible with **10.10.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v5.0.0) for more info.",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v5.0.0/shoko_5.0.0.0.zip",
+        "checksum": "f93033bfd1961f72e3c4d9ae8cec8d0d",
+        "timestamp": "2024-10-27T12:44:41Z"
+      },
+      {
+        "version": "4.2.2.0",
+        "changelog": "Only compatible with **10.9.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v4.2.2) for more info.",
+        "targetAbi": "10.9.7.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v4.2.2/shoko_4.2.2.0.zip",
+        "checksum": "90edc740aedb051e63b9c3de0bd53e87",
+        "timestamp": "2024-10-27T11:54:31Z"
+      },
+      {
+        "version": "4.2.1.0",
+        "changelog": "Only compatible with **10.9.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v4.2.1) for more info.",
+        "targetAbi": "10.9.7.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v4.2.1/shoko_4.2.1.0.zip",
+        "checksum": "eb5e494cd27f5fa51da107fcd484404d",
+        "timestamp": "2024-10-22T19:18:22Z"
+      },
+      {
+        "version": "4.2.0.0",
+        "changelog": "Only compatible with **10.9.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v4.2.0) for more info.",
+        "targetAbi": "10.9.7.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v4.2.0/shoko_4.2.0.0.zip",
+        "checksum": "1d65a2b1fe9d8e3f8a88cb44c530d5e3",
+        "timestamp": "2024-10-10T03:42:48Z"
+      },
+      {
+        "version": "4.1.1.0",
+        "changelog": "Only compatible with **10.9.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v4.1.1) for more info.",
+        "targetAbi": "10.9.7.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v4.1.1/shoko_4.1.1.0.zip",
+        "checksum": "03364768f7370f2cb2c9163e821ff077",
+        "timestamp": "2024-07-16T16:59:06Z"
+      },
+      {
+        "version": "4.1.0.0",
+        "changelog": "Only compatible with **10.9.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v4.1.0) for more info.",
+        "targetAbi": "10.9.7.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v4.1.0/shoko_4.1.0.0.zip",
+        "checksum": "b057c3f2e08be1a8148763ca549914ce",
+        "timestamp": "2024-07-14T19:28:24Z"
+      },
+      {
+        "version": "4.0.1.0",
+        "changelog": "Only compatible with **10.9.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v4.0.1) for more info.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v4.0.1/shoko_4.0.1.0.zip",
+        "checksum": "54dfe0986436216acc24f5dcec1c402f",
+        "timestamp": "2024-07-07T14:59:13Z"
+      },
+      {
+        "version": "4.0.0.0",
+        "changelog": "Only compatible with **10.9.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/v4.0.0) for more info.",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/v4.0.0/shoko_4.0.0.0.zip",
+        "checksum": "064e34d70a74e81e45c317557e3e232d",
+        "timestamp": "2024-07-04T12:48:19Z"
+      },
+      {
+        "version": "3.0.1.0",
+        "changelog": "Only compatible with **10.8.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/3.0.1) for more info.",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/3.0.1/shoko_3.0.1.0.zip",
+        "checksum": "8bfa1dc2c430c07c0659bbbc757dbf8e",
+        "timestamp": "2023-04-20T15:44:36Z"
+      },
+      {
+        "version": "3.0.0.0",
+        "changelog": "Only compatible with **10.8.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/3.0.0) for more info.",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/3.0.0/shoko_3.0.0.0.zip",
+        "checksum": "c02b32abb548eb3d2153ac957ad88f80",
+        "timestamp": "2023-03-29T17:54:57Z"
+      },
+      {
+        "version": "2.0.1.0",
+        "changelog": "Only compatible with **10.8.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/2.0.1) for more info.",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/2.0.1/shoko_2.0.1.0.zip",
+        "checksum": "f6b1520a57381f9425935b10b4048398",
+        "timestamp": "2022-07-02T10:17:43Z"
+      },
+      {
+        "version": "1.7.3.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.7.3) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.7.3/shoko_1.7.3.0.zip",
+        "checksum": "4329184a94c68c621a4c944bee7d7f9d",
+        "timestamp": "2022-04-21T10:23:21Z"
+      },
+      {
+        "version": "1.7.2.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.7.2) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.7.2/shoko_1.7.2.0.zip",
+        "checksum": "38dd48745750756abbe6850d5527e694",
+        "timestamp": "2022-01-23T20:55:00Z"
+      },
+      {
+        "version": "1.7.1.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.7.1) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.7.1/shoko_1.7.1.0.zip",
+        "checksum": "c748f37e301aaa891da7e01842d02a87",
+        "timestamp": "2022-01-21T18:10:49Z"
+      },
+      {
+        "version": "1.7.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.7.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.7.0/shoko_1.7.0.0.zip",
+        "checksum": "e6604c4c9729b2f8a82bb9d4dfb0bfab",
+        "timestamp": "2022-01-12T19:27:09Z"
+      },
+      {
+        "version": "1.6.3.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.6.3) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.6.3/shoko_1.6.3.0.zip",
+        "checksum": "e4edc60e6ca8ecc9ca83627c37cb0109",
+        "timestamp": "2021-10-22T13:53:49Z"
+      },
+      {
+        "version": "1.6.2.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.6.2) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.6.2/shoko_1.6.2.0.zip",
+        "checksum": "92d76c12c13245a8c67dba3b6a532471",
+        "timestamp": "2021-10-22T12:45:39Z"
+      },
+      {
+        "version": "1.6.1.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.6.1) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.6.1/shoko_1.6.1.0.zip",
+        "checksum": "d574380d64ff9fcc1a532f4b4f00dd82",
+        "timestamp": "2021-10-18T17:23:28Z"
+      },
+      {
+        "version": "1.6.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.6.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.6.0/shoko_1.6.0.0.zip",
+        "checksum": "18dfd06489b5c77ba7e3d310ac255a3d",
+        "timestamp": "2021-10-11T14:11:13Z"
+      },
+      {
+        "version": "1.5.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.5.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.5.0/shokofin_1.5.0.0.zip",
+        "checksum": "1619ade0f980553dbc056fc414ad6243",
+        "timestamp": "2021-08-30T00:23:40Z"
+      },
+      {
+        "version": "1.4.7.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.7) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.7/shokofin_1.4.7.zip",
+        "checksum": "5a9e396ac1775d61cb14796eae6e8f8a",
+        "timestamp": "2021-06-01T17:14:41Z"
+      },
+      {
+        "version": "1.4.6.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.6) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.6/shokofin_1.4.6.zip",
+        "checksum": "be14a632a9ff59baccc8d78d6ca1809c",
+        "timestamp": "2021-05-31T17:29:05Z"
+      },
+      {
+        "version": "1.4.5.1",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.5.1) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.5.1/shokofin_1.4.5.1.zip",
+        "checksum": "1a5005234208d651e194ac9987c2ddcd",
+        "timestamp": "2021-03-26T06:05:25Z"
+      },
+      {
+        "version": "1.4.5.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.5) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.5/shokofin_1.4.5.zip",
+        "checksum": "ec0638fc707dfe2450dc47b3e161d042",
+        "timestamp": "2021-03-25T13:10:36Z"
+      },
+      {
+        "version": "1.4.4.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.4) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.4/shokofin_1.4.4.zip",
+        "checksum": "475abde06b9f67a131bb2737d126d052",
+        "timestamp": "2021-03-24T09:41:27Z"
+      },
+      {
+        "version": "1.4.3.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.3) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.3/shokofin_1.4.3.zip",
+        "checksum": "ee2b4d8b79dcd1edf524bd81e2ef7290",
+        "timestamp": "2021-03-18T17:38:49Z"
+      },
+      {
+        "version": "1.4.2.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.2) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.2/shokofin_1.4.2.zip",
+        "checksum": "2b90bac9df30315240802d0aa23a706c",
+        "timestamp": "2021-03-17T07:31:27Z"
+      },
+      {
+        "version": "1.4.1.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.1) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.1/shokofin_1.4.1.zip",
+        "checksum": "77bc01b63d8dde14401ba8060dd46b38",
+        "timestamp": "2021-03-16T15:01:11Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.4.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.4.0/shokofin_1.4.0.zip",
+        "checksum": "57e70a963ef95a8f64bdcc394685f594",
+        "timestamp": "2021-03-03T20:39:56Z"
+      },
+      {
+        "version": "1.3.1.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.3.1) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.3.1/shokofin_1.3.1.zip",
+        "checksum": "135888e53f702e0b96846ca2ca7201d7",
+        "timestamp": "2020-10-12T14:11:59Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.3.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.3.0/shokofin_1.3.0.zip",
+        "checksum": "a30811e8adc9491df0aaa436d6a7cea6",
+        "timestamp": "2020-09-30T20:54:31Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.2.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.2.0/shokojellyfin_1.2.0.zip",
+        "checksum": "7e1965987f40e62f9e987c44cf98a6fe",
+        "timestamp": "2020-09-20T21:52:52Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.1.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.1.0/shokojellyfin_1.1.0.zip",
+        "checksum": "610e540182066278d816e06e8f1a01ee",
+        "timestamp": "2020-09-08T22:17:26Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "Only compatible with **10.7.z**.\n\nSee the [release notes](https://github.com/ShokoAnime/Shokofin/releases/tag/1.0.0) for more info.",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://github.com/ShokoAnime/Shokofin/releases/download/1.0.0/shokojellyfin_1.0.0.zip",
+        "checksum": "184c723247ccdc4b0143dc46f5b6d50d",
+        "timestamp": "2020-09-07T14:43:45Z"
       }
     ]
   },
@@ -7074,6 +9684,307 @@
     ]
   },
   {
+    "guid": "e6ee25c2-d12c-4382-a48c-66ee9c1c33cb",
+    "name": "Language Tags",
+    "overview": "This plugin automatically adds language tags to the media.",
+    "description": "This plugin automatically scans the libraries and adds language tags to the media items. The languages are extracted from the audio tracks. Media types covered are movies, tv shows / series and collections.\n\nhttps://github.com/TheXaman/jellyfin-plugin-languageTags",
+    "owner": "TheXaman",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Language Tags.png",
+    "versions": [
+      {
+        "version": "0.5.3.0",
+        "changelog": "- feat: tag only whole TV Show, addresses #35\n- feat: add Tag Series Only checkbox to skip tagging Seasons and Episodes, addresses #35\" fix: added tagSeriesOnly to the scanContext fix: removed manual edits to auto generated files\n- feat: tag only whole TV Show, addresses #35\n- Update build.yaml and manifest.json for release version 0.5.2.2\n- Bump version to 0.5.2.2\n- fix: wrong variable check, addresses #32",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.5.3.0/language-tags_0.5.3.0.zip",
+        "checksum": "8b6b11b949e5b4213f446843f2b9e651",
+        "timestamp": "2026-03-31T18:25:14Z"
+      },
+      {
+        "version": "0.5.2.2",
+        "changelog": "- Bump version to 0.5.2.2\n- fix: wrong variable check, addresses #32\n- Update build.yaml and manifest.json for release version 0.5.2.1\n- Bump version to 0.5.2.1\n- fix: incorrect variable names\n- Bump version to 0.5.2.0\n- fix: made sure series processing uses the correct language data types (iso, name) where appropriate, fixes #31\n- Merge pull request #30 from Rand0mB0y/patch-3\n- Revise README for LanguageTags plugin details\n- Updated the README to reflect the recent major changes",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.5.2.2/language-tags_0.5.2.2.zip",
+        "checksum": "b841a2f4883bdda06c01e53604b18e36",
+        "timestamp": "2026-01-07T11:01:46Z"
+      },
+      {
+        "version": "0.5.2.1",
+        "changelog": "- Bump version to 0.5.2.1\n- fix: incorrect variable names\n- Bump version to 0.5.2.0\n- fix: made sure series processing uses the correct language data types (iso, name) where appropriate, fixes #31\n- Merge pull request #30 from Rand0mB0y/patch-3\n- Revise README for LanguageTags plugin details\n- Updated the README to reflect the recent major changes\n- Update build.yaml and manifest.json for release version 0.5.1.0\n- Bump version to 0.5.1.0\n- Merge pull request #28 from TheXaman/refactor\n- Implement language tagging system with performance optimizations\n- Update build.yaml and manifest.json for release version 0.4.4.8\n- Merge pull request #26 from TheXaman/mediasources\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Bump version to 0.4.4.8\n- fix: removed unuses manifest entries\n- feat: add fallback for series where episodes have the seriesId as parentId instead of the seasonId refactor: reduce logging verbosity in LanguageTagsManager\n- feat: enhance logging and handling for media sources and streams in LanguageTagsManager\n- feat: improve video processing logic for audio and subtitle tags in LanguageTagsManager\n- feat: enhance video processing logic for audio and subtitle tags in LanguageTagsManager, addresses #25\n- refactor: optimize collection item retrieval in LanguageTagsManager, addresses #21\n- feat: add checkboxes for Music Genre and Live TV channels in configuration, addresses #20\n- fix: changed how movies are retrieved from collections, fixes #21\n- fix: \"Force full refresh for tv shows\" triggering a complete refresh, fixes #17 fix: Change return statements to continue in library processing for null checks\n- feat: Add non-media tagging functionality with configuration options\n- Remove commas from language names to avoid tag splitting issue in Parental Control (#23)\n- feat: Enhance language checkbox display with ISO codes and improve selected language chips\n- feat: add silent movies to whitelist, addresses #22",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.5.2.1/language-tags_0.5.2.1.zip",
+        "checksum": "597d5fc22cf5b23682d1a9b47fbbbac0",
+        "timestamp": "2025-11-19T09:26:16Z"
+      },
+      {
+        "version": "0.5.1.0",
+        "changelog": "- Bump version to 0.5.1.0\n- Merge pull request #28 from TheXaman/refactor\n- Implement language tagging system with performance optimizations\n- Update build.yaml and manifest.json for release version 0.4.4.8\n- Merge pull request #26 from TheXaman/mediasources\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Bump version to 0.4.4.8\n- fix: removed unuses manifest entries\n- feat: add fallback for series where episodes have the seriesId as parentId instead of the seasonId refactor: reduce logging verbosity in LanguageTagsManager\n- feat: enhance logging and handling for media sources and streams in LanguageTagsManager\n- feat: improve video processing logic for audio and subtitle tags in LanguageTagsManager\n- feat: enhance video processing logic for audio and subtitle tags in LanguageTagsManager, addresses #25\n- refactor: optimize collection item retrieval in LanguageTagsManager, addresses #21\n- feat: add checkboxes for Music Genre and Live TV channels in configuration, addresses #20\n- fix: changed how movies are retrieved from collections, fixes #21\n- fix: \"Force full refresh for tv shows\" triggering a complete refresh, fixes #17 fix: Change return statements to continue in library processing for null checks\n- feat: Add non-media tagging functionality with configuration options\n- Remove commas from language names to avoid tag splitting issue in Parental Control (#23)\n- feat: Enhance language checkbox display with ISO codes and improve selected language chips\n- feat: add silent movies to whitelist, addresses #22",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.5.1.0/language-tags_0.5.1.0.zip",
+        "checksum": "0dc2a02f502b859b93bb0c688e621413",
+        "timestamp": "2025-11-05T19:21:38Z"
+      },
+      {
+        "version": "0.4.4.8",
+        "changelog": "- Merge pull request #26 from TheXaman/mediasources\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Update build.yaml and manifest-preview.json for preview version 0.4.4.8-preview\n- Bump version to 0.4.4.8\n- fix: removed unuses manifest entries\n- feat: add fallback for series where episodes have the seriesId as parentId instead of the seasonId refactor: reduce logging verbosity in LanguageTagsManager\n- feat: enhance logging and handling for media sources and streams in LanguageTagsManager\n- feat: improve video processing logic for audio and subtitle tags in LanguageTagsManager\n- feat: enhance video processing logic for audio and subtitle tags in LanguageTagsManager, addresses #25\n- refactor: optimize collection item retrieval in LanguageTagsManager, addresses #21\n- feat: add checkboxes for Music Genre and Live TV channels in configuration, addresses #20\n- fix: changed how movies are retrieved from collections, fixes #21\n- fix: \"Force full refresh for tv shows\" triggering a complete refresh, fixes #17 fix: Change return statements to continue in library processing for null checks\n- feat: Add non-media tagging functionality with configuration options\n- Remove commas from language names to avoid tag splitting issue in Parental Control (#23)\n- feat: Enhance language checkbox display with ISO codes and improve selected language chips\n- feat: add silent movies to whitelist, addresses #22",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.4.4.8/language-tags_0.4.4.8.zip",
+        "checksum": "183629f3d063923b37c5223b2f4eb58c",
+        "timestamp": "2025-11-05T18:28:17Z"
+      },
+      {
+        "version": "0.2.1.2",
+        "changelog": "- Bump version to 0.2.1.2\n- Fix changelog special character handling using environment variable\n- Remove outdated preview version entries from manifest files\n- Fix changelog formatting to handle special characters in workflow\n- Bump version to 0.2.1.1\n- Remove redundant step to get last release tag in release workflow\n- Bump version to 0.2.1.0\n- - Migrate from .NET 8.0 to .NET 9.0 - Replace deprecated GetItemList() with QueryItems() API - Update TaskTriggerInfo to use TaskTriggerInfoType.IntervalTrigger - Add null path handling for video files in Jellyfin 10.11.0 - Filter out virtual items from TV show queries - Refactor file path validation logic - Add preview release workflow support\"\n- Update build.yaml and manifest.json for release version 0.2.0.1\n- Update build.yaml and manifest.json for release version 0.2.0.1\n- Update build.yaml to target .NET 9.0 framework\n- Bump version to 0.2.0.1\n- Enhance release workflow: update version handling, target .NET 9.0, and improve changelog generation\n- - Replace deprecated GetItemList() with QueryItems() API - Update TaskTriggerInfo to use TaskTriggerInfoType.IntervalTrigger\n- - Update to target Jellyfin 10.11.0 - Migrate from .NET 8.0 to .NET 9.0",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.2.1.2/language-tags_0.2.1.2.zip",
+        "checksum": "a945d2219576cda512b25f9db9f42f85",
+        "timestamp": "2025-10-21T12:22:02Z"
+      },
+      {
+        "version": "0.1.8.0",
+        "changelog": "- Bump version to 0.1.8.0\n- Make sure to only add 3 letter language tags, even if the extracted tags for a subtitle file are 2 letter codes\n- Make sure external subtitles are scanned daily if subtitle extraction is enabled, see #13\n- Fixes language tag refresh for external subtitles due to invalid stripping of nonexistent prefixes, see #13\n- Make sure all tags for external subtitles are lower case. Fixes #12",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.1.8.0/language-tags_0.1.8.0.zip",
+        "checksum": "6fee5833eba0e0acb076667cbe362e12",
+        "timestamp": "2025-09-27T12:26:41Z"
+      },
+      {
+        "version": "0.1.7.0",
+        "changelog": "- Bump version to 0.1.7.0\n- Update .gitignore to include publish directory\n- Add LanguageData and LanguageInfo classes for ISO language code management\n- Add functionality to remove all language tags and configure undefined language tag handling Fixes #9\n- Fix for missing tags on content when missing individual episodes or seasons, closes #10\n- Refactor library item retrieval methods to use OfType<T>() for improved type safety\n- Update manifest.json to include image fix\n- Update manifest.json\n- added a logo to the readme and inside the jellyfin catalog and plugin page\n- Update README.md to include new subtitle-based tagging",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.1.7.0/language-tags_0.1.7.0.zip",
+        "checksum": "1acce4acc83ecb0b826a960f06878450",
+        "timestamp": "2025-08-30T18:37:09Z"
+      },
+      {
+        "version": "0.1.6.0",
+        "changelog": "- Bump version to 0.1.6.0\n- Added suppport for subtitle_language tags Handles subtitles included in files and external subtitles Based on #4\n- Update README.md\n- Update README.md\n- Enhance README.md with emojis for improved readability and engagement",
+        "targetAbi": "10.10.6.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.1.6.0/language-tags_0.1.6.0.zip",
+        "checksum": "2f1766367615e0cfc86952d5f218fca5",
+        "timestamp": "2025-04-05T17:22:59Z"
+      },
+      {
+        "version": "0.1.5.0",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.1.5.0/language-tags_0.1.5.0.zip",
+        "checksum": "56b13a27833a11063da421f66e83576f",
+        "timestamp": "2025-03-22T19:33:10Z"
+      },
+      {
+        "version": "0.1.4.2",
+        "changelog": "- bump version to 0.1.4.2\n- Enhance configuration page and language tag filtering logic\n- Update README.md to include raw manifest link",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.1.4.2/language-tags_0.1.4.2.zip",
+        "checksum": "9ad471fd18c0d0c95e91df21901b49e5",
+        "timestamp": "2025-03-22T19:22:29Z"
+      },
+      {
+        "version": "0.1.4.1",
+        "changelog": "- bump version to 0.1.4.1\n- removed all but last manifest.json entries\n- Update README.md\n- manifest.json cleanup: removed deleted releases\n- Smaller readme image\n- Updated Readme with example image\n- Removeed Directory.Build.props file",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.1.4.1/language-tags_0.1.4.1.zip",
+        "checksum": "7318c0270576714520fcb7e052d5ab5b",
+        "timestamp": "2025-02-27T19:10:45Z"
+      },
+      {
+        "version": "0.1.4.0",
+        "changelog": "- Bump version to 0.1.4.0\n- Update README.md to include installation instructions",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/TheXaman/jellyfin-plugin-languageTags/releases/download/v0.1.4.0/language-tags_0.1.4.0.zip",
+        "checksum": "bf236d238f80a5e1d5b4714309b416fd",
+        "timestamp": "2025-02-25T20:07:25Z"
+      }
+    ]
+  },
+  {
+    "category": "Metadata",
+    "guid": "dc97d0c6-28b0-4242-afb4-5833ae1b3715",
+    "name": "TubeArchivistMetadata",
+    "description": "TubeArchivistMetadata is a plugin that automatically manages metadata for videos downloaded with TubeArchivist from YouTube.\n\n\nhttps://github.com/tubearchivist/tubearchivist-jf-plugin",
+    "owner": "DarkFighterLuke",
+    "overview": "Metadata for your TubeArchivist library on Jellyfin",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TubeArchivistMetadata.png",
+    "versions": [
+      {
+        "version": "1.4.4.0",
+        "changelog": "Handle TubeArchivist playlists pagination\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.4/tubearchivistmetadata_1.4.4.0.zip",
+        "checksum": "90f1d388f7363537df8287e996a96bbd",
+        "timestamp": "2025-12-02T13:40:47Z"
+      },
+      {
+        "version": "1.4.3.0",
+        "changelog": "Introduce episode numbering alternative schema\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.3/tubearchivistmetadata_1.4.3.0.zip",
+        "checksum": "297d4f15af1132939f43c905b1ad393e",
+        "timestamp": "2025-11-13T19:31:49Z"
+      },
+      {
+        "version": "1.4.2.0",
+        "changelog": "Introduce episode numbering alternative schema\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.2/tubearchivistmetadata_1.4.2.0.zip",
+        "checksum": "8df142d2f1f0c0dffa302a567b40ef84",
+        "timestamp": "2025-10-23T20:27:32Z"
+      },
+      {
+        "version": "1.4.1.0",
+        "changelog": "Introduce bidirectional playlists synchronization\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.1/tubearchivistmetadata_1.4.1.0.zip",
+        "checksum": "2dc0b9140472a4f783f093a7ee425493",
+        "timestamp": "2025-10-22T07:00:27Z"
+      },
+      {
+        "version": "1.4.0.0",
+        "changelog": "Introduce bidirectional playlists synchronization\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.4.0/tubearchivistmetadata_1.4.0.0.zip",
+        "checksum": "4b81ab60022b532a64bb5eeb7be67dcc",
+        "timestamp": "2025-10-22T06:57:53Z"
+      },
+      {
+        "version": "1.3.7.0",
+        "changelog": "Fix JF->TA Sync\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.7/tubearchivistmetadata_1.3.7.0.zip",
+        "checksum": "60d8e9f134912f907dccd30b531da4f6",
+        "timestamp": "2025-05-27T18:36:55Z"
+      },
+      {
+        "version": "1.3.6.0",
+        "changelog": "Fix TA auth header\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.6/tubearchivistmetadata_1.3.6.0.zip",
+        "checksum": "513cde64268867d0047009eb2d986054",
+        "timestamp": "2025-03-10T22:01:13Z"
+      },
+      {
+        "version": "1.3.5.0",
+        "changelog": "Adapt to the new TA API changes Fix JF crash when setting watched status with TA offline\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.5/tubearchivistmetadata_1.3.5.0.zip",
+        "checksum": "2536622c0ec73e6401860929f24849f7",
+        "timestamp": "2025-03-10T17:47:43Z"
+      },
+      {
+        "version": "1.3.4.0",
+        "changelog": "Merge workaround for JF crashing when scanning Series pull request by wolffshots\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.4/tubearchivistmetadata_1.3.4.0.zip",
+        "checksum": "1ee6041139a6fdc3cecc8b2a427c60a8",
+        "timestamp": "2024-11-04T21:30:24Z"
+      },
+      {
+        "version": "1.3.3.0",
+        "changelog": "Add compatibility with Jellyfin 10.10\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.3/tubearchivistmetadata_1.3.3.0.zip",
+        "checksum": "ee6431d8bdaf844672d167b6f3ee0a73",
+        "timestamp": "2024-11-04T20:41:46Z"
+      },
+      {
+        "version": "1.3.2.0",
+        "changelog": "Add tasks progress status Adjust logs levels\n",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.2/tubearchivistmetadata_1.3.2.0.zip",
+        "checksum": "6162235807535a5c2a7570276798e69e",
+        "timestamp": "2024-09-14T13:41:58Z"
+      },
+      {
+        "version": "1.3.1.0",
+        "changelog": "Add support for Jellyfin 10.9.1\n",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.1/tubearchivistmetadata_1.3.1.0.zip",
+        "checksum": "b0b526bbd1702970108e3b9a8c3709de",
+        "timestamp": "2024-09-12T13:36:12Z"
+      },
+      {
+        "version": "1.3.0.0",
+        "changelog": "Add support for Jellyfin 10.9.1\n",
+        "targetAbi": "10.9.1.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.3.0/tubearchivistmetadata_1.3.0.0.zip",
+        "checksum": "e1fde6f75a10a5f17bc9cc5814949180",
+        "timestamp": "2024-05-14T20:20:13Z"
+      },
+      {
+        "version": "1.2.5.0",
+        "changelog": "Ping the TA API to validate connection\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.5/tubearchivistmetadata_1.2.5.0.zip",
+        "checksum": "e4a0d076ffd84c976ad66dde91dfb840",
+        "timestamp": "2024-05-14T17:37:17Z"
+      },
+      {
+        "version": "1.2.4.0",
+        "changelog": "Fix issues with directory separators\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.4/tubearchivistmetadata_1.2.4.0.zip",
+        "checksum": "b418a46d458fe28354580d70748b1ced",
+        "timestamp": "2024-05-09T15:41:00Z"
+      },
+      {
+        "version": "1.2.3.0",
+        "changelog": "Add fix for unclosed HTML breaks\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.3/tubearchivistmetadata_1.2.3.0.zip",
+        "checksum": "f5328a662444739eaa7c59855bfcb203",
+        "timestamp": "2024-04-18T21:45:00Z"
+      },
+      {
+        "version": "1.2.2.0",
+        "changelog": "Fix bug on description length substringing\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.2/tubearchivistmetadata_1.2.2.0.zip",
+        "checksum": "82d04546916e1ba76d56de28e648447a",
+        "timestamp": "2024-03-15T10:12:00Z"
+      },
+      {
+        "version": "1.2.1.0",
+        "changelog": "Make maximum description length configurable\nTruncate descriptions to 500 characters\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.1/tubearchivistmetadata_1.2.1.0.zip",
+        "checksum": "cf68d169956f166a6ee68a06192651c2",
+        "timestamp": "2024-03-14T21:50:00Z"
+      },
+      {
+        "version": "1.2.0.0",
+        "changelog": "Add episodes and series overview\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.2.0/tubearchivistmetadata_1.2.0.0.zip",
+        "checksum": "75812a4464bf68c43fb9dcdb74d924e3",
+        "timestamp": "2024-03-14T20:00:00Z"
+      },
+      {
+        "version": "1.1.1.0",
+        "changelog": "Handle empty tags for videos and channels\nFix URL by removing trailing slash for images\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.1.1/tubearchivistmetadata_1.1.1.0.zip",
+        "checksum": "84ce752ce662e834690512c88ba48664",
+        "timestamp": "2024-03-14T16:35:00Z"
+      },
+      {
+        "version": "1.1.0.0",
+        "changelog": "Fix field name and add placeholders\nFix URL in logs after redirection\nAdd schema to TubeArchivist URL if not present in settings\nFix a particular case\nLog configuration settings at initialization\nSanitize URLs\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.1.0/tubearchivistmetadata_1.1.0.0.zip",
+        "checksum": "de4b6562973b7f75b6afe3a441bb0e19",
+        "timestamp": "2024-03-13T15:02:00Z"
+      },
+      {
+        "version": "1.0.0.0",
+        "changelog": "First release\n",
+        "targetAbi": "10.8.0.0",
+        "sourceUrl": "https://github.com/tubearchivist/tubearchivist-jf-plugin/releases/download/v1.0.0/tubearchivistmetadata_1.0.0.0.zip",
+        "checksum": "444f8980671de494b1875ee7d1657bcf",
+        "timestamp": "2024-03-11T16:02:00Z"
+      }
+    ]
+  },
+  {
     "guid": "be72d436-ab23-44b4-8625-9a8f3892d27a",
     "name": "NFO Chapters",
     "description": "This plugin extends the NFO parser for your Movies. You can specify your own chapters in the NFO which will get picked up by the plugin during a library scan.\n\n\nhttps://github.com/Viperinius/jellyfin-plugin-nfo-chapters",
@@ -7130,7 +10041,7 @@
         "timestamp": "2022-10-11T14:23:10Z"
       }
     ],
-    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-nfo-chapters/raw/master/viperinius-plugin-nfochapters.png"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/NFO Chapters.png"
   },
   {
     "guid": "f03d0adb-289f-4986-bd6f-2468025249b3",
@@ -7413,7 +10324,7 @@
         "timestamp": "2023-02-26T19:54:34Z"
       }
     ],
-    "imageUrl": "https://github.com/Viperinius/jellyfin-plugin-spotify-import/raw/master/viperinius-plugin-spotifyimport.png"
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Spotify Import.png"
   },
   {
     "category": "General",
@@ -13456,7 +16367,7 @@
     "description": "Adds home screen section for collections/playlists\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-collection-sections",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-collection-sections/main/src/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Collection Sections.png",
     "versions": [
       {
         "version": "2.3.6.0",
@@ -13577,7 +16488,7 @@
     "description": "Adds support for plugins to change jellyfin-web content without actually modifying the files directly but intercepts the requests for the served data.\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-file-transformation",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-file-transformation/main/src/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/File Transformation.png",
     "versions": [
       {
         "version": "2.5.5.0",
@@ -14050,7 +16961,7 @@
     "description": "Adds support for server provided home screen sections\n\nhttps://github.com/IAmParadox27/jellyfin-plugin-home-sections",
     "owner": "IAmParadox27",
     "category": "General",
-    "imageUrl": "https://raw.githubusercontent.com/IAmParadox27/jellyfin-plugin-home-sections/main/src/logo.png",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Home Screen Sections.png",
     "versions": [
       {
         "version": "2.5.7.0",
