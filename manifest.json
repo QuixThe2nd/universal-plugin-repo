@@ -15924,6 +15924,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
       {
+        "version": "6.4.2.3",
+        "changelog": "This version contains the following changes:\n  - Synced playlists now have ListenBrainz tag\n  - Fix for stale data on plugin config page\n  - Overhaul of syncing weekly/yearly ListenBrainz playlists\n  - Fix for playback time tracking in alternative mode\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.4.2.3.zip",
+        "checksum": "4d909df29b5adc888e970ef08867e639",
+        "timestamp": "2026-08-20T10:23:55Z"
+      },
+      {
         "version": "6.3.1.2",
         "changelog": "This version contains the following changes:\n  - Config page redesign\n  - General maintenance - code cleanup\n",
         "targetAbi": "10.11.0.0",
