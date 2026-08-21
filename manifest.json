@@ -13643,6 +13643,22 @@
     "imageUrl": "",
     "versions": [
       {
+        "version": "10.2608.25.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_10.2608.25.0.zip",
+        "checksum": "e0a5f2ed4728d27bfa357a999b3e6c8d",
+        "timestamp": "2026-08-21T21:17:29Z"
+      },
+      {
+        "version": "10.2608.24.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_10.2608.24.0.zip",
+        "checksum": "c1d15417b6d742142dcf0a5b0dfcd78c",
+        "timestamp": "2026-08-21T21:16:56Z"
+      },
+      {
         "version": "10.2608.23.0",
         "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
         "targetAbi": "12.0.0.0",
