@@ -946,6 +946,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.7.2.0",
+        "changelog": "修复芒果TV搜索接口403问题：改用新的pc/search/v2接口并实现MD5签名算法，适配新版搜索结果结构，新增电影/综艺搜索测试",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.2/danmu_2.7.2.0.zip",
+        "checksum": "2ed1622274e07058bc0285ce6b5480e3",
+        "timestamp": "2026-08-22T07:54:44"
+      },
+      {
         "version": "2.7.1.0",
         "changelog": "修正10.11.x 弹幕下载在元数据刮削完成前触发",
         "targetAbi": "10.11.0.0",
