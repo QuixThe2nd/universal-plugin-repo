@@ -15988,6 +15988,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
       {
+        "version": "6.5.1.1",
+        "changelog": "This version contains the following changes:\n  - Allow override of delimiters for multiple MBIDs in an artist metadata field\n  - Provide UA header for ListenBrainz API calls\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.5.1.1.zip",
+        "checksum": "b7edb8c41e1ca573c2b237fff0fa7b48",
+        "timestamp": "2026-08-25T19:55:14Z"
+      },
+      {
         "version": "6.4.2.3",
         "changelog": "This version contains the following changes:\n  - Synced playlists now have ListenBrainz tag\n  - Fix for stale data on plugin config page\n  - Overhaul of syncing weekly/yearly ListenBrainz playlists\n  - Fix for playback time tracking in alternative mode\n",
         "targetAbi": "10.11.0.0",
