@@ -15996,6 +15996,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
       {
+        "version": "6.5.2.1",
+        "changelog": "This version contains the following changes:\n  - Migration of playlist sync settings\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.5.2.1.zip",
+        "checksum": "243a78d9c1b0a8ed7b6e72138b90f8a6",
+        "timestamp": "2026-08-25T21:59:34Z"
+      },
+      {
         "version": "6.5.1.1",
         "changelog": "This version contains the following changes:\n  - Allow override of delimiters for multiple MBIDs in an artist metadata field\n  - Provide UA header for ListenBrainz API calls\n",
         "targetAbi": "10.11.0.0",
