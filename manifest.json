@@ -7446,6 +7446,14 @@
     "imageUrl": "",
     "versions": [
       {
+        "version": "11.11.6.3",
+        "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.6.3",
+        "targetAbi": "10.11.11",
+        "sourceUrl": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/download/v11.11.6.3/myanimelist_11.11.6.3.zip",
+        "checksum": "c04272d733d0cd409dca87196e3bd12f",
+        "timestamp": "2026-08-25T21:06:16Z"
+      },
+      {
         "version": "11.11.6.2",
         "changelog": "https://github.com/ryandash/jellyfin-plugin-myanimelist/releases/tag/v11.11.6.2",
         "targetAbi": "10.11.11",
@@ -16042,6 +16050,14 @@
         "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.0.1.1.zip",
         "checksum": "7a7e4fee01ce2db1f99d75110c2fe721",
         "timestamp": "2025-10-20T16:50:32Z"
+      },
+      {
+        "version": "5.5.2.1",
+        "changelog": "This version contains the following changes:\n  - Provide UA header for ListenBrainz API calls\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_5.5.2.1.zip",
+        "checksum": "987f8c25cb7f57a9f7bc27bfa49125bc",
+        "timestamp": "2026-08-25T20:44:36Z"
       },
       {
         "version": "5.5.1.6",
