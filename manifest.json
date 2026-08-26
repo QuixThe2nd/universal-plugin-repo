@@ -13680,8 +13680,16 @@
     "overview": "DLNA Service",
     "owner": "jellyfin",
     "category": "General",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/DLNA.png",
     "versions": [
+      {
+        "version": "10.2608.26.0",
+        "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_10.2608.26.0.zip",
+        "checksum": "182e64e8dd095565dc0bb713d3a711c4",
+        "timestamp": "2026-08-26T04:31:11Z"
+      },
       {
         "version": "10.2608.25.0",
         "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
