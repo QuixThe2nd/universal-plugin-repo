@@ -947,11 +947,11 @@
     "versions": [
       {
         "version": "2.7.3.0",
-        "changelog": "新增单集弹幕刷新接口",
+        "changelog": "支持单集弹幕刷新API",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.3/danmu_2.7.3.0.zip",
-        "checksum": "f53f648184443873b2d41969b2db25a6",
-        "timestamp": "2026-08-26T14:25:23"
+        "checksum": "83c805acb898461e473188a642892eed",
+        "timestamp": "2026-08-26T16:08:11"
       },
       {
         "version": "2.7.2.0",
