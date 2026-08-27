@@ -13309,6 +13309,30 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniDB.png",
     "versions": [
       {
+        "version": "11.2608.15.0",
+        "changelog": "- Jellyfin 10.11 support (#78) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_11.2608.15.0.zip",
+        "checksum": "1dcdde279cf44160b792e05f20d11041",
+        "timestamp": "2026-08-27T23:10:07Z"
+      },
+      {
+        "version": "11.2608.14.0",
+        "changelog": "- Jellyfin 10.11 support (#78) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_11.2608.14.0.zip",
+        "checksum": "4f65ec2adbd723486cb37586bc09b779",
+        "timestamp": "2026-08-27T20:40:43Z"
+      },
+      {
+        "version": "11.2608.13.0",
+        "changelog": "- Jellyfin 10.11 support (#78) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anidb/anidb_11.2608.13.0.zip",
+        "checksum": "e279e711aa068649756e6806da8bb870",
+        "timestamp": "2026-08-27T19:02:10Z"
+      },
+      {
         "version": "11.2605.12.0",
         "changelog": "- Jellyfin 10.11 support (#78) @crobibero",
         "targetAbi": "12.0.0.0",
@@ -16011,6 +16035,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/ListenBrainz.svg",
     "versions": [
+      {
+        "version": "6.5.3.4",
+        "changelog": "This version contains the following changes:\n  - Fix plugin configration wipe after installing version 6.5.1.1 (or .2.1)\n  - Fix config loading for selected user on initial config page load\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/listenbrainz/listenbrainz_6.5.3.4.zip",
+        "checksum": "9751e7fad2e7f6ea09c191bb1209ee16",
+        "timestamp": "2026-08-27T18:37:27Z"
+      },
       {
         "version": "6.5.2.1",
         "changelog": "This version contains the following changes:\n  - Migration of playlist sync settings\n",
