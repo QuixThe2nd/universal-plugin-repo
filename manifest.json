@@ -946,6 +946,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Danmu.png",
     "versions": [
       {
+        "version": "2.7.4.0",
+        "changelog": "修复ASS与实时监控死循环",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/cxfksword/jellyfin-plugin-danmu/releases/download/v2.7.4/danmu_2.7.4.0.zip",
+        "checksum": "145669dad709be2c3a2451abb334c48a",
+        "timestamp": "2026-09-05T07:58:37"
+      },
+      {
         "version": "2.7.3.0",
         "changelog": "支持单集弹幕刷新API",
         "targetAbi": "10.11.0.0",
