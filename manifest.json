@@ -13646,6 +13646,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Cover Art Archive.png",
     "versions": [
       {
+        "version": "9.2609.14.0",
+        "changelog": "- Jellyfin 10.11 support (#39) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/cover-art-archive/cover-art-archive_9.2609.14.0.zip",
+        "checksum": "7320d124f5b6575bc82efb3bee684d65",
+        "timestamp": "2026-09-06T17:02:24Z"
+      },
+      {
         "version": "9.2605.12.0",
         "changelog": "- Jellyfin 10.11 support (#39) @crobibero",
         "targetAbi": "12.0.0.0",
@@ -13786,6 +13794,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/DLNA.png",
     "versions": [
+      {
+        "version": "11.2609.27.0",
+        "changelog": "- Fix IUserManager.Users -> GetUsers() for Jellyfin 10.11.9 (#209) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_11.2609.27.0.zip",
+        "checksum": "169d99eacccf09b2fc9e01255a24f925",
+        "timestamp": "2026-09-06T17:10:55Z"
+      },
       {
         "version": "10.2608.26.0",
         "changelog": "- Encode header values (#174) @crobibero\n- Avoid invalid PlayCommand start index (#175) @crobibero",
@@ -14248,6 +14264,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Kodi Sync Queue.png",
     "versions": [
       {
+        "version": "15.2609.14.0",
+        "changelog": "- Jellyfin 10.11 support (#111) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kodi-sync-queue/kodi-sync-queue_15.2609.14.0.zip",
+        "checksum": "3aeccb3e81e5f6c5e9cff9ef4072e614",
+        "timestamp": "2026-09-06T17:05:02Z"
+      },
+      {
         "version": "15.2605.12.0",
         "changelog": "- Jellyfin 10.11 support (#111) @crobibero",
         "targetAbi": "12.0.0.0",
@@ -14631,6 +14655,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Reports.png",
     "versions": [
       {
+        "version": "18.2609.14.0",
+        "changelog": "- Jellyfin 10.11 support (#98) @crobibero\n- fix: require admin privileges to access reports API (#95) @Theta-Dev\n\n### Code or Repo Maintenance ###\n- Fix Overlay Button Accessibility  (#91) @a-mnich",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/reports/reports_18.2609.14.0.zip",
+        "checksum": "065f0494b94b60c010f8a24050e78a5f",
+        "timestamp": "2026-09-06T17:07:25Z"
+      },
+      {
         "version": "18.2605.12.0",
         "changelog": "- Jellyfin 10.11 support (#98) @crobibero\n- fix: require admin privileges to access reports API (#95) @Theta-Dev\n\n### Code or Repo Maintenance ###\n- Fix Overlay Button Accessibility  (#91) @a-mnich",
         "targetAbi": "12.0.0.0",
@@ -14704,6 +14736,14 @@
     "owner": "crobibero",
     "category": "General",
     "versions": [
+      {
+        "version": "9.2609.13.0",
+        "changelog": "Fixes several bugs that made scrobbling stop silently until Jellyfin was restarted.\n\n### Fixed ###\n- Fix sessions permanently wedging in the \"already scrobbling\" state, which silently\n  stopped all further scrobbling for that client. Session state now advances only after\n  Simkl has actually accepted a call, and resets when the item changes or a playback ends\n  without a stop event.\n- Fix rate-limited scrobbles being treated as sent, which skipped scrobbling for a whole\n  playback (most often when starting the next episode straight after the previous one). A\n  rate-limited state change is now deferred and retried on the next playback event instead\n  of being dropped, and the final stop call waits for the limit rather than skipping.\n- Honour HTTP 429 and its Retry-After header: all calls for that account are held for the\n  requested cooldown instead of being retried immediately. Rate limiting is now enforced\n  both per session and per user, and a call consumes its slot even if it throws, so a\n  failing Simkl is no longer hammered on every progress event.\n- Fix expired or revoked Simkl tokens failing silently and forever: HTTP error responses\n  were never inspected, so the token was never cleared and the user was still shown as\n  signed in.\n- Fix API failures being logged at Trace level, leaving no trace of the problem in a\n  default Jellyfin setup. HTTP status, response body and error code are now logged at\n  Warning.\n- Fix episodes being sent with the series' provider ids as *episode* ids and an empty id\n  set for the show, which made Simkl fail to identify episodes (`id_err`).\n- Fix a non-numeric provider id aborting a scrobble with a FormatException.\n- Fix ObjectDisposedException from disposing a session's semaphore while a concurrent\n  playback event still held it.\n- Send /scrobble/stop whenever a scrobble is open so the \"now watching\" entry no longer\n  lingers, and re-affirm active scrobbles periodically so they do not expire.\n- Retry the final /scrobble/stop call, and give up on an item after repeated failures\n  instead of retrying it on every progress event.\n- Fall back to the movie title when OriginalTitle is empty.\n\n### Removed ###\n- Remove the unused LegacyPlaybackScrobbler type.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/simkl/simkl_9.2609.13.0.zip",
+        "checksum": "a1a2030ba18c16d34b3323a228085a6b",
+        "timestamp": "2026-09-06T17:10:51Z"
+      },
       {
         "version": "8.2605.11.0",
         "changelog": "- Fix invalid operation exception (#59) @balciseri\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#54) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to v10 (#52) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#49) @[renovate[bot]](https://github.com/apps/renovate)",
@@ -15182,6 +15222,14 @@
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TVmaze.png",
     "versions": [
+      {
+        "version": "13.2609.14.0",
+        "changelog": "- Jellyfin 10.11 support (#55) @crobibero",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvmaze/tvmaze_13.2609.14.0.zip",
+        "checksum": "4cd6273c364fb86220ded35106d69942",
+        "timestamp": "2026-09-06T17:11:51Z"
+      },
       {
         "version": "13.2605.12.0",
         "changelog": "- Jellyfin 10.11 support (#55) @crobibero",
@@ -15826,6 +15874,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "4.2609.7.0",
+        "changelog": "- Implement rate limiting (#45) @Shadowghost, @crobibero\n- Prefer artist then album artist (#23) @scampower3, @Shadowghost\n- Allow configuration of a custom LrcLib server (#42) @dc9dd6aa, @Shadowghost",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/lrclib-lyrics/lrclib-lyrics_4.2609.7.0.zip",
+        "checksum": "c28483db09917e8e4771a8970ade3a2c",
+        "timestamp": "2026-09-06T17:10:53Z"
+      },
+      {
         "version": "3.2605.5.0",
         "changelog": "- Jellyfin 10.11 support (#25) @crobibero\n- Update plugin name (#12) @thornbill\n- Update PluginConfiguration comment (#10) @scampower3",
         "targetAbi": "12.0.0.0",
@@ -16001,6 +16057,14 @@
     "category": "Books",
     "versions": [
       {
+        "version": "1.2609.12.0",
+        "changelog": "Initial Release",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_1.2609.12.0.zip",
+        "checksum": "bd3aa6657ad6399067ccd7704e74417a",
+        "timestamp": "2026-09-06T17:03:43Z"
+      },
+      {
         "version": "1.2605.10.0",
         "changelog": "Initial Release",
         "targetAbi": "12.0.0.0",
@@ -16082,6 +16146,14 @@
     "owner": "jellyfin",
     "category": "Books",
     "versions": [
+      {
+        "version": "1.2609.11.0",
+        "changelog": "Initial Release",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/comic-vine/comic-vine_1.2609.11.0.zip",
+        "checksum": "be9221b9b7b624dd664b50698bfac6c5",
+        "timestamp": "2026-09-06T17:01:40Z"
+      },
       {
         "version": "1.2605.9.0",
         "changelog": "Initial Release",
