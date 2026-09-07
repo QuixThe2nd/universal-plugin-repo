@@ -16544,6 +16544,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "4.2609.8.0",
+        "changelog": "- Implement rate limiting (#45) @Shadowghost, @crobibero\n- Prefer artist then album artist (#23) @scampower3, @Shadowghost\n- Allow configuration of a custom LrcLib server (#42) @dc9dd6aa, @Shadowghost",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/lrclib-lyrics/lrclib-lyrics_4.2609.8.0.zip",
+        "checksum": "08cca4cdff75da8366c0403e42084c32",
+        "timestamp": "2026-09-07T21:52:45Z"
+      },
+      {
         "version": "4.2609.7.0",
         "changelog": "- Implement rate limiting (#45) @Shadowghost, @crobibero\n- Prefer artist then album artist (#23) @scampower3, @Shadowghost\n- Allow configuration of a custom LrcLib server (#42) @dc9dd6aa, @Shadowghost",
         "targetAbi": "12.0.0.0",
