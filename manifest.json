@@ -17303,6 +17303,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniList.png",
     "versions": [
       {
+        "version": "14.2609.23.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#114) @crobibero, @jellyfin-bot\n- Allow filtering people by role (#110) @HansLehnert, @nielsvanvelzen\n- Add anilist episode provider (#104) @ivanjx, @nielsvanvelzen\n- Change image type for banner images from Backdrop to Banner (#109) @vodkapmp, @nielsvanvelzen",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_14.2609.23.0.zip",
+        "checksum": "38a90e49399c1bb6379eb7f35a582e1d",
+        "timestamp": "2026-09-14T14:36:21Z"
+      },
+      {
         "version": "13.2609.22.0",
         "changelog": "- Implement rate limit and HTTP 429 handling (#112) @ivanjx\n- Add option for including/excluding series description (synopsis) (#103) @jack-mil\n- Filter tags by Anilist rank and Add maximum tags setting (#102) @jack-mil\n\n### Dependency updates ###\n- Update dotnet monorepo to 9.0.11 (#105) @[renovate[bot]](https://github.com/apps/renovate)",
         "targetAbi": "12.0.0.0",
@@ -17411,12 +17419,20 @@
   {
     "guid": "776d9158-b91f-49d9-82c5-dacce63d63b8",
     "name": "AniSearch",
-    "description": "AniSearch metadata provider\n",
+    "description": "AniSearch metadata provider\n\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#32) [@renovate[bot]](https:",
     "overview": "AniSearch metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniSearch.png",
     "versions": [
+      {
+        "version": "7.2609.14.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#38) @crobibero, @jellyfin-bot\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#34) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#24) [@renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#32) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anisearch/anisearch_7.2609.14.0.zip",
+        "checksum": "ca1990191ad8cf8f52c0da20f3a42a9c",
+        "timestamp": "2026-09-14T14:36:32Z"
+      },
       {
         "version": "6.2609.13.0",
         "changelog": "- Jellyfin 10.11 support (#28) @crobibero",
@@ -17577,11 +17593,19 @@
   {
     "guid": "7871d3b1-f1b9-4318-9c27-f35998ffbbcc",
     "name": "Artwork",
-    "description": "Downloads artwork from a repository for various media types.\n",
+    "description": "Downloads artwork from a repository for various media types.\n\n\nhttps://github.com/apps/renovate)",
     "overview": "Download artwork",
     "owner": "jellyfin",
     "category": "General",
     "versions": [
+      {
+        "version": "3.2609.16.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#33) @crobibero, @jellyfin-bot\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#24) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/artwork/artwork_3.2609.16.0.zip",
+        "checksum": "d5c707dd8d2c3ec2b7e3b0239278e36a",
+        "timestamp": "2026-09-14T14:36:50Z"
+      },
       {
         "version": "2.2609.15.0",
         "changelog": "- Jellyfin 10.11 support (#27) @crobibero",
@@ -17649,6 +17673,14 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/DLNA.png",
     "versions": [
+      {
+        "version": "13.2609.34.0",
+        "changelog": "- Fix v12 regressions (#243) @Shadowghost, @crobibero\n- Keep genre and artist containers within the library they were browsed in from (#239) @Shadowghost, @crobibero\n- Keep polling the renderer through a transport change (#240) @Shadowghost, @crobibero",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/dlna/dlna_13.2609.34.0.zip",
+        "checksum": "5ef13c319d039ad57c6dbbea1cbd81da",
+        "timestamp": "2026-09-14T14:39:01Z"
+      },
       {
         "version": "11.2609.30.0",
         "changelog": "- Fix IUserManager.Users -> GetUsers() for Jellyfin 10.11.9 (#209) @crobibero",
@@ -17837,6 +17869,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Fanart.png",
     "versions": [
       {
+        "version": "15.2609.14.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#78) @crobibero, @enter-a-random-username, @jellyfin-bot\n- Use preview  image for faster loading times (#81) @enter-a-random-username, @crobibero",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/fanart/fanart_15.2609.14.0.zip",
+        "checksum": "c35a21e86a8e227e4b58e4712d9346e2",
+        "timestamp": "2026-09-14T14:37:49Z"
+      },
+      {
         "version": "14.2609.13.0",
         "changelog": "- Use file scoped namespaces and add analyzers (#72) @Shadowghost\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#73) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#68) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#69) @[renovate[bot]](https://github.com/apps/renovate)",
         "targetAbi": "12.0.0.0",
@@ -17995,11 +18035,20 @@
   {
     "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
     "name": "IMVDb",
-    "description": "Get Music Video metadata from IMVDb\n",
+    "description": "Get Music Video metadata from IMVDb\n\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https:",
     "overview": "Get Music Video metadata from IMVDb",
     "owner": "jellyfin",
     "category": "Music",
+    "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/IMVDb.png",
     "versions": [
+      {
+        "version": "6.2609.14.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#37) @crobibero, @jellyfin-bot\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#33) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#22) [@renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#31) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/imvdb/imvdb_6.2609.14.0.zip",
+        "checksum": "1662870538fd2b4828bc601ae02d905f",
+        "timestamp": "2026-09-14T14:38:46Z"
+      },
       {
         "version": "5.2609.13.0",
         "changelog": "- Jellyfin 10.11 support (#29) @crobibero\n- Update settings page (#30) @thornbill\n\n### Bug Fixes ###\n- Restore manual search for new items (#27) @abrain",
@@ -18069,12 +18118,20 @@
   {
     "guid": "88d809e2-056b-47f4-9911-073949b9963f",
     "name": "Kitsu",
-    "description": "Kitsu metadata provider\n",
+    "description": "Kitsu metadata provider\n\n\nhttps://github.com/apps/renovate)",
     "overview": "Kitsu metadata provider",
     "owner": "jellyfin",
     "category": "Anime",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Kitsu.png",
     "versions": [
+      {
+        "version": "8.2609.13.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#45) @crobibero, @jellyfin-bot\n- Add title language configuration (#39) @nepellion\n- Add missing dates to metadata (#38) @nepellion\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#31) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kitsu/kitsu_8.2609.13.0.zip",
+        "checksum": "bd9c1baf9f464c3be08deb61fbd3a7f3",
+        "timestamp": "2026-09-14T14:38:35Z"
+      },
       {
         "version": "7.2609.12.0",
         "changelog": "- Jellyfin 10.11 support (#37) @crobibero",
@@ -18136,12 +18193,20 @@
   {
     "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
     "name": "Kodi Sync Queue",
-    "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.",
+    "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.\n\nhttps://github.com/apps/renovate)",
     "overview": "Sync all media changes with Kodi clients",
     "owner": "jellyfin",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Kodi Sync Queue.png",
     "versions": [
+      {
+        "version": "16.2609.15.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#118) @crobibero, @jellyfin-bot\n- fix: add authentication for sync queue API (#110) @Theta-Dev\n\n### Dependency updates ###\n- Update dependency LiteDB to 5.0.21 (#119) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/kodi-sync-queue/kodi-sync-queue_16.2609.15.0.zip",
+        "checksum": "1b5decdbca9ca20ea07a55969c8b566e",
+        "timestamp": "2026-09-14T14:39:20Z"
+      },
       {
         "version": "15.2609.14.0",
         "changelog": "- Jellyfin 10.11 support (#111) @crobibero",
@@ -18293,6 +18358,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/LDAP Authentication.png",
     "versions": [
       {
+        "version": "24.2609.17.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#213) @crobibero, @jellyfin-bot\n- Fix LDAP admin filter username resolution (#223) @ddwalias",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_24.2609.17.0.zip",
+        "checksum": "59b4f16ce259e2af94391ddca08db915",
+        "timestamp": "2026-09-14T14:40:27Z"
+      },
+      {
         "version": "23.2606.15.0",
         "changelog": "- Backport \"Fix IUserManager.RenameUser signature for Jellyfin 12.x\" for Jellyfin 10.11.9 (#215) @tam1m",
         "targetAbi": "12.0.0.0",
@@ -18384,6 +18457,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Playback Reporting.png",
     "versions": [
       {
+        "version": "19.2609.14.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#127) @crobibero, @jellyfin-bot\n- Redesign pages, add CSS where it is missing (#111) @Krafting, Krafting\n- Remove unsafe SQLite reconfiguration (#139) @IDisposable\n- Fix URL parameter name for loading backup file (#138) @realansgar\n- Change total_time type from int to long (#120) @wafflesLL",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/playback-reporting/playback-reporting_19.2609.14.0.zip",
+        "checksum": "693f1ce008bdeafc13f05e2f5f5339db",
+        "timestamp": "2026-09-14T14:43:31Z"
+      },
+      {
         "version": "17.2609.13.0",
         "changelog": "- Jellyfin 10.11 support (#108) @crobibero",
         "targetAbi": "12.0.0.0",
@@ -18459,6 +18540,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/OPDS.png",
     "versions": [
       {
+        "version": "8.2609.17.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#53) @crobibero, @jellyfin-bot",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/opds/opds_8.2609.17.0.zip",
+        "checksum": "07c5d9e392eb9cf8b92f4f600975fc3f",
+        "timestamp": "2026-09-14T14:42:55Z"
+      },
+      {
         "version": "7.2609.16.0",
         "changelog": "- Jellyfin 10.11 support (#48) @crobibero",
         "targetAbi": "12.0.0.0",
@@ -18527,12 +18616,20 @@
   {
     "guid": "d4312cd9-5c90-4f38-82e8-51da566790e8",
     "name": "Reports",
-    "description": "Generate reports of your media library",
+    "description": "Generate reports of your media library\n\nhttps://github.com/apps/renovate)",
     "overview": "Generate reports of your media library",
     "owner": "jellyfin",
     "category": "Administration",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Reports.png",
     "versions": [
+      {
+        "version": "19.2609.15.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#108) @crobibero, @claude, @jellyfin-bot\n- fix: export limiting to maximum 100 lines (#100) @Yghore\n\n### Dependency updates ###\n- Update dependency ClosedXML to 0.105.1 (#109) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/reports/reports_19.2609.15.0.zip",
+        "checksum": "fbfbf8cd7344e4eaf979464803309e21",
+        "timestamp": "2026-09-14T14:40:13Z"
+      },
       {
         "version": "18.2609.14.0",
         "changelog": "- Jellyfin 10.11 support (#98) @crobibero\n- fix: require admin privileges to access reports API (#95) @Theta-Dev\n\n### Code or Repo Maintenance ###\n- Fix Overlay Button Accessibility  (#91) @a-mnich",
@@ -18616,6 +18713,14 @@
     "category": "General",
     "versions": [
       {
+        "version": "9.2609.14.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#64) @crobibero, @jellyfin-bot\n- Fix: typo 'compouter' in login instructions (#65) @bretthysuik\n- feat: live-scrobbling support (#61) @samip5, @claude, @crobibero\n\n### New features and improvements ###\n- Add external url provider (#39) @crobibero",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/simkl/simkl_9.2609.14.0.zip",
+        "checksum": "97c22e2b201cbb920c2855b6e71cf49e",
+        "timestamp": "2026-09-14T14:42:38Z"
+      },
+      {
         "version": "9.2609.13.0",
         "changelog": "Fixes several bugs that made scrobbling stop silently until Jellyfin was restarted.\n\n### Fixed ###\n- Fix sessions permanently wedging in the \"already scrobbling\" state, which silently\n  stopped all further scrobbling for that client. Session state now advances only after\n  Simkl has actually accepted a call, and resets when the item changes or a playback ends\n  without a stop event.\n- Fix rate-limited scrobbles being treated as sent, which skipped scrobbling for a whole\n  playback (most often when starting the next episode straight after the previous one). A\n  rate-limited state change is now deferred and retried on the next playback event instead\n  of being dropped, and the final stop call waits for the limit rather than skipping.\n- Honour HTTP 429 and its Retry-After header: all calls for that account are held for the\n  requested cooldown instead of being retried immediately. Rate limiting is now enforced\n  both per session and per user, and a call consumes its slot even if it throws, so a\n  failing Simkl is no longer hammered on every progress event.\n- Fix expired or revoked Simkl tokens failing silently and forever: HTTP error responses\n  were never inspected, so the token was never cleared and the user was still shown as\n  signed in.\n- Fix API failures being logged at Trace level, leaving no trace of the problem in a\n  default Jellyfin setup. HTTP status, response body and error code are now logged at\n  Warning.\n- Fix episodes being sent with the series' provider ids as *episode* ids and an empty id\n  set for the show, which made Simkl fail to identify episodes (`id_err`).\n- Fix a non-numeric provider id aborting a scrobble with a FormatException.\n- Fix ObjectDisposedException from disposing a session's semaphore while a concurrent\n  playback event still held it.\n- Send /scrobble/stop whenever a scrobble is open so the \"now watching\" entry no longer\n  lingers, and re-affirm active scrobbles periodically so they do not expire.\n- Retry the final /scrobble/stop call, and give up on an item after repeated failures\n  instead of retrying it on every progress event.\n- Fall back to the movie title when OriginalTitle is empty.\n\n### Removed ###\n- Remove the unused LegacyPlaybackScrobbler type.",
         "targetAbi": "12.0.0.0",
@@ -18684,12 +18789,20 @@
   {
     "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
     "name": "Open Subtitles",
-    "description": "Download subtitles from the internet to use with your media files. (Requires configuration)\n\nhttps://github.com/apps/renovate)\n- Update dependency coverlet.collector to v6 (#125) @[renovate[bot]](https:",
+    "description": "Download subtitles from the internet to use with your media files. (Requires configuration)\n\nhttps://github.com/apps/renovate)\n- Update dependency coverlet.collector to v10 (#212) [@renovate[bot]](https:",
     "overview": "Download subtitles for your media",
     "owner": "jellyfin",
     "category": "Subtitles",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Open Subtitles.png",
     "versions": [
+      {
+        "version": "25.2609.21.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#207) @crobibero, @jellyfin-bot\n- Add handling for small video files (#192) @MBR-0001\n\n### Dependency updates ###\n- Update dependency xunit.runner.visualstudio to v4 (#215) [@renovate[bot]](https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v10 (#212) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/open-subtitles/open-subtitles_25.2609.21.0.zip",
+        "checksum": "b462902fbb61f8a06afe485e6b2d75da",
+        "timestamp": "2026-09-14T14:39:11Z"
+      },
       {
         "version": "24.2609.20.0",
         "changelog": "- Fix 429 handling (#189) @MBR-0001\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#184) @Shadowghost\n- imdbId fixes (#182) @MBR-0001\n\n### Dependency updates ###\n- Update dependency xunit to 2.9.3 (#137) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency coverlet.collector to v6 (#125) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency xunit.runner.visualstudio to v3 (#158) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.NET.Test.Sdk to v18 - autoclosed (#170) @[renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#178) @[renovate[bot]](https://github.com/apps/renovate)",
@@ -18822,6 +18935,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Subtitle Extract.png",
     "versions": [
       {
+        "version": "8.2609.16.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#65) @crobibero, @jellyfin-bot\n- doc: Make documentation and plugin short descriptions a bit clearer. (#68) @mgla",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/subtitle-extract/subtitle-extract_8.2609.16.0.zip",
+        "checksum": "d4cbfda564bf8aa01174edc525fbcfaf",
+        "timestamp": "2026-09-14T14:40:58Z"
+      },
+      {
         "version": "7.2609.15.0",
         "changelog": "- Fix HasChanged checks (#57) @Shadowghost",
         "targetAbi": "12.0.0.0",
@@ -18906,11 +19027,19 @@
   {
     "guid": "ec9e2a74-1311-4a14-b302-158e3d95fd1d",
     "name": "Session Cleaner",
-    "description": "Removes old sessions (devices).\n",
+    "description": "Removes old sessions (devices).\n\n\nhttps://github.com/apps/renovate)",
     "overview": "Removes old sessions (devices).",
     "owner": "jellyfin",
     "category": "Administration",
     "versions": [
+      {
+        "version": "6.2609.12.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#32) @crobibero, @jellyfin-bot\n- add emby-button class to the help button (#26) @Krafting\n\n### Dependency updates ###\n- Update dependency StyleCop.Analyzers to 1.2.0-beta.556 (#33) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/session-cleaner/session-cleaner_6.2609.12.0.zip",
+        "checksum": "99c71d98cbe33e593428860251ee8a35",
+        "timestamp": "2026-09-14T14:40:02Z"
+      },
       {
         "version": "5.2609.11.0",
         "changelog": "- Jellyfin 10.11 support (#25) @crobibero",
@@ -19095,12 +19224,20 @@
   {
     "guid": "a4a488d0-17a3-4919-8d82-7f3de4f6b209",
     "name": "TVmaze",
-    "description": "Get TV metadata from TVmaze\n",
+    "description": "Get TV metadata from TVmaze\n\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#59) [@renovate[bot]](https:",
     "overview": "Get TV metadata from TVmaze",
     "owner": "jellyfin",
     "category": "MoviesAndShows",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/TVmaze.png",
     "versions": [
+      {
+        "version": "14.2609.15.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#67) @crobibero, @claude, @jellyfin-bot\n- Use the TvMaze Season ID and Episode ID if known. (#65) @IDisposable\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#62) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#52) [@renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#59) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/tvmaze/tvmaze_14.2609.15.0.zip",
+        "checksum": "dec7b27b0331cae56bf6c4678c8d2288",
+        "timestamp": "2026-09-14T14:44:46Z"
+      },
       {
         "version": "13.2609.14.0",
         "changelog": "- Jellyfin 10.11 support (#55) @crobibero",
@@ -19178,11 +19315,19 @@
   {
     "guid": "44616595-5798-47ad-8658-3c09f3030505",
     "name": "VGMdb",
-    "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.\n",
+    "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.\n\n\nhttps://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#29) [@renovate[bot]](https:",
     "overview": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.",
     "owner": "jellyfin",
     "category": "Music",
     "versions": [
+      {
+        "version": "6.2609.13.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#36) @crobibero, @jellyfin-bot\n- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#32) @Shadowghost\n\n### Dependency updates ###\n- Update dependency Microsoft.Extensions.Http to 9.0.11 (#25) [@renovate[bot]](https://github.com/apps/renovate)\n- Update dependency Microsoft.Extensions.Http to v10 (#29) [@renovate[bot]](https://github.com/apps/renovate)\n- Update dependency StyleCop.Analyzers to 1.2.0-beta.556 (#19) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/vgmdb/vgmdb_6.2609.13.0.zip",
+        "checksum": "548ed9d536714ee35f76db2525c41ff1",
+        "timestamp": "2026-09-14T14:43:25Z"
+      },
       {
         "version": "5.2609.12.0",
         "changelog": "- Jellyfin 10.11 support (#27) @crobibero",
@@ -19252,12 +19397,20 @@
   {
     "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
     "name": "Trakt",
-    "description": "Record your watched media with Trakt.\n",
+    "description": "Record your watched media with Trakt.\n\n\nhttps://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin",
     "overview": "Record your watched media with Trakt",
     "owner": "jellyfin",
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Trakt.png",
     "versions": [
+      {
+        "version": "31.2609.19.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#287) @crobibero\n- Fix watched movies/shows import only fetching the first page (#298) @rbcetin, @claude, @Shadowghost\n- Fix duplicate watched-history plays for shows with local/trakt numbering mismatches (#303) @InoriHimea, @Shadowghost\n- Fix episode external URL generation (#301) @vicente-higino, @Shadowghost\n- Fix a null-check gap and two exception-swallowing bugs in the sync/API layer (#304) @InoriHimea, @Shadowghost\n- Fix timezone bug in Trakt LastPlayedDate comparison (#308) @jvandenbroek\n\n### Dependency updates ###\n- Update jellyfin/jellyfin-meta-plugins digest to bd147a5 (#284) [@renovate[bot]](https://github.com/apps/renovate)\n\n### CI & build changes ###\n- Update jellyfin/jellyfin-meta-plugins digest to bd147a5 (#284) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/trakt/trakt_31.2609.19.0.zip",
+        "checksum": "a6ed25dddb8506b2e615828f0446a3ee",
+        "timestamp": "2026-09-14T14:40:15Z"
+      },
       {
         "version": "30.2606.17.0",
         "changelog": "-  Fix MissingMethodException on Jellyfin 10.11 (use GetUsers() instead Users) (#292) @lowbit",
@@ -19440,6 +19593,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Webhook.png",
     "versions": [
       {
+        "version": "22.2609.19.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#387) @crobibero, @jellyfin-bot\n- Construct SMTP addresses by parsing (#324) @andrasmaroy\n- Fix color formatting in Discord template (#390) @espdesign",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/webhook/webhook_22.2609.19.0.zip",
+        "checksum": "839194b44782414406866223ec8e2bdd",
+        "timestamp": "2026-09-14T14:43:22Z"
+      },
+      {
         "version": "21.2609.18.0",
         "changelog": "- Revert \"Update dependency Microsoft.Extensions.Http to v10\" (#364) @Shadowghost",
         "targetAbi": "12.0.0.0",
@@ -19537,6 +19698,14 @@
     "owner": "Jellyfin",
     "category": "MoviesAndShows",
     "versions": [
+      {
+        "version": "5.2609.15.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#60) @crobibero, @jellyfin-bot\n- Update link to Pre-rolls Community website (#56) @klaxusnexus, @crobibero",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/local-intros/local-intros_5.2609.15.0.zip",
+        "checksum": "20049f98f8475de8cad14ccefddb6526",
+        "timestamp": "2026-09-14T14:39:31Z"
+      },
       {
         "version": "4.2609.14.0",
         "changelog": "- Jellyfin 10.11 support (#51) @crobibero\n- Update README.md (#41) @lukasitaly",
@@ -19689,11 +19858,19 @@
   {
     "guid": "698b6f33-14ca-49b5-9d79-fc3c0ab941f5",
     "name": "Chapter Segments Provider",
-    "description": "Create media segments based on chapters.\n",
+    "description": "Create media segments based on chapters.\n\n\nhttps://github.com/apps/renovate)",
     "overview": "Create media segments based on chapters.",
     "owner": "jellyfin",
     "category": "General",
     "versions": [
+      {
+        "version": "5.2609.9.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#22) @crobibero, @jellyfin-bot\n\n### Dependency updates ###\n- Update mcr.microsoft.com/devcontainers/dotnet Docker tag to v2 (#18) [@renovate[bot]](https://github.com/apps/renovate)",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/chapter-segments-provider/chapter-segments-provider_5.2609.9.0.zip",
+        "checksum": "e8e00a1043125f1f0b894ad44bc65712",
+        "timestamp": "2026-09-14T14:37:04Z"
+      },
       {
         "version": "4.2609.8.0",
         "changelog": "- Jellyfin 10.11 support (#9) @crobibero\n- Added additional commercial terms (#8) @JPVenson\n- Fix wrong order of RegEx comments (#13) @mihawk90\n- Add \"credits\" to outro segment RegEx (#4) @mihawk90",
@@ -19752,6 +19929,14 @@
     "owner": "jellyfin",
     "category": "Music",
     "versions": [
+      {
+        "version": "5.2609.9.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#36) @crobibero, @jellyfin-bot\n- Modernize Analyzers and add synced lyric option (#44) @Shadowghost, @crobibero",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/lrclib-lyrics/lrclib-lyrics_5.2609.9.0.zip",
+        "checksum": "e3ac3a5a6f68f19e87e255912e02e9cb",
+        "timestamp": "2026-09-14T14:41:10Z"
+      },
       {
         "version": "4.2609.8.0",
         "changelog": "- Implement rate limiting (#45) @Shadowghost, @crobibero\n- Prefer artist then album artist (#23) @scampower3, @Shadowghost\n- Allow configuration of a custom LrcLib server (#42) @dc9dd6aa, @Shadowghost",
@@ -19886,6 +20071,14 @@
     "category": "Administration",
     "versions": [
       {
+        "version": "5.2609.8.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#13) @crobibero, @jellyfin-bot",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/transcode-killer/transcode-killer_5.2609.8.0.zip",
+        "checksum": "5ec188637d16d575246d87f1f5ff17c4",
+        "timestamp": "2026-09-14T14:43:17Z"
+      },
+      {
         "version": "4.2609.7.0",
         "changelog": "- Jellyfin 10.11 support (#7) @crobibero\n- Improve plugin description (#9) @dhlavaty",
         "targetAbi": "12.0.0.0",
@@ -19938,11 +20131,19 @@
   {
     "guid": "7a9f4890-b216-4d75-a0e4-4c9f29ed5217",
     "name": "Google Books",
-    "description": "Pulls book metadata and cover images from Google Books.\n",
+    "description": "Pulls book metadata and cover images from Google Books.\n\n\nhttps://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https:",
     "overview": "Google Books Metadata Provider",
     "owner": "jellyfin",
     "category": "Books",
     "versions": [
+      {
+        "version": "2.2609.13.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#14) @crobibero, @claude, @jellyfin-bot\n- Update dependency NSubstitute to v6 (#21) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency xunit.runner.visualstudio to v4 (#20) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency coverlet.collector to v10 (#18) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency NSubstitute to 5.3.0 (#17) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency coverlet.collector to 6.0.4 (#15) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency xunit to 2.9.3 (#13) [@renovate[bot]](https://github.com/apps/renovate), @crobibero",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/google-books/google-books_2.2609.13.0.zip",
+        "checksum": "f33c9a42e42fe23ab7ada86f69b3823c",
+        "timestamp": "2026-09-14T14:40:45Z"
+      },
       {
         "version": "1.2609.12.0",
         "changelog": "Initial Release",
@@ -20028,11 +20229,19 @@
   {
     "guid": "309ec7e5-4981-4e8c-992f-8e4dde9591e0",
     "name": "Comic Vine",
-    "description": "Pulls comic metadata and cover images from Comic Vine.\n",
+    "description": "Pulls comic metadata and cover images from Comic Vine.\n\n\nhttps://github.com/apps/renovate), @crobibero\n- Update dependency coverlet.collector to 6.0.4 (#18) [@renovate[bot]](https:",
     "overview": "Comic Vine Metadata Provider",
     "owner": "jellyfin",
     "category": "Books",
     "versions": [
+      {
+        "version": "2.2609.12.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#16) @crobibero, @claude, @jellyfin-bot\n- Update dependency coverlet.collector to v10 (#21) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency coverlet.collector to 6.0.4 (#18) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency NSubstitute to v6 (#23) [@renovate[bot]](https://github.com/apps/renovate), @crobibero\n- Update dependency xunit to 2.9.3 (#15) [@renovate[bot]](https://github.com/apps/renovate), @crobibero",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/comic-vine/comic-vine_2.2609.12.0.zip",
+        "checksum": "cecfe9fee728ed8b34c4b4d842f7cbab",
+        "timestamp": "2026-09-14T14:37:21Z"
+      },
       {
         "version": "1.2609.11.0",
         "changelog": "Initial Release",
@@ -20089,8 +20298,16 @@
     "description": "Provides book and author metadata from OpenLibrary.org for your Jellyfin book libraries. Automatically fetches book descriptions, series information, publication dates, genres, and author biographies from the OpenLibrary API.\n",
     "overview": "OpenLibrary metadata provider for Jellyfin",
     "owner": "jellyfin",
-    "category": "Metadata",
+    "category": "Books",
     "versions": [
+      {
+        "version": "1.2609.7.0",
+        "changelog": "Initial release - Book metadata provider - Author/person metadata provider - Support for book descriptions, series, genres, and publication dates - Support for author biographies and birth/death dates\n",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/openlibrary/openlibrary_1.2609.7.0.zip",
+        "checksum": "2703d17febed764acd84a970b5e5e14b",
+        "timestamp": "2026-09-14T14:42:35Z"
+      },
       {
         "version": "1.2609.6.0",
         "changelog": "Initial release - Book metadata provider - Author/person metadata provider - Support for book descriptions, series, genres, and publication dates - Support for author biographies and birth/death dates\n",
