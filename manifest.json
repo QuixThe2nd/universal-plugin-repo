@@ -4286,6 +4286,22 @@
     "category": "Metadata",
     "versions": [
       {
+        "version": "1.7.0.0",
+        "changelog": "## v1.7.0.0\n### New\n- Jellyfin 12 support. Every release now ships two builds, one for Jellyfin 12 and one for Jellyfin 10.11, and Jellyfin installs the right one for your server automatically.\n- Jellyfin 10.11.0 and newer are supported again. The previous release required at least 10.11.6.\n- New \"Disable rate limiting\" option for self-hosted LRCLIB servers. It removes the delay between requests, which speeds up large libraries. Requests to the public lrclib.net stay rate limited.\n### Fixes\n- Tracks that only have an album artist tag (compilations, classical music, many rips) now get lyrics. Strict search used to give up without an artist tag, and fuzzy search ignored the album artist entirely.\n- Fuzzy search now tries every artist tagged on a track instead of only the first one.\n- A system clock jump (NTP correction, VM resume) can no longer stall lyric requests.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/Felitendo/jellyfin-plugin-lyrics/releases/download/v1.7.0/lyrics_1.7.0.0_jf12.zip",
+        "checksum": "074f369addb64f49c24d8d95e62b414a",
+        "timestamp": "2026-09-15T13:48:10Z"
+      },
+      {
+        "version": "1.7.0.0",
+        "changelog": "## v1.7.0.0\n### New\n- Jellyfin 12 support. Every release now ships two builds, one for Jellyfin 12 and one for Jellyfin 10.11, and Jellyfin installs the right one for your server automatically.\n- Jellyfin 10.11.0 and newer are supported again. The previous release required at least 10.11.6.\n- New \"Disable rate limiting\" option for self-hosted LRCLIB servers. It removes the delay between requests, which speeds up large libraries. Requests to the public lrclib.net stay rate limited.\n### Fixes\n- Tracks that only have an album artist tag (compilations, classical music, many rips) now get lyrics. Strict search used to give up without an artist tag, and fuzzy search ignored the album artist entirely.\n- Fuzzy search now tries every artist tagged on a track instead of only the first one.\n- A system clock jump (NTP correction, VM resume) can no longer stall lyric requests.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Felitendo/jellyfin-plugin-lyrics/releases/download/v1.7.0/lyrics_1.7.0.0_jf10.11.zip",
+        "checksum": "2b1e988ddd45b0002637c9948c180b0c",
+        "timestamp": "2026-09-15T13:48:10Z"
+      },
+      {
         "version": "1.6.6.0",
         "changelog": "## v1.6.6.0\n### Fixes\n- The lyrics task no longer re-downloads tracks that already have synced lyrics on disk. When a track's lyrics were saved but the database still reported them as plain (Jellyfin doesn't refresh metadata after a download until the next library scan), the task kept \"upgrading\" the same tracks on every run. It now trusts the synced .lrc file already on disk and skips it. -> #43",
         "targetAbi": "10.11.6.0",
