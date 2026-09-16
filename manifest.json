@@ -15214,6 +15214,14 @@
     "category": "MoviesAndShows",
     "versions": [
       {
+        "version": "15.0.0.0",
+        "changelog": "- Fix queue handling (#134) @Shadowghost, @crobibero",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/tmdb-box-sets/tmdb-box-sets_15.0.0.0.zip",
+        "checksum": "a09e829c3fd2cf088b323c807e8b4403",
+        "timestamp": "2026-09-15T22:42:27Z"
+      },
+      {
         "version": "14.0.0.0",
         "changelog": "- Unstable: Update to latest Jellyfin preview packages (#127) @crobibero, @claude, @jellyfin-bot",
         "targetAbi": "12.0.0.0",
@@ -15983,6 +15991,14 @@
     "category": "Anime",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniList.png",
     "versions": [
+      {
+        "version": "15.0.0.0",
+        "changelog": "- Use RateLimiter from AniDb plugin, fix GraphQL (#117) @Shadowghost, @crobibero",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin/anilist/anilist_15.0.0.0.zip",
+        "checksum": "7894285e510f2e22b2364df570a546b3",
+        "timestamp": "2026-09-15T22:42:33Z"
+      },
       {
         "version": "14.0.0.0",
         "changelog": "- Unstable: Update to latest Jellyfin preview packages (#114) @crobibero, @jellyfin-bot\n- Allow filtering people by role (#110) @HansLehnert, @nielsvanvelzen\n- Add anilist episode provider (#104) @ivanjx, @nielsvanvelzen\n- Change image type for banner images from Backdrop to Banner (#109) @vodkapmp, @nielsvanvelzen",
