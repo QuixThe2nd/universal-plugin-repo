@@ -11913,6 +11913,22 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Webhooks.png",
     "versions": [
       {
+        "version": "3.10.0.120000",
+        "changelog": "Jellyfin 12.0 compatibility",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.0.0/Webhooks-12.0.zip",
+        "checksum": "86837a72190060220d3ddbc4c9e10c67",
+        "timestamp": "2026-09-19T12:51:51Z"
+      },
+      {
+        "version": "3.10.0.101111",
+        "changelog": "Jellyfin 10.11.11 compatibility",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.0.0/Webhooks-10.11.11.zip",
+        "checksum": "de8f75ae4d53e64d25d259d897bdb79c",
+        "timestamp": "2026-09-19T12:51:48Z"
+      },
+      {
         "version": "3.9.0.0",
         "changelog": "Jellyfin 10.11 compatibility\n",
         "targetAbi": "10.11.0.0",
@@ -12059,6 +12075,38 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Cleaner.png",
     "versions": [
+      {
+        "version": "3.4.0.120000",
+        "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-12.0.zip",
+        "checksum": "5d2e14843689686fbe73bde27165fdc0",
+        "timestamp": "2026-09-19T11:54:17Z"
+      },
+      {
+        "version": "3.4.0.101109",
+        "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-10.11.9.zip",
+        "checksum": "abc56d999ff95145d44ea0c59831f977",
+        "timestamp": "2026-09-19T11:54:25Z"
+      },
+      {
+        "version": "3.4.0.101100",
+        "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-10.11.0.zip",
+        "checksum": "64de9929b0564a234265dedcd482c77f",
+        "timestamp": "2026-09-19T11:54:21Z"
+      },
+      {
+        "version": "3.4.0.101007",
+        "changelog": "- Planner optimization - Generic filters optimization - Fix #115 - Implement \"keep latest watched episode\" semantic - Improve troubleshooting rule diagnostics (#116) - Preserve troubleshooting context across rule navigation (#116) - Improve dry-run rejection diagnostics - Add Leaving Soon feature - Add Jellyfin 12 to matrix\n",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.4.0/MediaCleaner-10.10.7.zip",
+        "checksum": "fe8e98891b33ef0f6951aa3766d5433e",
+        "timestamp": "2026-09-19T11:54:17Z"
+      },
       {
         "version": "3.2.0.101109",
         "changelog": "- Add release script - Postpone notifications after actual delete - Clarify episodes exception and make sure it covered with tests\n",
