@@ -4624,6 +4624,22 @@
     "category": "General",
     "versions": [
       {
+        "version": "1.8.0.1",
+        "changelog": "### :bug: Bug Fixes\n- Improper empty guid check causing all legacy entry with no id to be updated by mistake (#84) @iankiller77",
+        "targetAbi": "12.1.0",
+        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.8.0.1/myanimesync_1.8.0.1.zip",
+        "checksum": "efe7bac236d62c4fe71c4a63d1414291",
+        "timestamp": "2026-09-23T06:10:08Z"
+      },
+      {
+        "version": "1.8.0.0",
+        "changelog": "### :rocket: Major features and improvements\n- Use jellyfin metadata to detect changes on series information + persistent user mapping for series name (#81) @iankiller77",
+        "targetAbi": "12.1.0",
+        "sourceUrl": "https://github.com/iankiller77/MyAnimeSync/releases/download/v1.8.0.0/myanimesync_1.8.0.0.zip",
+        "checksum": "do_not_download",
+        "timestamp": "2026-09-23T04:08:52Z"
+      },
+      {
         "version": "1.7.1.0",
         "changelog": "### :tada: New features and improvements\n- Improve search for non-Japanese series (#78) @iankiller77",
         "targetAbi": "12.1.0",
