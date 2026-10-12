@@ -1608,12 +1608,12 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Editor's Choice.png",
     "versions": [
       {
-        "version": "1.6.1.0",
-        "changelog": "Fix incorrect offset on initiail slide.",
+        "version": "1.6.2.0",
+        "changelog": "Fix incorrect offset on initiail slide, and versioning issue.",
         "targetAbi": "12.1.0.0",
-        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.6.1/EditorsChoicePlugin-v1.6.1.zip",
-        "checksum": "297bb16c78afe6841b35f31c46345ffc",
-        "timestamp": "2026-10-11 13:16:00"
+        "sourceUrl": "https://github.com/lachlandcp/jellyfin-editors-choice-plugin/releases/download/1.6.2/EditorsChoicePlugin-v1.6.2.zip",
+        "checksum": "f39a783d9aa3027d17fcd6caba225273",
+        "timestamp": "2026-10-13 07:35:00"
       },
       {
         "version": "1.6.0.0",
@@ -20816,6 +20816,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Apple Music.png",
     "image": "image.png",
     "versions": [
+      {
+        "version": "3.0.9.1",
+        "changelog": "This version contains the following changes:\n  - Artist metadata scraping from schema.org instead of HTML elements\n  - Album metadata scraping from schema.org in addition to HTML elements\n",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://repo.xkrivo.net/jellyfin/apple-music/apple-music_3.0.9.1.zip",
+        "checksum": "fd98caeb2a8bbee16024d7247cbf77fb",
+        "timestamp": "2026-10-12T21:12:45Z"
+      },
       {
         "version": "3.0.6.2",
         "changelog": "Fix:\n  - Albums without artist (e.g., compilation albums) not being fetched\n",
