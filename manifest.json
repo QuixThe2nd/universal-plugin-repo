@@ -12272,7 +12272,7 @@
     ]
   },
   {
-    "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+    "guid": "d8ca599b-ab3c-41b0-a4ea-6de1d52b9996",
     "name": "Webhooks",
     "description": "Supports couple of webhook types including Plex one.\n\n\nhttps://github.com/shemanaev/jellyfin-plugin-webhooks",
     "overview": "Webhooks. Flexible and robust",
@@ -12280,6 +12280,22 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Webhooks.png",
     "versions": [
+      {
+        "version": "3.10.1.120000",
+        "changelog": "Fix plugin identity, repository details and automatic update discovery. Preserve existing webhook settings.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.1.0/Webhooks-12.0.zip",
+        "checksum": "7e7be9666528496424a3dfb010997be9",
+        "timestamp": "2026-11-01T08:35:26Z"
+      },
+      {
+        "version": "3.10.1.101111",
+        "changelog": "Fix plugin identity, repository details and automatic update discovery. Preserve existing webhook settings.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-webhooks/releases/download/v3.10.1.0/Webhooks-10.11.11.zip",
+        "checksum": "170d86bc8ff1b2d0f55631d50f563b40",
+        "timestamp": "2026-11-01T08:35:29Z"
+      },
       {
         "version": "3.10.0.120000",
         "changelog": "Jellyfin 12.0 compatibility",
@@ -12443,6 +12459,38 @@
     "category": "General",
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/Media Cleaner.png",
     "versions": [
+      {
+        "version": "3.8.0.120000",
+        "changelog": "- fix: ignore partial watches when keeping the latest watched episode - chore: bump plugin base version to 3.8.0\n",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.8.0/MediaCleaner-12.0.zip",
+        "checksum": "96e0bf0be520bbaee35c7596018f923c",
+        "timestamp": "2026-11-01T07:54:19Z"
+      },
+      {
+        "version": "3.8.0.101109",
+        "changelog": "- fix: ignore partial watches when keeping the latest watched episode - chore: bump plugin base version to 3.8.0\n",
+        "targetAbi": "10.11.9.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.8.0/MediaCleaner-10.11.9.zip",
+        "checksum": "a2e3ca1725dd08b8dcae50fe39896bf6",
+        "timestamp": "2026-11-01T07:54:19Z"
+      },
+      {
+        "version": "3.8.0.101100",
+        "changelog": "- fix: ignore partial watches when keeping the latest watched episode - chore: bump plugin base version to 3.8.0\n",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.8.0/MediaCleaner-10.11.0.zip",
+        "checksum": "cb0c25c57df32fb7f13b86b8a93cd53f",
+        "timestamp": "2026-11-01T07:54:19Z"
+      },
+      {
+        "version": "3.8.0.101007",
+        "changelog": "- fix: ignore partial watches when keeping the latest watched episode - chore: bump plugin base version to 3.8.0\n",
+        "targetAbi": "10.10.7.0",
+        "sourceUrl": "https://github.com/shemanaev/jellyfin-plugin-media-cleaner/releases/download/v3.8.0/MediaCleaner-10.10.7.zip",
+        "checksum": "421c4ec3301a1b526355369cfdb3dbcf",
+        "timestamp": "2026-11-01T07:54:23Z"
+      },
       {
         "version": "3.7.0.120000",
         "changelog": "- Don't announce complete seasons blocked by a protected episode - chore: bump plugin base version to 3.7.0\n",
