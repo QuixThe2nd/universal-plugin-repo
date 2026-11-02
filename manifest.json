@@ -18113,6 +18113,14 @@
     "imageUrl": "https://raw.githubusercontent.com/0belous/universal-plugin-repo/refs/heads/main/images/AniList.png",
     "versions": [
       {
+        "version": "14.2611.25.0",
+        "changelog": "- Unstable: Update to latest Jellyfin preview packages (#114) @crobibero, @jellyfin-bot\n- Allow filtering people by role (#110) @HansLehnert, @nielsvanvelzen\n- Add anilist episode provider (#104) @ivanjx, @nielsvanvelzen\n- Change image type for banner images from Backdrop to Banner (#109) @vodkapmp, @nielsvanvelzen",
+        "targetAbi": "13.0.0.0",
+        "sourceUrl": "https://repo.jellyfin.org/files/plugin-unstable/anilist/anilist_14.2611.25.0.zip",
+        "checksum": "08b3a322734d39b1012f0f9a11a6e55c",
+        "timestamp": "2026-11-02T17:36:45Z"
+      },
+      {
         "version": "14.2610.24.0",
         "changelog": "- Unstable: Update to latest Jellyfin preview packages (#114) @crobibero, @jellyfin-bot\n- Allow filtering people by role (#110) @HansLehnert, @nielsvanvelzen\n- Add anilist episode provider (#104) @ivanjx, @nielsvanvelzen\n- Change image type for banner images from Backdrop to Banner (#109) @vodkapmp, @nielsvanvelzen",
         "targetAbi": "13.0.0.0",
